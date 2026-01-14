@@ -1,0 +1,479 @@
+<!-- /sections/testimonials.liquid -->
+{%- liquid
+  assign section_width = section.settings.width
+  assign total_blocks = section.blocks.size
+  assign bg_color = section.settings.bg_color
+  assign text_size = section.settings.text_size | times: 0.01
+  assign animations_enabled = settings.animations_enabled
+  assign animation_anchor = '#Testimonials--' | append: section.id
+  assign animation_delay = 150
+  assign block_bg = section.settings.testimonial_block_color
+  assign block_color = section.settings.testimonial_text_color
+  assign stars_placement = section.settings.stars_placement | default: 'below_title'
+-%}
+
+{% capture stars %}
+  {%- unless section.settings.block_star_rating == 0 -%}
+    <div class="section-testimonial__stars w-fit {% if section.settings.text_alignment == 'text-center' %} mx-auto {% endif %}"
+      {% if animations_enabled %}
+        data-aos="fade-up"
+        data-aos-anchor="{{ animation_anchor }}"
+        data-aos-delay="{{ animation_delay }}"
+        {%- assign animation_delay = animation_delay | plus: 150 -%}
+      {% endif %}>
+
+      <span class="rating__star" aria-hidden="true" style="--percent: {{ 100 | minus: percent }}%">
+        <span class="rating__star__empty">
+          {%- for i in (1..5) -%}<svg width="25px" height="25px" viewBox="0 0 25 25" class="icon icon-star icon-star--empty"><polygon fill-rule="nonzero" points="16.2212909 8.77064179 12.5128412 0.870224269 8.80343056 8.77064179 0.512841234 10.0374085 6.51243703 16.1862739 5.09643337 24.8702243 12.5128412 20.7696377 19.9292491 24.8702243 18.5122845 16.1862739 24.5128412 10.0374085"></polygon></svg>{%- endfor -%}
+        </span>
+
+        <span class="rating__star__full">
+          {%- for i in (1..5) -%}<svg width="25px" height="25px" viewBox="0 0 25 25" class="icon icon-star icon-star--full"><polygon fill-rule="nonzero" points="16.2212909 8.77064179 12.5128412 0.870224269 8.80343056 8.77064179 0.512841234 10.0374085 6.51243703 16.1862739 5.09643337 24.8702243 12.5128412 20.7696377 19.9292491 24.8702243 18.5122845 16.1862739 24.5128412 10.0374085"></polygon></svg>{%- endfor -%}
+        </span>
+      </span>
+    </div>
+  {%- endunless -%}
+{% endcapture %}
+
+{%- style -%}
+  #Testimonials--{{ section.id }} {
+    --PT: {{ section.settings.padding_top }}px;
+    --PB: {{ section.settings.padding_bottom }}px;
+    {%- if bg_color != 'rgba(0,0,0,0)' and bg_color != '' -%}
+    background: {{ bg_color }};
+    {%- endif -%}
+  }
+  #Testimonials--{{ section.id }} .testimonial__text { --adjust-body: calc(var(--FONT-ADJUST-BODY) * {{ text_size }}); }
+  {%- if text_size > 1.5 -%}
+    @media screen and (max-width: 480px) { #Testimonials--{{ section.id }} .testimonial__text {font-size: 12px; }}
+  {%- endif -%}
+{%- endstyle -%}
+
+<section
+  id="Testimonials--{{ section.id }}"
+  data-section-id="{{ section.id }}"
+  data-section-type="testimonials"
+  class="section-padding testimonials-section has-quotes"
+>
+  <div class="{{ section_width }}">
+    <div class="section__header space-y-4 {{ section.settings.text_alignment }}">
+      {% if stars_placement == 'above_title' %}
+        {{ stars }}
+      {% endif %}
+
+      {%- if section.settings.title != blank -%}
+        <h2
+          class="section__heading h2"
+          {% if animations_enabled %}
+            data-aos="fade-up"
+            data-aos-anchor="{{ animation_anchor }}"
+            data-aos-delay="{{ animation_delay }}"
+          {% endif %}
+        >
+          {{ section.settings.title }}
+        </h2>
+
+        {%- if settings.show_spacer_lines and section.settings.hide_spacer_lines != true -%}
+          <hr
+            class="section__heading-line"
+            {% if animations_enabled %}
+              data-aos="fade-up"
+              data-aos-anchor="{{ animation_anchor }}"
+              data-aos-delay="{{ animation_delay }}"
+              {%- assign animation_delay = animation_delay | plus: 150 -%}
+            {% endif %}
+          >
+        {%- endif -%}
+      {%- endif -%}
+    </div>
+
+    <div class="section_subheading {{ section.settings.text_alignment }}">
+      {% if section.settings.stars_placement == 'below_title' %}
+        {{ stars }}
+      {% endif %}
+
+      {% if section.settings.subheader != blank %}
+        <div class="subheader">
+          {{ section.settings.subheader | escape }}
+        </div>
+      {% endif %}
+
+      {% if section.settings.section_text != blank %}
+        <div class="section_description">
+          {{ section.settings.section_text }}
+        </div>
+      {% endif %}
+    </div>
+
+    <div class="testimonials__wrapper">
+      <div
+        class="testimonials__slider testimonials__slider--text-left testimonials__slider--blocks-{{ total_blocks }}"
+        data-slider
+      >
+        {%- if total_blocks > 0 -%}
+          {%- for block in section.blocks -%}
+            {%- liquid
+              assign star_rating = block.settings.star_rating
+              assign text_size = block.settings.text_size | times: 0.01
+              assign percent = star_rating | divided_by: 5.0 | times: 100
+              assign animation_delay = animation_delay | plus: 150
+            -%}
+
+            {%- case block.type -%}
+              {%- when 'testimonial' -%}
+                {%- render 'testimonial-item',
+                  block_shopify_attributes: block.shopify_attributes,
+                  block_id: block.id,
+                  block_bg: block_bg,
+                  block_image: block.settings.image,
+                  block_color: block_color,
+                  hide_border: hide_border,
+                  customer_name: block.settings.customer_name,
+                  subheading: block.settings.subheading,
+                  text: block.settings.text,
+                  testimonial_header: block.settings.testimonial_header,
+                  star_rating: star_rating,
+                  percent: percent,
+                  animations_enabled: animations_enabled,
+                  animation_anchor: animation_anchor,
+                  animation_delay: animation_delay
+                -%}
+
+              {%- when 'text' -%}
+                {%- render 'testimonial-text',
+                  block_shopify_attributes: block.shopify_attributes,
+                  block_id: block.id,
+                  heading: block.settings.heading,
+                  subheading: block.settings.subheading,
+                  block_color: block.settings.block_color,
+                  text_color: block.settings.text_color,
+                  text_size: text_size,
+                  text_alignment: block.settings.text_alignment,
+                  percent: percent,
+                  animations_enabled: animations_enabled,
+                  animation_anchor: animation_anchor,
+                  animation_delay: animation_delay
+                -%}
+            {%- endcase -%}
+          {%- endfor -%}
+        {%- else -%}
+          {%- render 'no-blocks' -%}
+        {%- endif -%}
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Testimonials",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Testimonials"
+    },
+    {
+      "type": "checkbox",
+      "id": "hide_spacer_lines",
+      "label": "Hide spacer line?"
+    },
+    {
+      "type": "select",
+      "id": "stars_placement",
+      "label": "Stars placement",
+      "default": "below_title",
+      "options": [
+        { "value": "above_title", "label": "Above title" },
+        { "value": "below_title", "label": "Below title" }
+      ]
+    },
+    {
+      "type": "range",
+      "id": "block_star_rating",
+      "label": "Review star rating",
+      "min": 0,
+      "max": 5,
+      "step": 1,
+      "default": 5,
+      "info": "Set 0 to hide stars"
+    },
+    {
+      "type": "text",
+      "id": "subheader",
+      "label": "Subheading"
+    },
+    {
+      "type": "richtext",
+      "id": "section_text",
+      "label": "Text",
+      "default": "<p>Based on 100 reviews</p>"
+    },
+    {
+      "type": "range",
+      "id": "text_size",
+      "label": "Heading size",
+      "default": 100,
+      "min": 100,
+      "max": 200,
+      "step": 5,
+      "unit": "%"
+    },
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "label": "Text alignment",
+      "default": "text-left",
+      "options": [
+        { "label": "Center", "value": "text-center" },
+        { "label": "Left", "value": "text-left" }
+      ]
+    },
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background"
+    },
+    {
+      "type": "color",
+      "id": "testimonial_block_color",
+      "label": "Block background"
+    },
+    {
+      "type": "select",
+      "id": "testimonial_text_color",
+      "label": "Block text color",
+      "default": "text-dark",
+      "options": [
+        {
+          "value": "text-light",
+          "label": "Light"
+        },
+        {
+          "value": "text-dark",
+          "label": "Dark"
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "content": "Section spacing"
+    },
+    {
+      "type": "select",
+      "id": "width",
+      "label": "Width",
+      "default": "wrapper--full-padded",
+      "options": [
+        { "value": "wrapper--full-padded", "label": "Full width padded" },
+        { "value": "wrapper", "label": "Page width" }
+      ]
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 60
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 60
+    }
+  ],
+  "blocks": [
+    {
+      "type": "testimonial",
+      "name": "Testimonial",
+      "settings": [
+        {
+          "type": "range",
+          "id": "star_rating",
+          "label": "Review star rating",
+          "min": 0,
+          "max": 5,
+          "step": 1,
+          "default": 5,
+          "info": "Set 0 to hide stars"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image",
+          "info": "16:9 aspect ratio is recommended"
+        },
+        {
+          "type": "text",
+          "id": "testimonial_header",
+          "label": "Heading"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Testimonial",
+          "default": "<p>Excellent customer service. I love their products!</p>"
+        },
+        {
+          "type": "text",
+          "id": "customer_name",
+          "label": "Customer name",
+          "default": "John Edmonson"
+        },
+        {
+          "type": "richtext",
+          "id": "subheading",
+          "label": "Text",
+          "default": "<p>Loyal Customer</p>"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "name": "Text",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "textarea",
+          "id": "heading",
+          "label": "Heading",
+          "default": "We let our reviews speak for themselves."
+        },
+        {
+          "type": "range",
+          "id": "text_size",
+          "label": "Heading size",
+          "default": 125,
+          "min": 100,
+          "max": 200,
+          "step": 5,
+          "unit": "%"
+        },
+        {
+          "type": "richtext",
+          "id": "subheading",
+          "label": "Text",
+          "default": "<p>4.98 average<br>213 reviews</p>"
+        },
+        {
+          "type": "color",
+          "id": "block_color",
+          "label": "Block color",
+          "default": "#000"
+        },
+        {
+          "type": "select",
+          "id": "text_color",
+          "label": "Text color",
+          "default": "text-light",
+          "options": [
+            {
+              "value": "text-light",
+              "label": "Light"
+            },
+            {
+              "value": "text-dark",
+              "label": "Dark"
+            }
+          ]
+        },
+        {
+          "type": "select",
+          "id": "text_alignment",
+          "label": "Text alignment",
+          "default": "text-left",
+          "options": [
+            {
+              "value": "text-center",
+              "label": "Center"
+            },
+            {
+              "value": "text-left",
+              "label": "Left"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Testimonials",
+      "category": "Text",
+      "blocks": [
+        {
+          "type": "text"
+        },
+        {
+          "type": "testimonial",
+          "settings": {
+            "customer_name": "John Edmonson",
+            "text": "<p>Excellent customer service. I love their products!<\/p>",
+            "subheading": "<p>Happy customer</p>"
+          }
+        },
+        {
+          "type": "testimonial",
+          "settings": {
+            "customer_name": "Lindsay Smith",
+            "text": "<p>Excellent customer service. I love their products!<\/p>",
+            "subheading": "<p>Los Angeles, CA</p>"
+          }
+        },
+        {
+          "type": "testimonial",
+          "settings": {
+            "customer_name": "Eric Lopez",
+            "text": "<p>Excellent customer service. I love their products!<\/p>",
+            "subheading": "<p>12 days ago</p>"
+          }
+        },
+        {
+          "type": "testimonial",
+          "settings": {
+            "customer_name": "Sandy Boone",
+            "text": "<p>Excellent customer service. I love their products!<\/p>",
+            "subheading": "<p>Verified customer</p>"
+          }
+        },
+        {
+          "type": "testimonial",
+          "settings": {
+            "customer_name": "Dmitri Kristov",
+            "text": "<p>Excellent customer service. I love their products!<\/p>",
+            "subheading": "<p>Verified customer</p>"
+          }
+        },
+        {
+          "type": "testimonial",
+          "settings": {
+            "customer_name": "Amelia Ngoy",
+            "text": "<p>Excellent customer service. I love their products!<\/p>",
+            "subheading": "<p>Verified customer</p>"
+          }
+        }
+      ]
+    }
+  ],
+  "disabled_on": {
+    "groups": ["header", "aside", "footer"]
+  }
+}
+{% endschema %}

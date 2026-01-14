@@ -1,0 +1,116 @@
+{% comment %}
+  The text align classes are ugly, but text-(--text-align) doesn't work, since Tailwind
+  thinks we're trying to pass it a color, not an alignment value. The "string": CSS type
+  doesn't solve this, either.
+{% endcomment %}
+
+{% render 'title', block: block %}
+
+{% schema %}
+{
+  "name": "Title",
+  "tag": null,
+  "settings": [
+    {
+      "type": "inline_richtext",
+      "id": "title",
+      "label": "Title",
+      "default": "Title",
+      "info": "t:blocks.title.settings.title.info"
+    },
+    {
+      "type": "select",
+      "id": "level",
+      "label": "Heading Level",
+      "default": "h2",
+      "options": [
+        { "value": "h1", "label": "H1" },
+        { "value": "h2", "label": "H2" },
+        { "value": "h3", "label": "H3" },
+        { "value": "h4", "label": "H4" },
+        { "value": "h5", "label": "H5" },
+        { "value": "h6", "label": "H6" }
+      ]
+    },
+
+    {
+      "type": "number",
+      "id": "mobile_font_size",
+      "label": "Mobile font size",
+      "info": "Leave blank or 0 for default size.",
+      "default": 0
+    },
+    {
+      "type": "number",
+      "id": "desktop_font_size",
+      "label": "Desktop font size",
+      "info": "Leave blank or 0 for default size.",
+      "default": 0
+    },
+
+    {
+      "type": "header",
+      "content": "t:blocks.title.settings.header__alignment.content"
+    },
+    {
+      "type": "select",
+      "id": "text_align_mobile",
+      "label": "t:blocks.title.settings.text_align_mobile.label",
+      "info": "t:blocks.title.settings.text_align_mobile.info",
+      "default": "",
+      "options": [
+        {
+          "value": "",
+          "label": "t:blocks.title.settings.text_align_mobile.options.none"
+        },
+        {
+          "value": "left",
+          "label": "t:blocks.title.settings.text_align_mobile.options.left"
+        },
+        {
+          "value": "center",
+          "label": "t:blocks.title.settings.text_align_mobile.options.center"
+        },
+        {
+          "value": "right",
+          "label": "t:blocks.title.settings.text_align_mobile.options.right"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "text_align",
+      "label": "t:blocks.title.settings.text_align.label",
+      "info": "t:blocks.title.settings.text_align.info",
+      "default": "",
+      "options": [
+        {
+          "value": "",
+          "label": "t:blocks.title.settings.text_align.options.none"
+        },
+        {
+          "value": "left",
+          "label": "t:blocks.title.settings.text_align.options.left"
+        },
+        {
+          "value": "center",
+          "label": "t:blocks.title.settings.text_align.options.center"
+        },
+        {
+          "value": "right",
+          "label": "t:blocks.title.settings.text_align.options.right"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Title",
+      "settings": {
+        "title": "Title",
+        "level": "h2"
+      }
+    }
+  ]
+}
+{% endschema %}

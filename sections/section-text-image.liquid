@@ -1,0 +1,581 @@
+{% liquid
+  assign bg_color = section.settings.bg_color
+  assign text_color = section.settings.text_color
+  assign section_width = section.settings.section_width
+  assign bg_color_set = false
+  assign image_position = section.settings.image_layout | default: 'left'
+  assign image_position_mobile = section.settings.mobile_image_layout | default: 'image_first'
+  assign unique = section.id
+  assign desktop_aspect_ratio = section.settings.desktop_aspect_ratio | times: 100
+  assign mobile_aspect_ratio = section.settings.mobile_aspect_ratio | times: 100
+
+  assign image_size = section.settings.image_size | default: 'normal'
+
+  if section.settings.nav_id != empty 
+    assign section_id = section.settings.nav_id 
+  else 
+    assign section_id = "ImageTextSplit--" | append: section.id
+  endif 
+
+  assign selector_id = '#' | append: section_id
+
+  if bg_color != 'rgba(0,0,0,0)' and bg_color != ''
+    assign bg_color_set = true
+  endif
+
+  if image_size == 'full-bleed'
+    assign section_width = 'wrapper--full text-image-split__full-bleed'
+  endif
+
+  assign desktop_space = 120
+  assign tablet_space = 40
+  assign mobile_space = 40
+  case section_width
+    when 'wrapper--full'
+      assign wrapper_width = '100vw'
+      assign desktop_space = 0
+      assign tablet_space = 0
+      assign mobile_space = 0
+    when 'wrapper--full-padded'
+      assign wrapper_width = '100vw'
+    when 'wrapper'
+      assign wrapper_width = '1440px'
+  endcase
+
+  assign block_width_percent = 0.5
+  assign desktop_max_height = section.settings.desktop_max_height | default: 0
+%}
+
+{%- style -%}
+  {{ selector_id }} {
+    --PT: {{ section.settings.padding_top }}px;
+    --PB: {{ section.settings.padding_bottom }}px;
+
+    {%- if bg_color_set -%}
+      --bg: {{ bg_color }};
+    {%- endif %}
+
+    .section__heading { --adjust-body: calc(var(--FONT-ADJUST-BODY) * {{ text_size }})}
+  }
+{%- endstyle -%}
+
+{% capture stars %}
+  {%- unless section.settings.block_star_rating == 0 -%}
+    <div class="section-text-image__stars w-fit {% if section.settings.text_alignment == 'text-center' %} mx-auto {% endif %}"
+      {% if animations_enabled %}
+        data-aos="fade-up"
+        data-aos-anchor="{{ animation_anchor }}"
+        data-aos-delay="{{ animation_delay }}"
+        {%- assign animation_delay = animation_delay | plus: 150 -%}
+      {% endif %}>
+
+      <span class="rating__star" aria-hidden="true" style="--percent: {{ 100 | minus: percent }}%">
+        <span class="rating__star__empty">
+          {%- for i in (1..5) -%}<svg width="25px" height="25px" viewBox="0 0 25 25" class="icon icon-star icon-star--empty"><polygon fill-rule="nonzero" points="16.2212909 8.77064179 12.5128412 0.870224269 8.80343056 8.77064179 0.512841234 10.0374085 6.51243703 16.1862739 5.09643337 24.8702243 12.5128412 20.7696377 19.9292491 24.8702243 18.5122845 16.1862739 24.5128412 10.0374085"></polygon></svg>{%- endfor -%}
+        </span>
+
+        <span class="rating__star__full">
+          {%- for i in (1..5) -%}<svg width="25px" height="25px" viewBox="0 0 25 25" class="icon icon-star icon-star--full"><polygon fill-rule="nonzero" points="16.2212909 8.77064179 12.5128412 0.870224269 8.80343056 8.77064179 0.512841234 10.0374085 6.51243703 16.1862739 5.09643337 24.8702243 12.5128412 20.7696377 19.9292491 24.8702243 18.5122845 16.1862739 24.5128412 10.0374085"></polygon></svg>{%- endfor -%}
+        </span>
+      </span>
+    </div>
+  {%- endunless -%}
+{% endcapture %}
+
+<section
+  id="{{ section_id }}"
+  class="section-padding text-image-split relative overflow-hidden {{ text_color }} {%- render 'button-fallback-classes', primary_color: button_color, section_bg_color: bg_color -%}"
+  data-section-id="{{ section.id }}"
+  data-section-type="text-image-split"
+  data-prevent-transparent-header
+  {% if desktop_max_height > 0 %}
+    style="--section-image-max-height: {{ desktop_max_height }}px;"
+  {% endif %}
+>
+  <div class="{{ section_width }}">
+    <div class="grid items-center grid-cols-1 md:grid-cols-12">
+      {%- if section.settings.image != blank -%}
+        {%- style -%}
+          #columnItemImage--{{ section.id }} {
+            --aspect-ratio: {{ desktop_aspect_ratio }}%;
+          }
+
+
+          @media screen and (max-width: 767px) {
+            #columnItemImage--{{ section.id }} {
+              --aspect-ratio: {{ mobile_aspect_ratio }}%;
+            }
+          }
+        {%- endstyle -%}
+
+        <div class="md:col-span-6 md:row-start-1 {% if image_position == 'right' %} lg:col-start-7 lg:order-1 {% else %} lg:order-0 lg:col-start-1 {% endif %} {% if image_position_mobile == 'image_first' %} row-start-1 {% else %} row-start-2 {% endif %}  relative img-side">
+          {%- liquid
+            assign animation_delay = 150
+            assign img_width_lg = 'calc((' | append: wrapper_width | append: ' - ' | append: desktop_space | append: 'px) * ' | append: block_width_percent | append: ')'
+            assign img_width_md = 'calc((100vw - ' | append: tablet_space | append: 'px) * ' | append: block_width_percent | append: ')'
+            assign img_width_sm = 'calc(100vw - ' | append: mobile_space | append: 'px)'
+            assign sizes = '(min-width: 1024px) ' | append: img_width_lg | append: ', (min-width: 768px) ' | append: img_width_md | append: ', ' | append: img_width_sm
+          -%}
+
+          <div
+            id="columnItemImage--{{ section.id }}"
+            class="column-item__image-wrapper"
+            data-media-container
+            {% if animations_enabled %}
+              data-aos="fade-up"
+              data-aos-anchor="{{ animation_anchor }}"
+              data-aos-delay="{{ animation_delay }}"
+              {%- assign animation_delay = animation_delay | plus: 150 -%}
+            {% endif %}
+          >
+            {%- render 'image-fill',
+              is_background: true,
+              img_object: section.settings.image,
+              sizes: sizes,
+              classes: 'column-item__image',
+              alt: image_alt
+            -%}
+          </div>
+        </div>
+      {%- endif -%}
+
+      <div class="md:col-span-6 lg:col-span-5 xl:col-span-4 md:row-start-1 {% if image_position == 'right' %} lg:col-start-1 xl:col-start-2 lg:order-0 {% else %} lg:order-0 xl:col-start-8 {% endif %} {% if image_position_mobile == 'image_first' %} row-start-2 {% else %} row-start-1 {% endif %} flex flex-col justify-center copy-side">
+   
+        {{ stars }}
+
+        {%- for block in section.blocks -%}
+          {%- assign b = block.settings -%}
+          {% case block.type %}
+            {% when 'title' %}
+              {% liquid
+                assign text_size = b.text_size | times: 0.01
+              %}
+
+              <div class="text-left section__header">
+                <h2
+                  class="section__heading"
+                  {% if animations_enabled %}
+                    data-aos="fade-up"
+                    data-aos-anchor="{{ animation_anchor }}"
+                    data-aos-delay="{{ animation_delay }}"
+                  {% endif %}
+                  style="
+                    {% if block.settings.mobile_font_size > 0 %}
+                     --mobile-font-size: {{ block.settings.mobile_font_size }}px;
+                    {% endif %}
+                    {% if block.settings.desktop_font_size > 0 %}
+                      --desktop-font-size: {{ block.settings.desktop_font_size }}px;
+                    {% endif %}
+                  "
+                  {{ block.shopify_attributes }}
+                >
+                  {{ b.heading | escape }}
+                </h2>
+
+                {%- if settings.show_spacer_lines and b.hide_spacer_lines != true -%}
+                  <hr
+                    class="section__heading-line"
+                    {% if animations_enabled %}
+                      data-aos="fade-up"
+                      data-aos-anchor="{{ animation_anchor }}"
+                      data-aos-delay="{{ animation_delay }}"
+                      {%- assign animation_delay = animation_delay | plus: 150 -%}
+                    {% endif %}
+                  >
+                {%- endif -%}
+              </div>
+
+            {% when 'content' %}
+              {% if b.text != blank %}
+                <div
+                  class="rte"
+                  {{ block.shopify_attributes }}
+                >
+                  {{ b.text }}
+                </div>
+              {% endif %}
+
+            {% when 'list' %}
+              {% if b.text != blank %}
+                <ul
+                  class="rte benefits-list {% if block.settings.has_checkboxes %}has-checkmarks{% endif %}"
+                  
+                  {{ block.shopify_attributes }}
+                  {{ block.shopify_attributes }}
+                >
+                  <li>
+                    {{ b.text | newline_to_br | replace: '<br />', '<br>' | replace: '<br>', '</li><li>' }}
+                  </li>
+                </ul>
+              {% endif %}
+
+            {% when 'button' %}
+              <div class="main-buttons--wrap" {{ block.shopify_attributes }}>
+                <div
+                  class="main-buttons__item"
+                  {% if animations_enabled %}
+                    data-aos="fade-up"
+                    data-aos-anchor="{{ animation_anchor }}"
+                    data-aos-delay="{{ animation_delay }}"
+                    {%- assign animation_delay = animation_delay | plus: 150 -%}
+                  {% endif %}
+                >
+                  <a
+                    href="{{ b.button_link }}"
+                    class="btn {{ b.button_style }} {{ b.button_size }} {{ b.button_color }}"
+                    aria-label="{{ b.button_text }}"
+                  >
+                    {{- b.button_text -}}
+                  </a>
+                </div>
+              </div>
+            {% when '@app' %}
+             {% render block %}
+          {% endcase %}
+        {%- endfor -%}
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Text Image Split",
+  "settings": [
+    {
+      "type": "text",
+      "id": "nav_id",
+      "label": "Anchor ID"
+    },
+    {
+      "type": "range",
+      "id": "block_star_rating",
+      "label": "Review star rating",
+      "min": 0,
+      "max": 5,
+      "step": 1,
+      "default": 0,
+      "info": "Set 0 to hide stars"
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "select",
+      "id": "text_color",
+      "label": "Text",
+      "default": "text-dark",
+      "options": [
+        { "value": "text-light", "label": "Light" },
+        { "value": "text-dark", "label": "Dark" }
+      ]
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background"
+    },
+    {
+      "type": "header",
+      "content": "Section spacing"
+    },
+    {
+      "type": "select",
+      "id": "section_width",
+      "label": "Width",
+      "default": "wrapper",
+      "options": [
+        { "value": "wrapper--full", "label": "Full width" },
+        { "value": "wrapper--full-padded", "label": "Full width padded" },
+        { "value": "wrapper", "label": "Page width" },
+        { "value": "wrapper--narrow", "label": "Narrow" }
+      ]
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 60
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 60
+    },
+    {
+      "type": "header",
+      "content": "Image Settings"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "select",
+      "id": "image_size",
+      "label": "Image size",
+      "options": [
+        {
+          "value": "normal",
+          "label": "Normal"
+        },
+        {
+          "value": "full-bleed",
+          "label": "Full Bleed"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "image_layout",
+      "label": "Desktop image layout",
+      "default": "left",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ]
+    },
+    {
+      "type": "radio",
+      "id": "mobile_image_layout",
+      "label": "Mobile image layout",
+      "options": [
+        {
+          "value": "image_first",
+          "label": "Stacked (image first)"
+        },
+        {
+          "value": "content_first",
+          "label": "Stacked (content first)"
+        }
+      ],
+      "default": "image_first"
+    },
+    {
+      "type": "range",
+      "id": "desktop_aspect_ratio",
+      "min": 0.5,
+      "max": 1.5,
+      "step": 0.1,
+      "unit": ":1",
+      "label": "Desktop height",
+      "info": "Wide to tall",
+      "default": 0.8
+    },
+    {
+      "type": "number",
+      "id": "desktop_max_height",
+      "label": "Desktop max height",
+      "info": "Set a max height for the image on desktop. Leave blank or 0 no max height.",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "mobile_aspect_ratio",
+      "min": 0.5,
+      "max": 1.5,
+      "step": 0.1,
+      "unit": ":1",
+      "label": "Mobile height",
+      "info": "Wide to tall",
+      "default": 0.8
+    }
+  ],
+  "blocks": [
+    {
+      "type": "title",
+      "name": "Title",
+      "settings": [
+        {
+          "type": "textarea",
+          "id": "heading",
+          "label": "Heading",
+          "default": "We let our reviews speak for themselves."
+        },
+        {
+          "type": "number",
+          "id": "mobile_font_size",
+          "label": "Mobile font size",
+          "info": "Leave blank or 0 for default size.",
+          "default": 0
+        },
+        {
+          "type": "number",
+          "id": "desktop_font_size",
+          "label": "Desktop font size",
+          "info": "Leave blank or 0 for default size.",
+          "default": 0
+        },
+        {
+          "type": "checkbox",
+          "id": "hide_spacer_lines",
+          "label": "Hide spacer line?"
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "name": "Content",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text",
+          "default": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>"
+        },
+        {
+          "type": "select",
+          "id": "content_size",
+          "label": "Content size",
+          "info": "Will set the desktop content text size.",
+          "options": [
+            {
+              "value": "md:text-body-sm",
+              "label": "Body Small"
+            },
+            {
+              "value": "md:text-body-md",
+              "label": "Body Medium"
+            },
+            {
+              "value": "md:text-body-lg",
+              "label": "Body Large"
+            }
+          ],
+          "default": "md:text-body-md"
+        },
+        {
+          "type": "select",
+          "id": "content_width",
+          "label": "Content Width",
+          "info": "Will set the desktop content width size.",
+          "options": [
+            {
+              "value": "",
+              "label": "Normal"
+            },
+            {
+              "value": "lg:w-4/5",
+              "label": "Narrow"
+            }
+          ],
+          "default": ""
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "name": "List",
+      "settings": [
+        {
+          "type": "textarea",
+          "id": "text",
+          "label": "Text",
+          "default": "Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.",
+          "info": "One list item per line."
+        },
+        {
+          "type": "checkbox",
+          "id": "has_checkboxes",
+          "label": "Use checkboxes"
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "name": "Button",
+      "settings": [
+        {
+          "type": "text",
+          "id": "button_text",
+          "label": "Text",
+          "default": "Button text",
+          "info": "Leave blank to link entire image"
+        },
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": "Link"
+        },
+        {
+          "type": "select",
+          "id": "button_color",
+          "label": "Button color",
+          "default": "btn--black",
+          "options": [
+            { "label": "Primary", "value": "btn--primary" },
+            { "label": "Secondary", "value": "btn--secondary" },
+            { "label": "White", "value": "btn--white" },
+            { "label": "Black", "value": "btn--black" }
+          ]
+        },
+        {
+          "type": "select",
+          "id": "button_style",
+          "label": "Button style",
+          "default": "btn--solid",
+          "options": [
+            { "label": "Solid", "value": "btn--solid" },
+            { "label": "Outline", "value": "btn--outline" },
+            { "label": "Solid with border", "value": "btn--solid-border" },
+            { "label": "Text", "value": "btn--text" }
+          ]
+        },
+        {
+          "type": "select",
+          "id": "button_size",
+          "label": "Size",
+          "default": "btn--small",
+          "options": [
+            { "label": "Full", "value": "btn--full" },
+            { "label": "Extra Large", "value": "btn--xl" },
+            { "label": "Large", "value": "btn--large" },
+            { "label": "Medium", "value": "btn--medium" },
+            { "label": "Small", "value": "btn--small" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "@app"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Text Image Split",
+      "category": "Content",
+      "blocks": [
+        {
+          "type": "title"
+        },
+        {
+          "type": "list"
+        },
+        {
+          "type": "content"
+        },
+        {
+          "type": "button"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

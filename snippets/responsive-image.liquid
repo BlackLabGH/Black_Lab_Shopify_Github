@@ -1,0 +1,33 @@
+{%- comment -%}
+    Accepts:
+    - image: {Object}                         - image object
+    - image_class: {String} (optional)        - class name of the <img />
+    - image_attributes: {String} (optional)   - additional HTML attributes of the <img />
+    - max_width: {Integer} (optional) 
+    - alt: {String} (optional)
+    - lazy: {Boolean} (optional)              - Set false to disable lazyloading
+{%- endcomment -%}
+
+{% liquid
+
+  assign width = max_width | default: image.width
+  assign height = image.height
+  
+  unless max_width == blank
+    assign height = max_width | divided_by: image.aspect_ratio
+  endunless
+%}
+
+<img
+  class="{{ image_class }}"
+  src="{{ image | image_url: width: 200 }}"
+  srcset="{% render 'srcset', image: image, max_width: max_width %}"
+  tabindex="-1"
+  {% unless lazy == false %}
+  loading="lazy"
+  {% endunless %}
+  width="{{ width }}"
+  height="{{ height }}"
+  alt="{{ alt | default: image.alt | escape }}"
+  {{ image_attributes }}
+>

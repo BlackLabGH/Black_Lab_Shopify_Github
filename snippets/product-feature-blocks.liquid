@@ -1,0 +1,77 @@
+{% liquid
+  assign unique = section.id
+  assign id = 'FeatureList--' | append: section.id
+  assign selector_id = '#' | append: id
+%}
+
+{%- style -%}
+    {{ selector_id }} {
+      --PT: {{ section.settings.padding_top }}px;
+      --PB: {{ section.settings.padding_bottom }}px;
+    }
+{%- endstyle -%}
+
+<section
+  id="{{ id }}"
+  data-section-id="{{ section.id }}"
+  data-section-type="feature-list"
+  class="section-padding logo-list"
+  style="
+    background-color: {{ section.settings.bg_color | default: '#373535' }};
+    color: {{ section.settings.text_color | default: '##DDD5C9' }};
+  "
+>
+  <div class="wrapper--md">
+    <div class="flex items-center gap-14">
+        <div class="section__heading flex-1" style="min-width: 206px">
+            {% if section.settings.title != blank %}
+                <h2 class="text-base uppercase font-bold text-left" style="color: {{ section.settings.text_color | default: '##DDD5C9' }};">
+                    {{ section.settings.title }}
+                </h2>
+            {% endif %}
+        </div>
+        
+        <div class="logo__slider--wrapper">
+            <div class="logo__slider">
+                {%- if section.blocks.size > 0 -%}
+                    {%- for block in section.blocks -%}
+                    {%- liquid
+                        assign image = block.settings.image
+                        assign title = block.settings.title
+                        assign content = block.settings.content
+                        assign max_width = block.settings.max_width | default: 250
+                        assign use_image_dimensions = block.settings.use_image_dimensions
+                    -%}
+                    <div class="featured__in--logo text-center {{ block.shopify_attributes }}">
+                        {%- if image != blank -%}
+                            {%- if use_image_dimensions -%}
+                                <img
+                                    srcset="{% render 'srcset', image: image %}"
+                                    width="{{ image.width }}"
+                                    height="{{ image.height }}"
+                                    class="object-contain object-center {% if use_image_dimensions %} max-w-full h-auto {% endif %}"
+                                    alt="{{ content | strip_html | escape }}"
+                                    loading="lazy"
+                                >
+                            {%- else -%} 
+                                {% render 'responsive-image', image: image, image_class: 'inline-block', max_width: max_width %}
+                            {%- endif -%}
+                        {%- endif -%}
+        
+                        {% if title != blank %}
+                            <h3 class="text-base font-bold mb-2" style="color: {{ section.settings.text_color | default: '##DDD5C9' }};">
+                                {{ title }}
+                            </h3>
+                        {% endif %}
+        
+                        {% if content != blank %}
+                            <p class="w-full text-sm font-normal">{{ content }}</p>
+                        {% endif %}
+                    </div>
+                    {% endfor %}
+                {%- endif -%}
+            </div>
+        </div>
+    </div>
+  </div>
+</section>

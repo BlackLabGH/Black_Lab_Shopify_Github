@@ -1,0 +1,173 @@
+<div class="section-columns__slider carousel{{ mobile_class }}" data-slider>
+          {%- for block in section.blocks -%}
+            {%- liquid
+              assign button_link = block.settings.button_link
+              assign button_text = block.settings.button_text
+              assign button_style = block.settings.button_style
+              assign button_color = block.settings.button_color
+              assign button_size = block.settings.button_size
+              assign title = block.settings.title
+              assign image = block.settings.image
+              assign text = block.settings.text
+              assign video_link = block.settings.video_link_popup
+              assign unique = block.id
+              assign video_link_color = block.settings.video_link_color
+
+              if equalize_height == false
+                assign desktop_aspect_ratio = 0.67 | times: 100
+              endif
+
+              if image != blank
+                assign image_alt = image.alt | default: title | strip_html | escape
+
+                if equalize_height == false
+                  assign desktop_aspect_ratio = 1 | divided_by: image.aspect_ratio | times: 100
+                endif
+              endif
+
+              comment
+                Images sizes
+              endcomment
+              assign blocks_gaps = columns | minus: 1
+              assign gaps_calc = 20 | times: blocks_gaps | append: 'px'
+
+              # Desktop widths
+              if section_width == 'wrapper--full-padded'
+                assign wrapper_width_lg = '(100vw - 120px)'
+              endif
+              if section_width == 'wrapper'
+                assign wrapper_width_lg = '(1440px - 120px)'
+              endif
+              assign img_width_lg = 'calc((' | append: wrapper_width_lg | append: ' - ' | append: gaps_calc | append: ') / ' | append: columns | append: ')'
+
+              # Tablet widths
+              assign wrapper_width_md = '(100vw - 2 * 20px)'
+              assign img_width_md = 'calc((' | append: wrapper_width_md | append: ' * 0.9 - 20px) / 2)'
+
+              # Mobile widths
+              assign img_width_sm = 'calc(' | append: wrapper_width_md | append: ')'
+              if section.blocks.size > 1
+                assign img_width_sm = 'calc(' | append: wrapper_width_md | append: ' - 20px)'
+              endif
+
+              assign sizes = '(min-width: 1024px) ' | append: img_width_lg | append: ', (min-width: 768px) ' | append: img_width_md | append: ', ' | append: img_width_sm
+            -%}
+
+            <div class="column-item carousel__item {{ item_width }} {{ mobile_width }}{%- render 'button-fallback-classes', primary_color: button_color, bg_color_secondary: bg_color_secondary -%}{% if show_borders %} column-item--border{% endif %}{% if show_images %} column-item--image{% endif %}"
+              {{ block.shopify_attributes }}
+              data-slider-item
+              {% if animations_enabled %}
+                data-aos="fade"
+                data-aos-delay="0"
+                data-aos-duration="0"
+                data-aos-anchor="{{ animation_anchor }}"
+              {% endif %}>
+              {%- style -%}
+                #columnItemImage--{{ block.id }} {
+                  --aspect-ratio: {{ desktop_aspect_ratio }}%;
+                }
+
+                {% if equalize_height %}
+                  @media screen and (max-width: 767px) {
+                    #columnItemImage--{{ block.id }} {
+                      --aspect-ratio: {{ mobile_aspect_ratio }}%;
+                    }
+                  }
+                {% endif %}
+              {%- endstyle -%}
+
+              <div class="column-item__inner">
+                {%- if show_images -%}
+                  <div id="columnItemImage--{{ block.id }}"
+                    class="column-item__image-wrapper"
+                    data-media-container
+                    {% if animations_enabled %}
+                      data-aos="fade-up"
+                      data-aos-anchor="{{ animation_anchor }}"
+                      data-aos-delay="{{ animation_delay }}"
+                      {%- assign animation_delay = animation_delay | plus: 150 -%}
+                    {% endif %}>
+                    
+                    {%- render 'image-fill', is_background: true, img_object: image, sizes: sizes, classes: 'column-item__image', alt: image_alt -%}
+
+                    {%- if video_link != blank -%}{%- liquid
+                        assign video_link_downcase = video_link | downcase
+                        assign video_type = ''
+                        assign video_id = ''
+                        assign video_parent_id = 'item-video-' | append: unique
+
+                        if video_link contains "vimeo.com"
+                          assign video_type = "vimeo"
+                        elsif video_link contains "youtube.com"
+                          assign video_type = "youtube"
+                        elsif video_link contains "youtu.be"
+                          assign video_type = "youtube"
+                          assign youtubeShortlink = true
+                        elsif video_link_downcase contains ".mp4"
+                          assign video_type = "native"
+                        endif
+
+                        assign link_array = video_link | split: '/'
+                        assign id_with_params = link_array | last
+
+                        if video_type == "vimeo" or youtubeShortlink
+                        comment
+                          https://vimeo.com/[ID]?foo=bar&baz=boo
+                          https://youtu.be/[ID]?foo=bar&baz=boo
+                        endcomment
+                          assign starts_with_id = id_with_params | split: '?'
+                          assign video_id = starts_with_id | first
+                        elsif video_type == "youtube" 
+                        comment
+                          https://youtube.com/watch?v=[ID]?foo=bar&baz=boo
+                        endcomment
+                          assign first_param = id_with_params | split: '&' | first
+                          assign watch_then_id = first_param | split: '?'
+                          assign equals_id = watch_then_id[1]
+                          assign ends_with_id = equals_id | split: '='
+                          assign video_id = ends_with_id | last
+                        endif
+
+                        if video_type == 'youtube'
+                          capture video_link
+                            echo 'https://www.youtube.com/watch?v=' | append: video_id
+                          endcapture
+                        elsif video_type == 'vimeo'
+                          capture video_link
+                            echo 'https://vimeo.com/' | append: video_id
+                          endcapture
+                        endif-%}
+                      <div class="column-item__video-link">
+                        <a class="play-button {{ video_link_color }}" href="{{ video_link }}"
+                          data-video-play="{%- render 'photoswipe-video-html' item_link: video_link , item_link_type: video_type, item_link_id: video_id, item_id: video_parent_id -%}">
+                          {%- render 'icon-play' -%}
+                        </a>
+                      </div>
+                    {%- endif -%}
+                  </div>
+                {%- endif -%}
+
+                <div class="column-item__content"
+                  {% if animations_enabled %}
+                    data-aos="fade-up"
+                    data-aos-anchor="{{ animation_anchor }}"
+                    data-aos-delay="{{ animation_delay }}"
+                  {% endif %}>
+                  {%- if title != blank -%}
+                    <h3 class="column-item__heading h6">{{ title | escape }}</h3>
+                  {%- endif -%}
+
+                  {%- if text != blank -%}
+                    <div class="column-item__text">{{ text }}</div>
+                  {%- endif -%}
+
+                  {%- if button_text != '' -%}
+                    <a href="{{ button_link }}" class="column-item__button btn {{ button_style }} {{ button_size }} {{ button_color }}">
+                      {{- button_text -}}
+                    </a>
+                  {%- endif -%}
+                </div>
+              </div>
+            </div>
+          {%- endfor -%}
+        </div>

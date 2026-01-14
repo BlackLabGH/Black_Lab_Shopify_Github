@@ -1,0 +1,43 @@
+{% comment %}
+    It creates a style tag containing "background-image" properties to load the correct image depending on the resolution
+    Dependencies:
+    - Lazysizes plugin (https://github.com/aFarkas/lazysizes) which enable responsive image with faster load time and better performance.
+    - Lazysizes Bgset (https://github.com/aFarkas/lazysizes/tree/gh-pages/plugins/bgset) To use responsive images on background-image (CSS)
+
+    Accepts:
+    - image: {Object} Image object
+
+    Usage:
+    In your liquid template file, copy the following line
+
+    <div class="lazyload" data-bgset="{% include 'responsive-bg-image', image: article.image %}"></div>
+{% endcomment %}
+
+{%- if max_width == null -%}
+    {%- assign max_width = 3024 -%}
+  {%- endif -%}
+  
+  {%- capture attr -%}
+  {%- if image != blank -%}
+    {%- if image.width > 180 and max_width >= 180 -%},{{ image | image_url: width: 180 }} 180w {{ 180 | divided_by: image.aspect_ratio | round }}h{%- endif -%}
+    {%- if image.width > 360 and max_width >= 360 -%},{{ image | image_url: width: 360 }} 360w {{ 360 | divided_by: image.aspect_ratio | round }}h{%- endif -%}
+    {%- if image.width > 540 and max_width >= 540 -%},{{ image | image_url: width: 540 }} 540w {{ 540 | divided_by: image.aspect_ratio | round }}h{%- endif -%}
+    {%- if image.width > 720 and max_width >= 720 -%},{{ image | image_url: width: 720 }} 720w {{ 720 | divided_by: image.aspect_ratio | round }}h{%- endif -%}
+    {%- if image.width > 900 and max_width >= 900 -%},{{ image | image_url: width: 900 }} 900w {{ 900 | divided_by: image.aspect_ratio | round }}h{%- endif -%}
+    {%- if image.width > 1080 and max_width >= 1080 -%},{{ image | image_url: width: 1080 }} 1080w {{ 1080 | divided_by: image.aspect_ratio | round }}h{%- endif -%}
+    {%- if image.width > 1296 and max_width >= 1296 -%},{{ image | image_url: width: 1296 }} 1296w {{ 1296 | divided_by: image.aspect_ratio | round }}h{%- endif -%}
+    {%- if image.width > 1512 and max_width >= 1512 -%},{{ image | image_url: width: 1512 }} 1512w {{ 1512 | divided_by: image.aspect_ratio | round }}h{%- endif -%}
+    {%- if image.width > 1728 and max_width >= 1728 -%},{{ image | image_url: width: 1728 }} 1728w {{ 1728 | divided_by: image.aspect_ratio | round }}h{%- endif -%}
+    {%- if image.width > 1944 and max_width >= 1944 -%},{{ image | image_url: width: 1944 }} 1944w {{ 1944 | divided_by: image.aspect_ratio | round }}h{%- endif -%}
+    {%- if image.width > 2160 and max_width >= 2160 -%},{{ image | image_url: width: 2160 }} 2160w {{ 2160 | divided_by: image.aspect_ratio | round }}h{%- endif -%}
+    {%- if image.width > 2376 and max_width >= 2376 -%},{{ image | image_url: width: 2376 }} 2376w {{ 2376 | divided_by: image.aspect_ratio | round }}h{%- endif -%}
+    {%- if image.width > 2592 and max_width >= 2592 -%},{{ image | image_url: width: 2592 }} 2592w {{ 2592 | divided_by: image.aspect_ratio | round }}h{%- endif -%}
+    {%- if image.width > 2808 and max_width >= 2808 -%},{{ image | image_url: width: 2808 }} 2808w {{ 2808 | divided_by: image.aspect_ratio | round }}h{%- endif -%}
+    {%- if image.width > 3024 and max_width >= 3024 -%},{{ image | image_url: width: 3024 }} 3024w {{ 3024 | divided_by: image.aspect_ratio | round }}h{%- endif -%}
+    {%- unless ignore_full_size -%}
+        ,{{ image | image_url: width: image.width | append: 'x' }} {{ image.width }}w {{ image.height }}h
+    {%- endunless -%}
+  {%- endif -%}
+  {%- endcapture -%}
+  
+  {{ attr | replace_first: ',', ''}}

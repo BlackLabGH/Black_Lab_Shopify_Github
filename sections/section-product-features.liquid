@@ -1,0 +1,110 @@
+{% comment %}
+  Logos List
+{% endcomment %}
+
+{% render 'product-feature-blocks', section: section %}
+
+{% schema %}
+    {
+      "name": "Logo List",
+      "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Section Title",
+        "default": "As Featured In"
+      },
+      {
+        "type": "header",
+        "content": "Color settings"
+      },
+      {
+        "type": "color",
+        "id": "bg_color",
+        "label": "Background color"
+      },
+      {
+        "type": "color",
+        "id": "text_color",
+        "label": "Text color"
+      },
+      {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 125,
+        "step": 5,
+        "unit": "px",
+        "label": "Padding top",
+        "default": 60
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 125,
+        "step": 5,
+        "unit": "px",
+        "label": "Padding bottom",
+        "default": 60
+      }
+    ],
+    "max_blocks": 25,
+    "blocks": [
+      {
+        "type": "item_feature",
+        "name": "Feature",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "checkbox",
+            "id": "use_image_dimensions",
+            "label": "Use native image dimensions",
+            "default": true,
+            "info": "If checked, the image dimensions below will be ignored."
+          },
+          {
+            "type": "number",
+            "id": "max_width",
+            "label": "Logo max width",
+            "default": 250
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+          },
+          {
+            "type": "text",
+            "id": "content",
+            "label": "Icon content"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Featured In",
+        "category": "Image",
+        "blocks": [
+          {
+            "type": "item_feature"
+          },
+          {
+            "type": "item_feature"
+          },
+          {
+            "type": "item_feature"
+          },
+          {
+            "type": "item_feature"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

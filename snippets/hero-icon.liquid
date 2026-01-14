@@ -1,0 +1,36 @@
+{%- assign s = block.settings -%}
+
+<div class="flex items-center gap-2" {{ block.shopify_attributes }}>
+  {%- if s.image_type == 'upload' -%}
+    <img
+      sizes="
+        (min-width: 768px) 275px,
+        400px
+      "
+      srcset="
+        {{ s.icon | img_url: '275x' }} 275w,
+        {{ s.icon | img_url: '400x' }} 400w
+      "
+      src="{{ s.icon | img_url: '400x' }}"
+      alt="{{ s.icon.alt | escape }}"
+      height="{{ s.icon.height }}"
+      width="{{ s.icon.width }}"
+      loading="lazy"
+      class="w-full h-20 md:h-24 object-contain object-center"
+    >
+      
+  {%- else -%}
+    <div>
+      <div class="aspect-w-1 aspect-h-1">
+        {{ s.svg_code }}
+      </div>
+    </div>
+  {%- endif -%}
+
+  {% if s.content != blank %}
+    <p class="text-sm my-0">
+      {{ s.content }}
+    </p>
+  {% endif %}
+    
+</div>

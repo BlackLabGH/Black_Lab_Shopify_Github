@@ -1,0 +1,718 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */{
+    "layout": "theme-clp",
+    "sections": {
+        "main": {
+            "type": "main-page",
+            "disabled": true,
+            "settings": {
+                "show_page_title": true,
+                "bg_color_secondary": false,
+                "padding_top": 60,
+                "padding_bottom": 60
+            }
+        },
+        "section_text_image_FkzQyV": {
+            "type": "section-text-image",
+            "blocks": {
+                "title_QJ7Q9E": {
+                    "type": "title",
+                    "settings": {
+                        "heading": "Built for life in motion",
+                        "mobile_font_size": 42,
+                        "desktop_font_size": 56,
+                        "hide_spacer_lines": true
+                    }
+                },
+                "content_k99xiQ": {
+                    "type": "content",
+                    "settings": {
+                        "text": "<p>From the cover to the core, built for a dog\u2019s lifestyle. Play Hard, Rest Easy.</p>",
+                        "content_size": "md:text-body-md",
+                        "content_width": ""
+                    }
+                },
+                "content_PjVkRq": {
+                    "type": "content",
+                    "settings": {
+                        "text": "<p><strong>Tough Cover<br/></strong>Expertly engineered to resist bites, scratches, mud, and daily wear\u2014easy to clean and built to last.</p>",
+                        "content_size": "md:text-body-md",
+                        "content_width": ""
+                    }
+                },
+                "content_WtfR7Q": {
+                    "type": "content",
+                    "settings": {
+                        "text": "<p><strong>Fused Core Mattress</strong><br/>100% waterproof protection keeps accidents out and comfort in, no matter the mess.</p>",
+                        "content_size": "md:text-body-md",
+                        "content_width": ""
+                    }
+                },
+                "content_gXygbU": {
+                    "type": "content",
+                    "settings": {
+                        "text": "<p><strong>Orthopedic Foam<br/></strong>Supportive, long-lasting foam for pups of all ages that won\u2019t flatten or sag\u2014even with everyday use.</p>",
+                        "content_size": "md:text-body-md",
+                        "content_width": ""
+                    }
+                },
+                "content_YV3Jki": {
+                    "type": "content",
+                    "settings": {
+                        "text": "<p><strong>StayFresh\u2122 Technology<br/></strong>Antibacterial, outdoor-fighting finish keeps the bed fresher, longer\u2014no matter how muddy the paws.</p>",
+                        "content_size": "md:text-body-md",
+                        "content_width": ""
+                    }
+                },
+                "button_QKaEPj": {
+                    "type": "button",
+                    "settings": {
+                        "button_text": "Buy The Beast",
+                        "button_link": "#shop",
+                        "button_color": "btn--black",
+                        "button_style": "btn--solid",
+                        "button_size": "btn--xl"
+                    }
+                }
+            },
+            "block_order": [
+                "title_QJ7Q9E",
+                "content_k99xiQ",
+                "content_PjVkRq",
+                "content_WtfR7Q",
+                "content_gXygbU",
+                "content_YV3Jki",
+                "button_QKaEPj"
+            ],
+            "settings": {
+                "text_color": "text-dark",
+                "bg_color": "",
+                "section_width": "wrapper",
+                "padding_top": 60,
+                "padding_bottom": 60,
+                "image": "shopify://shop_images/Hero.webp",
+                "image_size": "full-bleed",
+                "image_layout": "left",
+                "mobile_image_layout": "image_first",
+                "desktop_aspect_ratio": 0.8,
+                "desktop_max_height": 800,
+                "mobile_aspect_ratio": 0.8
+            }
+        },
+        "section_icons_row_kcbMBH": {
+            "type": "section-icons-row",
+            "blocks": {
+                "text_TgMqdb": {
+                    "type": "text",
+                    "settings": {
+                        "icon_name": "truck",
+                        "icon_image": "shopify://shop_images/Antibacterial.png",
+                        "title": "StayFresh\u2122\u2028Antibacterial Protection",
+                        "text": "<p>Keeps funk out and freshness in, naturally.</p>"
+                    }
+                },
+                "text_mYq6ch": {
+                    "type": "text",
+                    "settings": {
+                        "icon_name": "truck",
+                        "icon_image": "shopify://shop_images/Ultratough.png",
+                        "title": "UltraTough\u2122\u2028Construction",
+                        "text": "<p>Resists scratching, chewing, and general mayhem.</p>"
+                    }
+                },
+                "text_bhWirB": {
+                    "type": "text",
+                    "settings": {
+                        "icon_name": "check",
+                        "icon_image": "shopify://shop_images/Hypoallergenic.png",
+                        "title": "Hypoallergenic Materials",
+                        "text": "<p>Bluesign\u00ae-approved and free of harsh stuff\u2014inside and out.</p>"
+                    }
+                },
+                "text_NWmGU7": {
+                    "type": "text",
+                    "settings": {
+                        "icon_name": "eco-friendly",
+                        "icon_image": "shopify://shop_images/Waterproof.png",
+                        "title": "Fused Core\u2122\u2028Waterproof Tech",
+                        "text": "<p>Repels moisture\u2014even in the messiest conditions.</p>"
+                    }
+                }
+            },
+            "block_order": [
+                "text_TgMqdb",
+                "text_mYq6ch",
+                "text_bhWirB",
+                "text_NWmGU7"
+            ],
+            "settings": {
+                "alignment": "left",
+                "columns": 4,
+                "icons_width": 90,
+                "heading": "Engineered for everyday chaos",
+                "subheading": "<p>It\u2019s not just built better\u2014it\u2019s built smarter.</p>",
+                "bg_color": "#373535",
+                "text_color": "#f6f5f1",
+                "box_color": "",
+                "button_text": "",
+                "button_link": "",
+                "button_color": "btn--black",
+                "button_style": "btn--solid",
+                "button_size": "btn--small",
+                "enable_slider_mobile": false,
+                "padding_top": 60,
+                "padding_bottom": 60
+            }
+        },
+        "section_press_3bCbDY": {
+            "type": "section-press",
+            "blocks": {
+                "press_E6iJkV": {
+                    "type": "press",
+                    "settings": {
+                        "text": "<p>\u201cIts \u2018standout feature\u2019 is the Fused Core orthopedic mattress. Encased in heavy-duty, waterproof tarpaulin with fused seams, it provides joint support and protection from the elements.\u201d</p>",
+                        "link": "",
+                        "press_logo": "shopify://shop_images/gearjunkie.png",
+                        "logo_width": 180
+                    }
+                }
+            },
+            "block_order": [
+                "press_E6iJkV"
+            ],
+            "name": "Press/Logo",
+            "settings": {
+                "title": "",
+                "show_quotations": false,
+                "show_rounded_corners": true,
+                "autoplay": false,
+                "duration": 4,
+                "bg_color_secondary": true,
+                "width": "wrapper--narrow",
+                "padding_top": 60,
+                "padding_bottom": 60
+            }
+        },
+        "section_text_image_BAERrj": {
+            "type": "section-text-image",
+            "blocks": {
+                "title_tCx8kJ": {
+                    "type": "title",
+                    "settings": {
+                        "heading": "The Beast doesn\u2019t back down",
+                        "mobile_font_size": 0,
+                        "desktop_font_size": 0,
+                        "hide_spacer_lines": true
+                    }
+                },
+                "content_K6FAwV": {
+                    "type": "content",
+                    "settings": {
+                        "text": "<p><strong>Never Loses Its Shape<br/></strong>The orthopedic core is made from high-density, CertiPUR-US\u00ae certified foam that holds firm\u2014no sinking or soft spots.</p>",
+                        "content_size": "md:text-body-md",
+                        "content_width": ""
+                    }
+                },
+                "content_epdQnR": {
+                    "type": "content",
+                    "settings": {
+                        "text": "<p><strong>Sealed Against the Mess</strong><br/>Our 100% waterproof Fused Core\u2122 is built with heat-welded seams that stop drool, spills, and accidents from ever soaking in.</p>",
+                        "content_size": "md:text-body-md",
+                        "content_width": ""
+                    }
+                },
+                "content_XT4pWr": {
+                    "type": "content",
+                    "settings": {
+                        "text": "<p><strong>Made for Dogs That Go Hard</strong><br/>The triple-layered Better Than Ballistic\u2122 cover resists digging, scratching, and wear with reinforced stitching built to last.</p>",
+                        "content_size": "md:text-body-md",
+                        "content_width": ""
+                    }
+                },
+                "content_PNz3wh": {
+                    "type": "content",
+                    "settings": {
+                        "text": "<p><strong>One Bed. Every Adventure.</strong><br/>Use the removable cover for next-level comfort, or go cover-free for max durability outdoors. One bed for every kind of dog day.</p>",
+                        "content_size": "md:text-body-md",
+                        "content_width": ""
+                    }
+                },
+                "content_hccWY7": {
+                    "type": "content",
+                    "settings": {
+                        "text": "<p><strong>Fewer Washes. Longer Life.</strong><br/>StayFresh\u2122 antibacterial technology keeps odor and bacteria at bay\u2014so the bed stays cleaner and lasts longer overall.</p>",
+                        "content_size": "md:text-body-md",
+                        "content_width": ""
+                    }
+                },
+                "button_t9YLdz": {
+                    "type": "button",
+                    "settings": {
+                        "button_text": "Buy The Beast",
+                        "button_link": "#shop",
+                        "button_color": "btn--black",
+                        "button_style": "btn--solid",
+                        "button_size": "btn--xl"
+                    }
+                }
+            },
+            "block_order": [
+                "title_tCx8kJ",
+                "content_K6FAwV",
+                "content_epdQnR",
+                "content_XT4pWr",
+                "content_PNz3wh",
+                "content_hccWY7",
+                "button_t9YLdz"
+            ],
+            "settings": {
+                "text_color": "text-dark",
+                "bg_color": "",
+                "section_width": "wrapper",
+                "padding_top": 60,
+                "padding_bottom": 60,
+                "image": "shopify://shop_images/b6306b861e39d4a4cce2236d03d54c1978d5f7f0.webp",
+                "image_size": "normal",
+                "image_layout": "left",
+                "mobile_image_layout": "image_first",
+                "desktop_aspect_ratio": 1,
+                "desktop_max_height": 0,
+                "mobile_aspect_ratio": 1
+            }
+        },
+        "section_testimonials_JMXPg9": {
+            "type": "section-testimonials",
+            "blocks": {
+                "testimonial_g6whrb": {
+                    "type": "testimonial",
+                    "settings": {
+                        "star_rating": 5,
+                        "image": "shopify://shop_images/Testimonial_1.webp",
+                        "testimonial_header": "Big enough for two",
+                        "text": "<p>\"Our boys, King and Gus love lounging in their Beast Bed. We love that it\u2019s durable, comfy, cleans easily, and gives us the flexibility to easily move it from room to room with ease!\"</p>",
+                        "customer_name": "Jen B.",
+                        "subheading": "<p>Verified customer</p>"
+                    }
+                },
+                "testimonial_Pg3nR3": {
+                    "type": "testimonial",
+                    "settings": {
+                        "star_rating": 5,
+                        "image": "shopify://shop_images/Testimonial_2.webp",
+                        "testimonial_header": "Made to last!",
+                        "text": "<p>\u201cMy Bernedoodle is a handful and has ripped every bed to shreds but hasn\u2019t been able to get through The Beast. Also, the mattress is no joke 100% waterproof . When I take the covers off to wash I find him sleeping on just the mattress and I literally hose it off to clean it, genius!\u201d</p>",
+                        "customer_name": "Sam",
+                        "subheading": "<p>Verified customer</p>"
+                    }
+                },
+                "testimonial_M8UttH": {
+                    "type": "testimonial",
+                    "settings": {
+                        "star_rating": 5,
+                        "image": "shopify://shop_images/Testimonial_3.webp",
+                        "testimonial_header": "Best bed ever!!!",
+                        "text": "<p>\"Lucy my Great Dane absolutely LOVES her Beast bed. This is her go to bed for sure. It's comfy, durable, and easy to clean! The Beast is great for indoors or outdoors. Had it out on the patio, was able to get my lounge chair back lol.\"</p>",
+                        "customer_name": "Jana L.",
+                        "subheading": "<p>Verified customer</p>"
+                    }
+                }
+            },
+            "block_order": [
+                "testimonial_g6whrb",
+                "testimonial_Pg3nR3",
+                "testimonial_M8UttH"
+            ],
+            "name": "Testimonials",
+            "settings": {
+                "title": "Trusted in homes that have tried everything",
+                "hide_spacer_lines": true,
+                "stars_placement": "above_title",
+                "block_star_rating": 5,
+                "subheader": "",
+                "section_text": "<p>Invest in quality. Buy nice, not twice. This is what it\u2019s like to finally get it right.</p>",
+                "text_size": 130,
+                "text_alignment": "text-center",
+                "bg_color": "#ddd5c9",
+                "testimonial_block_color": "#f5f3e9",
+                "testimonial_text_color": "text-dark",
+                "width": "wrapper--full-padded",
+                "padding_top": 60,
+                "padding_bottom": 60
+            }
+        },
+        "comparison_table_bXABcV": {
+            "type": "comparison-table",
+            "blocks": {
+                "comparison_table_row_cEzgWP": {
+                    "type": "comparison-table-row",
+                    "settings": {
+                        "title": "Quilted Comfort Layer",
+                        "use_icons": true,
+                        "brand_content": "",
+                        "use_icons_other": true,
+                        "other_content": ""
+                    },
+                    "blocks": {}
+                },
+                "comparison_table_row_VNxMPF": {
+                    "type": "comparison-table-row",
+                    "settings": {
+                        "title": "100% Waterproof Fused Core\u2122 Mattress",
+                        "use_icons": true,
+                        "brand_content": "",
+                        "use_icons_other": true,
+                        "other_content": ""
+                    },
+                    "blocks": {}
+                },
+                "comparison_table_row_dnPfgB": {
+                    "type": "comparison-table-row",
+                    "settings": {
+                        "title": "Oeko-Tex\u00ae Certified Materials",
+                        "use_icons": true,
+                        "brand_content": "",
+                        "use_icons_other": true,
+                        "other_content": ""
+                    },
+                    "blocks": {}
+                },
+                "comparison_table_row_Cf7TDf": {
+                    "type": "comparison-table-row",
+                    "settings": {
+                        "title": "StayFresh\u2122 Anti-Bacterial & Anti-Odor Technology",
+                        "use_icons": true,
+                        "brand_content": "",
+                        "use_icons_other": true,
+                        "other_content": ""
+                    },
+                    "blocks": {}
+                },
+                "comparison_table_row_739JcA": {
+                    "type": "comparison-table-row",
+                    "settings": {
+                        "title": "Crate-Friendly",
+                        "use_icons": true,
+                        "brand_content": "",
+                        "use_icons_other": true,
+                        "other_content": ""
+                    },
+                    "blocks": {}
+                },
+                "comparison_table_row_GdwKiV": {
+                    "type": "comparison-table-row",
+                    "settings": {
+                        "title": "2-in-1 Indoor / Outdoor Design",
+                        "use_icons": true,
+                        "brand_content": "",
+                        "use_icons_other": true,
+                        "other_content": ""
+                    },
+                    "blocks": {}
+                },
+                "title": {
+                    "type": "title",
+                    "static": true,
+                    "settings": {
+                        "title": "Other beds don\u2019t come close",
+                        "level": "h2",
+                        "mobile_font_size": 42,
+                        "desktop_font_size": 56,
+                        "text_align_mobile": "",
+                        "text_align": ""
+                    },
+                    "blocks": {}
+                },
+                "richtext": {
+                    "type": "richtext",
+                    "static": true,
+                    "settings": {
+                        "text": "<p>Because how it is made matters. And this one\u2019s worth every penny.</p>",
+                        "text_color": "",
+                        "style_mobile": "",
+                        "style_desktop": "",
+                        "text_align_mobile": "",
+                        "text_align": ""
+                    },
+                    "blocks": {}
+                }
+            },
+            "block_order": [
+                "comparison_table_row_cEzgWP",
+                "comparison_table_row_VNxMPF",
+                "comparison_table_row_dnPfgB",
+                "comparison_table_row_Cf7TDf",
+                "comparison_table_row_739JcA",
+                "comparison_table_row_GdwKiV"
+            ],
+            "name": "Comparison Table",
+            "settings": {
+                "heading": "Other beds don't come close",
+                "subtitle": "Because how it is made matters. And this one\u2019s worth every penny.",
+                "blb_heading": "The Beast",
+                "other_heading": "\"Ballistic\" Beds"
+            }
+        },
+        "section_text_nzFkWE": {
+            "type": "section-text",
+            "blocks": {
+                "heading_LtfaFB": {
+                    "type": "heading",
+                    "settings": {
+                        "text": "<p>Field-tested. Dog-approved.</p>",
+                        "size": 145,
+                        "heading_highlight_type": "italics",
+                        "highlight_color": "#d43747",
+                        "highlight_text_color": "#000000"
+                    }
+                },
+                "subheading_rnDTa4": {
+                    "type": "subheading",
+                    "settings": {
+                        "text": "<p>Real dogs. Real mess. Real proof The Beast can handle it all.</p>",
+                        "size": 155,
+                        "margin_bottom": 16
+                    }
+                }
+            },
+            "block_order": [
+                "heading_LtfaFB",
+                "subheading_rnDTa4"
+            ],
+            "custom_css": [],
+            "settings": {
+                "show_spacer_lines": false,
+                "text_position": "center",
+                "bg_color_secondary": false,
+                "text_color": "text-dark",
+                "width": "wrapper--narrow",
+                "padding_top": 0,
+                "padding_bottom": 0
+            }
+        },
+        "174857407257091cda": {
+            "type": "apps",
+            "blocks": {
+                "reelup_shoppable_videos_reels_reelup_playlist_4HhJ7K": {
+                    "type": "shopify://apps/reelup-shoppable-videos-reels/blocks/reelup_playlist/a8ec9e4d-d192-44f7-9c23-595f9ee7dd5b",
+                    "settings": {
+                        "playlist_id": "rl_pl_17016"
+                    }
+                }
+            },
+            "block_order": [
+                "reelup_shoppable_videos_reels_reelup_playlist_4HhJ7K"
+            ],
+            "custom_css": [
+                ".reelUp_slider_heading {display: none;}"
+            ],
+            "settings": {
+                "bg_color": "",
+                "width": "wrapper",
+                "padding_top": 20,
+                "padding_bottom": 0
+            }
+        },
+        "section_text_K6x7k9": {
+            "type": "section-text",
+            "blocks": {
+                "heading_hpaKUm": {
+                    "type": "heading",
+                    "settings": {
+                        "text": "<p>Shop The Beast</p>",
+                        "size": 145,
+                        "heading_highlight_type": "italics",
+                        "highlight_color": "#d43747",
+                        "highlight_text_color": "#000000"
+                    }
+                }
+            },
+            "block_order": [
+                "heading_hpaKUm"
+            ],
+            "settings": {
+                "show_spacer_lines": true,
+                "text_position": "center",
+                "bg_color_secondary": false,
+                "text_color": "text-dark",
+                "width": "wrapper--narrow",
+                "padding_top": 60,
+                "padding_bottom": 0
+            }
+        },
+        "section_product_FtMiyA": {
+            "type": "section-product",
+            "blocks": {
+                "title_D7AmQg": {
+                    "type": "title",
+                    "settings": {
+                        "subheading": "none",
+                        "show_rating": false,
+                        "show_rating_count": false,
+                        "padding_bottom": 20
+                    }
+                },
+                "text_Yani4q": {
+                    "type": "text",
+                    "settings": {
+                        "title": "<p>Durability means nothing without comfort. The Beast delivers both\u2014lasting support, cleaner sleep, and a surface dogs actually want to curl up on.</p>",
+                        "padding_bottom": 20
+                    }
+                },
+                "description_VgHkGB": {
+                    "type": "description",
+                    "disabled": true,
+                    "settings": {
+                        "padding_bottom": 20
+                    }
+                },
+                "form_NLBCHJ": {
+                    "type": "form",
+                    "settings": {
+                        "info_page": "",
+                        "show_labels": true,
+                        "show_quantity": false,
+                        "show_payment_button": false,
+                        "enable_subscriptions_selectors": false,
+                        "padding_bottom": 20
+                    }
+                },
+                "icon_row_MNd6jx": {
+                    "type": "icon_row",
+                    "settings": {
+                        "icon_name_1": "truck",
+                        "icon_color_1": "",
+                        "icon_image_1": "shopify://shop_images/stayfresh_icon_8cffc43a-0877-4d5c-b04e-15f02dffec76.png",
+                        "icon_width_1": 45,
+                        "icon_text_1": "StayFresh\u2122",
+                        "icon_name_2": "none",
+                        "icon_color_2": "",
+                        "icon_image_2": "shopify://shop_images/ultratough_icon_ad97dbb5-3c2b-4a97-8efe-445d3d305d61.png",
+                        "icon_width_2": 45,
+                        "icon_text_2": "UltraTough\u2122",
+                        "icon_name_3": "heart",
+                        "icon_color_3": "",
+                        "icon_image_3": "shopify://shop_images/hypoallergenic_icon_3c393433-1154-4a7a-bf65-ed0ac1d87067.png",
+                        "icon_width_3": 45,
+                        "icon_text_3": "Hypoallergenic",
+                        "icon_name_4": "clock",
+                        "icon_color_4": "",
+                        "icon_image_4": "shopify://shop_images/fused_core_icon_ecccaba8-1dd1-4737-a8c8-74e76671a7b2.png",
+                        "icon_width_4": 45,
+                        "icon_text_4": "Fused Core\u2122",
+                        "alignment": "center",
+                        "bg_color": "#ffffff",
+                        "padding_bottom": 20
+                    }
+                }
+            },
+            "block_order": [
+                "title_D7AmQg",
+                "text_Yani4q",
+                "description_VgHkGB",
+                "form_NLBCHJ",
+                "icon_row_MNd6jx"
+            ],
+            "settings": {
+                "nav_id": "shop",
+                "product": "the-beast-ultratough-orthopedic-dog-bed",
+                "product_sticky_enable": true,
+                "image_layout": "grid",
+                "image_width": "standard",
+                "hide_product_thumbnails": false,
+                "product_image_aspect_ratio": false,
+                "enable_zoom": true,
+                "enable_video_looping": false,
+                "bg_color_secondary": false,
+                "width": "wrapper--narrow",
+                "padding_top": 60,
+                "padding_bottom": 60
+            }
+        },
+        "section_icons_row_pdXKT7": {
+            "type": "section-icons-row",
+            "blocks": {
+                "text_TNEiCm": {
+                    "type": "text",
+                    "settings": {
+                        "icon_name": "truck",
+                        "icon_image": "shopify://shop_images/free_shipping.png",
+                        "title": "Free Shipping",
+                        "text": "<p>No fees on orders over $75 in the lower 48.</p>"
+                    }
+                },
+                "text_YqgNX9": {
+                    "type": "text",
+                    "settings": {
+                        "icon_name": "truck",
+                        "icon_image": "shopify://shop_images/120_day_warranty.png",
+                        "title": "120-Day Warranty",
+                        "text": "<p>It won\u2019t fail\u2014but if it does, we\u2019ve got you.</p>"
+                    }
+                },
+                "text_9gHYya": {
+                    "type": "text",
+                    "settings": {
+                        "icon_name": "check",
+                        "icon_image": "shopify://shop_images/sustainably_made.png",
+                        "title": "Sustainably Made",
+                        "text": "<p>Better materials, longer life, less waste.</p>"
+                    }
+                },
+                "text_fBMXrg": {
+                    "type": "text",
+                    "settings": {
+                        "icon_name": "eco-friendly",
+                        "icon_image": "shopify://shop_images/easy_returns_exchanges.png",
+                        "title": "Easy Returns & Exchanges",
+                        "text": "<p>Wrong fit? We\u2019ll make it right\u2014fast.</p>"
+                    }
+                }
+            },
+            "block_order": [
+                "text_TNEiCm",
+                "text_YqgNX9",
+                "text_9gHYya",
+                "text_fBMXrg"
+            ],
+            "settings": {
+                "alignment": "left",
+                "columns": 4,
+                "icons_width": 75,
+                "heading": "Shop with confidence",
+                "subheading": "<p>Premium gear. Hassle-free policies. Support that actually shows up.</p>",
+                "bg_color": "#f5f3e9",
+                "text_color": "#000000",
+                "box_color": "",
+                "button_text": "",
+                "button_link": "",
+                "button_color": "btn--black",
+                "button_style": "btn--solid",
+                "button_size": "btn--small",
+                "enable_slider_mobile": false,
+                "padding_top": 60,
+                "padding_bottom": 60
+            }
+        }
+    },
+    "order": [
+        "main",
+        "section_text_image_FkzQyV",
+        "section_icons_row_kcbMBH",
+        "section_press_3bCbDY",
+        "section_text_image_BAERrj",
+        "section_testimonials_JMXPg9",
+        "comparison_table_bXABcV",
+        "section_text_nzFkWE",
+        "174857407257091cda",
+        "section_text_K6x7k9",
+        "section_product_FtMiyA",
+        "section_icons_row_pdXKT7"
+    ]
+}

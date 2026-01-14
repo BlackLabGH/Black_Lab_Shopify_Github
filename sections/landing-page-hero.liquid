@@ -1,0 +1,169 @@
+{% assign image = section.settings.image %}
+<section
+  class="hero lp-hero relative"
+  style="
+  background-color: {{ section.settings.background_color | default: '#f5f3e9' }};
+  color: {{ section.settings.text_color | default: '#000' }};
+  "
+>
+  <div class="wrapper hero--wrapper lg:grid lg:grid-cols-12 lg:pr-0 gap-x-6 lg:gap-x-8">
+    <div class="hero__content pt-4 lg:py-12 lg:col-start-1 lg:col-span-5 xl:col-start-2 xl:col-span-4 lg:flex lg:flex-wrap lg:items-center">
+      <div class="hero__content--wrap flex flex-col gap-y-6">
+        {% if section.settings.reviews != blank %}
+          <div class="hero__reviews-text flex items-center space-x-2 gap-2 text-xs">
+            {% render 'review-stars.svg' %}
+            {{ section.settings.reviews }}
+          </div>
+        {% endif %}
+
+        <h1 class="hero__title">{{ section.settings.title }}</h1>
+        
+        <div class="text-base gap-y-6 flex flex-col"> 
+          {% if section.settings.content != blank %}
+            {{ section.settings.content }}
+          {% endif %}
+
+          <div class="grid grid-cols-2 gap-y-3 lg:gap-x-8">
+            {% for block in section.blocks %}
+                {% render 'hero-icon', block: block %}
+            {% endfor %}
+          </div>
+        </div>
+        
+        <div class="flex flex-wrap-reverse sm:flex-wrap sm:gap-6 sm:items-center">
+          {% unless section.settings.button_link == blank %}
+            <div class="py-2 block w-full sm:w-auto">
+              <a href="{{ section.settings.button_link | escape }}" class="btn btn--solid btn--xl btn--black">
+                {{ section.settings.button_text | default: 'Learn more' | escape }}
+              </a>
+            </div>
+          {% endunless %}
+        </div>
+      </div>
+    </div>
+
+    <div class="hero__image lg:col-start-7 lg:col-span-6 relative left-0 -bottom-2 transform -translate-x-1/2 w-screen lg:bottom-0 lg:transform-none lg:left-auto lg:w-auto lg:mx-0">
+      {%- if section.settings.image != blank -%}
+        <img
+          src="{{ section.settings.image | image_url: width: 1200 }}"
+          width="{{ section.settings.image.width }}"
+          height="{{ section.settings.image.height }}"
+          class="relative z-0 {% if section.settings.mobile_image != blank %} hidden lg:block {% endif %}"
+          alt="{{ section.settings.image.alt }}"
+          loading="lazy"
+        />
+      {%- endif -%}
+
+      {%- if section.settings.mobile_image != blank -%}
+        <img
+          src="{{ section.settings.mobile_image | image_url: width: 1200 }}"
+          width="{{ section.settings.mobile_image.width }}"
+          height="{{ section.settings.mobile_image.height }}"
+          class="relative z-0 {% if section.settings.image != blank %} lg:hidden {% endif %}"
+          alt="{{ section.settings.mobile_image.alt }}"
+          loading="lazy"
+        />
+      {%- endif -%}
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "LP Hero",
+    "settings": [
+      {
+        "type": "html",
+        "id": "title",
+        "label": "Title"
+      },
+      {
+        "type": "text",
+        "id": "reviews",
+        "label": "Reviews Snippet",
+        "default": "6,000+ 5-star reviews"
+      },
+      {
+        "type": "html",
+        "id": "content",
+        "label": "Content"
+      },
+      {
+        "type": "url",
+        "id": "button_link",
+        "label": "CTA Link"
+      },
+      {
+        "type": "text",
+        "id": "button_text",
+        "label": "CTA Text"
+      },
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Hero image"
+      },
+      {
+        "type": "image_picker",
+        "id": "mobile_image",
+        "label": "Hero image (mobile)"
+      },
+      {
+        "type": "header",
+        "content": "Settings"
+      },
+      {
+        "type": "color",
+        "id": "background_color",
+        "label": "Background color"
+      },
+      {
+        "type": "color",
+        "id": "text_color",
+        "label": "Text color"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "icon_item",
+        "name": "Icon",
+        "settings": [
+          {
+            "type": "header",
+            "content": "Image type"
+          },
+          {
+            "type": "radio",
+            "id": "image_type",
+            "label": "Image type",
+            "options": [
+              { "value": "upload", "label": "Image upload" },
+              { "value": "html", "label": "SVG code" }
+            ],
+            "default": "upload"
+          },
+          {
+            "type": "image_picker",
+            "id": "icon",
+            "label": "Icon Image"
+          },
+          {
+            "type": "html",
+            "id": "svg_code",
+            "label": "SVG code"
+          },
+          {
+            "type": "text",
+            "id": "content",
+            "label": "Icon Content"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Landing Page Hero",
+        "category": "General"
+      }
+    ]
+  }
+{% endschema %}

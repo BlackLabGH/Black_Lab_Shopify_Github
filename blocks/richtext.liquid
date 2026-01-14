@@ -1,0 +1,114 @@
+{% render 'theme-blocks-richtext', block: block %}
+
+{% schema %}
+{
+  "name": "Rich text",
+  "tag": null,
+  "class": "rte",
+  "settings": [
+    {
+      "type": "richtext",
+      "id": "text",
+      "label": "Text"
+    },
+    {
+      "type": "header",
+      "content": "Style"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color"
+    },
+    {
+      "type": "select",
+      "id": "style_mobile",
+      "label": "Mobile text style",
+      "info": "This style will apply to all screen sizes, unless a desktop style is specified.",
+      "default": "",
+      "options": [
+        { "value": "", "label": "Default" },
+        { "value": "body-2xl", "label": "2XL" },
+        { "value": "body-xl", "label": "XL" },
+        { "value": "body-xl-alt", "label": "XL ALT" },
+        { "value": "body-lg", "label": "LG" },
+        { "value": "body-md", "label": "MD" },
+        { "value": "body-sm", "label": "SM" },
+        { "value": "body-xs", "label": "XS" }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "style_desktop",
+      "label": "Desktop text style",
+      "info": "This style will only apply to desktop screen sizes.",
+      "default": "",
+      "options": [
+        { "value": "", "label": "Default" },
+        { "value": "lg:body-2xl", "label": "2XL" },
+        { "value": "lg:body-xl", "label": "XL" },
+        { "value": "lg:body-xl-alt", "label": "XL ALT" },
+        { "value": "lg:body-lg", "label": "LG" },
+        { "value": "lg:body-md", "label": "MD" },
+        { "value": "lg:body-sm", "label": "SM" },
+        { "value": "lg:body-xs", "label": "XS" }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "text_align_mobile",
+      "label": "t:blocks.title.settings.text_align_mobile.label",
+      "info": "t:blocks.title.settings.text_align_mobile.info",
+      "default": "",
+      "options": [
+        {
+          "value": "",
+          "label": "t:blocks.title.settings.text_align_mobile.options.none"
+        },
+        {
+          "value": "left",
+          "label": "t:blocks.title.settings.text_align_mobile.options.left"
+        },
+        {
+          "value": "center",
+          "label": "t:blocks.title.settings.text_align_mobile.options.center"
+        },
+        {
+          "value": "right",
+          "label": "t:blocks.title.settings.text_align_mobile.options.right"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "text_align",
+      "label": "t:blocks.title.settings.text_align.label",
+      "info": "t:blocks.title.settings.text_align.info",
+      "default": "",
+      "options": [
+        {
+          "value": "",
+          "label": "t:blocks.title.settings.text_align.options.none"
+        },
+        {
+          "value": "left",
+          "label": "t:blocks.title.settings.text_align.options.left"
+        },
+        {
+          "value": "center",
+          "label": "t:blocks.title.settings.text_align.options.center"
+        },
+        {
+          "value": "right",
+          "label": "t:blocks.title.settings.text_align.options.right"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Rich text"
+    }
+  ]
+}
+{% endschema %}

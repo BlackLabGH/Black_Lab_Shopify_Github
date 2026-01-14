@@ -1,0 +1,38 @@
+{% liquid
+  assign s = block.settings
+%}
+
+{%- capture style_attribute -%}
+  style="
+  {%- if s.text_align_mobile != blank -%}
+    --text-align-mobile: {{ s.text_align_mobile }};
+  {%- endif -%}
+  {%- if s.text_align != blank -%}
+    --text-align: {{ s.text_align }};
+  {%- endif -%}
+  {%- if s.text_color != blank -%}
+    color: {{ s.text_color }};
+  {%- endif -%}
+  "
+{%- endcapture -%}
+
+{% capture class_attribute %}
+  {{ s.style_mobile }} {{ s.style_desktop }}
+
+  {% if s.text_align_mobile != blank %}
+    [text-align:var(--text-align-mobile)]
+  {% endif %}
+  {% if s.text_align != blank %}
+    lg:[text-align:var(--text-align)]
+  {% endif %} 
+  
+  relative rte
+{% endcapture %}
+
+<div
+  class="{{ class_attribute | strip_newlines | strip }}"
+  {{ style_attribute | remove_first: 'style=""' }}
+  {{ block.shopify_attributes }}
+>
+  {{ s.text }}
+</div>

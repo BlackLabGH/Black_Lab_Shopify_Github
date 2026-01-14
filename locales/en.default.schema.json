@@ -1,0 +1,63 @@
+{
+  "blocks": {
+    "title": {
+      "name": "Title",
+      "settings": {
+        "header__alignment": {
+          "content": "Alignment"
+        },
+        "title": {
+          "label": "Title",
+          "info": "Add \"//\" to insert a line break."
+        },
+        "style_mobile": {
+          "label": "Mobile style",
+          "info": "Controls how the title text is styled on smaller screens; choose \"None\" to follow the text style of the section it's in."
+        },
+        "style_tablet": {
+          "label": "Tablet style",
+          "info": "Controls how the title text is styled on tablet screens; choose \"None\" to follow the mobile style."
+        },
+        "style_desktop": {
+          "label": "Desktop style",
+          "info": "Controls how the title text is styled on larger screens; choose \"None\" to follow the tablet style."
+        },
+        "text_align": {
+          "label": "Text alignment",
+          "info": "Controls text alignment on larger screens; if left as \"None\", it will follow the mobile alignment setting, or the text alignment of the section it's in",
+          "options": {
+            "none": "None",
+            "left": "Left",
+            "center": "Center",
+            "right": "Right"
+          }
+        },
+        "text_align_mobile": {
+          "label": "Text alignment (mobile)",
+          "info": "Controls how the title text is aligned on smaller screens; choose \"None\" to follow the text alignment of the section it's in.",
+          "options": {
+            "left": "Left",
+            "center": "Center",
+            "right": "Right",
+            "none": "None"
+          }
+        },
+        "header__decoration": {
+          "content": "Decoration"
+        },
+        "decoration": {
+          "label": "Decoration",
+          "info": "Choose a decoration to add to the title.",
+          "options": {
+            "none": "None",
+            "stars": "Stars"
+          }
+        },
+        "decoration_color": {
+          "label": "Decoration color",
+          "info": "Choose a color for the decoration (default: pink, #f57eb6). Only applies if a decoration is selected."
+        }
+      }
+    }
+  }
+}

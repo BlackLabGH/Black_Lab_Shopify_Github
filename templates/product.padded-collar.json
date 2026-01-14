@@ -1,0 +1,976 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */{
+    "sections": {
+        "main": {
+            "type": "product",
+            "blocks": {
+                "title": {
+                    "type": "title",
+                    "settings": {
+                        "subheading": "none",
+                        "show_rating": true,
+                        "show_rating_count": false,
+                        "padding_bottom": 0
+                    }
+                },
+                "inventory_countdown": {
+                    "type": "inventory_countdown",
+                    "disabled": true,
+                    "settings": {
+                        "max_inventory": 10,
+                        "hide_inventory_count": true,
+                        "padding_bottom": 20
+                    }
+                },
+                "form": {
+                    "type": "form",
+                    "settings": {
+                        "show_labels": true,
+                        "show_quantity": true,
+                        "show_payment_button": false,
+                        "show_stock_message": false,
+                        "enable_subscriptions_selectors": true,
+                        "padding_bottom": 4
+                    }
+                },
+                "kiwi_size_chart_recommender_kiwi_sizing_ERemy7": {
+                    "type": "shopify://apps/kiwi-size-chart-recommender/blocks/kiwiSizing/b7369922-bf15-44ce-a121-a22a8fcbc4b0",
+                    "settings": {
+                        "product": "{{product}}",
+                        "waitForElementSelector": "",
+                        "waitForElementDelay": 5
+                    }
+                },
+                "36e9da1b-5922-4ee3-83f3-d867cd6f0ada": {
+                    "type": "text",
+                    "settings": {
+                        "title": "<h4>30 DAY RETURNS & EXCHANGES</h4>",
+                        "text_alignment": "center",
+                        "padding_bottom": 20
+                    }
+                },
+                "reelup_shoppable_videos_reels_reelup_stories_YVbLt3": {
+                    "type": "shopify://apps/reelup-shoppable-videos-reels/blocks/reelup_stories/a8ec9e4d-d192-44f7-9c23-595f9ee7dd5b",
+                    "settings": {
+                        "section_id": "rl_st_2434"
+                    }
+                },
+                "text_7hTiEz": {
+                    "type": "text",
+                    "settings": {
+                        "title": "{{ product.metafields.custom.benefit_bullets | metafield_tag }}",
+                        "text_alignment": "left",
+                        "padding_bottom": 0
+                    }
+                },
+                "description": {
+                    "type": "description",
+                    "settings": {
+                        "padding_bottom": 20
+                    }
+                },
+                "product_accordion_kyEz3x": {
+                    "type": "product_accordion",
+                    "settings": {
+                        "accordion_heading": "Features",
+                        "heading_style": "font-heading",
+                        "accordion_text": "{{ product.metafields.custom.accordion_product_details.value.details_rich | metafield_tag }}",
+                        "accordion_page": "",
+                        "padding_bottom": 20
+                    }
+                },
+                "product_accordion_eeTiKk": {
+                    "type": "product_accordion",
+                    "settings": {
+                        "accordion_heading": "Size + Fit",
+                        "heading_style": "font-heading",
+                        "accordion_text": "{{ product.metafields.custom.accordion_product_details.value.size_fit | metafield_tag }}",
+                        "accordion_page": "",
+                        "padding_bottom": 20
+                    }
+                },
+                "product_accordion_6bfWB8": {
+                    "type": "product_accordion",
+                    "settings": {
+                        "accordion_heading": "Fabric + Technology",
+                        "heading_style": "font-heading",
+                        "accordion_text": "{{ product.metafields.custom.accordion_product_details.value.eco_features | metafield_tag }}",
+                        "accordion_page": "",
+                        "padding_bottom": 20
+                    }
+                },
+                "icon_row": {
+                    "type": "icon_row",
+                    "source": "{{ product.metafields.custom.product_inline_icons.value }}",
+                    "settings": {
+                        "icon_name_1": "none",
+                        "icon_color_1": "",
+                        "icon_image_1": "{{ product.metafields.custom.product_inline_icons.value.icon_image_text.value }}",
+                        "icon_width_1": 50,
+                        "icon_text_1": "Targets Bacteria",
+                        "icon_name_2": "none",
+                        "icon_color_2": "",
+                        "icon_image_2": "{{ product.metafields.custom.product_inline_icons.value.icon_image_w_text_2.value }}",
+                        "icon_width_2": 50,
+                        "icon_text_2": "Eco-Friendly",
+                        "icon_name_3": "none",
+                        "icon_color_3": "",
+                        "icon_image_3": "{{ product.metafields.custom.product_inline_icons.value.icon_image_w_text_3.value }}",
+                        "icon_width_3": 50,
+                        "icon_text_3": "",
+                        "icon_name_4": "none",
+                        "icon_color_4": "",
+                        "icon_width_4": 20,
+                        "icon_text_4": "",
+                        "alignment": "center",
+                        "bg_color": "#ffffff",
+                        "padding_bottom": 0
+                    }
+                },
+                "32a6299f-bf6b-46ad-aaf9-942465ef054c": {
+                    "type": "divider",
+                    "settings": {
+                        "show_line": true,
+                        "padding_bottom": 20
+                    }
+                },
+                "icon_row_LNnaL7": {
+                    "type": "icon_row",
+                    "settings": {
+                        "icon_name_1": "none",
+                        "icon_color_1": "",
+                        "icon_image_1": "shopify://shop_images/08-Anti-Bacterial-2x.png",
+                        "icon_width_1": 50,
+                        "icon_text_1": "Targets Bacteria",
+                        "icon_name_2": "none",
+                        "icon_color_2": "",
+                        "icon_image_2": "shopify://shop_images/22-Anti-odor-2x.png",
+                        "icon_width_2": 50,
+                        "icon_text_2": "Fights Odors",
+                        "icon_name_3": "none",
+                        "icon_color_3": "",
+                        "icon_image_3": "shopify://shop_images/20-Lightweight-2x.png",
+                        "icon_width_3": 50,
+                        "icon_text_3": "Light Weight",
+                        "icon_name_4": "none",
+                        "icon_color_4": "",
+                        "icon_image_4": "shopify://shop_images/21-Durable-2x.png",
+                        "icon_width_4": 50,
+                        "icon_text_4": "Durable",
+                        "alignment": "center",
+                        "bg_color": "#ffffff",
+                        "padding_bottom": 20
+                    }
+                },
+                "upsell_cxbQQq": {
+                    "type": "upsell",
+                    "settings": {
+                        "product_list": [
+                            "adjustable-magnetic-leash",
+                            "braided-stretch-dog-leash",
+                            "dog-leash-set"
+                        ],
+                        "padding_bottom": 20
+                    }
+                },
+                "custom_code_Wxe9xJ": {
+                    "type": "custom_code",
+                    "settings": {
+                        "custom_code": "<div style=\"background:#ececec !important ;padding:20px!important; border-radius:15px;\"><h5>Need help?</h5>\nHave a question that isn't in our<div class=\"button\">\n\n<a style=\"text-decoration:underline;\"id=\"rp-home\">Help Center?</a>\n\n</div>\n<br>\n<h5>Something more urgent?</h5> Give us a call at <span style=\"font-weight:500\">1(888) 857-2305</span>\n<br>We're open Monday-Friday 9am-4pm.</div>",
+                        "padding_bottom": 20
+                    }
+                }
+            },
+            "block_order": [
+                "title",
+                "inventory_countdown",
+                "form",
+                "kiwi_size_chart_recommender_kiwi_sizing_ERemy7",
+                "36e9da1b-5922-4ee3-83f3-d867cd6f0ada",
+                "reelup_shoppable_videos_reels_reelup_stories_YVbLt3",
+                "text_7hTiEz",
+                "description",
+                "product_accordion_kyEz3x",
+                "product_accordion_eeTiKk",
+                "product_accordion_6bfWB8",
+                "icon_row",
+                "32a6299f-bf6b-46ad-aaf9-942465ef054c",
+                "icon_row_LNnaL7",
+                "upsell_cxbQQq",
+                "custom_code_Wxe9xJ"
+            ],
+            "custom_css": [
+                ".product__subheading {font-weight: 400 !important;}",
+                ".icons-row-block__text {font-size: 12px;}"
+            ],
+            "settings": {
+                "product_sticky_enable": true,
+                "image_layout": "grid",
+                "hide_product_thumbnails": false,
+                "image_width": "large",
+                "product_image_aspect_ratio": true,
+                "enable_zoom": true,
+                "enable_video_looping": false,
+                "bg_color": "",
+                "width": "wrapper",
+                "padding_top": 30,
+                "padding_bottom": 60
+            }
+        },
+        "1741134700b01625d5": {
+            "type": "apps",
+            "settings": {
+                "bg_color": "",
+                "width": "wrapper",
+                "padding_top": 60,
+                "padding_bottom": 60
+            }
+        },
+        "934a25a2-b3fc-4116-bf0d-6c292a2561de": {
+            "type": "section-divider",
+            "settings": {
+                "show_line": true,
+                "width": "wrapper",
+                "padding_top": 50,
+                "padding_bottom": 20
+            }
+        },
+        "812de66c-1ea1-431c-a48a-d7b9a49247b9": {
+            "type": "section-promotion-row",
+            "blocks": {
+                "template--18963859636539__812de66c-1ea1-431c-a48a-d7b9a49247b9-column-1": {
+                    "type": "column",
+                    "settings": {
+                        "subheading": "",
+                        "subheading_size": 75,
+                        "heading": "<h6>TOUGHER.</h6>",
+                        "heading_highlight_type": "italics",
+                        "highlight_color": "#d43747",
+                        "highlight_text_color": "#ffffff",
+                        "heading_size": 140,
+                        "description": "We use custom materials and durable construction, sustainably designed with premium recycled textiles that outperform non-recycled versions.",
+                        "description_size": 85,
+                        "disclaimer": "",
+                        "disclaimer_size": 75,
+                        "button_text": "",
+                        "button_link": "",
+                        "button_color": "btn--black",
+                        "button_style": "btn--solid",
+                        "button_size": "btn--small",
+                        "bg_color": "",
+                        "gradient_background": "",
+                        "text_color": "",
+                        "overlay_opacity": 10
+                    }
+                },
+                "template--18963859636539__812de66c-1ea1-431c-a48a-d7b9a49247b9-column-2": {
+                    "type": "column",
+                    "settings": {
+                        "subheading": "",
+                        "subheading_size": 80,
+                        "heading": "<h6>GREENER.</h6>",
+                        "heading_highlight_type": "italics",
+                        "highlight_color": "#d43747",
+                        "highlight_text_color": "#ffffff",
+                        "heading_size": 140,
+                        "description": "Reflects our dedication to sustainability\u2014 not only through the use of recycled materials, but also by creating products designed to last longer and be replaced less often.",
+                        "description_size": 85,
+                        "disclaimer": "",
+                        "disclaimer_size": 75,
+                        "button_text": "",
+                        "button_link": "",
+                        "button_color": "btn--black",
+                        "button_style": "btn--solid",
+                        "button_size": "btn--small",
+                        "bg_color": "",
+                        "gradient_background": "",
+                        "text_color": "",
+                        "overlay_opacity": 10
+                    }
+                },
+                "845e046a-98c6-4171-8884-ee332a591041": {
+                    "type": "column",
+                    "settings": {
+                        "subheading": "",
+                        "subheading_size": 80,
+                        "heading": "<h6>CLEANER.</h6>",
+                        "heading_highlight_type": "italics",
+                        "highlight_color": "#d43747",
+                        "highlight_text_color": "#ffffff",
+                        "heading_size": 140,
+                        "description": "Refers to our all-natural, antibacterial StayFresh\u2122 technology, which keeps your dog\u2019s gear cleaner between washes by fighting odors and bacteria.",
+                        "description_size": 85,
+                        "disclaimer": "",
+                        "disclaimer_size": 75,
+                        "button_text": "",
+                        "button_link": "",
+                        "button_color": "btn--black",
+                        "button_style": "btn--solid",
+                        "button_size": "btn--small",
+                        "bg_color": "",
+                        "gradient_background": "",
+                        "text_color": "",
+                        "overlay_opacity": 10
+                    }
+                },
+                "88deaebf-5eea-47a9-84b7-686a79c002ea": {
+                    "type": "column",
+                    "settings": {
+                        "subheading": "",
+                        "subheading_size": 80,
+                        "heading": "<h6>DOG. YEARS AHEAD.</h6>",
+                        "heading_highlight_type": "italics",
+                        "highlight_color": "#d43747",
+                        "highlight_text_color": "#ffffff",
+                        "heading_size": 140,
+                        "description": "Built to last longer, our products reduce the need for frequent replacements, cutting down on waste and making them a smarter, eco-friendly choice.",
+                        "description_size": 85,
+                        "disclaimer": "",
+                        "disclaimer_size": 75,
+                        "button_text": "",
+                        "button_link": "",
+                        "button_color": "btn--black",
+                        "button_style": "btn--solid",
+                        "button_size": "btn--small",
+                        "bg_color": "",
+                        "gradient_background": "",
+                        "text_color": "",
+                        "overlay_opacity": 10
+                    }
+                }
+            },
+            "block_order": [
+                "template--18963859636539__812de66c-1ea1-431c-a48a-d7b9a49247b9-column-1",
+                "template--18963859636539__812de66c-1ea1-431c-a48a-d7b9a49247b9-column-2",
+                "845e046a-98c6-4171-8884-ee332a591041",
+                "88deaebf-5eea-47a9-84b7-686a79c002ea"
+            ],
+            "custom_css": [
+                "p {text-align: left;}",
+                "svg {display: none;}"
+            ],
+            "settings": {
+                "layout": "none",
+                "height": "200",
+                "bg_color": "",
+                "block_style": "default",
+                "enable_slider_mobile": true,
+                "width": "wrapper--full-padded",
+                "padding_top": 14,
+                "padding_bottom": 30
+            }
+        },
+        "related": {
+            "type": "related-products",
+            "disabled": true,
+            "settings": {
+                "limit": 4,
+                "product_recommendations_heading": "You May Also Like",
+                "bg_color": "",
+                "width": "wrapper",
+                "padding_top": 60,
+                "padding_bottom": 60
+            }
+        },
+        "7afb2145-a6e6-4329-a5cb-272756f38336": {
+            "type": "section-video",
+            "disabled": true,
+            "settings": {
+                "video_height": "four-fifty-height",
+                "text_position": "middle-center",
+                "video_link_bg": "",
+                "video_link": "",
+                "image": "shopify://shop_images/road-lined-with-misty-fog-and-green-trees.jpg",
+                "overlay_opacity": 10,
+                "text_color": "text-light",
+                "title": "",
+                "heading_highlight_type": "italics",
+                "highlight_color": "#d43747",
+                "highlight_text_color": "#000000",
+                "text": "",
+                "heading_size": 100,
+                "button_text": "PLAY",
+                "button_link": "",
+                "button_color": "btn--black",
+                "button_style": "btn--solid-border",
+                "button_size": "btn--small"
+            }
+        },
+        "7eee41c8-903d-437f-a2f6-d33ba39f7db6": {
+            "type": "section-text",
+            "blocks": {
+                "a71ed9be-fc3b-4e2f-b9ec-1557289e4e23": {
+                    "type": "text",
+                    "settings": {
+                        "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+                        "size": 100
+                    }
+                }
+            },
+            "block_order": [
+                "a71ed9be-fc3b-4e2f-b9ec-1557289e4e23"
+            ],
+            "disabled": true,
+            "settings": {
+                "text_position": "center",
+                "bg_color_secondary": false,
+                "text_color": "text-dark",
+                "width": "wrapper--narrow",
+                "padding_top": 60,
+                "padding_bottom": 60
+            }
+        },
+        "testimonials": {
+            "type": "section-testimonials",
+            "blocks": {
+                "testimonial-block-text": {
+                    "type": "text",
+                    "settings": {
+                        "heading": "We let our reviews speak for themselves.",
+                        "text_size": 125,
+                        "subheading": "<p>4.98 average<br>213 reviews</p>",
+                        "block_color": "#000000",
+                        "text_color": "text-light",
+                        "text_alignment": "text-left"
+                    }
+                },
+                "testimonial-block-0": {
+                    "type": "testimonial",
+                    "settings": {
+                        "star_rating": 5,
+                        "testimonial_header": "",
+                        "text": "<p>Excellent customer service. I love their products!</p>",
+                        "customer_name": "John Edmonson",
+                        "subheading": "<p>Loyal Customer</p>"
+                    }
+                },
+                "testimonial-block-1": {
+                    "type": "testimonial",
+                    "settings": {
+                        "star_rating": 5,
+                        "testimonial_header": "",
+                        "text": "<p>Excellent customer service. I love their products!</p>",
+                        "customer_name": "John Edmonson",
+                        "subheading": "<p>Loyal Customer</p>"
+                    }
+                },
+                "testimonial-block-2": {
+                    "type": "testimonial",
+                    "settings": {
+                        "star_rating": 5,
+                        "testimonial_header": "",
+                        "text": "<p>Excellent customer service. I love their products!</p>",
+                        "customer_name": "John Edmonson",
+                        "subheading": "<p>Loyal Customer</p>"
+                    }
+                },
+                "testimonial-block-3": {
+                    "type": "testimonial",
+                    "settings": {
+                        "star_rating": 5,
+                        "testimonial_header": "",
+                        "text": "<p>Excellent customer service. I love their products!</p>",
+                        "customer_name": "John Edmonson",
+                        "subheading": "<p>Loyal Customer</p>"
+                    }
+                },
+                "testimonial-block-4": {
+                    "type": "testimonial",
+                    "settings": {
+                        "star_rating": 5,
+                        "testimonial_header": "",
+                        "text": "<p>Excellent customer service. I love their products!</p>",
+                        "customer_name": "John Edmonson",
+                        "subheading": "<p>Loyal Customer</p>"
+                    }
+                },
+                "testimonial-block-5": {
+                    "type": "testimonial",
+                    "settings": {
+                        "star_rating": 5,
+                        "testimonial_header": "",
+                        "text": "<p>Excellent customer service. I love their products!</p>",
+                        "customer_name": "John Edmonson",
+                        "subheading": "<p>Loyal Customer</p>"
+                    }
+                },
+                "testimonial-block-6": {
+                    "type": "testimonial",
+                    "settings": {
+                        "star_rating": 5,
+                        "testimonial_header": "",
+                        "text": "<p>Excellent customer service. I love their products!</p>",
+                        "customer_name": "John Edmonson",
+                        "subheading": "<p>Loyal Customer</p>"
+                    }
+                }
+            },
+            "block_order": [
+                "testimonial-block-text",
+                "testimonial-block-0",
+                "testimonial-block-1",
+                "testimonial-block-2",
+                "testimonial-block-3",
+                "testimonial-block-4",
+                "testimonial-block-5",
+                "testimonial-block-6"
+            ],
+            "disabled": true,
+            "settings": {
+                "title": "Testimonials",
+                "hide_spacer_lines": false,
+                "block_star_rating": 5,
+                "subheader": "",
+                "section_text": "<p>Based on 100 reviews</p>",
+                "text_size": 100,
+                "text_alignment": "text-left",
+                "bg_color": "",
+                "testimonial_block_color": "",
+                "testimonial_text_color": "text-dark",
+                "width": "wrapper--full-padded",
+                "padding_top": 60,
+                "padding_bottom": 60
+            }
+        },
+        "c7d105e4-119f-48f8-a5c3-c9c748b54a50": {
+            "type": "section-image-with-text",
+            "disabled": true,
+            "settings": {
+                "section_height": "four-fifty-height",
+                "layout": "inline",
+                "image_location": "left",
+                "image_width": "standard",
+                "image": "shopify://shop_images/easy-listening.jpg",
+                "subheading": "",
+                "title": "<p>Dog. Years Ahead.\u2122</p>",
+                "heading_highlight_type": "circle",
+                "highlight_color": "#d43747",
+                "highlight_text_color": "#000000",
+                "heading_size": 130,
+                "content": "<p>Share details about a promotion, welcome customers, describe a product, or talk about your brand.</p>",
+                "text_alignment": "left",
+                "button_text": "",
+                "button_link": "",
+                "button_color": "btn--black",
+                "button_style": "btn--text",
+                "button_size": "btn--small",
+                "video_link": "",
+                "text_color": "text-dark",
+                "bg_color": "",
+                "gradient": "",
+                "section_width": "wrapper",
+                "padding_top": 16,
+                "padding_bottom": 16
+            }
+        },
+        "10797e47-2e49-4b3f-aed2-8e0c60048140": {
+            "type": "section-image-with-text",
+            "disabled": true,
+            "settings": {
+                "section_height": "four-fifty-height",
+                "layout": "inline",
+                "image_location": "right",
+                "image_width": "standard",
+                "image": "shopify://shop_images/black-soap-on-wood.jpg",
+                "subheading": "",
+                "title": "<p>So Fresh, So Clean</p>",
+                "heading_highlight_type": "circle",
+                "highlight_color": "#d43747",
+                "highlight_text_color": "#000000",
+                "heading_size": 130,
+                "content": "<p>Share details about a promotion, welcome customers, describe a product, or talk about your brand.</p>",
+                "text_alignment": "left",
+                "button_text": "",
+                "button_link": "",
+                "button_color": "btn--black",
+                "button_style": "btn--text",
+                "button_size": "btn--small",
+                "video_link": "",
+                "text_color": "text-dark",
+                "bg_color": "",
+                "gradient": "",
+                "section_width": "wrapper",
+                "padding_top": 16,
+                "padding_bottom": 14
+            }
+        },
+        "58eee869-5f49-4443-a079-7e273e8806c0": {
+            "type": "section-image-with-text",
+            "disabled": true,
+            "settings": {
+                "section_height": "four-fifty-height",
+                "layout": "inline",
+                "image_location": "left",
+                "image_width": "standard",
+                "image": "shopify://shop_images/a-rock-climber-holds-out-knotted-rope.jpg",
+                "subheading": "",
+                "title": "<p>Better than Ballistic\u2122</p>",
+                "heading_highlight_type": "circle",
+                "highlight_color": "#d43747",
+                "highlight_text_color": "#000000",
+                "heading_size": 130,
+                "content": "<p>Share details about a promotion, welcome customers, describe a product, or talk about your brand.</p>",
+                "text_alignment": "left",
+                "button_text": "",
+                "button_link": "",
+                "button_color": "btn--black",
+                "button_style": "btn--text",
+                "button_size": "btn--small",
+                "video_link": "",
+                "text_color": "text-dark",
+                "bg_color": "",
+                "gradient": "",
+                "section_width": "wrapper",
+                "padding_top": 16,
+                "padding_bottom": 16
+            }
+        },
+        "overlapping-images-1": {
+            "type": "section-overlapping-images",
+            "disabled": true,
+            "settings": {
+                "text_position": "left",
+                "text_alignment": "center",
+                "images_width": 750,
+                "images_offset": 60,
+                "image_1": "shopify://shop_images/business_1200x800_01fb76fb-5a80-479b-bb01-c8c2a6da7fd4.webp",
+                "image_link_1": "",
+                "image_2": "shopify://shop_images/sewing_1200x800_4b4bcdd2-b75d-4c23-aed2-1a267ee7199f.webp",
+                "image_link_2": "",
+                "hide_image_2": false,
+                "title": "<p>Our Story, Our Promise</p>",
+                "heading_highlight_type": "circle",
+                "highlight_color": "#d43747",
+                "highlight_text_color": "#000000",
+                "description": "<p>You can find cheaper but you won't find better</p>",
+                "heading_size": 100,
+                "button_text": "",
+                "button_link": "",
+                "button_color": "btn--black",
+                "button_style": "btn--primary btn--small",
+                "button_size": "btn--small",
+                "video_text": "",
+                "video_link": "",
+                "bg_color_secondary": false,
+                "gradient": "",
+                "width": "wrapper--full-padded",
+                "padding_top": 60,
+                "padding_bottom": 60
+            }
+        },
+        "1713464037b99bffec": {
+            "type": "apps",
+            "blocks": {
+                "okendo_reviews_widget_WR3tEg": {
+                    "type": "shopify://apps/okendo/blocks/reviews-widget/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+                    "settings": {
+                        "product": "{{product}}",
+                        "widget_type": "reviews_widget"
+                    }
+                }
+            },
+            "block_order": [
+                "okendo_reviews_widget_WR3tEg"
+            ],
+            "settings": {
+                "bg_color": "",
+                "width": "wrapper",
+                "padding_top": 60,
+                "padding_bottom": 60
+            }
+        },
+        "7920b484-04a8-4a03-b011-ae299931e593": {
+            "type": "section-divider",
+            "settings": {
+                "show_line": true,
+                "width": "wrapper",
+                "padding_top": 50,
+                "padding_bottom": 50
+            }
+        },
+        "2218dd8c-3143-4e93-9e4e-7391da477ccc": {
+            "type": "section-collection",
+            "disabled": true,
+            "settings": {
+                "collection": "best-sellers",
+                "products_layout": "carousel",
+                "number_of_products": 3,
+                "products_per_row_on_desktop": 4,
+                "columns_mobile": "1",
+                "text_alignment": "text-center",
+                "title": "<p>CUSTOMER FAVORITES</p>",
+                "heading_highlight_type": "circle",
+                "highlight_color": "#d43747",
+                "highlight_text_color": "#000000",
+                "heading_size": 75,
+                "text": "",
+                "text_size": 75,
+                "button_text": "",
+                "button_color": "btn--black",
+                "button_style": "btn--solid",
+                "button_size": "btn--large",
+                "bg_color_secondary": false,
+                "enable_slider_mobile": true,
+                "width": "wrapper--full-padded",
+                "padding_top": 60,
+                "padding_bottom": 60
+            }
+        },
+        "fae30a91-d50a-4bcd-aff2-24e6353dd9be": {
+            "type": "section-collection",
+            "settings": {
+                "collection": "best-sellers",
+                "products_layout": "carousel",
+                "number_of_products": 6,
+                "products_per_row_on_desktop": 4,
+                "columns_mobile": "2",
+                "text_alignment": "text-left",
+                "title": "<p>More Products</p>",
+                "heading_highlight_type": "circle",
+                "highlight_color": "#d43747",
+                "highlight_text_color": "#000000",
+                "heading_size": 100,
+                "text": "",
+                "text_size": 100,
+                "button_text": "Shop Now",
+                "button_color": "btn--black",
+                "button_style": "btn--text",
+                "button_size": "btn--large",
+                "bg_color_secondary": false,
+                "enable_slider_mobile": true,
+                "width": "wrapper--full-padded",
+                "padding_top": 60,
+                "padding_bottom": 60
+            }
+        },
+        "c0b4cec3-1b31-4f77-a6ff-8b13cd8d2bc2": {
+            "type": "section-accordions",
+            "blocks": {
+                "template--18963859636539__c0b4cec3-1b31-4f77-a6ff-8b13cd8d2bc2-text-1": {
+                    "type": "text",
+                    "settings": {
+                        "title": "What size collar should I get?",
+                        "text": "<p>We recommend opting for a fairly snug fit, allowing for 1-2 fingers to comfortably fit under the webbing. This helps prevent irritation in case your dog pulls and ensures the collar is not too tight. Refer to our sizing chart on the product page for more detailed information.</p>"
+                    }
+                },
+                "template--18963859636539__c0b4cec3-1b31-4f77-a6ff-8b13cd8d2bc2-text-2": {
+                    "type": "text",
+                    "settings": {
+                        "title": "What size harness should I get?",
+                        "text": "<p>We recommend opting for a fairly snug fit, where 1-2 fingers can comfortably fit under the webbing. This helps prevent irritation if your dog pulls, and it ensures the harness is not too tight. Our sizing chart on the product page provides additional information for your reference.</p>"
+                    }
+                },
+                "24b7865a-56df-4289-a210-654d6b4ed6a1": {
+                    "type": "text",
+                    "settings": {
+                        "title": "What does \"BETTER THAN BALLISTIC\u2122\" mean?",
+                        "text": "<p>Other companies use materials labeled \"ballistic\" or \"rip-stop,\" which are often deemed proprietary. However, these materials tend to fall short on their claims. Oftentimes, these fabrics are non-recyclable, non-eco-friendly, and have been shown to degrade after the first wash.</p><p>Our fabrics are Better than Ballistic\u2122 because:</p><ul><li>Made from Tougher than Nails Recycled Repreve\u2122 Fabric</li><li>Eliminates odors</li><li>Eliminates 99.9% of bacteria</li><li>Triple layered for waterproof durability</li><li>Eco-friendly manufacturing process</li><li>Wash Less, saves money & time</li><li>Comfort, Style and sustainability for your pup</li></ul>"
+                    }
+                },
+                "540b7e5f-f165-4634-ac0c-e121fa3cad3e": {
+                    "type": "text",
+                    "settings": {
+                        "title": "What does Eco-Tough mean?",
+                        "text": "<p>Eco-Tough embodies our commitment to crafting products that are environmentally friendly, exceptionally durable, and meet the highest standards of sustainability and quality. This term encapsulates our brand ethos, creating pet essentials that not only meet the highest standards of environmental responsibility but also withstand the demands of pets' active lifestyles for pet owners.</p>"
+                    }
+                },
+                "template--18963859636539__c0b4cec3-1b31-4f77-a6ff-8b13cd8d2bc2-text-3": {
+                    "type": "text",
+                    "settings": {
+                        "title": "Are Anti-Bacterial & Anti-Odor treatments safe?",
+                        "text": "<p>Absolutely. The treatments we use are Bluesign\u00ae approved, meeting rigorous independent environmental and product life cycle standards. Polygiene\u00ae, a silver salt used for centuries to combat bacteria and odor, is applied in the final stages of production. Polygiene\u00ae is only active on the textile itself and does not interfere with your natural skin flora.</p>"
+                    }
+                },
+                "template--18963859636539__c0b4cec3-1b31-4f77-a6ff-8b13cd8d2bc2-text-4": {
+                    "type": "text",
+                    "settings": {
+                        "title": "What makes Black Lab's fabric so tough?",
+                        "text": "<p>Black Lab's fabrics are the epitome toughness, featuring a distinctive triple-layered construction meticulously designed to endure the challenges of a dog's lifestyle.\u00a0</p><p><strong>The Face Layer: </strong>Crafted from 100% recycled yarn, rigorously tested, and proven to be almost twice as strong as competitors\u2019 fabrics in both abrasion and tear resistance.</p><p><strong>Middle Layer: </strong>Waterproof and eco-friendly to repel moisture while increasing durability.</p><p><strong>Base Layer</strong>: A game-changing layer providing extra strength and durability against degradation.</p>"
+                    }
+                },
+                "7dd82d30-a8f4-491b-bbb6-d89d0cf89b36": {
+                    "type": "text",
+                    "settings": {
+                        "title": "How do StayFresh treatments work?",
+                        "text": "<p>Black Lab fabrics are treated with StayFresh, a Swiss-engineered antibacterial and anti-odor technology. This technology relies on a naturally occurring salt found in water and soil. By inhibiting bacteria growth, our textiles effectively eliminate odors, maintaining a cleaner and more hygienic state day after day. This sustainable design encourages less frequent washing of our products, ultimately saving time, water, and energy.</p>"
+                    }
+                },
+                "d8003cc7-69c7-4431-9ddc-de686894c78b": {
+                    "type": "text",
+                    "settings": {
+                        "title": "Do you offer a warranty for your products?",
+                        "text": "<p>Yes, we provide the Black Lab 30-Day Manufacturer's Warranty on all products. Our warranty guarantees our products against any material defects or workmanship issues at the time of purchase. If you encounter any defect within 30 days of purchase, we will replace the defective item once, free of charge. Simply provide us with a clear photo of the defect to initiate the warranty claim process.</p>"
+                    }
+                }
+            },
+            "block_order": [
+                "template--18963859636539__c0b4cec3-1b31-4f77-a6ff-8b13cd8d2bc2-text-1",
+                "template--18963859636539__c0b4cec3-1b31-4f77-a6ff-8b13cd8d2bc2-text-2",
+                "24b7865a-56df-4289-a210-654d6b4ed6a1",
+                "540b7e5f-f165-4634-ac0c-e121fa3cad3e",
+                "template--18963859636539__c0b4cec3-1b31-4f77-a6ff-8b13cd8d2bc2-text-3",
+                "template--18963859636539__c0b4cec3-1b31-4f77-a6ff-8b13cd8d2bc2-text-4",
+                "7dd82d30-a8f4-491b-bbb6-d89d0cf89b36",
+                "d8003cc7-69c7-4431-9ddc-de686894c78b"
+            ],
+            "settings": {
+                "layout": "two-columns",
+                "show_accordion_divider": false,
+                "title": "Frequently Asked Questions",
+                "subheading": "",
+                "text": "",
+                "tabs_bg_color": "#fafafa",
+                "bg_color_secondary": false,
+                "text_color": "text-dark",
+                "width": "wrapper",
+                "padding_top": 60,
+                "padding_bottom": 60
+            }
+        },
+        "29c8d759-a7c3-472e-8ff4-97aa69b9f4a1": {
+            "type": "section-banner-image",
+            "blocks": {
+                "template--18963859636539__29c8d759-a7c3-472e-8ff4-97aa69b9f4a1-1683754066a22ffe97-0": {
+                    "type": "subheading",
+                    "settings": {
+                        "text": "<p>Black Lab Brands</p>",
+                        "size": 145
+                    }
+                },
+                "template--18963859636539__29c8d759-a7c3-472e-8ff4-97aa69b9f4a1-1683754066a22ffe97-1": {
+                    "type": "heading",
+                    "settings": {
+                        "text": "<p>Dog. Years Ahead.\u2122</p>",
+                        "hide_spacer_lines": false,
+                        "size": 135,
+                        "heading_highlight_type": "italics",
+                        "highlight_color": "#d43747",
+                        "highlight_text_color": "#000000"
+                    }
+                },
+                "template--18963859636539__29c8d759-a7c3-472e-8ff4-97aa69b9f4a1-1683754066a22ffe97-2": {
+                    "type": "text",
+                    "settings": {
+                        "text": "<p>We create sustainable essentials for you and your pup that are built to perform. Simple, timeless designs built around premium materials.</p><p></p><p></p>",
+                        "size": 70
+                    }
+                },
+                "template--18963859636539__29c8d759-a7c3-472e-8ff4-97aa69b9f4a1-1683754066a22ffe97-3": {
+                    "type": "button",
+                    "disabled": true,
+                    "settings": {
+                        "button_1_text": "Shop All",
+                        "button_1_link": "shopify://collections/all",
+                        "button_1_color": "btn--white",
+                        "button_1_style": "btn--solid-border",
+                        "button_1_size": "btn--small",
+                        "button_2_text": "",
+                        "button_2_link": "",
+                        "button_2_color": "btn--black",
+                        "button_2_style": "btn--solid",
+                        "button_2_size": "btn--small"
+                    }
+                }
+            },
+            "block_order": [
+                "template--18963859636539__29c8d759-a7c3-472e-8ff4-97aa69b9f4a1-1683754066a22ffe97-0",
+                "template--18963859636539__29c8d759-a7c3-472e-8ff4-97aa69b9f4a1-1683754066a22ffe97-1",
+                "template--18963859636539__29c8d759-a7c3-472e-8ff4-97aa69b9f4a1-1683754066a22ffe97-2",
+                "template--18963859636539__29c8d759-a7c3-472e-8ff4-97aa69b9f4a1-1683754066a22ffe97-3"
+            ],
+            "settings": {
+                "height": "four-fifty-height",
+                "enable_mobile_height": false,
+                "mobile_height": "four-fifty-height-mobile",
+                "image": "shopify://shop_images/001_5670_1.jpg",
+                "overlay_opacity": 35,
+                "enable_zoom_animation": true,
+                "text_width": "normal",
+                "text_position": "left",
+                "mobile_layout": "layout-overlay",
+                "text_color": "text-light"
+            }
+        },
+        "icons": {
+            "type": "section-icons-row",
+            "blocks": {
+                "icon-0": {
+                    "type": "text",
+                    "settings": {
+                        "icon_name": "truck",
+                        "title": "Free Shipping",
+                        "text": "<p>on all order over $75</p>"
+                    }
+                },
+                "icon-1": {
+                    "type": "text",
+                    "settings": {
+                        "icon_name": "check",
+                        "title": "Free Returns",
+                        "text": "<p>within 30 days of purchase</p>"
+                    }
+                },
+                "icon-2": {
+                    "type": "text",
+                    "settings": {
+                        "icon_name": "eco-friendly",
+                        "title": "Sustainability",
+                        "text": "<p>Manufactured Responsibly </p>"
+                    }
+                }
+            },
+            "block_order": [
+                "icon-0",
+                "icon-1",
+                "icon-2"
+            ],
+            "disabled": true,
+            "settings": {
+                "alignment": "center",
+                "columns": 3,
+                "icons_width": 20,
+                "heading": "",
+                "subheading": "",
+                "bg_color": "#f7f7f7",
+                "text_color": "#333333",
+                "box_color": "",
+                "button_text": "",
+                "button_link": "",
+                "button_color": "btn--black",
+                "button_style": "btn--secondary btn--small",
+                "button_size": "btn--small",
+                "enable_slider_mobile": false,
+                "padding_top": 60,
+                "padding_bottom": 60
+            }
+        }
+    },
+    "order": [
+        "main",
+        "1741134700b01625d5",
+        "934a25a2-b3fc-4116-bf0d-6c292a2561de",
+        "812de66c-1ea1-431c-a48a-d7b9a49247b9",
+        "related",
+        "7afb2145-a6e6-4329-a5cb-272756f38336",
+        "7eee41c8-903d-437f-a2f6-d33ba39f7db6",
+        "testimonials",
+        "c7d105e4-119f-48f8-a5c3-c9c748b54a50",
+        "10797e47-2e49-4b3f-aed2-8e0c60048140",
+        "58eee869-5f49-4443-a079-7e273e8806c0",
+        "overlapping-images-1",
+        "1713464037b99bffec",
+        "7920b484-04a8-4a03-b011-ae299931e593",
+        "2218dd8c-3143-4e93-9e4e-7391da477ccc",
+        "fae30a91-d50a-4bcd-aff2-24e6353dd9be",
+        "c0b4cec3-1b31-4f77-a6ff-8b13cd8d2bc2",
+        "29c8d759-a7c3-472e-8ff4-97aa69b9f4a1",
+        "icons"
+    ]
+}

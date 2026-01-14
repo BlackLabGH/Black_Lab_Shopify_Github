@@ -1,0 +1,82 @@
+<div
+  class="flex flex-col flex-wrap items-start justify-center py-5 text-base leading-normal border-t-0 border-b border-solid border-x-0 border-beige-500"
+  {{ block.shopify_attributes }}
+>
+  <div class="ml-gutter md:ml-0">
+    {{ block.settings.title }}
+  </div>
+</div>
+
+<div class="flex flex-wrap items-center justify-center py-3 text-center border-t-0 border-b border-solid border-x border-beige-500 bg-light-cream-500">
+  {% if block.settings.use_icons %}
+    <div class="w-9.5 h-10.5 md:w-12.5 md:h-13.5 *:block *:w-full *:h-full">
+      {{ 'static-comparison-table-checked.svg' | inline_asset_content }}
+    </div>
+  {% else %}
+    <div class="rte body-sm md:body-md lg:body-lg">
+      {{ block.settings.brand_content }}
+    </div>
+  {% endif %}
+</div>
+
+<div class="flex flex-wrap items-center justify-center py-3 text-center border-t-0 border-b border-solid border-x-0 border-beige-500">
+  {% if block.settings.use_icons_other %}
+    <div class="w-9.5 h-10.5 md:w-12.5 md:h-13.5 *:block *:w-full *:h-full">
+      {{ 'static-comparison-table-unchecked.svg' | inline_asset_content }}
+    </div>
+  {% else %}
+    {{ block.settings.other_content }}
+  {% endif %}
+</div>
+
+{% schema %}
+{
+  "name": "Comparison table row",
+  "tag": null,
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "t:blocks.comparison-table-row.settings.title.label",
+      "default": "Certified Organic & Non-GMO"
+    },
+    {
+      "type": "header",
+      "content": "Brand content"
+    },
+    {
+      "type": "checkbox",
+      "id": "use_icons",
+      "label": "Use Icons",
+      "info": "Use icons instead of text for this attribute",
+      "default": true
+    },
+    {
+      "type": "richtext",
+      "id": "brand_content",
+      "label": "Brand column Content"
+    },
+    {
+      "type": "header",
+      "content": "\"Ballistic\" Beds"
+    },
+    {
+      "type": "checkbox",
+      "id": "use_icons_other",
+      "label": "Use Icons",
+      "info": "Use icons instead of text for this attribute",
+      "default": true
+    },
+    {
+      "type": "richtext",
+      "id": "other_content",
+      "label": "\"Ballistic\" Beds Column Content"
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:blocks.comparison-table-row.name"
+    }
+  ]
+}
+{% endschema %}

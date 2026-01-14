@@ -1,0 +1,450 @@
+{% doc %}
+  @prompt
+    A rich text section with Header, Sub header, and rich text fields. The text in the Header should flip up and change to the next word. This should be looping. With the ability for up to 5 words to cycle through. Each option field for the header should be able to be set to a different color, The animated Header is not visible. Please help fix it, Animated header is still glitching. The motion is not smoothly transitioning, Animation header should be on a loop. Scrolling through each word and then starting from the first word again., Animated header still is not looping. It is not cycling through each Animated Header field and starting from the beginning again.
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-rich-text-{{ ai_gen_id }} {
+    display: block;
+    width: 100%;
+    padding: 40px 20px;
+    text-align: {{ block.settings.text_alignment }};
+  }
+
+  .ai-rich-text-container-{{ ai_gen_id }} {
+    max-width: {{ block.settings.max_width }}px;
+    margin: 0 auto;
+  }
+
+  .ai-rich-text-header-wrapper-{{ ai_gen_id }} {
+    position: relative;
+    display: inline-block;
+    margin-bottom: {{ block.settings.header_spacing }}px;
+    min-height: calc({{ block.settings.header_size }}px * 1.2);
+    overflow: hidden;
+  }
+
+  .ai-rich-text-header-{{ ai_gen_id }} {
+    font-size: {{ block.settings.header_size }}px;
+    font-weight: {{ block.settings.header_weight }};
+    margin: 0;
+    line-height: 1.2;
+    position: relative;
+    display: inline-block;
+  }
+
+  .ai-rich-text-word-{{ ai_gen_id }} {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transform: translateY(100%);
+    white-space: nowrap;
+  }
+
+  .ai-rich-text-word-{{ ai_gen_id }}.active {
+    opacity: 1;
+    transform: translateY(0);
+    position: relative;
+  }
+
+  .ai-rich-text-word-{{ ai_gen_id }}.exiting {
+    opacity: 0;
+    transform: translateY(-100%);
+    position: absolute;
+  }
+
+  .ai-rich-text-subheader-{{ ai_gen_id }} {
+    font-size: {{ block.settings.subheader_size }}px;
+    color: {{ block.settings.subheader_color }};
+    margin: 0 0 {{ block.settings.subheader_spacing }}px;
+  }
+
+  .ai-rich-text-content-{{ ai_gen_id }} {
+    font-size: {{ block.settings.content_size }}px;
+    color: {{ block.settings.content_color }};
+    line-height: 1.6;
+  }
+
+  .ai-rich-text-content-{{ ai_gen_id }} p {
+    margin: 0 0 1em;
+  }
+
+  .ai-rich-text-content-{{ ai_gen_id }} p:last-child {
+    margin-bottom: 0;
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-rich-text-{{ ai_gen_id }} {
+      padding: 30px 15px;
+    }
+
+    .ai-rich-text-header-wrapper-{{ ai_gen_id }} {
+      min-height: calc({{ block.settings.header_size }}px * 0.7 * 1.2);
+    }
+
+    .ai-rich-text-header-{{ ai_gen_id }} {
+      font-size: calc({{ block.settings.header_size }}px * 0.7);
+    }
+
+    .ai-rich-text-subheader-{{ ai_gen_id }} {
+      font-size: calc({{ block.settings.subheader_size }}px * 0.8);
+    }
+
+    .ai-rich-text-content-{{ ai_gen_id }} {
+      font-size: calc({{ block.settings.content_size }}px * 0.9);
+    }
+  }
+{% endstyle %}
+
+<animated-rich-text-{{ ai_gen_id }}
+  class="ai-rich-text-{{ ai_gen_id }}"
+  {{ block.shopify_attributes }}
+>
+  <div class="ai-rich-text-container-{{ ai_gen_id }}">
+    {% liquid
+      assign words = ''
+      assign word_count = 0
+
+      for i in (1..5)
+        assign word_key = 'header_word_' | append: i
+        assign word = block.settings[word_key]
+        if word != blank
+          assign word_count = word_count | plus: 1
+          if words == blank
+            assign words = word
+          else
+            assign words = words | append: '||' | append: word
+          endif
+        endif
+      endfor
+    %}
+
+    {% if word_count > 0 %}
+      <div class="ai-rich-text-header-wrapper-{{ ai_gen_id }}">
+        <h2 class="ai-rich-text-header-{{ ai_gen_id }}">
+          {% assign word_array = words | split: '||' %}
+          {% for word in word_array %}
+            {% assign color_key = 'header_word_' | append: forloop.index | append: '_color' %}
+            {% assign word_color = block.settings[color_key] %}
+            <span
+              class="ai-rich-text-word-{{ ai_gen_id }} {% if forloop.index == 1 %}active{% endif %}"
+              data-word-index="{{ forloop.index0 }}"
+              style="color: {{ word_color }};"
+            >
+              {{ word }}
+            </span>
+          {% endfor %}
+        </h2>
+      </div>
+    {% endif %}
+
+    {% if block.settings.subheader != blank %}
+      <div class="ai-rich-text-subheader-{{ ai_gen_id }}">
+        {{ block.settings.subheader }}
+      </div>
+    {% endif %}
+
+    {% if block.settings.content != blank %}
+      <div class="ai-rich-text-content-{{ ai_gen_id }}">
+        {{ block.settings.content }}
+      </div>
+    {% endif %}
+  </div>
+</animated-rich-text-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class AnimatedRichText{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+        this.words = [];
+        this.currentIndex = 0;
+        this.interval = null;
+        this.isAnimating = false;
+      }
+
+      connectedCallback() {
+        this.words = Array.from(this.querySelectorAll('.ai-rich-text-word-{{ ai_gen_id }}'));
+        
+        if (this.words.length > 1) {
+          this.startAnimation();
+        }
+      }
+
+      startAnimation() {
+        const duration = {{ block.settings.animation_duration }} * 1000;
+        
+        this.interval = setInterval(() => {
+          if (!this.isAnimating) {
+            this.animateToNext();
+          }
+        }, duration);
+      }
+
+      animateToNext() {
+        this.isAnimating = true;
+        
+        const currentWord = this.words[this.currentIndex];
+        this.currentIndex = (this.currentIndex + 1) % this.words.length;
+        const nextWord = this.words[this.currentIndex];
+        
+        currentWord.classList.add('exiting');
+        currentWord.classList.remove('active');
+        
+        setTimeout(() => {
+          currentWord.classList.remove('exiting');
+          
+          nextWord.classList.add('active');
+          
+          this.isAnimating = false;
+        }, 600);
+      }
+
+      disconnectedCallback() {
+        if (this.interval) {
+          clearInterval(this.interval);
+        }
+      }
+    }
+
+    customElements.define('animated-rich-text-{{ ai_gen_id }}', AnimatedRichText{{ ai_gen_id }});
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "Animated rich text",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "range",
+      "id": "max_width",
+      "label": "Maximum width",
+      "min": 400,
+      "max": 1200,
+      "step": 50,
+      "unit": "px",
+      "default": 800
+    },
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "label": "Text alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "header",
+      "content": "Animated header"
+    },
+    {
+      "type": "text",
+      "id": "header_word_1",
+      "label": "Word 1",
+      "default": "Welcome"
+    },
+    {
+      "type": "color",
+      "id": "header_word_1_color",
+      "label": "Word 1 color",
+      "default": "#000000"
+    },
+    {
+      "type": "text",
+      "id": "header_word_2",
+      "label": "Word 2",
+      "default": "Discover"
+    },
+    {
+      "type": "color",
+      "id": "header_word_2_color",
+      "label": "Word 2 color",
+      "default": "#004AC7"
+    },
+    {
+      "type": "text",
+      "id": "header_word_3",
+      "label": "Word 3",
+      "default": "Explore"
+    },
+    {
+      "type": "color",
+      "id": "header_word_3_color",
+      "label": "Word 3 color",
+      "default": "#FF5252"
+    },
+    {
+      "type": "text",
+      "id": "header_word_4",
+      "label": "Word 4"
+    },
+    {
+      "type": "color",
+      "id": "header_word_4_color",
+      "label": "Word 4 color",
+      "default": "#00C853"
+    },
+    {
+      "type": "text",
+      "id": "header_word_5",
+      "label": "Word 5"
+    },
+    {
+      "type": "color",
+      "id": "header_word_5_color",
+      "label": "Word 5 color",
+      "default": "#FFD740"
+    },
+    {
+      "type": "range",
+      "id": "header_size",
+      "label": "Size",
+      "min": 20,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "default": 48
+    },
+    {
+      "type": "select",
+      "id": "header_weight",
+      "label": "Weight",
+      "options": [
+        {
+          "value": "400",
+          "label": "Normal"
+        },
+        {
+          "value": "600",
+          "label": "Semi-bold"
+        },
+        {
+          "value": "700",
+          "label": "Bold"
+        },
+        {
+          "value": "800",
+          "label": "Extra bold"
+        }
+      ],
+      "default": "700"
+    },
+    {
+      "type": "range",
+      "id": "header_spacing",
+      "label": "Bottom spacing",
+      "min": 0,
+      "max": 60,
+      "step": 4,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "animation_duration",
+      "label": "Animation duration",
+      "min": 2,
+      "max": 10,
+      "step": 1,
+      "unit": "s",
+      "default": 3
+    },
+    {
+      "type": "header",
+      "content": "Subheader"
+    },
+    {
+      "type": "richtext",
+      "id": "subheader",
+      "label": "Subheader",
+      "default": "<p>Your journey starts here</p>"
+    },
+    {
+      "type": "color",
+      "id": "subheader_color",
+      "label": "Color",
+      "default": "#666666"
+    },
+    {
+      "type": "range",
+      "id": "subheader_size",
+      "label": "Size",
+      "min": 12,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "subheader_spacing",
+      "label": "Bottom spacing",
+      "min": 0,
+      "max": 60,
+      "step": 4,
+      "unit": "px",
+      "default": 24
+    },
+    {
+      "type": "header",
+      "content": "Content"
+    },
+    {
+      "type": "richtext",
+      "id": "content",
+      "label": "Rich text",
+      "default": "<p>Add your content here. Use the rich text editor to format your text with bold, italic, lists, and more.</p>"
+    },
+    {
+      "type": "color",
+      "id": "content_color",
+      "label": "Color",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "content_size",
+      "label": "Size",
+      "min": 12,
+      "max": 32,
+      "step": 2,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "desktop_width_percent",
+      "label": "Desktop width",
+      "min": 50,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "default": 100
+    }
+  ],
+  "presets": [
+    {
+      "name": "Animated rich text"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,92 @@
+{%- liquid
+  assign header_id = 'SiteHeader'
+  assign cart_animation = settings.enable_cart_animation
+  assign animations_enabled = settings.animations_enabled
+  assign animation_anchor = '#' | append: header_id
+  assign animation_delay = 150
+
+ if settings.cart_type == 'drawer' and template.name != 'cart'
+    render 'cart-drawer' cart: cart
+  endif
+-%}
+
+{%- capture cart_icon -%}
+  {%- render 'icon-shopping-cart' -%}
+{%- endcapture -%}
+
+<header id="{{ header_id }}"
+  class="site-header site-header-clp"
+  role="banner"
+  data-site-header
+  data-section-id="{{ section.id }}">
+
+    <div class="wrapper flex justify-between" data-wrapper>
+        <div class="logo-wrap">
+            <a href="{{ routes.root_url }}" aria-label="{{ shop.name }}" class="">
+                {%- render 'icon-brandmark' -%}
+            </a>
+        </div>
+
+        <nav id="NavStandard" data-nav>
+            <div class="menu__item menu__item--icons" data-nav-icons data-takes-space>
+        
+                <div class="menu__item menu__item--icon">
+                    <a href="{{ routes.cart_url }}" class="nav navlink navlink--icon cart__toggle{% if cart.item_count > 0 %} cart__toggle--has-items{% endif %}{% if cart_animation %} cart__toggle--animation{% endif %}" aria-controls="cart-drawer" aria-expanded="false"{% unless template.name == 'cart' or settings.cart_type == 'page' %} data-cart-drawer-toggle{% endunless %}>
+                    <span class="visually-hidden">{{ 'general.accessibility.open_cart' | t }}</span>
+                    {%- if header_icons_as_text -%}
+                        {{ 'layout.cart.title' | t }}
+                    {%- else -%}
+                        {{ cart_icon }}
+                    {%- endif -%}
+                    </a>
+              </div>
+            </div>
+        </nav>
+    </div>
+</header>
+
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": {{ shop.name | json }},
+  {%- if section.settings.logo or section.settings.logo_not_home -%}
+    {%- if section.settings.logo -%}
+      {%- assign logo = section.settings.logo -%}
+    {%- elsif section.settings.logo_not_home -%}
+      {%- assign logo = section.settings.logo_not_home -%}
+    {%- endif -%}
+    {%- assign image_size = logo.width | append: 'x' -%}
+
+    "logo": {{ logo | img_url: image_size | prepend: 'https:' | json }},
+  {%- endif -%}
+  "sameAs": [
+    {{ settings.instagram_link | json }},
+    {{ settings.facebook_link | json }},
+    {{ settings.twitter_link | json }},
+    {{ settings.youtube_link | json }},
+    {{ settings.vimeo_link | json }},
+    {{ settings.pinterest_link | json }},
+    {{ settings.tumblr_link | json }}
+  ],
+  "url": {{ shop.url | append: page.url | json }}
+}
+</script>
+
+{%- if template.name == 'index' -%}
+  {%- assign potential_action_target = shop.url | append: routes.search_url | append: "?q={search_term_string}" -%}
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "name": {{ shop.name | json }},
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {{ potential_action_target | json }},
+        "query-input": "required name=search_term_string"
+      },
+      "url": {{ shop.url | append: page.url | json }}
+    }
+  </script>
+{%- endif -%}

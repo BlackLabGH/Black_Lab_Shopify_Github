@@ -1,0 +1,445 @@
+{% doc %}
+  @prompt
+    text scroller, should scroll vertically, There should be up to 3 lines of rich text, stacked. each line can be changed for size and color. Only the top line text scroll / switches. It can switch with up to 6 different wordsScrolling speed can be changed, Allow text to be right center or left justified. Allow each of the six text options in the scrolling word color to be different, Make the scrolling words loop. Make the action more of a flip to the next word
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-text-scroller-{{ ai_gen_id }} {
+    display: block;
+    width: 100%;
+    background-color: {{ block.settings.background_color }};
+    padding: {{ block.settings.padding_vertical }}px {{ block.settings.padding_horizontal }}px;
+  }
+
+  .ai-text-scroller__container-{{ ai_gen_id }} {
+    display: flex;
+    flex-direction: column;
+    gap: {{ block.settings.line_spacing }}px;
+    max-width: 100%;
+    {% if block.settings.text_alignment == 'left' %}
+      align-items: flex-start;
+    {% elsif block.settings.text_alignment == 'center' %}
+      align-items: center;
+    {% else %}
+      align-items: flex-end;
+    {% endif %}
+  }
+
+  .ai-text-scroller__line-1-{{ ai_gen_id }} {
+    position: relative;
+    height: {{ block.settings.line_1_size }}px;
+    overflow: hidden;
+    display: flex;
+    {% if block.settings.text_alignment == 'left' %}
+      justify-content: flex-start;
+    {% elsif block.settings.text_alignment == 'center' %}
+      justify-content: center;
+    {% else %}
+      justify-content: flex-end;
+    {% endif %}
+    perspective: 1000px;
+  }
+
+  .ai-text-scroller__words-{{ ai_gen_id }} {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+
+  .ai-text-scroller__word-{{ ai_gen_id }} {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: {{ block.settings.line_1_size }}px;
+    display: flex;
+    align-items: center;
+    font-size: {{ block.settings.line_1_size }}px;
+    line-height: 1;
+    text-align: {{ block.settings.text_alignment }};
+    {% if block.settings.text_alignment == 'left' %}
+      justify-content: flex-start;
+    {% elsif block.settings.text_alignment == 'center' %}
+      justify-content: center;
+    {% else %}
+      justify-content: flex-end;
+    {% endif %}
+    opacity: 0;
+    transform: rotateX(90deg);
+    transform-origin: center;
+  }
+
+  .ai-text-scroller__word-1-{{ ai_gen_id }} {
+    color: {{ block.settings.word_1_color }};
+  }
+
+  .ai-text-scroller__word-2-{{ ai_gen_id }} {
+    color: {{ block.settings.word_2_color }};
+  }
+
+  .ai-text-scroller__word-3-{{ ai_gen_id }} {
+    color: {{ block.settings.word_3_color }};
+  }
+
+  .ai-text-scroller__word-4-{{ ai_gen_id }} {
+    color: {{ block.settings.word_4_color }};
+  }
+
+  .ai-text-scroller__word-5-{{ ai_gen_id }} {
+    color: {{ block.settings.word_5_color }};
+  }
+
+  .ai-text-scroller__word-6-{{ ai_gen_id }} {
+    color: {{ block.settings.word_6_color }};
+  }
+
+  .ai-text-scroller__line-2-{{ ai_gen_id }} {
+    color: {{ block.settings.line_2_color }};
+    font-size: {{ block.settings.line_2_size }}px;
+    text-align: {{ block.settings.text_alignment }};
+    line-height: 1.2;
+  }
+
+  .ai-text-scroller__line-3-{{ ai_gen_id }} {
+    color: {{ block.settings.line_3_color }};
+    font-size: {{ block.settings.line_3_size }}px;
+    text-align: {{ block.settings.text_alignment }};
+    line-height: 1.2;
+  }
+
+  {% assign word_count = 0 %}
+  {% if block.settings.word_1 != blank %}{% assign word_count = word_count | plus: 1 %}{% endif %}
+  {% if block.settings.word_2 != blank %}{% assign word_count = word_count | plus: 1 %}{% endif %}
+  {% if block.settings.word_3 != blank %}{% assign word_count = word_count | plus: 1 %}{% endif %}
+  {% if block.settings.word_4 != blank %}{% assign word_count = word_count | plus: 1 %}{% endif %}
+  {% if block.settings.word_5 != blank %}{% assign word_count = word_count | plus: 1 %}{% endif %}
+  {% if block.settings.word_6 != blank %}{% assign word_count = word_count | plus: 1 %}{% endif %}
+
+  {% if word_count > 0 %}
+    {% assign total_duration = block.settings.scroll_speed %}
+    {% assign display_percent = 70.0 | divided_by: word_count %}
+    {% assign transition_percent = 30.0 | divided_by: word_count %}
+
+    {% for i in (1..word_count) %}
+      @keyframes ai-flip-word-{{ i }}-{{ ai_gen_id }} {
+        {% assign start = i | minus: 1 | times: 100.0 | divided_by: word_count %}
+        {% assign flip_in = start | plus: transition_percent | divided_by: 2 %}
+        {% assign visible_end = start | plus: display_percent %}
+        {% assign flip_out = visible_end | plus: transition_percent | divided_by: 2 %}
+        {% assign end_pos = i | times: 100.0 | divided_by: word_count %}
+
+        0%, {{ start }}% {
+          opacity: 0;
+          transform: rotateX(90deg);
+        }
+        {{ flip_in }}% {
+          opacity: 1;
+          transform: rotateX(0deg);
+        }
+        {{ visible_end }}% {
+          opacity: 1;
+          transform: rotateX(0deg);
+        }
+        {{ flip_out }}%, 100% {
+          opacity: 0;
+          transform: rotateX(-90deg);
+        }
+      }
+
+      .ai-text-scroller__word-{{ i }}-{{ ai_gen_id }} {
+        animation: ai-flip-word-{{ i }}-{{ ai_gen_id }} {{ total_duration }}s ease-in-out infinite;
+      }
+    {% endfor %}
+  {% endif %}
+
+  @media screen and (max-width: 749px) {
+    .ai-text-scroller__line-1-{{ ai_gen_id }} {
+      height: {{ block.settings.line_1_size | times: 0.7 }}px;
+    }
+
+    .ai-text-scroller__word-{{ ai_gen_id }} {
+      height: {{ block.settings.line_1_size | times: 0.7 }}px;
+      font-size: {{ block.settings.line_1_size | times: 0.7 }}px;
+    }
+
+    .ai-text-scroller__line-2-{{ ai_gen_id }} {
+      font-size: {{ block.settings.line_2_size | times: 0.7 }}px;
+    }
+
+    .ai-text-scroller__line-3-{{ ai_gen_id }} {
+      font-size: {{ block.settings.line_3_size | times: 0.7 }}px;
+    }
+  }
+{% endstyle %}
+
+<div class="ai-text-scroller-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  <div class="ai-text-scroller__container-{{ ai_gen_id }}">
+    <div class="ai-text-scroller__line-1-{{ ai_gen_id }}">
+      <div class="ai-text-scroller__words-{{ ai_gen_id }}">
+        {% if block.settings.word_1 != blank %}
+          <div class="ai-text-scroller__word-{{ ai_gen_id }} ai-text-scroller__word-1-{{ ai_gen_id }}">{{ block.settings.word_1 }}</div>
+        {% endif %}
+        {% if block.settings.word_2 != blank %}
+          <div class="ai-text-scroller__word-{{ ai_gen_id }} ai-text-scroller__word-2-{{ ai_gen_id }}">{{ block.settings.word_2 }}</div>
+        {% endif %}
+        {% if block.settings.word_3 != blank %}
+          <div class="ai-text-scroller__word-{{ ai_gen_id }} ai-text-scroller__word-3-{{ ai_gen_id }}">{{ block.settings.word_3 }}</div>
+        {% endif %}
+        {% if block.settings.word_4 != blank %}
+          <div class="ai-text-scroller__word-{{ ai_gen_id }} ai-text-scroller__word-4-{{ ai_gen_id }}">{{ block.settings.word_4 }}</div>
+        {% endif %}
+        {% if block.settings.word_5 != blank %}
+          <div class="ai-text-scroller__word-{{ ai_gen_id }} ai-text-scroller__word-5-{{ ai_gen_id }}">{{ block.settings.word_5 }}</div>
+        {% endif %}
+        {% if block.settings.word_6 != blank %}
+          <div class="ai-text-scroller__word-{{ ai_gen_id }} ai-text-scroller__word-6-{{ ai_gen_id }}">{{ block.settings.word_6 }}</div>
+        {% endif %}
+      </div>
+    </div>
+
+    {% if block.settings.line_2 != blank %}
+      <div class="ai-text-scroller__line-2-{{ ai_gen_id }}">
+        {{ block.settings.line_2 }}
+      </div>
+    {% endif %}
+
+    {% if block.settings.line_3 != blank %}
+      <div class="ai-text-scroller__line-3-{{ ai_gen_id }}">
+        {{ block.settings.line_3 }}
+      </div>
+    {% endif %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Text scroller",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Line 1 - Scrolling words"
+    },
+    {
+      "type": "text",
+      "id": "word_1",
+      "label": "Word 1",
+      "default": "Premium"
+    },
+    {
+      "type": "color",
+      "id": "word_1_color",
+      "label": "Word 1 color",
+      "default": "#373535"
+    },
+    {
+      "type": "text",
+      "id": "word_2",
+      "label": "Word 2",
+      "default": "Quality"
+    },
+    {
+      "type": "color",
+      "id": "word_2_color",
+      "label": "Word 2 color",
+      "default": "#373535"
+    },
+    {
+      "type": "text",
+      "id": "word_3",
+      "label": "Word 3",
+      "default": "Handcrafted"
+    },
+    {
+      "type": "color",
+      "id": "word_3_color",
+      "label": "Word 3 color",
+      "default": "#373535"
+    },
+    {
+      "type": "text",
+      "id": "word_4",
+      "label": "Word 4"
+    },
+    {
+      "type": "color",
+      "id": "word_4_color",
+      "label": "Word 4 color",
+      "default": "#373535"
+    },
+    {
+      "type": "text",
+      "id": "word_5",
+      "label": "Word 5"
+    },
+    {
+      "type": "color",
+      "id": "word_5_color",
+      "label": "Word 5 color",
+      "default": "#373535"
+    },
+    {
+      "type": "text",
+      "id": "word_6",
+      "label": "Word 6"
+    },
+    {
+      "type": "color",
+      "id": "word_6_color",
+      "label": "Word 6 color",
+      "default": "#373535"
+    },
+    {
+      "type": "range",
+      "id": "line_1_size",
+      "label": "Font size",
+      "min": 20,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "default": 48
+    },
+    {
+      "type": "header",
+      "content": "Line 2"
+    },
+    {
+      "type": "richtext",
+      "id": "line_2",
+      "label": "Text",
+      "default": "<p>Products for every lifestyle</p>"
+    },
+    {
+      "type": "range",
+      "id": "line_2_size",
+      "label": "Font size",
+      "min": 12,
+      "max": 60,
+      "step": 2,
+      "unit": "px",
+      "default": 24
+    },
+    {
+      "type": "color",
+      "id": "line_2_color",
+      "label": "Text color",
+      "default": "#373535"
+    },
+    {
+      "type": "header",
+      "content": "Line 3"
+    },
+    {
+      "type": "richtext",
+      "id": "line_3",
+      "label": "Text",
+      "default": "<p>Free shipping on orders over $75</p>"
+    },
+    {
+      "type": "range",
+      "id": "line_3_size",
+      "label": "Font size",
+      "min": 12,
+      "max": 60,
+      "step": 2,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "color",
+      "id": "line_3_color",
+      "label": "Text color",
+      "default": "#373535"
+    },
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "label": "Text alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "range",
+      "id": "line_spacing",
+      "label": "Line spacing",
+      "min": 5,
+      "max": 40,
+      "step": 5,
+      "unit": "px",
+      "default": 15
+    },
+    {
+      "type": "range",
+      "id": "padding_vertical",
+      "label": "Vertical padding",
+      "min": 10,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_horizontal",
+      "label": "Horizontal padding",
+      "min": 10,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background color",
+      "default": "#f7f7f7"
+    },
+    {
+      "type": "header",
+      "content": "Animation"
+    },
+    {
+      "type": "range",
+      "id": "scroll_speed",
+      "label": "Scroll speed",
+      "min": 5,
+      "max": 30,
+      "step": 1,
+      "unit": "s",
+      "default": 12
+    },
+    {
+      "type": "range",
+      "id": "desktop_width_percent",
+      "label": "Desktop width",
+      "min": 50,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "default": 100
+    }
+  ],
+  "presets": [
+    {
+      "name": "Text scroller"
+    }
+  ]
+}
+{% endschema %}
