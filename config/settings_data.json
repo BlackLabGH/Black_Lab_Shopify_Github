@@ -65,7 +65,7 @@
     "enable_cart_notes": false,
     "enable_gift_notes": false,
     "enable_additional_buttons": false,
-    "show_empty_cart_buttons": true,
+    "show_empty_cart_buttons": false,
     "show_continue_shopping": true,
     "continue_shopping_link": "shopify://collections/dog-beds",
     "message": "You're ||amount|| from getting free shipping",
