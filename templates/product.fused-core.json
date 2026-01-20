@@ -74,6 +74,34 @@
             "padding_bottom": 0
           }
         },
+        "icon_row_UUiMMK": {
+          "type": "icon_row",
+          "settings": {
+            "icon_name_1": "none",
+            "icon_color_1": "",
+            "icon_image_1": "shopify://shop_images/02_RF_Welded_Seams-Fused_Core.png",
+            "icon_width_1": 50,
+            "icon_text_1": "Fused Seams",
+            "icon_name_2": "none",
+            "icon_color_2": "",
+            "icon_image_2": "shopify://shop_images/15-Waterproof-2x.png",
+            "icon_width_2": 50,
+            "icon_text_2": "Water Proof",
+            "icon_name_3": "none",
+            "icon_color_3": "",
+            "icon_image_3": "shopify://shop_images/21-Durable-2x.png",
+            "icon_width_3": 50,
+            "icon_text_3": "Durable",
+            "icon_name_4": "none",
+            "icon_color_4": "",
+            "icon_image_4": "shopify://shop_images/04-Orthopedic-Support-2x.png",
+            "icon_width_4": 50,
+            "icon_text_4": "Orthopedic",
+            "alignment": "center",
+            "bg_color": "#ffffff",
+            "padding_bottom": 10
+          }
+        },
         "reelup_shoppable_videos_reels_reelup_stories_4xcQDV": {
           "type": "shopify://apps/reelup-shoppable-videos-reels/blocks/reelup_stories/a8ec9e4d-d192-44f7-9c23-595f9ee7dd5b",
           "settings": {
@@ -179,34 +207,6 @@
             "padding_bottom": 0
           }
         },
-        "icon_row_UUiMMK": {
-          "type": "icon_row",
-          "settings": {
-            "icon_name_1": "none",
-            "icon_color_1": "",
-            "icon_image_1": "shopify://shop_images/02_RF_Welded_Seams-Fused_Core.png",
-            "icon_width_1": 50,
-            "icon_text_1": "Fused Seams",
-            "icon_name_2": "none",
-            "icon_color_2": "",
-            "icon_image_2": "shopify://shop_images/15-Waterproof-2x.png",
-            "icon_width_2": 50,
-            "icon_text_2": "Water Proof",
-            "icon_name_3": "none",
-            "icon_color_3": "",
-            "icon_image_3": "shopify://shop_images/21-Durable-2x.png",
-            "icon_width_3": 50,
-            "icon_text_3": "Durable",
-            "icon_name_4": "none",
-            "icon_color_4": "",
-            "icon_image_4": "shopify://shop_images/04-Orthopedic-Support-2x.png",
-            "icon_width_4": 50,
-            "icon_text_4": "Orthopedic",
-            "alignment": "center",
-            "bg_color": "#ffffff",
-            "padding_bottom": 20
-          }
-        },
         "32a6299f-bf6b-46ad-aaf9-942465ef054c": {
           "type": "divider",
           "disabled": true,
@@ -264,6 +264,7 @@
         "36e9da1b-5922-4ee3-83f3-d867cd6f0ada",
         "kiwi_size_chart_recommender_kiwi_sizing_QYFPPa",
         "text_j6YdTE",
+        "icon_row_UUiMMK",
         "reelup_shoppable_videos_reels_reelup_stories_4xcQDV",
         "text_WYgjzn",
         "description",
@@ -274,7 +275,6 @@
         "8904971e-45cb-430f-9c82-255f65e042a9",
         "48bba15b-e7c2-41c6-a419-95c1d9758849",
         "icon_row",
-        "icon_row_UUiMMK",
         "32a6299f-bf6b-46ad-aaf9-942465ef054c",
         "00ed2897-4063-4deb-a02a-e43f9c36f1f8",
         "share-button",
