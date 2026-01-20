@@ -74,6 +74,34 @@
             "padding_bottom": 0
           }
         },
+        "icon_row_9NB9pH": {
+          "type": "icon_row",
+          "settings": {
+            "icon_name_1": "none",
+            "icon_color_1": "",
+            "icon_image_1": "shopify://shop_images/08-Anti-Bacterial-2x.png",
+            "icon_width_1": 50,
+            "icon_text_1": "Targets Bacteria",
+            "icon_name_2": "none",
+            "icon_color_2": "",
+            "icon_image_2": "shopify://shop_images/21_Durable.png",
+            "icon_width_2": 50,
+            "icon_text_2": "Durable",
+            "icon_name_3": "none",
+            "icon_color_3": "",
+            "icon_image_3": "shopify://shop_images/10_Stays_fresh_77d2b9f0-99c2-45f1-85ae-74a299311a16.png",
+            "icon_width_3": 50,
+            "icon_text_3": "StayFresh™",
+            "icon_name_4": "none",
+            "icon_color_4": "",
+            "icon_image_4": "shopify://shop_images/26_Better_than_Ballistic.png",
+            "icon_width_4": 50,
+            "icon_text_4": "Resists Tearing",
+            "alignment": "center",
+            "bg_color": "#ffffff",
+            "padding_bottom": 10
+          }
+        },
         "text_zzGe3z": {
           "type": "text",
           "settings": {
@@ -132,34 +160,6 @@
           "settings": {
             "show_line": true,
             "padding_bottom": 0
-          }
-        },
-        "icon_row_9NB9pH": {
-          "type": "icon_row",
-          "settings": {
-            "icon_name_1": "none",
-            "icon_color_1": "",
-            "icon_image_1": "shopify://shop_images/08-Anti-Bacterial-2x.png",
-            "icon_width_1": 50,
-            "icon_text_1": "Targets Bacteria",
-            "icon_name_2": "none",
-            "icon_color_2": "",
-            "icon_image_2": "shopify://shop_images/21_Durable.png",
-            "icon_width_2": 50,
-            "icon_text_2": "Durable",
-            "icon_name_3": "none",
-            "icon_color_3": "",
-            "icon_image_3": "shopify://shop_images/10_Stays_fresh_77d2b9f0-99c2-45f1-85ae-74a299311a16.png",
-            "icon_width_3": 50,
-            "icon_text_3": "StayFresh™",
-            "icon_name_4": "none",
-            "icon_color_4": "",
-            "icon_image_4": "shopify://shop_images/26_Better_than_Ballistic.png",
-            "icon_width_4": 50,
-            "icon_text_4": "Resists Tearing",
-            "alignment": "center",
-            "bg_color": "#ffffff",
-            "padding_bottom": 20
           }
         },
         "icon_row": {
@@ -244,6 +244,7 @@
         "36e9da1b-5922-4ee3-83f3-d867cd6f0ada",
         "kiwi_size_chart_recommender_kiwi_sizing_aRNchn",
         "text_j6YdTE",
+        "icon_row_9NB9pH",
         "text_zzGe3z",
         "description",
         "product_accordion_QdVqFx",
@@ -251,7 +252,6 @@
         "product_accordion_hXhFtH",
         "8904971e-45cb-430f-9c82-255f65e042a9",
         "48bba15b-e7c2-41c6-a419-95c1d9758849",
-        "icon_row_9NB9pH",
         "icon_row",
         "32a6299f-bf6b-46ad-aaf9-942465ef054c",
         "00ed2897-4063-4deb-a02a-e43f9c36f1f8",
