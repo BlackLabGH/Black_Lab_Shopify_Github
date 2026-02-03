@@ -1,0 +1,896 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1764187387b45563ee": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_0dd5106_g9XQtY": {
+          "type": "ai_gen_block_0dd5106",
+          "settings": {
+            "aspect_ratio": 1.5,
+            "show_labels": true,
+            "before_label": "Before",
+            "after_label": "After",
+            "label_font_size": 14,
+            "label_position_vertical": 20,
+            "label_position_horizontal": 20,
+            "label_bg_color": "#ffffff",
+            "label_text_color": "#000000",
+            "initial_position": 50,
+            "handle_size": 50,
+            "slider_color": "#ffffff",
+            "handle_arrow_color": "#000000",
+            "show_rounded_corners": true
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_0dd5106_g9XQtY"
+      ],
+      "disabled": true,
+      "settings": {}
+    },
+    "section_text_6WHtY7": {
+      "type": "section-text",
+      "blocks": {
+        "heading_aezcgi": {
+          "type": "heading",
+          "settings": {
+            "text": "<p><strong>The World’s Most Adaptable Dog Bed</strong></p>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "text_JJMH46": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A modular system that grows from rugged utility to plush luxury.</p><h5>Purchase as a set <em>OR</em> upgrade over time</h5>",
+            "size": 100
+          }
+        },
+        "button_DiPQa4": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_text": "Read More",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "heading_aezcgi",
+        "text_JJMH46",
+        "button_DiPQa4"
+      ],
+      "disabled": true,
+      "name": "Text",
+      "settings": {
+        "show_spacer_lines": false,
+        "text_position": "left",
+        "bg_color_secondary": true,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 10,
+        "padding_bottom": 0
+      }
+    },
+    "section_image_with_text_8LhTdc": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "five-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "standard",
+        "image": "shopify://shop_images/beauty_braun_2fb8ff49-eceb-4de7-b5c9-57b9090233b6.png",
+        "subheading": "Swap a cover. Add a bolster. Upgrade anytime.",
+        "title": "<p>Adaptable by design</p>",
+        "heading_highlight_type": "highlight-color",
+        "highlight_color": "#373535",
+        "highlight_text_color": "#caa876",
+        "heading_size": 140,
+        "content": "",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "#f7f7f7",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "section_grid_KPywhh": {
+      "type": "section-grid",
+      "blocks": {
+        "image_kHTHKJ": {
+          "type": "image",
+          "settings": {
+            "width": "100",
+            "image": "shopify://shop_images/modular_final.png",
+            "overlay_opacity": 10,
+            "text_position": "center",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "button_1_text": "",
+            "button_1_link": "shopify://products/orthopedic-mattress",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-light"
+          }
+        }
+      },
+      "block_order": [
+        "image_kHTHKJ"
+      ],
+      "disabled": true,
+      "name": "Grid",
+      "settings": {
+        "height": "auto",
+        "heading_size": 130,
+        "button_1_color": "btn--white",
+        "button_1_style": "btn--text",
+        "button_1_size": "btn--small",
+        "button_2_color": "btn--black",
+        "button_2_style": "btn--text",
+        "button_2_size": "btn--small",
+        "bg_color_secondary": true,
+        "enable_slider_mobile": true,
+        "width": "wrapper",
+        "add_gutter": true,
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "section_image_with_text_GpXrQy": {
+      "type": "section-image-with-text",
+      "disabled": true,
+      "custom_css": [
+        "#ImageWithText--template--24811834966331__section_image_with_text_GpXrQy .image-with-text__text h4 {margin-top: 1.5rem !important; /* space above the H4 */}",
+        " /* Make bolded paragraph text both bold and italic, and keep your purple */#ImageWithText--template--24811834966331__section_image_with_text_GpXrQy .image-with-text__text p strong,#ImageWithText--template--24811834966331__section_image_with_text_GpXrQy .image-with-text__text p b {font-weight: 700 !important; font-style: italic !important; color: #331771 !important;}"
+      ],
+      "settings": {
+        "section_height": "four-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "standard",
+        "image": "shopify://shop_images/dog_beds_home_1.png",
+        "subheading": "True Waterproof Protection, Built for Lasting Comfort",
+        "title": "<p><em>The Fused Core Modular Bed System</em></p>",
+        "heading_highlight_type": "highlight-color",
+        "highlight_color": "#373535",
+        "highlight_text_color": "#caa876",
+        "heading_size": 100,
+        "content": "<h4><strong>Fused Core™ | The Foundation</strong></h4><p><em><strong>Waterproof, Orthopedic Utility</strong></em><em><br/></em>A rugged tarpaulin mattress that resists the elements and supports joints.</p><h4><strong>Beast | Fused Core™ + Better Than Ballistic™ Beast Cover</strong></h4><p><em><strong>Comfort and Dig-Proof Durability</strong></em><em><br/></em>Keep the waterproof, indestructible core. Add quilted padding and washable, eco-tough armor that resists claws, odors, and bacteria.</p><h4><strong>Nomad | Fused Core™ + Better Than Ballistic™ Beast Cover + Supportive Bolsters</strong></h4><p><em><strong>Tough Plush Luxury</strong></em><em><br/></em>Stay waterproof, washable, dig-proof, and odor-free. Add bolstered sides that turn the bed into a true home base for lounging.</p>",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "#f7f7f7",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "hero": {
+      "type": "collection-image-with-title",
+      "disabled": true,
+      "settings": {
+        "banner_height": "one-fifty-height",
+        "text_position": "middle-center",
+        "show_image": false,
+        "text_color": "text-dark",
+        "overlay_opacity": 5,
+        "bg_color_secondary": false,
+        "banner_image": "shopify://shop_images/BlackLab_leash1.png",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_image_3JLyBm": {
+      "type": "section-image",
+      "disabled": true,
+      "name": "Image",
+      "settings": {
+        "image": "shopify://shop_images/BlackLabLPSimpleHeader.png",
+        "height": "original-height",
+        "enable_mobile_height": true,
+        "mobile_height": "original-height-mobile",
+        "enable_stretch": true,
+        "image_position": "center",
+        "bg_color_secondary": false,
+        "width": "wrapper--full-padded",
+        "padding_top": 10,
+        "padding_bottom": 4
+      }
+    },
+    "a87e0473-86d0-4651-bd21-b41fd25f6963": {
+      "type": "section-text",
+      "blocks": {
+        "template--18963859341627__a87e0473-86d0-4651-bd21-b41fd25f6963-1683726843ee84960e-1": {
+          "type": "heading",
+          "settings": {
+            "text": "<h4><strong>BETTER THAN BALLISTIC</strong>™</h4>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "0ce9956a-ee31-47c1-9887-e985d1adbb2d": {
+          "type": "subheading",
+          "settings": {
+            "text": "<p>Tough is Not Enough</p>",
+            "size": 100,
+            "margin_bottom": 16
+          }
+        },
+        "004726b0-9aad-4773-a8c1-3b84a8e2e706": {
+          "type": "subheading",
+          "settings": {
+            "text": "<p>EXTREMLEY DURABLE. HYPOALLERGIENIC. FIGHTS ODOR.</p><p>ANTIBACTERIAL. RECYCLED. DROOLPROOF<strong>™</strong>.</p>",
+            "size": 100,
+            "margin_bottom": 16
+          }
+        },
+        "template--18963859341627__a87e0473-86d0-4651-bd21-b41fd25f6963-1683726843ee84960e-2": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>Dog. Years Ahead.™</h4>",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "template--18963859341627__a87e0473-86d0-4651-bd21-b41fd25f6963-1683726843ee84960e-1",
+        "0ce9956a-ee31-47c1-9887-e985d1adbb2d",
+        "004726b0-9aad-4773-a8c1-3b84a8e2e706",
+        "template--18963859341627__a87e0473-86d0-4651-bd21-b41fd25f6963-1683726843ee84960e-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_spacer_lines": true,
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "subcollections": {
+      "type": "subcollections",
+      "settings": {
+        "subcollections": [],
+        "limit": 8,
+        "layout": "grid",
+        "image_source": "collection",
+        "image_aspect_ratio": 0.6,
+        "image_overlay_opacity": 10,
+        "bg_color": "",
+        "text_color": "text-light",
+        "padding_top": 60,
+        "padding_bottom": 0
+      }
+    },
+    "section_text_ehBfzE": {
+      "type": "section-text",
+      "blocks": {
+        "subheading_it9Y8X": {
+          "type": "subheading",
+          "settings": {
+            "text": "<p>TOUGHER. GREENER. CLEANER.</p>",
+            "size": 100,
+            "margin_bottom": 16
+          }
+        },
+        "heading_E4eQeg": {
+          "type": "heading",
+          "settings": {
+            "text": "<p><strong>Toughness is just the beginning.</strong></p>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "text_WK8Dqm": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Most “tough” pet brands focus on function alone — toughness for toughness’s sake. But dogs aren’t problems to be solved. They’re trail mates, co-pilots, backyard guardians, and kitchen-floor loafers. Our gear is built for real dogs, real messes, and real memories. We’re lifelong dog lovers, product designers, and adventurers who know firsthand: life with a dog is a glorious mess — from post-hike mud to rainy day naps. That’s why our durability goes beyond problem chewers. It’s designed for comfort. It’s a promise for every dog.</p>",
+            "size": 100
+          }
+        },
+        "button_YXL67L": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_text": "Read More",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_it9Y8X",
+        "heading_E4eQeg",
+        "text_WK8Dqm",
+        "button_YXL67L"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_spacer_lines": true,
+        "text_position": "left",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 30,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "collection",
+      "blocks": {
+        "25fdead2-cb7b-47cc-a6f1-58909d5b04ff": {
+          "type": "promo",
+          "disabled": true,
+          "source": "{{ collection.metafields.custom.collection_inline_blog.value }}",
+          "settings": {
+            "collection": "",
+            "image": "{{ collection.metafields.custom.collection_inline_blog.value.inline_collection_blog_image.value }}",
+            "position": 1,
+            "width": "auto",
+            "title": "<p>{{ collection.metafields.custom.collection_inline_blog.value.inline_collection_blog_body | metafield_tag }}</p>",
+            "heading_highlight_type": "circle",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#ffffff",
+            "heading_size": 100,
+            "content": "Advertise a promotion or a sale",
+            "text_size": 100,
+            "text_color": "text-light",
+            "text_position": "bottom-left",
+            "layout": "stacked",
+            "overlay_opacity": 10,
+            "bg_color": "#d3d3d3",
+            "button_text": "{{ collection.metafields.custom.collection_inline_blog.value.inline_collection_blog_header.value }}",
+            "button_link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--solid-border",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "25fdead2-cb7b-47cc-a6f1-58909d5b04ff"
+      ],
+      "settings": {
+        "show_breadcrumbs": true,
+        "enable_sorting": true,
+        "enable_filters": false,
+        "filters_layout": "open",
+        "show_more": true,
+        "filter_mode": "default",
+        "heading_style": "body",
+        "bg_color": "",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "section_collection_bXNimr": {
+      "type": "section-collection",
+      "disabled": true,
+      "name": "Featured collection",
+      "settings": {
+        "collection": "dog-beds",
+        "products_layout": "grid",
+        "number_of_products": 8,
+        "products_per_row_on_desktop": 4,
+        "columns_mobile": "2",
+        "text_alignment": "text-left",
+        "title": "<p><em>Shop All Dog Beds</em></p>",
+        "heading_highlight_type": "highlight-color",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#caa876",
+        "heading_size": 100,
+        "text": "",
+        "text_size": 100,
+        "button_text": "",
+        "button_color": "btn--black",
+        "button_style": "btn--text",
+        "button_size": "btn--large",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "17451548886eb53962": {
+      "type": "apps",
+      "blocks": {
+        "reelup_shoppable_videos_reels_reelup_playlist_WRnBFH": {
+          "type": "shopify://apps/reelup-shoppable-videos-reels/blocks/reelup_playlist/a8ec9e4d-d192-44f7-9c23-595f9ee7dd5b",
+          "settings": {
+            "playlist_id": "rl_pl_15810"
+          }
+        }
+      },
+      "block_order": [
+        "reelup_shoppable_videos_reels_reelup_playlist_WRnBFH"
+      ],
+      "settings": {
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "section_promotion_row_FfdyNj": {
+      "type": "section-promotion-row",
+      "blocks": {
+        "column_VVGz7G": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/48.png",
+            "subheading": "<p>PREMIUM MATERIALS</p>",
+            "subheading_size": 75,
+            "heading": "<h4><em>BUILT WITHOUT COMPROMISE</em></h4>",
+            "heading_highlight_type": "highlight-color",
+            "highlight_color": "#ffffff",
+            "highlight_text_color": "#ffffff",
+            "heading_size": 155,
+            "description": "",
+            "description_size": 90,
+            "disclaimer": "",
+            "disclaimer_size": 75,
+            "button_text": "LEARN MORE",
+            "button_link": "shopify://pages/materials",
+            "button_color": "btn--white",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "bg_color": "",
+            "gradient_background": "",
+            "text_color": "#ffffff",
+            "overlay_opacity": 10
+          }
+        },
+        "column_bj3XML": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/sun-setting-over-ocean.jpg",
+            "subheading": "",
+            "subheading_size": 75,
+            "heading": "<p>GET 10% OFF</p>",
+            "heading_highlight_type": "highlight-color",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#ffffff",
+            "heading_size": 280,
+            "description": "when you subscribe to our email list",
+            "description_size": 120,
+            "disclaimer": "",
+            "disclaimer_size": 75,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--solid",
+            "button_size": "btn--small",
+            "bg_color": "",
+            "gradient_background": "linear-gradient(180deg, rgba(255, 228, 49, 0) 51%, rgba(0, 0, 0, 0.46) 100%)",
+            "text_color": "#ffffff",
+            "overlay_opacity": 100
+          }
+        }
+      },
+      "block_order": [
+        "column_VVGz7G",
+        "column_bj3XML"
+      ],
+      "settings": {
+        "layout": "1",
+        "height": "250",
+        "bg_color": "",
+        "block_style": "default",
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
+        "padding_top": 30,
+        "padding_bottom": 32
+      }
+    },
+    "6ef44d87-157b-4fb7-9fca-f0c313dd47bb": {
+      "type": "section-video",
+      "disabled": true,
+      "settings": {
+        "video_height": "four-fifty-height",
+        "text_position": "middle-center",
+        "video_link_bg": "",
+        "video_link": "",
+        "image": "shopify://shop_images/art-reflecting-nature-on-a-wall.jpg",
+        "overlay_opacity": 10,
+        "text_color": "text-light",
+        "title": "",
+        "heading_highlight_type": "italics",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "text": "",
+        "heading_size": 100,
+        "button_text": "PLAY VIDEO",
+        "button_link": "",
+        "button_color": "btn--white",
+        "button_style": "btn--outline",
+        "button_size": "btn--small"
+      }
+    },
+    "c0f816f5-48ca-4436-96b9-700a60e3bec6": {
+      "type": "section-text",
+      "blocks": {
+        "c12f7394-5f5f-4f7d-a0af-59e5c7ae3862": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Our Collars</p>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "81268290-d4de-4fde-97d4-8186bde5ab55": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Dog. Years Ahead.™</p>",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "c12f7394-5f5f-4f7d-a0af-59e5c7ae3862",
+        "81268290-d4de-4fde-97d4-8186bde5ab55"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_spacer_lines": true,
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "811930a0-8a5c-4bab-b9ef-e19b591fefec": {
+      "type": "section-icons-row",
+      "blocks": {
+        "template--18963859341627__811930a0-8a5c-4bab-b9ef-e19b591fefec-1683729814dbc0c0a3-0": {
+          "type": "text",
+          "settings": {
+            "icon_name": "truck",
+            "title": "ENVIRONMENTAL PROTECTION",
+            "text": "<p>Our mattress fuse new age technology with premium textiles by using RF welding to close seams creating a 100% waterproof closure.</p>"
+          }
+        },
+        "template--18963859341627__811930a0-8a5c-4bab-b9ef-e19b591fefec-1683729814dbc0c0a3-1": {
+          "type": "text",
+          "settings": {
+            "icon_name": "check",
+            "title": "Mattress Protection",
+            "text": "<p>Our mattress fuse new age technology with premium textiles by using RF welding to close seams creating a 100% waterproof closure.</p>"
+          }
+        },
+        "template--18963859341627__811930a0-8a5c-4bab-b9ef-e19b591fefec-1683729814dbc0c0a3-2": {
+          "type": "text",
+          "settings": {
+            "icon_name": "eco-friendly",
+            "title": "Premium Design",
+            "text": "<p>Our gear is designed to work across various situations and environments, on the road or at home. From the office to the outdoors and beyond, a bed with no boundaries.</p>"
+          }
+        },
+        "c1059122-97f7-480d-829f-dded569eb218": {
+          "type": "text",
+          "settings": {
+            "icon_name": "clock",
+            "title": "Feature",
+            "text": "<p>Our gear is designed to work across various situations and environments, on the road or at home. From the office to the outdoors and beyond, a bed with no boundaries.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18963859341627__811930a0-8a5c-4bab-b9ef-e19b591fefec-1683729814dbc0c0a3-0",
+        "template--18963859341627__811930a0-8a5c-4bab-b9ef-e19b591fefec-1683729814dbc0c0a3-1",
+        "template--18963859341627__811930a0-8a5c-4bab-b9ef-e19b591fefec-1683729814dbc0c0a3-2",
+        "c1059122-97f7-480d-829f-dded569eb218"
+      ],
+      "disabled": true,
+      "settings": {
+        "alignment": "inline-center",
+        "columns": 2,
+        "icons_width": 30,
+        "heading": "",
+        "subheading": "",
+        "enable_extra_spacing": false,
+        "bg_color": "",
+        "text_color": "#333333",
+        "box_color": "",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "enable_slider_mobile": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "388f3454-ced6-4059-9e18-75ca70067528": {
+      "type": "section-accordions",
+      "blocks": {
+        "text_RJVjU4": {
+          "type": "text",
+          "settings": {
+            "title": "What is the Fused Core™ Modular Bed System?",
+            "text": "<p>It is a buildable dog bed system that starts with a fully waterproof orthopedic mattress. You can add comfort covers, tough protective covers, bolsters and more whenever you want. Every component is designed to work together or on its own. Purchase as a set or upgrade later.</p>"
+          }
+        },
+        "text_YajKN6": {
+          "type": "text",
+          "settings": {
+            "title": "Why is the system modular?",
+            "text": "<p>Because dogs grow and homes change. The modular design allows you to adapt the bed to your dog’s needs, your space, and your lifestyle without replacing the entire bed.</p>"
+          }
+        },
+        "text_xenMjg": {
+          "type": "text",
+          "settings": {
+            "title": "Can I use the Fused Core™ mattress on its own?",
+            "text": "<p>Yes. The Fused Core™ is fully waterproof, supportive, and tough enough to be used without any covers. Many customers use it solo for outdoor spaces, camping, garages, mudrooms, and crates.</p>"
+          }
+        },
+        "text_TNpKFC": {
+          "type": "text",
+          "settings": {
+            "title": "Can I upgrade later if I do not buy the full set now?",
+            "text": "<p>Absolutely. Every part of the system is modular. You can start with the Fused Core™ and add upgrades like covers or bolsters at any time. Everything is designed to fit perfectly no matter when you purchase it.</p>"
+          }
+        },
+        "text_qCAWyn": {
+          "type": "text",
+          "settings": {
+            "title": "What comes with the Fused Core™ + Covers set?",
+            "text": "<p>You receive the waterproof Fused Core™ mattress, the quilted comfort cover, and the eco tough outer cover with StayFresh™ technology. Together they provide comfort, durability, and odor control. You can purchase extra covers for laundry day or to change up your vibe.</p>"
+          }
+        },
+        "text_bf4pp3": {
+          "type": "text",
+          "settings": {
+            "title": "What comes with the Fused Core™ + Covers & Bolster set?",
+            "text": "<p>You receive the waterproof Fused Core mattress, the quilted comfort cover, and the eco tough outer cover with StayFresh technology plus a full 360 degree bolster that adds headrest support and extra lounging comfort.</p>"
+          }
+        },
+        "text_mJhcXp": {
+          "type": "text",
+          "settings": {
+            "title": "Can I buy extra covers?",
+            "text": "<p>Yes. Extra covers are available so you can rotate styles, keep a spare for laundry day, or refresh the look of your bed.</p>"
+          }
+        },
+        "text_gKErbA": {
+          "type": "text",
+          "settings": {
+            "title": "Are the Fused Core™ covers washable?",
+            "text": "<p>Yes. All covers are machine washable and our natural StayFresh™ technology helps keep them cleaner between washes. The Fused Core™ can be wiped clean, scrubbed, or hosed off.</p>"
+          }
+        },
+        "template--18963859341627__388f3454-ced6-4059-9e18-75ca70067528-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "Is the Fused Core™ crate-friendly?",
+            "text": "<p>Yes, all our Fused Core™ mattresses are designed to fit into most standard size metal folding crates. Our 36” beds fit 36” crates, our 42” beds fit 42” crates, and our 48” beds fit 48” crates.</p>"
+          }
+        },
+        "template--18963859341627__388f3454-ced6-4059-9e18-75ca70067528-text-2": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "What size bed should I get?",
+            "text": "<p>The appropriate bed size for your dog is determined by their length, not their weight. Measure your dog from the nose tip to the tail base to find the minimum bed length needed for them to stretch comfortably. Utilize the size guide tab on the product page for additional sizing information.</p>"
+          }
+        },
+        "text_i7gmx6": {
+          "type": "text",
+          "settings": {
+            "title": "Will new accessories or upgrades be available in the future?",
+            "text": "<p>Yes. The modular system is designed to grow. New covers, fabrics, bolster styles, and accessories will fit the same Fused Core™  foundation.</p>"
+          }
+        },
+        "df788f7e-9fbe-404a-b7e1-b614c57066ae": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "Is the Fused Core™ an orthopedic bed?",
+            "text": "<p>Yes. The Fused Core™ provides comprehensive, uniform support, alleviating pressure on joints and aiding in pain relief for pets experiencing discomfort. Essential for older dogs with arthritis or hip and spine issues, it's can equally beneficial for younger dogs, offering crucial support to prevent potential future ailments.</p>"
+          }
+        },
+        "template--18963859341627__388f3454-ced6-4059-9e18-75ca70067528-text-3": {
+          "type": "text",
+          "settings": {
+            "title": "Is an orthopedic bed only good for older dogs?",
+            "text": "<p>No, an orthopedic bed is suitable for dogs of all ages. For larger breeds and those predisposed to hip or joint concerns in their later years, offering comprehensive support from a young age can aid in preventing or postponing the onset of such issues.</p>"
+          }
+        },
+        "303c4a03-a259-4a5e-b517-3efdadc7c8c9": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "What does \"BETTER THAN BALLISTIC™\" mean?",
+            "text": "<p>Other companies use materials labeled \"ballistic\" or \"rip-stop,\" which are often deemed proprietary. However, these materials tend to fall short on their claims. Oftentimes, these fabrics are non-recyclable, non-eco-friendly, and have been shown to degrade after the first wash.</p><p>Our fabrics are Better than Ballistic™ because:</p><ul><li>Made from Tougher than Nails Recycled Repreve™ Fabric</li><li>Eliminates odors</li><li>Eliminates 99.9% of bacteria</li><li>Triple layered for waterproof durability</li><li>Eco-friendly manufacturing process</li><li>Wash Less, saves money & time</li><li>Comfort, Style and sustainability for your pup</li></ul>"
+          }
+        },
+        "text_37xjLA": {
+          "type": "text",
+          "settings": {
+            "title": "What is StayFresh™ technology?",
+            "text": "<p>StayFresh™ is a natural fabric treatment used on our outer covers and accessories. It is Bluesign® approved, meeting rigorous independent environmental and product life cycle standards. Polygiene® StayFresh™ uses a silver salt used for centuries to combat bacteria and odor, is applied in the final stages of production and stays effective for the life of the fabric.. It is only active on the textile itself and does not interfere with your natural skin flora.</p>"
+          }
+        },
+        "0f9535c7-1b4d-40a2-8042-374047f741fe": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "Are Anti-Bacterial & Anti-Odor treatments safe?",
+            "text": "<p>Absolutely. The treatments we use are Bluesign® approved, meeting rigorous independent environmental and product life cycle standards. Polygiene®, a silver salt used for centuries to combat bacteria and odor, is applied in the final stages of production. Polygiene® is only active on the textile itself and does not interfere with your natural skin flora.</p>"
+          }
+        },
+        "template--18963859341627__388f3454-ced6-4059-9e18-75ca70067528-text-4": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "What does Eco-Clean mean?",
+            "text": "<p>Eco-Clean embodies our brand's unwavering commitment to cleanliness, hygiene, and environmental responsibility. We are committed to using highly effective hygienic, antibacterial, and eco-conscious materials and technologies that maintain the cleanliness and freshness of our products between washes.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_RJVjU4",
+        "text_YajKN6",
+        "text_xenMjg",
+        "text_TNpKFC",
+        "text_qCAWyn",
+        "text_bf4pp3",
+        "text_mJhcXp",
+        "text_gKErbA",
+        "template--18963859341627__388f3454-ced6-4059-9e18-75ca70067528-text-1",
+        "template--18963859341627__388f3454-ced6-4059-9e18-75ca70067528-text-2",
+        "text_i7gmx6",
+        "df788f7e-9fbe-404a-b7e1-b614c57066ae",
+        "template--18963859341627__388f3454-ced6-4059-9e18-75ca70067528-text-3",
+        "303c4a03-a259-4a5e-b517-3efdadc7c8c9",
+        "text_37xjLA",
+        "0f9535c7-1b4d-40a2-8042-374047f741fe",
+        "template--18963859341627__388f3454-ced6-4059-9e18-75ca70067528-text-4"
+      ],
+      "settings": {
+        "layout": "two-columns",
+        "show_accordion_divider": true,
+        "title": "Frequently Asked Questions",
+        "subheading": "",
+        "text": "",
+        "tabs_bg_color": "#fafafa",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "a3d82e8d-4988-4d69-a586-fe52ca625a91": {
+      "type": "section-banner-image",
+      "blocks": {
+        "template--18963859341627__a3d82e8d-4988-4d69-a586-fe52ca625a91-1683754066a22ffe97-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "<p>Black Lab Brands</p>",
+            "size": 100
+          }
+        },
+        "template--18963859341627__a3d82e8d-4988-4d69-a586-fe52ca625a91-1683754066a22ffe97-1": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Dog. Years Ahead.™</p>",
+            "hide_spacer_lines": false,
+            "size": 90,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "template--18963859341627__a3d82e8d-4988-4d69-a586-fe52ca625a91-1683754066a22ffe97-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We create sustainable essentials for you and your pup that are built to perform. Simple timeless design built around premium materials.</p>",
+            "size": 100
+          }
+        },
+        "template--18963859341627__a3d82e8d-4988-4d69-a586-fe52ca625a91-1683754066a22ffe97-3": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_1_text": "Shop All",
+            "button_1_link": "shopify://collections/all",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "template--18963859341627__a3d82e8d-4988-4d69-a586-fe52ca625a91-1683754066a22ffe97-0",
+        "template--18963859341627__a3d82e8d-4988-4d69-a586-fe52ca625a91-1683754066a22ffe97-1",
+        "template--18963859341627__a3d82e8d-4988-4d69-a586-fe52ca625a91-1683754066a22ffe97-2",
+        "template--18963859341627__a3d82e8d-4988-4d69-a586-fe52ca625a91-1683754066a22ffe97-3"
+      ],
+      "settings": {
+        "height": "four-fifty-height",
+        "enable_mobile_height": true,
+        "mobile_height": "four-fifty-height-mobile",
+        "image": "shopify://shop_images/001_5670_1.jpg",
+        "overlay_opacity": 40,
+        "enable_zoom_animation": true,
+        "text_width": "normal",
+        "text_position": "left",
+        "mobile_layout": "layout-overlay",
+        "text_color": "text-light"
+      }
+    }
+  },
+  "order": [
+    "1764187387b45563ee",
+    "section_text_6WHtY7",
+    "section_image_with_text_8LhTdc",
+    "section_grid_KPywhh",
+    "section_image_with_text_GpXrQy",
+    "hero",
+    "section_image_3JLyBm",
+    "a87e0473-86d0-4651-bd21-b41fd25f6963",
+    "subcollections",
+    "section_text_ehBfzE",
+    "main",
+    "section_collection_bXNimr",
+    "17451548886eb53962",
+    "section_promotion_row_FfdyNj",
+    "6ef44d87-157b-4fb7-9fca-f0c313dd47bb",
+    "c0f816f5-48ca-4436-96b9-700a60e3bec6",
+    "811930a0-8a5c-4bab-b9ef-e19b591fefec",
+    "388f3454-ced6-4059-9e18-75ca70067528",
+    "a3d82e8d-4988-4d69-a586-fe52ca625a91"
+  ]
+}
