@@ -292,7 +292,7 @@
         "product_sticky_enable": true,
         "image_layout": "carousel",
         "hide_product_thumbnails": false,
-        "image_width": "large",
+        "image_width": "standard",
         "product_image_aspect_ratio": true,
         "enable_zoom": true,
         "enable_video_looping": true,
