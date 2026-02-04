@@ -32,6 +32,125 @@
         "button_size": "btn--small"
       }
     },
+    "section_text_kwA3P7": {
+      "type": "section-text",
+      "blocks": {
+        "subheading_QtULCq": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Subheading</p>",
+            "size": 100,
+            "margin_bottom": 16
+          }
+        },
+        "heading_jgmTPp": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>AS SEEN IN</p>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#D43747",
+            "highlight_text_color": "#000"
+          }
+        },
+        "text_YefmQn": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "size": 100
+          }
+        },
+        "button_pBXYwX": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_text": "Read More",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_QtULCq",
+        "heading_jgmTPp",
+        "text_YefmQn",
+        "button_pBXYwX"
+      ],
+      "disabled": true,
+      "name": "Text",
+      "settings": {
+        "show_spacer_lines": true,
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 4,
+        "padding_bottom": 0
+      }
+    },
+    "section_press_4zGcar": {
+      "type": "section-press",
+      "blocks": {
+        "press_WHzPyp": {
+          "type": "press",
+          "settings": {
+            "text": "<h3>This beds standout feature is the Fused Core orthopedic mattress</h3>",
+            "link": "shopify://products/the-beast-ultratough-orthopedic-dog-bed",
+            "press_logo": "shopify://shop_images/1_362905dd-9dfe-43e2-b30c-d6ca64f7fc57.png",
+            "logo_width": 180
+          }
+        },
+        "press_knKQDr": {
+          "type": "press",
+          "settings": {
+            "text": "<h3>Very clearly built to last even with large, rough dogs</h3>",
+            "link": "shopify://products/quilted-den-bed",
+            "press_logo": "shopify://shop_images/3_f6d9f0f1-3a6c-4a9d-bcd0-077080864365.png",
+            "logo_width": 180
+          }
+        },
+        "press_gXJMid": {
+          "type": "press",
+          "settings": {
+            "text": "<h3>Best dog bed I’ve found for keeping dogs safely in the back seat</h3>",
+            "link": "shopify://products/venture-tough-car-bed",
+            "press_logo": "shopify://shop_images/2_5a51c6f6-35db-463c-9a83-9e47515750c4.png",
+            "logo_width": 180
+          }
+        },
+        "press_443zNG": {
+          "type": "press",
+          "disabled": true,
+          "settings": {
+            "text": "<h5>This dog bed's “standout feature” is the Fused Core orthopedic mattress. Encased in heavy-duty, waterproof tarpaulin with fused seams, it provides joint support and protection from the elements. </h5>",
+            "link": "shopify://products/the-beast-ultratough-orthopedic-dog-bed",
+            "press_logo": "shopify://shop_images/1_e33faf9d-9b9e-42f7-a14a-0fa9cbc31829.png",
+            "logo_width": 180
+          }
+        }
+      },
+      "block_order": [
+        "press_WHzPyp",
+        "press_knKQDr",
+        "press_gXJMid",
+        "press_443zNG"
+      ],
+      "settings": {
+        "title": "",
+        "show_quotations": true,
+        "show_rounded_corners": true,
+        "autoplay": true,
+        "duration": 4,
+        "bg_color_secondary": false,
+        "width": "wrapper--narrow",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "section_text_V34t4R": {
       "type": "section-text",
       "blocks": {
@@ -568,44 +687,6 @@
         "width": "wrapper--full-padded",
         "padding_top": 20,
         "padding_bottom": 30
-      }
-    },
-    "section_press_4zGcar": {
-      "type": "section-press",
-      "blocks": {
-        "press_gXJMid": {
-          "type": "press",
-          "settings": {
-            "text": "<p>Provide some information about what the company below thinks about your brand.</p>",
-            "link": "",
-            "logo_width": 70
-          }
-        },
-        "press_WHzPyp": {
-          "type": "press",
-          "settings": {
-            "text": "<h5>This dog bed's “standout feature” is the Fused Core orthopedic mattress. Encased in heavy-duty, waterproof tarpaulin with fused seams, it provides joint support and protection from the elements. </h5>",
-            "link": "shopify://products/the-beast-ultratough-orthopedic-dog-bed",
-            "press_logo": "shopify://shop_images/gearjunkie.png",
-            "logo_width": 180
-          }
-        }
-      },
-      "block_order": [
-        "press_gXJMid",
-        "press_WHzPyp"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "",
-        "show_quotations": false,
-        "show_rounded_corners": true,
-        "autoplay": true,
-        "duration": 4,
-        "bg_color_secondary": false,
-        "width": "wrapper--narrow",
-        "padding_top": 0,
-        "padding_bottom": 0
       }
     },
     "section_text_Pc4cpX": {
@@ -1409,6 +1490,8 @@
   },
   "order": [
     "section_video_g4Hp6X",
+    "section_text_kwA3P7",
+    "section_press_4zGcar",
     "section_text_V34t4R",
     "section_icons_row_bMHqbR",
     "section_text_bqRQ34",
@@ -1419,7 +1502,6 @@
     "section_image_with_text_eQ7xYQ",
     "section_icons_row_X6ibNU",
     "section_collection_egFEjk",
-    "section_press_4zGcar",
     "section_text_Pc4cpX",
     "section_grid_Qkn8Ef",
     "section_text_8EeYHh",
