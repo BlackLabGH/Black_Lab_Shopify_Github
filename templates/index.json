@@ -1,1 +1,1436 @@
-{"sections":{"section_video_g4Hp6X":{"type":"section-video","settings":{"video_height":"five-fifty-height","text_position":"bottom-left","video_link_bg":"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/27987671c5d44be787a27dca87cf9fce.mp4","video_link":"","image":"shopify:\/\/shop_images\/beast_home_2.png","overlay_opacity":10,"text_color":"text-light","title":"<p>A Dog Bed That <\/p><p>Stays Cleaner, Longer.<\/p>","heading_highlight_type":"highlight-color","highlight_color":"#d43747","highlight_text_color":"#000000","text":"","heading_size":110,"button_text":"Shop The Collection","button_link":"shopify:\/\/collections\/waterproof-fused-core-beds","button_color":"btn--white","button_style":"btn--outline","button_size":"btn--small"}},"section_text_V34t4R":{"type":"section-text","blocks":{"heading_V6FfKW":{"type":"heading","settings":{"text":"<p>Built to Handle Real Life. Designed For Beautiful Homes.<\/p>","size":100,"heading_highlight_type":"italics","highlight_color":"#d43747","highlight_text_color":"#000000"}},"text_63XRjR":{"type":"text","settings":{"text":"<p>Built on our waterproof Fused Core™ mattress with washable, removable covers. Beds stay cleaner between washes so your home feels fresh. <\/p>","size":100}},"subheading_dK4gbM":{"type":"subheading","disabled":true,"settings":{"text":"<h5>Most dog beds fail in the same ways. We built ours to solve them.<\/h5>","size":100,"margin_bottom":16}},"button_DPytFz":{"type":"button","disabled":true,"settings":{"button_text":"Shop The Collection","button_link":"shopify:\/\/collections\/waterproof-fused-core-beds","button_color":"btn--primary","button_style":"btn--solid","button_size":"btn--large"}}},"block_order":["heading_V6FfKW","text_63XRjR","subheading_dK4gbM","button_DPytFz"],"name":"Text","settings":{"show_spacer_lines":false,"text_position":"center","bg_color_secondary":false,"text_color":"text-dark","width":"wrapper--full-padded","padding_top":26,"padding_bottom":26}},"section_icons_row_bMHqbR":{"type":"section-icons-row","blocks":{"text_yR7jHg":{"type":"text","disabled":true,"settings":{"icon_name":"truck","icon_image":"shopify:\/\/shop_images\/fused_core_icon_ecccaba8-1dd1-4737-a8c8-74e76671a7b2.png","title":"","text":"<h5>Waterproof, Zero Worry<\/h5>"}},"text_fX3Wcq":{"type":"text","disabled":true,"settings":{"icon_name":"check","icon_image":"shopify:\/\/shop_images\/10-Stays-fresh-2x.png","title":"","text":"<h5>Odor-Resistant Fabric<\/h5>"}},"text_pHnzEH":{"type":"text","disabled":true,"settings":{"icon_name":"eco-friendly","icon_image":"shopify:\/\/shop_images\/16-Spot-Clean-2x.png","title":"","text":"<h5>Easy to Clean by Design<\/h5>"}}},"block_order":["text_yR7jHg","text_fX3Wcq","text_pHnzEH"],"disabled":true,"name":"Icons row","settings":{"alignment":"center","columns":3,"icons_width":45,"heading":"","subheading":"<h2>A tough, fully washable dog bed that resists odors and messes. Thoughtfully designed to look great longer.<\/h2>","enable_extra_spacing":false,"bg_color":"#ffffff","text_color":"#333333","box_color":"","button_text":"","button_link":"","button_color":"btn--black","button_style":"btn--solid","button_size":"btn--small","enable_slider_mobile":false,"padding_top":20,"padding_bottom":20}},"section_text_bqRQ34":{"type":"section-text","blocks":{"subheading_7T73t3":{"type":"subheading","disabled":true,"settings":{"text":"<p>Subheading<\/p>","size":100,"margin_bottom":16}},"heading_MAtym4":{"type":"heading","settings":{"text":"<p>Why Our Beds Stay Cleaner<\/p>","size":100,"heading_highlight_type":"italics","highlight_color":"#d43747","highlight_text_color":"#000000"}},"text_CVrAVi":{"type":"text","disabled":true,"settings":{"text":"<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>","size":100}},"button_QNVbQH":{"type":"button","disabled":true,"settings":{"button_text":"SHOP ALL DOG BEDS","button_link":"shopify:\/\/collections\/dog-beds","button_color":"btn--black","button_style":"btn--solid","button_size":"btn--small"}}},"block_order":["subheading_7T73t3","heading_MAtym4","text_CVrAVi","button_QNVbQH"],"name":"Text","settings":{"show_spacer_lines":true,"text_position":"center","bg_color_secondary":false,"text_color":"text-dark","width":"wrapper--narrow","padding_top":20,"padding_bottom":20}},"section_columns_JMa3Ce":{"type":"section-columns","blocks":{"text_block_z9nfA6":{"type":"text_block","settings":{"image":"shopify:\/\/shop_images\/waterproof_core.png","title":"100% Waterproof","text":"<p>Our waterproof orthopedic mattress blocks accidents, drool, and moisture from soaking in.<\/p>","button_text":"Shop All Beds","button_link":"shopify:\/\/collections\/waterproof-fused-core-beds","button_color":"btn--black","button_style":"btn--text","button_size":"btn--medium","video_link_popup":"","video_link_color":"text-dark"}},"text_block_yQnw3n":{"type":"text_block","settings":{"image":"shopify:\/\/shop_images\/Beast_2.webp","title":"Naturally Odor-Resistant","text":"<p>Naturally treated with Polygiene StayFresh™ to fight odor-causing bacteria and stay fresher longer.<\/p>","button_text":"Shop All Beds","button_link":"shopify:\/\/collections\/dog-beds","button_color":"btn--black","button_style":"btn--text","button_size":"btn--medium","video_link_popup":"","video_link_color":"text-dark"}},"text_block_TKapqm":{"type":"text_block","settings":{"image":"shopify:\/\/shop_images\/bolsterlifestyle1.png","title":"Designed for Every Home","text":"<p>Wipe clean for everyday messes. Fully washable when needed. Designed to hold up to scratching, digging, and daily wear.<\/p>","button_text":"Shop All Beds","button_link":"shopify:\/\/collections\/dog-beds","button_color":"btn--black","button_style":"btn--text","button_size":"btn--small","video_link_popup":"","video_link_color":"text-dark"}}},"block_order":["text_block_z9nfA6","text_block_yQnw3n","text_block_TKapqm"],"name":"Text columns with images","settings":{"title":"","align_text":"text-center","columns":3,"show_images":true,"show_borders":false,"equalize_height":true,"desktop_aspect_ratio":0.8,"mobile_aspect_ratio":0.8,"heading_size":100,"text_size":100,"bg_color_secondary":false,"color_borders":"#000000","layout_mobile":"stacked","width":"wrapper","padding_top":30,"padding_bottom":30}},"section_image_with_text_pwRFpq":{"type":"section-image-with-text","name":"Image with text","settings":{"section_height":"four-fifty-height","layout":"inline","image_location":"right","image_width":"wide","image":"shopify:\/\/shop_images\/stayfresh_hangtag.png","subheading":"Use more. Wash less.","title":"<p>A Cleaner Home.<\/p>","heading_highlight_type":"circle","highlight_color":"#d43747","highlight_text_color":"#000000","heading_size":110,"content":"<p>Our beds are treated with naturally derived Polygiene StayFresh™ to stay cleaner between washes, reducing wear and helping them last longer. <\/p>","text_alignment":"left","button_text":"Shop StayFresh™ Dog Beds","button_link":"shopify:\/\/collections\/waterproof-fused-core-beds","button_color":"btn--black","button_style":"btn--text","button_size":"btn--small","video_link":"","text_color":"text-dark","bg_color":"#f3f3f3","gradient":"","section_width":"wrapper","padding_top":0,"padding_bottom":20}},"section_text_KCj9yM":{"type":"section-text","blocks":{"subheading_JfrUiX":{"type":"subheading","disabled":true,"settings":{"text":"<p>Subheading<\/p>","size":100,"margin_bottom":16}},"heading_Jp4tJa":{"type":"heading","settings":{"text":"<p>Why Our Beds Last Longer<\/p>","size":100,"heading_highlight_type":"italics","highlight_color":"#d43747","highlight_text_color":"#000000"}},"text_LRLtyK":{"type":"text","disabled":true,"settings":{"text":"<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>","size":100}},"button_GQcBtr":{"type":"button","settings":{"button_text":"SHOP ALL DOG BEDS","button_link":"shopify:\/\/collections\/dog-beds","button_color":"btn--black","button_style":"btn--solid","button_size":"btn--small"}}},"block_order":["subheading_JfrUiX","heading_Jp4tJa","text_LRLtyK","button_GQcBtr"],"name":"Text","settings":{"show_spacer_lines":true,"text_position":"center","bg_color_secondary":false,"text_color":"text-dark","width":"wrapper--narrow","padding_top":20,"padding_bottom":20}},"section_columns_qYt4cy":{"type":"section-columns","blocks":{"text_block_eTeRnj":{"type":"text_block","settings":{"image":"shopify:\/\/shop_images\/doublecover.png","title":"Better Materials","text":"<p>A true waterproof mattress and high-quality fabrics designed to hold up through daily use, digging, scratching and dogs that are rough on their beds.<\/p>","button_text":"Shop All Beds","button_link":"shopify:\/\/collections\/dog-beds","button_color":"btn--black","button_style":"btn--text","button_size":"btn--small","video_link_popup":"","video_link_color":"text-dark"}},"text_block_8xXqDh":{"type":"text_block","settings":{"image":"shopify:\/\/shop_images\/beast_features.png","title":"Smarter Construction","text":"<p>Heat-welded seams and fully enclosed interiors prevent fraying through repeated washing. A third protective fabric layer shields the waterproof core, improving long-term durability.<\/p>","button_text":"Shop All Beds","button_link":"shopify:\/\/collections\/dog-beds","button_color":"btn--black","button_style":"btn--text","button_size":"btn--small","video_link_popup":"","video_link_color":"text-dark"}},"text_block_88dXnh":{"type":"text_block","settings":{"image":"shopify:\/\/shop_images\/cover_removal.png","title":"Made to Be Washed","text":"<p>A truly waterproof mattress wipes clean or hoses off, while the outer cover handles daily messes and frequent washing without losing shape, protection, or seam integrity.<\/p>","button_text":"Shop All Beds","button_link":"shopify:\/\/collections\/dog-beds","button_color":"btn--black","button_style":"btn--text","button_size":"btn--small","video_link_popup":"","video_link_color":"text-dark"}}},"block_order":["text_block_eTeRnj","text_block_8xXqDh","text_block_88dXnh"],"name":"Text columns with images","settings":{"title":"","align_text":"text-center","columns":3,"show_images":true,"show_borders":false,"equalize_height":true,"desktop_aspect_ratio":0.5,"mobile_aspect_ratio":0.5,"heading_size":100,"text_size":100,"bg_color_secondary":false,"color_borders":"#000000","layout_mobile":"stacked","width":"wrapper","padding_top":30,"padding_bottom":30}},"section_image_with_text_eQ7xYQ":{"type":"section-image-with-text","name":"Image with text","settings":{"section_height":"four-fifty-height","layout":"inline","image_location":"left","image_width":"wide","image":"shopify:\/\/shop_images\/dark_camo_living.png","subheading":"Seriously Waterproof.","title":"<p>Built to Last.<\/p>","heading_highlight_type":"circle","highlight_color":"#d43747","highlight_text_color":"#000000","heading_size":110,"content":"<p>Thoughtfully built with durable materials, a truly waterproof core, swappable covers and add-on features so the bed lasts a lifetime and grows with your dog.<\/p>","text_alignment":"left","button_text":"Shop All Dog Beds","button_link":"shopify:\/\/collections\/dog-beds","button_color":"btn--black","button_style":"btn--text","button_size":"btn--small","video_link":"","text_color":"text-dark","bg_color":"#f3f3f3","gradient":"","section_width":"wrapper","padding_top":10,"padding_bottom":20}},"section_icons_row_X6ibNU":{"type":"section-icons-row","blocks":{"text_Qq9wYp":{"type":"text","settings":{"icon_name":"check","title":"Free Shipping","text":"<p><a href=\"https:\/\/blacklabbrands.com\/pages\/shipping\" target=\"_blank\" title=\"https:\/\/blacklabbrands.com\/pages\/shipping\">Free shipping on orders over $75 within the contiguous US<\/a>. <a href=\"https:\/\/blacklabbrands.com\/pages\/shipping\" target=\"_blank\" title=\"https:\/\/blacklabbrands.com\/pages\/shipping\"><strong>Learn more<\/strong><\/a><\/p>"}},"text_93zzH4":{"type":"text","settings":{"icon_name":"none","icon_image":"shopify:\/\/shop_images\/23_30-day_warranty_b6d4a93b-b39d-4b69-be62-0bf4d53a7217.png","title":"120 Day Warranty","text":"<p>We stand behind our products. Rest easy with durability you can trust.  <a href=\"https:\/\/blacklabbrands.com\/pages\/warranty-repairs\" target=\"_blank\" title=\"https:\/\/blacklabbrands.com\/pages\/warranty-repairs\">Learn More<\/a><\/p>"}},"text_wfqdgd":{"type":"text","settings":{"icon_name":"none","icon_image":"shopify:\/\/shop_images\/07_Eco-Friendly-Sunflower_5d3f0f3a-019a-4fbe-9ef8-42f33c765001.png","title":"Sustainability","text":"<p>Recycled materials tested to exceed performance of non-recycled versions. <a href=\"https:\/\/blacklabbrands.com\/pages\/materials\" target=\"_blank\" title=\"https:\/\/blacklabbrands.com\/pages\/materials\">Learn More<\/a><\/p>"}},"text_MMQ3dd":{"type":"text","settings":{"icon_name":"mail","title":"Returns\/Exchanges","text":"<p>Easy Returns and Exchanges. Our customer assistance team is here to help. <a href=\"https:\/\/blacklabbrands.com\/pages\/return-exchange-policy\" target=\"_blank\" title=\"https:\/\/blacklabbrands.com\/pages\/return-exchange-policy\">Learn More<\/a><\/p>"}}},"block_order":["text_Qq9wYp","text_93zzH4","text_wfqdgd","text_MMQ3dd"],"settings":{"alignment":"center","columns":4,"icons_width":40,"heading":"","subheading":"","enable_extra_spacing":false,"bg_color":"#f3f3f3","text_color":"#373535","box_color":"","button_text":"","button_link":"","button_color":"btn--black","button_style":"btn--solid","button_size":"btn--small","enable_slider_mobile":true,"padding_top":40,"padding_bottom":40}},"section_collection_egFEjk":{"type":"section-collection","name":"Featured collection","settings":{"collection":"waterproof-fused-core-beds","products_layout":"carousel","number_of_products":8,"products_per_row_on_desktop":4,"columns_mobile":"1","text_alignment":"text-left","title":"<p>Best Sellers<\/p>","heading_highlight_type":"circle","highlight_color":"#d43747","highlight_text_color":"#000000","heading_size":100,"text":"<h4>It all starts with the waterproof core.<br\/>Add comfort, covers, and bolsters as you need them.<\/h4><p>Every bed starts with our patent-pending Fused Core™ mattress - a fully waterproof foundation designed to last. Upgrade comfort, style, and protection over time by adding covers and accessories as your needs change.<br\/><\/p>","text_size":100,"button_text":"","button_color":"btn--black","button_style":"btn--text","button_size":"btn--large","bg_color_secondary":false,"enable_slider_mobile":true,"width":"wrapper--full-padded","padding_top":20,"padding_bottom":30}},"section_press_4zGcar":{"type":"section-press","blocks":{"press_WHzPyp":{"type":"press","settings":{"text":"<h5>This dog bed's “standout feature” is the Fused Core orthopedic mattress. Encased in heavy-duty, waterproof tarpaulin with fused seams, it provides joint support and protection from the elements. <\/h5>","link":"shopify:\/\/products\/the-beast-ultratough-orthopedic-dog-bed","press_logo":"shopify:\/\/shop_images\/gearjunkie.png","logo_width":180}}},"block_order":["press_WHzPyp"],"disabled":true,"settings":{"title":"","show_quotations":false,"show_rounded_corners":true,"autoplay":true,"duration":4,"bg_color_secondary":false,"width":"wrapper--narrow","padding_top":0,"padding_bottom":0}},"section_text_Pc4cpX":{"type":"section-text","blocks":{"subheading_minzYL":{"type":"subheading","settings":{"text":"<p>YOU'LL FIND CHEAPER. YOU WON'T FIND BETTER.<\/p>","size":100,"margin_bottom":16}},"heading_HizcEy":{"type":"heading","settings":{"text":"<h2>Life Proof Dog Beds<\/h2>","size":85,"heading_highlight_type":"italics","highlight_color":"#d43747","highlight_text_color":"#000000"}},"subheading_Ei3r4g":{"type":"subheading","settings":{"text":"<p>Designed to stay cleaner and last longer in your home<strong>.<\/strong> We go beyond rugged durability to give you odor control, easier cleaning, orthopedic support, and a bed that looks as good in your living room as it performs in the wild.<\/p>","size":130,"margin_bottom":16}}},"block_order":["subheading_minzYL","heading_HizcEy","subheading_Ei3r4g"],"settings":{"show_spacer_lines":true,"text_position":"left","bg_color_secondary":false,"text_color":"text-dark","width":"wrapper","padding_top":18,"padding_bottom":16}},"section_grid_Qkn8Ef":{"type":"section-grid","blocks":{"image_UnipLi":{"type":"image","settings":{"width":"25","image":"shopify:\/\/shop_images\/trailblazerporch1.png","overlay_opacity":10,"text_position":"bottom-right","subheading":"","title":"","text":"","button_1_text":"TRAILBLAZER","button_1_link":"shopify:\/\/products\/tough-travel-dog-bed","button_2_text":"","button_2_link":"","text_color":"text-light"}},"image_kw7q9T":{"type":"image","settings":{"width":"50","image":"shopify:\/\/shop_images\/tough.png","overlay_opacity":10,"text_position":"bottom-right","subheading":"","title":"","text":"","button_1_text":"VENTURE CAR BED","button_1_link":"shopify:\/\/products\/venture-tough-car-bed","button_2_text":"","button_2_link":"","text_color":"text-light"}},"image_6JKfTM":{"type":"image","settings":{"width":"50","image":"shopify:\/\/shop_images\/crate_pad.png","overlay_opacity":10,"text_position":"bottom-right","subheading":"","title":"","text":"","button_1_text":"VERSA CRATE PAD","button_1_link":"shopify:\/\/products\/eco-tough-stayfresh™-crate-pads","button_2_text":"","button_2_link":"","text_color":"text-light"}},"image_9Mb3MF":{"type":"image","settings":{"width":"25","image":"shopify:\/\/shop_images\/YellowLabDen1.png","overlay_opacity":10,"text_position":"bottom-right","subheading":"","title":"","text":"","button_1_text":"DEN BED","button_1_link":"shopify:\/\/products\/quilted-den-bed","button_2_text":"","button_2_link":"","text_color":"text-light"}},"image_WzRjXB":{"type":"image","disabled":true,"settings":{"width":"33.33","image":"shopify:\/\/shop_images\/nomadhome1.png","overlay_opacity":10,"text_position":"bottom-right","subheading":"","title":"","text":"","button_1_text":"FUSED CORE™ ULTIMATE","button_1_link":"","button_2_text":"","button_2_link":"","text_color":"text-light"}}},"block_order":["image_UnipLi","image_kw7q9T","image_6JKfTM","image_9Mb3MF","image_WzRjXB"],"name":"Grid","settings":{"height":"350","heading_size":100,"button_1_color":"btn--white","button_1_style":"btn--text","button_1_size":"btn--small","button_2_color":"btn--black","button_2_style":"btn--text","button_2_size":"btn--small","bg_color_secondary":false,"enable_slider_mobile":false,"width":"wrapper--full-padded","add_gutter":true,"padding_top":10,"padding_bottom":14}},"section_text_8EeYHh":{"type":"section-text","blocks":{"heading_cWBfW9":{"type":"heading","disabled":true,"settings":{"text":"<p>BEST SELLER<\/p>","size":50,"heading_highlight_type":"italics","highlight_color":"#d43747","highlight_text_color":"#000000"}},"heading_DeHkAx":{"type":"heading","settings":{"text":"<h2>Explore Our Products<\/h2>","size":100,"heading_highlight_type":"italics","highlight_color":"#d43747","highlight_text_color":"#000000"}},"subheading_PrBAeH":{"type":"subheading","disabled":true,"settings":{"text":"<p>One Dog Bed, Built to Evolve<\/p>","size":100,"margin_bottom":16}}},"block_order":["heading_cWBfW9","heading_DeHkAx","subheading_PrBAeH"],"name":"Text","settings":{"show_spacer_lines":false,"text_position":"left","bg_color_secondary":false,"text_color":"text-dark","width":"wrapper--full-padded","padding_top":20,"padding_bottom":0}},"section_grid_CYEdBD":{"type":"section-grid","blocks":{"image_V3xe7H":{"type":"image","settings":{"width":"33.33","image":"shopify:\/\/shop_images\/paddedcollar7.png","overlay_opacity":10,"text_position":"bottom-right","subheading":"","title":"","text":"","button_1_text":"PADDED AIRTAG COLLAR","button_1_link":"shopify:\/\/products\/magnetic-ultralight-padded-collar","button_2_text":"","button_2_link":"","text_color":"text-light"}},"image_rYVCta":{"type":"image","settings":{"width":"33.33","image":"shopify:\/\/shop_images\/6_8f5a3f12-8ce7-4c71-b259-39961f116d47.png","overlay_opacity":10,"text_position":"bottom-right","subheading":"","title":"","text":"","button_1_text":"CROSSBODY BAG","button_1_link":"shopify:\/\/products\/cross-body-bag-leash-set","button_2_text":"","button_2_link":"","text_color":"text-light"}},"image_wFdjCb":{"type":"image","settings":{"width":"33.33","image":"shopify:\/\/shop_images\/handsfree_862d45ce-cc53-4327-976b-43e64236051f.png","overlay_opacity":10,"text_position":"bottom-right","subheading":"","title":"","text":"","button_1_text":"HANDS-FREE LEASH","button_1_link":"shopify:\/\/products\/adjustable-magnetic-leash","button_2_text":"","button_2_link":"","text_color":"text-light"}},"image_diaDBj":{"type":"image","settings":{"width":"33.33","image":"shopify:\/\/shop_images\/TravelBowl4.png","overlay_opacity":10,"text_position":"bottom-right","subheading":"","title":"","text":"","button_1_text":"TRAVEL BOWL","button_1_link":"shopify:\/\/products\/travel-bowl","button_2_text":"","button_2_link":"","text_color":"text-light"}},"image_jxRyM6":{"type":"image","settings":{"width":"33.33","image":"shopify:\/\/shop_images\/LeashSet_1.webp","overlay_opacity":10,"text_position":"bottom-right","subheading":"","title":"","text":"","button_1_text":"ULTRALIGHT LEASH SET","button_1_link":"shopify:\/\/products\/dog-leash-set","button_2_text":"","button_2_link":"","text_color":"text-light"}},"image_hPdUyC":{"type":"image","settings":{"width":"33.33","image":"shopify:\/\/shop_images\/stretchleash1_1.webp","overlay_opacity":10,"text_position":"bottom-right","subheading":"","title":"","text":"","button_1_text":"BUNGEE LEASH","button_1_link":"shopify:\/\/products\/braided-stretch-dog-leash","button_2_text":"","button_2_link":"","text_color":"text-light"}}},"block_order":["image_V3xe7H","image_rYVCta","image_wFdjCb","image_diaDBj","image_jxRyM6","image_hPdUyC"],"settings":{"height":"350","heading_size":100,"button_1_color":"btn--white","button_1_style":"btn--text","button_1_size":"btn--small","button_2_color":"btn--primary","button_2_style":"btn--text","button_2_size":"btn--small","bg_color_secondary":false,"enable_slider_mobile":false,"width":"wrapper--full-padded","add_gutter":true,"padding_top":10,"padding_bottom":0}},"section_grid_rqGV47":{"type":"section-grid","blocks":{"image_GnGF4g":{"type":"image","settings":{"width":"33.33","image":"shopify:\/\/shop_images\/ultralightcollar1_8ed50b10-6e65-4370-88de-1b53e2397e0e.png","overlay_opacity":10,"text_position":"bottom-right","subheading":"","title":"","text":"","button_1_text":"ULTRALIGHT DOG COLLAR","button_1_link":"shopify:\/\/products\/ultralight-dog-collar","button_2_text":"","button_2_link":"","text_color":"text-light"}},"image_aU4NBb":{"type":"image","settings":{"width":"33.33","image":"shopify:\/\/shop_images\/ultralight_magnetic_dog_collar.png","overlay_opacity":10,"text_position":"bottom-right","subheading":"","title":"","text":"","button_1_text":"MAGNETIC ULTRALIGHT COLLAR","button_1_link":"shopify:\/\/products\/magnetic-dog-collar","button_2_text":"","button_2_link":"","text_color":"text-light"}},"image_tRBmtB":{"type":"image","settings":{"width":"33.33","image":"shopify:\/\/shop_images\/honeycombtowel.png","overlay_opacity":10,"text_position":"bottom-right","subheading":"","title":"","text":"","button_1_text":"STAYFRESH™ HONEYCOMB TOWELS","button_1_link":"shopify:\/\/products\/honeycomb-towels","button_2_text":"","button_2_link":"","text_color":"text-light"}},"image_RkyHXt":{"type":"image","settings":{"width":"33.33","image":"shopify:\/\/shop_images\/43_1.webp","overlay_opacity":10,"text_position":"bottom-right","subheading":"","title":"","text":"","button_1_text":"STAYFRESH™ TERRY TOWELS","button_1_link":"shopify:\/\/products\/terry-towels","button_2_text":"","button_2_link":"","text_color":"text-light"}}},"block_order":["image_GnGF4g","image_aU4NBb","image_tRBmtB","image_RkyHXt"],"settings":{"height":"350","heading_size":100,"button_1_color":"btn--white","button_1_style":"btn--text","button_1_size":"btn--small","button_2_color":"btn--primary","button_2_style":"btn--text","button_2_size":"btn--small","bg_color_secondary":false,"enable_slider_mobile":false,"width":"wrapper--full-padded","add_gutter":true,"padding_top":0,"padding_bottom":20}},"section_text_4QJMgY":{"type":"section-text","blocks":{"subheading_MBxY9V":{"type":"subheading","disabled":true,"settings":{"text":"<p>Black Lab Exclusive:<\/p>","size":150,"margin_bottom":16}},"heading_iPq4kJ":{"type":"heading","settings":{"text":"<h2>Be Loyal.<\/h2>","size":85,"heading_highlight_type":"highlight-color","highlight_color":"#d43747","highlight_text_color":"#000000"}},"subheading_DYWk4j":{"type":"subheading","settings":{"text":"<p>At the heart of everything we do, loyalty is at our core. Staying true to our values, families, and friends is how we show up for the people who matter most. Our dogs remind us of that daily...they’re the best teachers we have.<\/p>","size":130,"margin_bottom":16}}},"block_order":["subheading_MBxY9V","heading_iPq4kJ","subheading_DYWk4j"],"settings":{"show_spacer_lines":true,"text_position":"center","bg_color_secondary":false,"text_color":"text-dark","width":"wrapper--narrow","padding_top":20,"padding_bottom":10}},"section_image_with_text_z3dMB4":{"type":"section-image-with-text","name":"Image with text","settings":{"section_height":"six-fifty-height","layout":"overlay","image_location":"right","image_width":"wide","image":"shopify:\/\/shop_images\/Beast_2_8aa1adaa-f03f-4edf-a0f4-d764fe56fe77_1.webp","subheading":"Be Loyal. More than just a tagline.","title":"<p>Being loyal is how we live, work, and give back.<\/p>","heading_highlight_type":"circle","highlight_color":"#d43747","highlight_text_color":"#000000","heading_size":110,"content":"<p>At Black Lab, we’re a small business with a big commitment to doing good. Our <strong>Be Loyal™ Program<\/strong> is our promise to support pets, people, and the planet. From donating dog beds to animal shelters, to supporting foundations we believe in, to reducing our environmental impact with sustainable materials, we believe in showing up where it matters. The Be Loyal™ Program turns our values into action.<\/p>","text_alignment":"left","button_text":"Read More","button_link":"https:\/\/blacklabbrands.com\/blogs\/blog\/the-black-lab-be-loyal-program","button_color":"btn--black","button_style":"btn--solid","button_size":"btn--small","video_link":"","text_color":"text-dark","bg_color":"","gradient":"","section_width":"wrapper","padding_top":10,"padding_bottom":10}},"section_image_with_text_ezy6Kb":{"type":"section-image-with-text","name":"Image with text","settings":{"section_height":"six-fifty-height","layout":"overlay","image_location":"left","image_width":"wide","image":"shopify:\/\/shop_images\/tough.png","subheading":"What Makes Us Better","title":"<p>Tough isn’t enough. It's just the beginning.<\/p>","heading_highlight_type":"circle","highlight_color":"#d43747","highlight_text_color":"#000000","heading_size":110,"content":"<p>We combine next-level durability with thoughtful design details: orthopedic, waterproof Fused Core™ mattresses, StayFresh™ odor-fighting fabric, recycled materials, and covers built to handle real messes...all without sacrificing comfort. No gimmicks. Just gear that performs, feels great, and fits your lifestyle.<\/p>","text_alignment":"left","button_text":"Learn More","button_link":"https:\/\/blacklabbrands.com\/blogs\/blog\/the-eco-friendly-journey-of-black-lab-brands-tougher-greener-cleaner","button_color":"btn--black","button_style":"btn--solid","button_size":"btn--small","video_link":"","text_color":"text-dark","bg_color":"","gradient":"","section_width":"wrapper","padding_top":10,"padding_bottom":10}},"section_image_with_text_8mFLfT":{"type":"section-image-with-text","name":"Image with text","settings":{"section_height":"six-fifty-height","layout":"overlay","image_location":"right","image_width":"wide","image":"shopify:\/\/shop_images\/built_2.png","subheading":"What we couldn't find, we built","title":"<p>Built From Experience. Designed for Real Life.<\/p>","heading_highlight_type":"circle","highlight_color":"#d43747","highlight_text_color":"#000000","heading_size":110,"content":"<p>We’re dog people, product designers, and problem-solvers. After building one of the original ballistic dog bed companies, we set out to improve on everything we learned...tougher materials, cleaner fabrics, a greener footprint, and most of all improved comfort. Black Lab is the gear we always wanted to design without compromise.<\/p>","text_alignment":"left","button_text":"Our Story","button_link":"https:\/\/blacklabbrands.com\/blogs\/blog\/black-lab-brands-a-new-begining","button_color":"btn--black","button_style":"btn--solid","button_size":"btn--small","video_link":"","text_color":"text-dark","bg_color":"","gradient":"","section_width":"wrapper","padding_top":10,"padding_bottom":10}},"907ac558-c8aa-4fa4-b971-dbce2de8219b":{"type":"section-custom-content","blocks":{"template--18963859407163__907ac558-c8aa-4fa4-b971-dbce2de8219b-text-1":{"type":"text","settings":{"text_position":"left","top_image_width":50,"text_color":"text-dark","subheading":"Loyalty in Action","title":"Be Loyal.","heading_size":100,"text":"<p>Black Lab is a small business with a big commitment to doing good. Our Be Loyal™ Program supports pets, people, and the planet through dog bed donations, sustainability-focused materials, and partnerships with causes we believe in. It’s how we turn values into action.<\/p>","text_size":100,"button_text":"Read More","button_link":"https:\/\/blacklabbrands.com\/blogs\/blog\/the-black-lab-be-loyal-program","button_color":"btn--black","button_style":"btn--text","button_size":"btn--small","button_2_text":"","button_2_link":"","button_2_color":"btn--white","button_2_style":"btn--solid-border","button_2_size":"btn--small","bg_color":""}},"image_8jwbQc":{"type":"image","settings":{"text_position":"middle-center","image":"shopify:\/\/shop_images\/surf.png","disable_lazy_load":false,"overlay_opacity":10,"text_color":"text-dark","title":"","heading_size":100,"image_text":"","button_text":"","button_link":"https:\/\/blacklabbrands.com\/blogs\/blog\/the-black-lab-be-loyal-program","button_color":"btn--white","button_style":"btn--solid-border","button_size":"btn--small"}}},"block_order":["template--18963859407163__907ac558-c8aa-4fa4-b971-dbce2de8219b-text-1","image_8jwbQc"],"settings":{"height":"one-fifty-height","bg_color":"","reverse_blocks":false,"width":"wrapper","add_gutter":false,"padding_top":10,"padding_bottom":0}},"section_shoppable_blog_gx4Qmt":{"type":"section-shoppable-blog","blocks":{"article_fcFCKU":{"type":"article","settings":{"article":"blog\/is-your-dog-bed-sewn-then-it-isn-t-waterproof","product_list":["the-beast-ultratough-orthopedic-dog-bed"]}},"article_DMWUym":{"type":"article","settings":{"article":"blog\/what-s-better-than-ballistic-dog-beds","product_list":["pet-friendly-bedding"]}},"article_GH34PP":{"type":"article","settings":{"article":"blog\/what-to-pack-when-road-tripping-with-your-pup","product_list":["tough-travel-dog-bed"]}},"article_UQigAL":{"type":"article","settings":{"article":"blog\/understanding-the-differences-between-dog-harnesses-and-collars","product_list":["ultralight-dog-harness"]}},"article_haBLPw":{"type":"article","settings":{"article":"blog\/the-importance-of-a-dog-bed-with-the-proper-amount-of-support","product_list":["the-beast-ultratough-orthopedic-dog-bed"]}},"article_jbk36z":{"type":"article","settings":{"article":"blog\/are-waterproof-dog-beds-really-waterproof","product_list":["orthopedic-mattress"]}}},"block_order":["article_fcFCKU","article_DMWUym","article_GH34PP","article_UQigAL","article_haBLPw","article_jbk36z"],"settings":{"title":"JOURNAL","show_tags":true,"overlay_opacity":20,"bg_color_secondary":true,"width":"wrapper","padding_top":20,"padding_bottom":40}},"438134f4-207c-4040-aeee-388c681ebe81":{"type":"section-accordions","blocks":{"template--18963859407163__438134f4-207c-4040-aeee-388c681ebe81-text-2":{"type":"text","settings":{"title":"What does BETTER THAN BALLISTIC™ mean?","text":"<p>Other companies use materials labeled \"ballistic\" or \"rip-stop,\" which are often deemed proprietary. However, these materials tend to fall short on their claims. Oftentimes, these fabrics are non-recyclable, non-eco-friendly, and have been shown to degrade after the first wash.<\/p><p>Our fabrics are Better than Ballistic™ because:<\/p><ul><li>Made from tougher than nails recycled fabric<\/li><li>Eliminates odors<\/li><li>Eliminates 99.9% of bacteria<\/li><li>Triple layered for waterproof durability<\/li><li>Eco-friendly manufacturing process<\/li><li>Wash less, saves money & time<\/li><li>Comfort, style and sustainability for your pup<\/li><\/ul>"}},"a0caa884-78b9-4c93-8dd0-bd128fdd0b5a":{"type":"text","settings":{"title":"What makes Black Lab's fabric so tough?","text":"<p>Black Lab's fabrics are the epitome toughness, featuring a distinctive triple-layered construction meticulously designed to endure the challenges of a dog's lifestyle. <\/p><p><strong>The Face Layer: <\/strong>Crafted from 100% recycled yarn, rigorously tested, and proven to be almost twice as strong as competitors’ fabrics in both abrasion and tear resistance.<\/p><p><strong>Middle Layer: <\/strong>Waterproof and eco-friendly to repel moisture while increasing durability.<\/p><p><strong>Base Layer<\/strong>: A game-changing layer providing extra strength and durability against degradation. <\/p>"}},"d0119444-627f-4d85-9111-cd7d76003876":{"type":"text","settings":{"title":"Are your beds crate-friendly?","text":"<p>All of our crate beds, Trailblazer, and Beast dog beds are designed to fit into most standard size metal folding crates. Our 36” beds fit 36” crates, our 42” beds fit 42” crates, and our 48” beds fit 48” crates.<\/p>"}},"ae1938a7-621f-4a2e-b911-8e3594f633be":{"type":"text","settings":{"title":"Are Anti-Bacterial & Anti-Odor treatments safe?","text":"<p>Absolutely. The treatments we use are Bluesign® approved, meeting rigorous independent environmental and product life cycle standards. Polygiene® StayFresh™, a silver salt used for centuries to combat bacteria and odor, is applied in the final stages of production. StayFresh™ is only active on the textile itself and does not interfere with your natural skin flora.<\/p>"}},"e764f4dd-2796-45cf-8754-e858b36833fb":{"type":"text","settings":{"title":"What does Eco-Tough mean?","text":"<p>Eco-Tough embodies our commitment to crafting products that are environmentally friendly, exceptionally durable, and meet the highest standards of sustainability and quality. This term encapsulates our brand ethos, creating pet essentials that not only meet the highest standards of environmental responsibility but also withstand the demands of pets' active lifestyles for pet owners. Our recycled materials are tested to exceed performance of non-recycled versions. We've created a new fabric engineered for a dog's lifestyle. <\/p>"}},"75851bb3-b3b7-4711-827d-3cffc85147b4":{"type":"text","settings":{"title":"What is an orthopedic bed?","text":"<p>An orthopedic bed provides comprehensive, uniform support, alleviating pressure on joints and aiding in pain relief for pets experiencing discomfort. Essential for older animals with arthritis or hip and spine issues, it's equally beneficial for younger dogs, offering crucial support to prevent potential future ailments.<\/p>"}},"16364919-7349-4ec5-898c-cac0d9f3d303":{"type":"text","settings":{"title":"What does StayFresh™ mean?","text":"<p>StayFresh™ is a natural treatment that embodies our brand's unwavering commitment to cleanliness, hygiene, and environmental responsibility. We are committed to using highly effective hygienic, antibacterial, odor, and eco-conscious materials and technologies that maintain the cleanliness and freshness of our products between washes.<\/p>"}},"template--18963859407163__438134f4-207c-4040-aeee-388c681ebe81-text-3":{"type":"text","settings":{"title":"How do StayFresh™  treatments work?","text":"<p>Black Lab fabrics are treated with StayFresh™, a Swedish-engineered antibacterial and anti-odor technology. This technology relies on a naturally occurring salt found in water and soil. By inhibiting bacteria growth, our textiles effectively eliminate odors, maintaining a cleaner and more hygienic state day after day. This sustainable design encourages less frequent washing of our products, ultimately saving time, water, and energy.<\/p>"}}},"block_order":["template--18963859407163__438134f4-207c-4040-aeee-388c681ebe81-text-2","a0caa884-78b9-4c93-8dd0-bd128fdd0b5a","d0119444-627f-4d85-9111-cd7d76003876","ae1938a7-621f-4a2e-b911-8e3594f633be","e764f4dd-2796-45cf-8754-e858b36833fb","75851bb3-b3b7-4711-827d-3cffc85147b4","16364919-7349-4ec5-898c-cac0d9f3d303","template--18963859407163__438134f4-207c-4040-aeee-388c681ebe81-text-3"],"settings":{"layout":"two-columns","show_accordion_divider":false,"title":"Frequently Asked Questions","subheading":"","text":"","tabs_bg_color":"#fafafa","bg_color_secondary":false,"text_color":"text-dark","width":"wrapper","padding_top":10,"padding_bottom":10}}},"order":["section_video_g4Hp6X","section_text_V34t4R","section_icons_row_bMHqbR","section_text_bqRQ34","section_columns_JMa3Ce","section_image_with_text_pwRFpq","section_text_KCj9yM","section_columns_qYt4cy","section_image_with_text_eQ7xYQ","section_icons_row_X6ibNU","section_collection_egFEjk","section_press_4zGcar","section_text_Pc4cpX","section_grid_Qkn8Ef","section_text_8EeYHh","section_grid_CYEdBD","section_grid_rqGV47","section_text_4QJMgY","section_image_with_text_z3dMB4","section_image_with_text_ezy6Kb","section_image_with_text_8mFLfT","907ac558-c8aa-4fa4-b971-dbce2de8219b","section_shoppable_blog_gx4Qmt","438134f4-207c-4040-aeee-388c681ebe81"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_video_g4Hp6X": {
+      "type": "section-video",
+      "settings": {
+        "video_height": "five-fifty-height",
+        "text_position": "bottom-left",
+        "video_link_bg": "https://cdn.shopify.com/videos/c/o/v/27987671c5d44be787a27dca87cf9fce.mp4",
+        "video_link": "",
+        "image": "shopify://shop_images/beast_home_2.png",
+        "overlay_opacity": 10,
+        "text_color": "text-light",
+        "title": "<p>A Dog Bed That </p><p>Stays Cleaner, Longer.</p>",
+        "heading_highlight_type": "highlight-color",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "text": "",
+        "heading_size": 110,
+        "button_text": "Shop The Collection",
+        "button_link": "shopify://collections/waterproof-fused-core-beds",
+        "button_color": "btn--white",
+        "button_style": "btn--outline",
+        "button_size": "btn--small"
+      }
+    },
+    "section_text_V34t4R": {
+      "type": "section-text",
+      "blocks": {
+        "heading_V6FfKW": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Built to Handle Real Life. Designed For Beautiful Homes.</p>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "text_63XRjR": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Built on our waterproof Fused Core™ mattress with washable, removable covers. Beds stay cleaner between washes so your home feels fresh. </p>",
+            "size": 100
+          }
+        },
+        "subheading_dK4gbM": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "<h5>Most dog beds fail in the same ways. We built ours to solve them.</h5>",
+            "size": 100,
+            "margin_bottom": 16
+          }
+        },
+        "button_DPytFz": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_text": "Shop The Collection",
+            "button_link": "shopify://collections/waterproof-fused-core-beds",
+            "button_color": "btn--primary",
+            "button_style": "btn--solid",
+            "button_size": "btn--large"
+          }
+        }
+      },
+      "block_order": [
+        "heading_V6FfKW",
+        "text_63XRjR",
+        "subheading_dK4gbM",
+        "button_DPytFz"
+      ],
+      "name": "Text",
+      "settings": {
+        "show_spacer_lines": false,
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--full-padded",
+        "padding_top": 26,
+        "padding_bottom": 26
+      }
+    },
+    "section_icons_row_bMHqbR": {
+      "type": "section-icons-row",
+      "blocks": {
+        "text_yR7jHg": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "icon_name": "truck",
+            "icon_image": "shopify://shop_images/fused_core_icon_ecccaba8-1dd1-4737-a8c8-74e76671a7b2.png",
+            "title": "",
+            "text": "<h5>Waterproof, Zero Worry</h5>"
+          }
+        },
+        "text_fX3Wcq": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "icon_name": "check",
+            "icon_image": "shopify://shop_images/10-Stays-fresh-2x.png",
+            "title": "",
+            "text": "<h5>Odor-Resistant Fabric</h5>"
+          }
+        },
+        "text_pHnzEH": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "icon_name": "eco-friendly",
+            "icon_image": "shopify://shop_images/16-Spot-Clean-2x.png",
+            "title": "",
+            "text": "<h5>Easy to Clean by Design</h5>"
+          }
+        }
+      },
+      "block_order": [
+        "text_yR7jHg",
+        "text_fX3Wcq",
+        "text_pHnzEH"
+      ],
+      "disabled": true,
+      "name": "Icons row",
+      "settings": {
+        "alignment": "center",
+        "columns": 3,
+        "icons_width": 45,
+        "heading": "",
+        "subheading": "<h2>A tough, fully washable dog bed that resists odors and messes. Thoughtfully designed to look great longer.</h2>",
+        "enable_extra_spacing": false,
+        "bg_color": "#ffffff",
+        "text_color": "#333333",
+        "box_color": "",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "enable_slider_mobile": false,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "section_text_bqRQ34": {
+      "type": "section-text",
+      "blocks": {
+        "subheading_7T73t3": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Subheading</p>",
+            "size": 100,
+            "margin_bottom": 16
+          }
+        },
+        "heading_MAtym4": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Why Our Beds Stay Cleaner</p>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "text_CVrAVi": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "size": 100
+          }
+        },
+        "button_QNVbQH": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_text": "SHOP ALL DOG BEDS",
+            "button_link": "shopify://collections/dog-beds",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_7T73t3",
+        "heading_MAtym4",
+        "text_CVrAVi",
+        "button_QNVbQH"
+      ],
+      "name": "Text",
+      "settings": {
+        "show_spacer_lines": true,
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "section_columns_JMa3Ce": {
+      "type": "section-columns",
+      "blocks": {
+        "text_block_z9nfA6": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/waterproof_core.png",
+            "title": "100% Waterproof",
+            "text": "<p>Our waterproof orthopedic mattress blocks accidents, drool, and moisture from soaking in.</p>",
+            "button_text": "Shop All Beds",
+            "button_link": "shopify://collections/waterproof-fused-core-beds",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--medium",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_yQnw3n": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/Beast_2.webp",
+            "title": "Naturally Odor-Resistant",
+            "text": "<p>Naturally treated with Polygiene StayFresh™ to fight odor-causing bacteria and stay fresher longer.</p>",
+            "button_text": "Shop All Beds",
+            "button_link": "shopify://collections/dog-beds",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--medium",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_TKapqm": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/bolsterlifestyle1.png",
+            "title": "Designed for Every Home",
+            "text": "<p>Wipe clean for everyday messes. Fully washable when needed. Designed to hold up to scratching, digging, and daily wear.</p>",
+            "button_text": "Shop All Beds",
+            "button_link": "shopify://collections/dog-beds",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_z9nfA6",
+        "text_block_yQnw3n",
+        "text_block_TKapqm"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "",
+        "align_text": "text-center",
+        "columns": 3,
+        "show_images": true,
+        "show_borders": false,
+        "equalize_height": true,
+        "desktop_aspect_ratio": 0.8,
+        "mobile_aspect_ratio": 0.8,
+        "heading_size": 100,
+        "text_size": 100,
+        "bg_color_secondary": false,
+        "color_borders": "#000000",
+        "layout_mobile": "stacked",
+        "width": "wrapper",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "section_image_with_text_pwRFpq": {
+      "type": "section-image-with-text",
+      "name": "Image with text",
+      "settings": {
+        "section_height": "four-fifty-height",
+        "layout": "inline",
+        "image_location": "right",
+        "image_width": "wide",
+        "image": "shopify://shop_images/stayfresh_hangtag.png",
+        "subheading": "Use more. Wash less.",
+        "title": "<p>A Cleaner Home.</p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 110,
+        "content": "<p>Our beds are treated with naturally derived Polygiene StayFresh™ to stay cleaner between washes, reducing wear and helping them last longer. </p>",
+        "text_alignment": "left",
+        "button_text": "Shop StayFresh™ Dog Beds",
+        "button_link": "shopify://collections/waterproof-fused-core-beds",
+        "button_color": "btn--black",
+        "button_style": "btn--text",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "#f3f3f3",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 20
+      }
+    },
+    "section_text_KCj9yM": {
+      "type": "section-text",
+      "blocks": {
+        "subheading_JfrUiX": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Subheading</p>",
+            "size": 100,
+            "margin_bottom": 16
+          }
+        },
+        "heading_Jp4tJa": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Why Our Beds Last Longer</p>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "text_LRLtyK": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "size": 100
+          }
+        },
+        "button_GQcBtr": {
+          "type": "button",
+          "settings": {
+            "button_text": "SHOP ALL DOG BEDS",
+            "button_link": "shopify://collections/dog-beds",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_JfrUiX",
+        "heading_Jp4tJa",
+        "text_LRLtyK",
+        "button_GQcBtr"
+      ],
+      "name": "Text",
+      "settings": {
+        "show_spacer_lines": true,
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "section_columns_qYt4cy": {
+      "type": "section-columns",
+      "blocks": {
+        "text_block_eTeRnj": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/doublecover.png",
+            "title": "Better Materials",
+            "text": "<p>A true waterproof mattress and high-quality fabrics designed to hold up through daily use, digging, scratching and dogs that are rough on their beds.</p>",
+            "button_text": "Shop All Beds",
+            "button_link": "shopify://collections/dog-beds",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_8xXqDh": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/beast_features.png",
+            "title": "Smarter Construction",
+            "text": "<p>Heat-welded seams and fully enclosed interiors prevent fraying through repeated washing. A third protective fabric layer shields the waterproof core, improving long-term durability.</p>",
+            "button_text": "Shop All Beds",
+            "button_link": "shopify://collections/dog-beds",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_88dXnh": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/cover_removal.png",
+            "title": "Made to Be Washed",
+            "text": "<p>A truly waterproof mattress wipes clean or hoses off, while the outer cover handles daily messes and frequent washing without losing shape, protection, or seam integrity.</p>",
+            "button_text": "Shop All Beds",
+            "button_link": "shopify://collections/dog-beds",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_eTeRnj",
+        "text_block_8xXqDh",
+        "text_block_88dXnh"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "",
+        "align_text": "text-center",
+        "columns": 3,
+        "show_images": true,
+        "show_borders": false,
+        "equalize_height": true,
+        "desktop_aspect_ratio": 0.5,
+        "mobile_aspect_ratio": 0.5,
+        "heading_size": 100,
+        "text_size": 100,
+        "bg_color_secondary": false,
+        "color_borders": "#000000",
+        "layout_mobile": "stacked",
+        "width": "wrapper",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "section_image_with_text_eQ7xYQ": {
+      "type": "section-image-with-text",
+      "name": "Image with text",
+      "settings": {
+        "section_height": "four-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "wide",
+        "image": "shopify://shop_images/dark_camo_living.png",
+        "subheading": "Seriously Waterproof.",
+        "title": "<p>Built to Last.</p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 110,
+        "content": "<p>Thoughtfully built with durable materials, a truly waterproof core, swappable covers and add-on features so the bed lasts a lifetime and grows with your dog.</p>",
+        "text_alignment": "left",
+        "button_text": "Shop All Dog Beds",
+        "button_link": "shopify://collections/dog-beds",
+        "button_color": "btn--black",
+        "button_style": "btn--text",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "#f3f3f3",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 10,
+        "padding_bottom": 20
+      }
+    },
+    "section_icons_row_X6ibNU": {
+      "type": "section-icons-row",
+      "blocks": {
+        "text_Qq9wYp": {
+          "type": "text",
+          "settings": {
+            "icon_name": "check",
+            "title": "Free Shipping",
+            "text": "<p><a href=\"https://blacklabbrands.com/pages/shipping\" target=\"_blank\" title=\"https://blacklabbrands.com/pages/shipping\">Free shipping on orders over $75 within the contiguous US</a>. <a href=\"https://blacklabbrands.com/pages/shipping\" target=\"_blank\" title=\"https://blacklabbrands.com/pages/shipping\"><strong>Learn more</strong></a></p>"
+          }
+        },
+        "text_93zzH4": {
+          "type": "text",
+          "settings": {
+            "icon_name": "none",
+            "icon_image": "shopify://shop_images/23_30-day_warranty_b6d4a93b-b39d-4b69-be62-0bf4d53a7217.png",
+            "title": "120 Day Warranty",
+            "text": "<p>We stand behind our products. Rest easy with durability you can trust.  <a href=\"https://blacklabbrands.com/pages/warranty-repairs\" target=\"_blank\" title=\"https://blacklabbrands.com/pages/warranty-repairs\">Learn More</a></p>"
+          }
+        },
+        "text_wfqdgd": {
+          "type": "text",
+          "settings": {
+            "icon_name": "none",
+            "icon_image": "shopify://shop_images/07_Eco-Friendly-Sunflower_5d3f0f3a-019a-4fbe-9ef8-42f33c765001.png",
+            "title": "Sustainability",
+            "text": "<p>Recycled materials tested to exceed performance of non-recycled versions. <a href=\"https://blacklabbrands.com/pages/materials\" target=\"_blank\" title=\"https://blacklabbrands.com/pages/materials\">Learn More</a></p>"
+          }
+        },
+        "text_MMQ3dd": {
+          "type": "text",
+          "settings": {
+            "icon_name": "mail",
+            "title": "Returns/Exchanges",
+            "text": "<p>Easy Returns and Exchanges. Our customer assistance team is here to help. <a href=\"https://blacklabbrands.com/pages/return-exchange-policy\" target=\"_blank\" title=\"https://blacklabbrands.com/pages/return-exchange-policy\">Learn More</a></p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_Qq9wYp",
+        "text_93zzH4",
+        "text_wfqdgd",
+        "text_MMQ3dd"
+      ],
+      "settings": {
+        "alignment": "center",
+        "columns": 4,
+        "icons_width": 40,
+        "heading": "",
+        "subheading": "",
+        "enable_extra_spacing": false,
+        "bg_color": "#f3f3f3",
+        "text_color": "#373535",
+        "box_color": "",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "enable_slider_mobile": true,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "section_collection_egFEjk": {
+      "type": "section-collection",
+      "name": "Featured collection",
+      "settings": {
+        "collection": "waterproof-fused-core-beds",
+        "products_layout": "carousel",
+        "number_of_products": 8,
+        "products_per_row_on_desktop": 4,
+        "columns_mobile": "1",
+        "text_alignment": "text-left",
+        "title": "<p>Best Sellers</p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 100,
+        "text": "<h4>It all starts with the waterproof core.<br/>Add comfort, covers, and bolsters as you need them.</h4><p>Every bed starts with our patent-pending Fused Core™ mattress - a fully waterproof foundation designed to last. Upgrade comfort, style, and protection over time by adding covers and accessories as your needs change.<br/></p>",
+        "text_size": 100,
+        "button_text": "",
+        "button_color": "btn--black",
+        "button_style": "btn--text",
+        "button_size": "btn--large",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
+        "padding_top": 20,
+        "padding_bottom": 30
+      }
+    },
+    "section_press_4zGcar": {
+      "type": "section-press",
+      "blocks": {
+        "press_gXJMid": {
+          "type": "press",
+          "settings": {
+            "text": "<p>Provide some information about what the company below thinks about your brand.</p>",
+            "link": "",
+            "logo_width": 70
+          }
+        },
+        "press_WHzPyp": {
+          "type": "press",
+          "settings": {
+            "text": "<h5>This dog bed's “standout feature” is the Fused Core orthopedic mattress. Encased in heavy-duty, waterproof tarpaulin with fused seams, it provides joint support and protection from the elements. </h5>",
+            "link": "shopify://products/the-beast-ultratough-orthopedic-dog-bed",
+            "press_logo": "shopify://shop_images/gearjunkie.png",
+            "logo_width": 180
+          }
+        }
+      },
+      "block_order": [
+        "press_gXJMid",
+        "press_WHzPyp"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "show_quotations": false,
+        "show_rounded_corners": true,
+        "autoplay": true,
+        "duration": 4,
+        "bg_color_secondary": false,
+        "width": "wrapper--narrow",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_text_Pc4cpX": {
+      "type": "section-text",
+      "blocks": {
+        "subheading_minzYL": {
+          "type": "subheading",
+          "settings": {
+            "text": "<p>YOU'LL FIND CHEAPER. YOU WON'T FIND BETTER.</p>",
+            "size": 100,
+            "margin_bottom": 16
+          }
+        },
+        "heading_HizcEy": {
+          "type": "heading",
+          "settings": {
+            "text": "<h2>Life Proof Dog Beds</h2>",
+            "size": 85,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "subheading_Ei3r4g": {
+          "type": "subheading",
+          "settings": {
+            "text": "<p>Designed to stay cleaner and last longer in your home<strong>.</strong> We go beyond rugged durability to give you odor control, easier cleaning, orthopedic support, and a bed that looks as good in your living room as it performs in the wild.</p>",
+            "size": 130,
+            "margin_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_minzYL",
+        "heading_HizcEy",
+        "subheading_Ei3r4g"
+      ],
+      "settings": {
+        "show_spacer_lines": true,
+        "text_position": "left",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 18,
+        "padding_bottom": 16
+      }
+    },
+    "section_grid_Qkn8Ef": {
+      "type": "section-grid",
+      "blocks": {
+        "image_UnipLi": {
+          "type": "image",
+          "settings": {
+            "width": "25",
+            "image": "shopify://shop_images/trailblazerporch1.png",
+            "overlay_opacity": 10,
+            "text_position": "bottom-right",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "button_1_text": "TRAILBLAZER",
+            "button_1_link": "shopify://products/tough-travel-dog-bed",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-light"
+          }
+        },
+        "image_kw7q9T": {
+          "type": "image",
+          "settings": {
+            "width": "50",
+            "image": "shopify://shop_images/tough.png",
+            "overlay_opacity": 10,
+            "text_position": "bottom-right",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "button_1_text": "VENTURE CAR BED",
+            "button_1_link": "shopify://products/venture-tough-car-bed",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-light"
+          }
+        },
+        "image_6JKfTM": {
+          "type": "image",
+          "settings": {
+            "width": "50",
+            "image": "shopify://shop_images/crate_pad.png",
+            "overlay_opacity": 10,
+            "text_position": "bottom-right",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "button_1_text": "VERSA CRATE PAD",
+            "button_1_link": "shopify://products/eco-tough-stayfresh™-crate-pads",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-light"
+          }
+        },
+        "image_9Mb3MF": {
+          "type": "image",
+          "settings": {
+            "width": "25",
+            "image": "shopify://shop_images/YellowLabDen1.png",
+            "overlay_opacity": 10,
+            "text_position": "bottom-right",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "button_1_text": "DEN BED",
+            "button_1_link": "shopify://products/quilted-den-bed",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-light"
+          }
+        },
+        "image_WzRjXB": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "width": "33.33",
+            "image": "shopify://shop_images/nomadhome1.png",
+            "overlay_opacity": 10,
+            "text_position": "bottom-right",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "button_1_text": "FUSED CORE™ ULTIMATE",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-light"
+          }
+        }
+      },
+      "block_order": [
+        "image_UnipLi",
+        "image_kw7q9T",
+        "image_6JKfTM",
+        "image_9Mb3MF",
+        "image_WzRjXB"
+      ],
+      "name": "Grid",
+      "settings": {
+        "height": "350",
+        "heading_size": 100,
+        "button_1_color": "btn--white",
+        "button_1_style": "btn--text",
+        "button_1_size": "btn--small",
+        "button_2_color": "btn--black",
+        "button_2_style": "btn--text",
+        "button_2_size": "btn--small",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": false,
+        "width": "wrapper--full-padded",
+        "add_gutter": true,
+        "padding_top": 10,
+        "padding_bottom": 14
+      }
+    },
+    "section_text_8EeYHh": {
+      "type": "section-text",
+      "blocks": {
+        "heading_cWBfW9": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "<p>BEST SELLER</p>",
+            "size": 50,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "heading_DeHkAx": {
+          "type": "heading",
+          "settings": {
+            "text": "<h2>Explore Our Products</h2>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "subheading_PrBAeH": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "<p>One Dog Bed, Built to Evolve</p>",
+            "size": 100,
+            "margin_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_cWBfW9",
+        "heading_DeHkAx",
+        "subheading_PrBAeH"
+      ],
+      "disabled": true,
+      "name": "Text",
+      "settings": {
+        "show_spacer_lines": false,
+        "text_position": "left",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--full-padded",
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
+    "section_grid_CYEdBD": {
+      "type": "section-grid",
+      "blocks": {
+        "image_V3xe7H": {
+          "type": "image",
+          "settings": {
+            "width": "33.33",
+            "image": "shopify://shop_images/paddedcollar7.png",
+            "overlay_opacity": 10,
+            "text_position": "bottom-right",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "button_1_text": "PADDED AIRTAG COLLAR",
+            "button_1_link": "shopify://products/magnetic-ultralight-padded-collar",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-light"
+          }
+        },
+        "image_rYVCta": {
+          "type": "image",
+          "settings": {
+            "width": "33.33",
+            "image": "shopify://shop_images/6_8f5a3f12-8ce7-4c71-b259-39961f116d47.png",
+            "overlay_opacity": 10,
+            "text_position": "bottom-right",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "button_1_text": "CROSSBODY BAG",
+            "button_1_link": "shopify://products/cross-body-bag-leash-set",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-light"
+          }
+        },
+        "image_wFdjCb": {
+          "type": "image",
+          "settings": {
+            "width": "33.33",
+            "image": "shopify://shop_images/handsfree_862d45ce-cc53-4327-976b-43e64236051f.png",
+            "overlay_opacity": 10,
+            "text_position": "bottom-right",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "button_1_text": "HANDS-FREE LEASH",
+            "button_1_link": "shopify://products/adjustable-magnetic-leash",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-light"
+          }
+        },
+        "image_diaDBj": {
+          "type": "image",
+          "settings": {
+            "width": "33.33",
+            "image": "shopify://shop_images/TravelBowl4.png",
+            "overlay_opacity": 10,
+            "text_position": "bottom-right",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "button_1_text": "TRAVEL BOWL",
+            "button_1_link": "shopify://products/travel-bowl",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-light"
+          }
+        },
+        "image_jxRyM6": {
+          "type": "image",
+          "settings": {
+            "width": "33.33",
+            "image": "shopify://shop_images/LeashSet_1.webp",
+            "overlay_opacity": 10,
+            "text_position": "bottom-right",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "button_1_text": "ULTRALIGHT LEASH SET",
+            "button_1_link": "shopify://products/dog-leash-set",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-light"
+          }
+        },
+        "image_hPdUyC": {
+          "type": "image",
+          "settings": {
+            "width": "33.33",
+            "image": "shopify://shop_images/stretchleash1_1.webp",
+            "overlay_opacity": 10,
+            "text_position": "bottom-right",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "button_1_text": "BUNGEE LEASH",
+            "button_1_link": "shopify://products/braided-stretch-dog-leash",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-light"
+          }
+        }
+      },
+      "block_order": [
+        "image_V3xe7H",
+        "image_rYVCta",
+        "image_wFdjCb",
+        "image_diaDBj",
+        "image_jxRyM6",
+        "image_hPdUyC"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "350",
+        "heading_size": 100,
+        "button_1_color": "btn--white",
+        "button_1_style": "btn--text",
+        "button_1_size": "btn--small",
+        "button_2_color": "btn--primary",
+        "button_2_style": "btn--text",
+        "button_2_size": "btn--small",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": false,
+        "width": "wrapper--full-padded",
+        "add_gutter": true,
+        "padding_top": 10,
+        "padding_bottom": 0
+      }
+    },
+    "section_grid_rqGV47": {
+      "type": "section-grid",
+      "blocks": {
+        "image_GnGF4g": {
+          "type": "image",
+          "settings": {
+            "width": "33.33",
+            "image": "shopify://shop_images/ultralightcollar1_8ed50b10-6e65-4370-88de-1b53e2397e0e.png",
+            "overlay_opacity": 10,
+            "text_position": "bottom-right",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "button_1_text": "ULTRALIGHT DOG COLLAR",
+            "button_1_link": "shopify://products/ultralight-dog-collar",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-light"
+          }
+        },
+        "image_aU4NBb": {
+          "type": "image",
+          "settings": {
+            "width": "33.33",
+            "image": "shopify://shop_images/ultralight_magnetic_dog_collar.png",
+            "overlay_opacity": 10,
+            "text_position": "bottom-right",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "button_1_text": "MAGNETIC ULTRALIGHT COLLAR",
+            "button_1_link": "shopify://products/magnetic-dog-collar",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-light"
+          }
+        },
+        "image_tRBmtB": {
+          "type": "image",
+          "settings": {
+            "width": "33.33",
+            "image": "shopify://shop_images/honeycombtowel.png",
+            "overlay_opacity": 10,
+            "text_position": "bottom-right",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "button_1_text": "STAYFRESH™ HONEYCOMB TOWELS",
+            "button_1_link": "shopify://products/honeycomb-towels",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-light"
+          }
+        },
+        "image_RkyHXt": {
+          "type": "image",
+          "settings": {
+            "width": "33.33",
+            "image": "shopify://shop_images/43_1.webp",
+            "overlay_opacity": 10,
+            "text_position": "bottom-right",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "button_1_text": "STAYFRESH™ TERRY TOWELS",
+            "button_1_link": "shopify://products/terry-towels",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-light"
+          }
+        }
+      },
+      "block_order": [
+        "image_GnGF4g",
+        "image_aU4NBb",
+        "image_tRBmtB",
+        "image_RkyHXt"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "350",
+        "heading_size": 100,
+        "button_1_color": "btn--white",
+        "button_1_style": "btn--text",
+        "button_1_size": "btn--small",
+        "button_2_color": "btn--primary",
+        "button_2_style": "btn--text",
+        "button_2_size": "btn--small",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": false,
+        "width": "wrapper--full-padded",
+        "add_gutter": true,
+        "padding_top": 0,
+        "padding_bottom": 20
+      }
+    },
+    "section_text_4QJMgY": {
+      "type": "section-text",
+      "blocks": {
+        "subheading_MBxY9V": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Black Lab Exclusive:</p>",
+            "size": 150,
+            "margin_bottom": 16
+          }
+        },
+        "heading_iPq4kJ": {
+          "type": "heading",
+          "settings": {
+            "text": "<h2>Be Loyal.</h2>",
+            "size": 85,
+            "heading_highlight_type": "highlight-color",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "subheading_DYWk4j": {
+          "type": "subheading",
+          "settings": {
+            "text": "<p>At the heart of everything we do, loyalty is at our core. Staying true to our values, families, and friends is how we show up for the people who matter most. Our dogs remind us of that daily...they’re the best teachers we have.</p>",
+            "size": 130,
+            "margin_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_MBxY9V",
+        "heading_iPq4kJ",
+        "subheading_DYWk4j"
+      ],
+      "settings": {
+        "show_spacer_lines": true,
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 20,
+        "padding_bottom": 10
+      }
+    },
+    "section_image_with_text_z3dMB4": {
+      "type": "section-image-with-text",
+      "name": "Image with text",
+      "settings": {
+        "section_height": "six-fifty-height",
+        "layout": "overlay",
+        "image_location": "right",
+        "image_width": "wide",
+        "image": "shopify://shop_images/Beast_2_8aa1adaa-f03f-4edf-a0f4-d764fe56fe77_1.webp",
+        "subheading": "Be Loyal. More than just a tagline.",
+        "title": "<p>Being loyal is how we live, work, and give back.</p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 110,
+        "content": "<p>At Black Lab, we’re a small business with a big commitment to doing good. Our <strong>Be Loyal™ Program</strong> is our promise to support pets, people, and the planet. From donating dog beds to animal shelters, to supporting foundations we believe in, to reducing our environmental impact with sustainable materials, we believe in showing up where it matters. The Be Loyal™ Program turns our values into action.</p>",
+        "text_alignment": "left",
+        "button_text": "Read More",
+        "button_link": "https://blacklabbrands.com/blogs/blog/the-black-lab-be-loyal-program",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "section_image_with_text_ezy6Kb": {
+      "type": "section-image-with-text",
+      "name": "Image with text",
+      "settings": {
+        "section_height": "six-fifty-height",
+        "layout": "overlay",
+        "image_location": "left",
+        "image_width": "wide",
+        "image": "shopify://shop_images/tough.png",
+        "subheading": "What Makes Us Better",
+        "title": "<p>Tough isn’t enough. It's just the beginning.</p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 110,
+        "content": "<p>We combine next-level durability with thoughtful design details: orthopedic, waterproof Fused Core™ mattresses, StayFresh™ odor-fighting fabric, recycled materials, and covers built to handle real messes...all without sacrificing comfort. No gimmicks. Just gear that performs, feels great, and fits your lifestyle.</p>",
+        "text_alignment": "left",
+        "button_text": "Learn More",
+        "button_link": "https://blacklabbrands.com/blogs/blog/the-eco-friendly-journey-of-black-lab-brands-tougher-greener-cleaner",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "section_image_with_text_8mFLfT": {
+      "type": "section-image-with-text",
+      "name": "Image with text",
+      "settings": {
+        "section_height": "six-fifty-height",
+        "layout": "overlay",
+        "image_location": "right",
+        "image_width": "wide",
+        "image": "shopify://shop_images/built_2.png",
+        "subheading": "What we couldn't find, we built",
+        "title": "<p>Built From Experience. Designed for Real Life.</p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 110,
+        "content": "<p>We’re dog people, product designers, and problem-solvers. After building one of the original ballistic dog bed companies, we set out to improve on everything we learned...tougher materials, cleaner fabrics, a greener footprint, and most of all improved comfort. Black Lab is the gear we always wanted to design without compromise.</p>",
+        "text_alignment": "left",
+        "button_text": "Our Story",
+        "button_link": "https://blacklabbrands.com/blogs/blog/black-lab-brands-a-new-begining",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "907ac558-c8aa-4fa4-b971-dbce2de8219b": {
+      "type": "section-custom-content",
+      "blocks": {
+        "template--18963859407163__907ac558-c8aa-4fa4-b971-dbce2de8219b-text-1": {
+          "type": "text",
+          "settings": {
+            "text_position": "left",
+            "top_image_width": 50,
+            "text_color": "text-dark",
+            "subheading": "Loyalty in Action",
+            "title": "Be Loyal.",
+            "heading_size": 100,
+            "text": "<p>Black Lab is a small business with a big commitment to doing good. Our Be Loyal™ Program supports pets, people, and the planet through dog bed donations, sustainability-focused materials, and partnerships with causes we believe in. It’s how we turn values into action.</p>",
+            "text_size": 100,
+            "button_text": "Read More",
+            "button_link": "https://blacklabbrands.com/blogs/blog/the-black-lab-be-loyal-program",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--white",
+            "button_2_style": "btn--solid-border",
+            "button_2_size": "btn--small",
+            "bg_color": ""
+          }
+        },
+        "image_8jwbQc": {
+          "type": "image",
+          "settings": {
+            "text_position": "middle-center",
+            "image": "shopify://shop_images/surf.png",
+            "disable_lazy_load": false,
+            "overlay_opacity": 10,
+            "text_color": "text-dark",
+            "title": "",
+            "heading_size": 100,
+            "image_text": "",
+            "button_text": "",
+            "button_link": "https://blacklabbrands.com/blogs/blog/the-black-lab-be-loyal-program",
+            "button_color": "btn--white",
+            "button_style": "btn--solid-border",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "template--18963859407163__907ac558-c8aa-4fa4-b971-dbce2de8219b-text-1",
+        "image_8jwbQc"
+      ],
+      "settings": {
+        "height": "one-fifty-height",
+        "bg_color": "",
+        "reverse_blocks": false,
+        "width": "wrapper",
+        "add_gutter": false,
+        "padding_top": 10,
+        "padding_bottom": 0
+      }
+    },
+    "section_shoppable_blog_gx4Qmt": {
+      "type": "section-shoppable-blog",
+      "blocks": {
+        "article_fcFCKU": {
+          "type": "article",
+          "settings": {
+            "article": "blog/is-your-dog-bed-sewn-then-it-isn-t-waterproof",
+            "product_list": [
+              "the-beast-ultratough-orthopedic-dog-bed"
+            ]
+          }
+        },
+        "article_DMWUym": {
+          "type": "article",
+          "settings": {
+            "article": "blog/what-s-better-than-ballistic-dog-beds",
+            "product_list": [
+              "pet-friendly-bedding"
+            ]
+          }
+        },
+        "article_GH34PP": {
+          "type": "article",
+          "settings": {
+            "article": "blog/what-to-pack-when-road-tripping-with-your-pup",
+            "product_list": [
+              "tough-travel-dog-bed"
+            ]
+          }
+        },
+        "article_UQigAL": {
+          "type": "article",
+          "settings": {
+            "article": "blog/understanding-the-differences-between-dog-harnesses-and-collars",
+            "product_list": [
+              "ultralight-dog-harness"
+            ]
+          }
+        },
+        "article_haBLPw": {
+          "type": "article",
+          "settings": {
+            "article": "blog/the-importance-of-a-dog-bed-with-the-proper-amount-of-support",
+            "product_list": [
+              "the-beast-ultratough-orthopedic-dog-bed"
+            ]
+          }
+        },
+        "article_jbk36z": {
+          "type": "article",
+          "settings": {
+            "article": "blog/are-waterproof-dog-beds-really-waterproof",
+            "product_list": [
+              "orthopedic-mattress"
+            ]
+          }
+        }
+      },
+      "block_order": [
+        "article_fcFCKU",
+        "article_DMWUym",
+        "article_GH34PP",
+        "article_UQigAL",
+        "article_haBLPw",
+        "article_jbk36z"
+      ],
+      "settings": {
+        "title": "JOURNAL",
+        "show_tags": true,
+        "overlay_opacity": 20,
+        "bg_color_secondary": true,
+        "width": "wrapper",
+        "padding_top": 20,
+        "padding_bottom": 40
+      }
+    },
+    "438134f4-207c-4040-aeee-388c681ebe81": {
+      "type": "section-accordions",
+      "blocks": {
+        "template--18963859407163__438134f4-207c-4040-aeee-388c681ebe81-text-2": {
+          "type": "text",
+          "settings": {
+            "title": "What does BETTER THAN BALLISTIC™ mean?",
+            "text": "<p>Other companies use materials labeled \"ballistic\" or \"rip-stop,\" which are often deemed proprietary. However, these materials tend to fall short on their claims. Oftentimes, these fabrics are non-recyclable, non-eco-friendly, and have been shown to degrade after the first wash.</p><p>Our fabrics are Better than Ballistic™ because:</p><ul><li>Made from tougher than nails recycled fabric</li><li>Eliminates odors</li><li>Eliminates 99.9% of bacteria</li><li>Triple layered for waterproof durability</li><li>Eco-friendly manufacturing process</li><li>Wash less, saves money & time</li><li>Comfort, style and sustainability for your pup</li></ul>"
+          }
+        },
+        "a0caa884-78b9-4c93-8dd0-bd128fdd0b5a": {
+          "type": "text",
+          "settings": {
+            "title": "What makes Black Lab's fabric so tough?",
+            "text": "<p>Black Lab's fabrics are the epitome toughness, featuring a distinctive triple-layered construction meticulously designed to endure the challenges of a dog's lifestyle. </p><p><strong>The Face Layer: </strong>Crafted from 100% recycled yarn, rigorously tested, and proven to be almost twice as strong as competitors’ fabrics in both abrasion and tear resistance.</p><p><strong>Middle Layer: </strong>Waterproof and eco-friendly to repel moisture while increasing durability.</p><p><strong>Base Layer</strong>: A game-changing layer providing extra strength and durability against degradation. </p>"
+          }
+        },
+        "d0119444-627f-4d85-9111-cd7d76003876": {
+          "type": "text",
+          "settings": {
+            "title": "Are your beds crate-friendly?",
+            "text": "<p>All of our crate beds, Trailblazer, and Beast dog beds are designed to fit into most standard size metal folding crates. Our 36” beds fit 36” crates, our 42” beds fit 42” crates, and our 48” beds fit 48” crates.</p>"
+          }
+        },
+        "ae1938a7-621f-4a2e-b911-8e3594f633be": {
+          "type": "text",
+          "settings": {
+            "title": "Are Anti-Bacterial & Anti-Odor treatments safe?",
+            "text": "<p>Absolutely. The treatments we use are Bluesign® approved, meeting rigorous independent environmental and product life cycle standards. Polygiene® StayFresh™, a silver salt used for centuries to combat bacteria and odor, is applied in the final stages of production. StayFresh™ is only active on the textile itself and does not interfere with your natural skin flora.</p>"
+          }
+        },
+        "e764f4dd-2796-45cf-8754-e858b36833fb": {
+          "type": "text",
+          "settings": {
+            "title": "What does Eco-Tough mean?",
+            "text": "<p>Eco-Tough embodies our commitment to crafting products that are environmentally friendly, exceptionally durable, and meet the highest standards of sustainability and quality. This term encapsulates our brand ethos, creating pet essentials that not only meet the highest standards of environmental responsibility but also withstand the demands of pets' active lifestyles for pet owners. Our recycled materials are tested to exceed performance of non-recycled versions. We've created a new fabric engineered for a dog's lifestyle. </p>"
+          }
+        },
+        "75851bb3-b3b7-4711-827d-3cffc85147b4": {
+          "type": "text",
+          "settings": {
+            "title": "What is an orthopedic bed?",
+            "text": "<p>An orthopedic bed provides comprehensive, uniform support, alleviating pressure on joints and aiding in pain relief for pets experiencing discomfort. Essential for older animals with arthritis or hip and spine issues, it's equally beneficial for younger dogs, offering crucial support to prevent potential future ailments.</p>"
+          }
+        },
+        "16364919-7349-4ec5-898c-cac0d9f3d303": {
+          "type": "text",
+          "settings": {
+            "title": "What does StayFresh™ mean?",
+            "text": "<p>StayFresh™ is a natural treatment that embodies our brand's unwavering commitment to cleanliness, hygiene, and environmental responsibility. We are committed to using highly effective hygienic, antibacterial, odor, and eco-conscious materials and technologies that maintain the cleanliness and freshness of our products between washes.</p>"
+          }
+        },
+        "template--18963859407163__438134f4-207c-4040-aeee-388c681ebe81-text-3": {
+          "type": "text",
+          "settings": {
+            "title": "How do StayFresh™  treatments work?",
+            "text": "<p>Black Lab fabrics are treated with StayFresh™, a Swedish-engineered antibacterial and anti-odor technology. This technology relies on a naturally occurring salt found in water and soil. By inhibiting bacteria growth, our textiles effectively eliminate odors, maintaining a cleaner and more hygienic state day after day. This sustainable design encourages less frequent washing of our products, ultimately saving time, water, and energy.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18963859407163__438134f4-207c-4040-aeee-388c681ebe81-text-2",
+        "a0caa884-78b9-4c93-8dd0-bd128fdd0b5a",
+        "d0119444-627f-4d85-9111-cd7d76003876",
+        "ae1938a7-621f-4a2e-b911-8e3594f633be",
+        "e764f4dd-2796-45cf-8754-e858b36833fb",
+        "75851bb3-b3b7-4711-827d-3cffc85147b4",
+        "16364919-7349-4ec5-898c-cac0d9f3d303",
+        "template--18963859407163__438134f4-207c-4040-aeee-388c681ebe81-text-3"
+      ],
+      "settings": {
+        "layout": "two-columns",
+        "show_accordion_divider": false,
+        "title": "Frequently Asked Questions",
+        "subheading": "",
+        "text": "",
+        "tabs_bg_color": "#fafafa",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    }
+  },
+  "order": [
+    "section_video_g4Hp6X",
+    "section_text_V34t4R",
+    "section_icons_row_bMHqbR",
+    "section_text_bqRQ34",
+    "section_columns_JMa3Ce",
+    "section_image_with_text_pwRFpq",
+    "section_text_KCj9yM",
+    "section_columns_qYt4cy",
+    "section_image_with_text_eQ7xYQ",
+    "section_icons_row_X6ibNU",
+    "section_collection_egFEjk",
+    "section_press_4zGcar",
+    "section_text_Pc4cpX",
+    "section_grid_Qkn8Ef",
+    "section_text_8EeYHh",
+    "section_grid_CYEdBD",
+    "section_grid_rqGV47",
+    "section_text_4QJMgY",
+    "section_image_with_text_z3dMB4",
+    "section_image_with_text_ezy6Kb",
+    "section_image_with_text_8mFLfT",
+    "907ac558-c8aa-4fa4-b971-dbce2de8219b",
+    "section_shoppable_blog_gx4Qmt",
+    "438134f4-207c-4040-aeee-388c681ebe81"
+  ]
+}
