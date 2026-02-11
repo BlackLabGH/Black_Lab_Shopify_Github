@@ -50,8 +50,8 @@
             "text": "<p>AS SEEN IN</p>",
             "size": 100,
             "heading_highlight_type": "italics",
-            "highlight_color": "#D43747",
-            "highlight_text_color": "#000"
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
           }
         },
         "text_YefmQn": {
@@ -1485,7 +1485,7 @@
         "text_color": "text-dark",
         "width": "wrapper",
         "padding_top": 10,
-        "padding_bottom": 10
+        "padding_bottom": 30
       }
     }
   },
