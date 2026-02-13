@@ -16,9 +16,8 @@
       "blocks": {
         "custom_AEWYER": {
           "type": "custom",
-          "disabled": true,
           "settings": {
-            "text": "<span style=\"font-size:130%\"><strong>BUY ANY BED, GET A FREE LEASH SET - Ends TODAY! - Automatic Discount at Checkout</strong> </span>",
+            "text": "<span style=\"font-size:130%\"><strong>VALENTINE'S DAY SALE\n14% OFF SITE WIDE - Automatic Discount at Checkout</strong> </span>",
             "target_url_enabled": false,
             "target_url": "shopify://collections/dog-beds",
             "target_referrer_enabled": false,
