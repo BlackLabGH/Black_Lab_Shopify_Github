@@ -16,6 +16,7 @@
       "blocks": {
         "custom_AEWYER": {
           "type": "custom",
+          "disabled": true,
           "settings": {
             "text": "<span style=\"font-size:130%\"><strong>VALENTINE'S DAY SALE\n14% OFF SITE WIDE - Automatic Discount at Checkout</strong> </span>",
             "target_url_enabled": false,
