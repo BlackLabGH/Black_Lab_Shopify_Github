@@ -178,7 +178,7 @@
           {%- render 'media', simple: true, unique: unique, loading: 'eager', current_variant: current_variant, media: featured_media, featured_media: featured_media, image_width: image_size_desktop, enable_video_looping: enable_video_looping, enable_zoom: enable_zoom, section_type: section_type -%}
 
           {%- comment -%} Loop product media skipping the featured {%- endcomment -%}
-          {% liquid 
+          {% liquid
             for media in product.media
               if media.id != featured_media_id
                 assign simple = false
@@ -1010,7 +1010,7 @@
                 {% comment %} this is the fieldset label {% endcomment %}
                 <legend class="radio__legend{% if show_size_guide_as_label %} radio__legend--flex{% endif %}"{% if is_swatch_option %} data-swatches-label{% endif %}>
                   <span class="radio__legend__label">{{ option.name | escape_once }}</span>
-                  
+
                   {% if is_size_option %}
                     <span data-size-name></span>
                   {% endif %}
@@ -1022,8 +1022,8 @@
                   {%- if show_size_guide_as_label -%}{{- size_chart_button -}}{%- endif -%}
                 </legend>
                 {%- for value in option.values -%}
-    
-                  {%- if is_size_option -%}                
+
+                  {%- if is_size_option -%}
                     {% assign parts = value | split: '(' %}
                     {% assign value_label = parts[0] | split: ')' | first %}
                   {%- endif -%}
@@ -1208,7 +1208,7 @@
                     <div class="product__submit__holder{% if show_payment_button %} product__submit__holder--spb{% endif %}{% if show_newsletter %} product__submit__holder--notification{% endif %}">
                       <div class="product__submit__buttons">
                         <div
-                          class="product__submit__item"
+                          class="product__submit__item{% if sold_out %} hidden{% endif %}"
                           {% if animations_enabled %}
                             data-aos="hero"
                             data-aos-anchor="{{ animation_anchor }}"
@@ -1222,23 +1222,38 @@
                             id="AddToCart--{{ unique }}"
                             class="btn {{ atc_button_color }} {{ atc_button_style }} btn--large btn--submit product__submit__add"
                             data-add-to-cart
-                            {% if show_newsletter %}
-                              data-notification-popup="{%- render 'notification-form', product_title: product.title, product_subtitle: current_variant.title, product_id: current_variant.id -%}"
-                            {% endif %}
                           >
                             <span data-add-to-cart-text>
                               {%- if current_variant.available and product.tags contains '_preorder' -%}
                                 {{ 'products.product.preorder' | t }}
                               {%- elsif current_variant.available -%}
                                 {{ 'products.product.add_to_cart' | t }}
-                              {%- else -%}
-                                {{ sold_out_text }}
                               {%- endif -%}
                             </span>
 
                             <div class="loader loader--line"><div class="loader-indeterminate"></div></div>
                           </button>
                         </div>
+
+                        {%- if sold_out and show_newsletter -%}
+                          <div
+                            class="product__submit__item"
+                            {% if animations_enabled %}
+                              data-aos="hero"
+                              data-aos-anchor="{{ animation_anchor }}"
+                              data-aos-order="{{ animation_order }}"
+                              {%- assign animation_order = animation_order | plus: 1 -%}
+                            {% endif %}
+                          >
+                            <button
+                              type="button"
+                              class="btn {{ atc_button_color }} {{ atc_button_style }} btn--large btn--submit"
+                              data-notification-popup="{%- render 'notification-form', product_title: product.title, product_subtitle: current_variant.title, product_id: current_variant.id -%}"
+                            >
+                              <span>{{ newsletter_text }}</span>
+                            </button>
+                          </div>
+                        {%- endif -%}
 
                         {%- if show_payment_button -%}
                           <div
@@ -3085,6 +3100,7 @@
               {%- endif -%}
 
               {%- assign sold_out_text = 'products.product.sold_out' | t -%}
+              {%- assign newsletter_text = 'general.newsletter_form.newsletter_product_availability' | t -%}
             </div>
           </div>
 
@@ -3116,10 +3132,10 @@
             {%- comment -%} Product Form Buttons {%- endcomment -%}
             <!-- /partials/product-form-quickview-actions.liquid -->
 
-            <div class="product__submit__holder{% if show_payment_button %} product__submit__holder--spb{% endif %}">
+            <div class="product__submit__holder{% if show_payment_button %} product__submit__holder--spb{% endif %}{% if show_newsletter %} product__submit__holder--notification{% endif %}">
               <div class="product__submit__buttons">
                 <div
-                  class="product__submit__item"
+                  class="product__submit__item{% if sold_out %} hidden{% endif %}"
                   {% if animations_enabled %}
                     data-aos="fade-up"
                     data-aos-anchor="{{ animation_anchor }}"
@@ -3139,14 +3155,32 @@
                         {{ 'products.product.preorder' | t }}
                       {%- elsif current_variant.available -%}
                         {{ 'products.product.add_to_cart' | t }}
-                      {%- else -%}
-                        {{ sold_out_text }}
                       {%- endif -%}
                     </span>
 
                     <div class="loader loader--line"><div class="loader-indeterminate"></div></div>
                   </button>
                 </div>
+
+                {%- if sold_out and show_newsletter -%}
+                  <div
+                    class="product__submit__item"
+                    {% if animations_enabled %}
+                      data-aos="fade-up"
+                      data-aos-anchor="{{ animation_anchor }}"
+                      data-aos-delay="{{ animation_delay }}"
+                      {%- assign animation_delay = animation_delay | plus: 150 -%}
+                    {% endif %}
+                  >
+                    <button
+                      type="button"
+                      class="btn {{ atc_button_color }} {{ atc_button_style }} btn--large btn--submit"
+                      data-notification-popup="{%- render 'notification-form', product_title: product.title, product_subtitle: current_variant.title, product_id: current_variant.id -%}"
+                    >
+                      <span>{{ newsletter_text }}</span>
+                    </button>
+                  </div>
+                {%- endif -%}
 
                 {%- if show_stock_message -%}
                   <div
