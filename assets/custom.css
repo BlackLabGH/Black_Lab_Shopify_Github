@@ -1,0 +1,6 @@
+/* Custom CSS for theme modifications */
+
+/* Hide native Shopify notification button - using Klaviyo Back In Stock instead */
+button[data-notification-popup] {
+  display: none !important;
+}
