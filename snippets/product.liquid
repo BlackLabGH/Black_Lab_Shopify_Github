@@ -1200,10 +1200,7 @@
                     {%- endif -%}
 
                     {%- assign sold_out_text = 'products.product.sold_out' | t -%}
-                    {%- if show_newsletter -%}
-                      {%- assign newsletter_text = 'general.newsletter_form.newsletter_product_availability' | t -%}
-                      {%- assign sold_out_text = sold_out_text | append: ' - ' | append: newsletter_text -%}
-                    {%- endif -%}
+                    {%- assign newsletter_text = 'general.newsletter_form.newsletter_product_availability' | t -%}
 
                     <div class="product__submit__holder{% if show_payment_button %} product__submit__holder--spb{% endif %}{% if show_newsletter %} product__submit__holder--notification{% endif %}">
                       <div class="product__submit__buttons">
@@ -1228,6 +1225,8 @@
                                 {{ 'products.product.preorder' | t }}
                               {%- elsif current_variant.available -%}
                                 {{ 'products.product.add_to_cart' | t }}
+                              {%- elsif !current_variant.available -%}
+                                {{ newsletter_text }}
                               {%- endif -%}
                             </span>
 
@@ -1235,7 +1234,7 @@
                           </button>
                         </div>
 
-                        {%- if sold_out and show_newsletter -%}
+                        {%- if sold_out -%}
                           <div
                             class="product__submit__item"
                             {% if animations_enabled %}
@@ -1271,19 +1270,19 @@
                         {%- endif -%}
 
                         <div data-cart-errors-container role="alert" class="product__form__errors"></div>
-                      </div>
 
-                      {% comment %} Shop pay split payment terms {% endcomment %}
-                      <div
-                        class="shop-pay-terms text-center mt-2"
-                        {% if animations_enabled %}
-                          data-aos="hero"
-                          data-aos-anchor="{{ animation_anchor }}"
-                          data-aos-order="{{ animation_order }}"
-                          {%- assign animation_order = animation_order | plus: 1 -%}
-                        {% endif %}
-                      >
-                        {{ form | payment_terms }}
+                        {% comment %} Shop pay split payment terms {% endcomment %}
+                        <div
+                          class="shop-pay-terms text-center mt-2"
+                          {% if animations_enabled %}
+                            data-aos="hero"
+                            data-aos-anchor="{{ animation_anchor }}"
+                            data-aos-order="{{ animation_order }}"
+                            {%- assign animation_order = animation_order | plus: 1 -%}
+                          {% endif %}
+                        >
+                          {{ form | payment_terms }}
+                        </div>
                       </div>
                     </div>
 
@@ -3162,7 +3161,7 @@
                   </button>
                 </div>
 
-                {%- if sold_out and show_newsletter -%}
+                {%- if sold_out -%}
                   <div
                     class="product__submit__item"
                     {% if animations_enabled %}
