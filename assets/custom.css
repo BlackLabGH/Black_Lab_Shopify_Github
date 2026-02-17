@@ -4,3 +4,8 @@
 button[data-notification-popup] {
   display: none !important;
 }
+
+/* Style Klaviyo button to match native buttons */
+.klaviyo-bis-trigger {
+  width: 90% !important;
+}
