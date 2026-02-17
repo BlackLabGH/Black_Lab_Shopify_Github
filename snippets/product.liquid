@@ -3157,25 +3157,23 @@
                   </button>
                 </div>
 
-                {%- if sold_out -%}
-                  <div
-                    class="product__submit__item"
-                    {% if animations_enabled %}
-                      data-aos="fade-up"
-                      data-aos-anchor="{{ animation_anchor }}"
-                      data-aos-delay="{{ animation_delay }}"
-                      {%- assign animation_delay = animation_delay | plus: 150 -%}
-                    {% endif %}
+                <div
+                  class="product__submit__item{% unless sold_out %} hidden{% endunless %}"
+                  {% if animations_enabled %}
+                    data-aos="fade-up"
+                    data-aos-anchor="{{ animation_anchor }}"
+                    data-aos-delay="{{ animation_delay }}"
+                    {%- assign animation_delay = animation_delay | plus: 150 -%}
+                  {% endif %}
+                >
+                  <button
+                    type="button"
+                    class="btn {{ atc_button_color }} {{ atc_button_style }} btn--large btn--submit"
+                    data-notification-popup="{%- render 'notification-form', product_title: product.title, product_subtitle: current_variant.title, product_id: current_variant.id -%}"
                   >
-                    <button
-                      type="button"
-                      class="btn {{ atc_button_color }} {{ atc_button_style }} btn--large btn--submit"
-                      data-notification-popup="{%- render 'notification-form', product_title: product.title, product_subtitle: current_variant.title, product_id: current_variant.id -%}"
-                    >
-                      <span>{{ newsletter_text }}</span>
-                    </button>
-                  </div>
-                {%- endif -%}
+                    <span>{{ newsletter_text }}</span>
+                  </button>
+                </div>
 
                 {%- if show_stock_message -%}
                   <div
