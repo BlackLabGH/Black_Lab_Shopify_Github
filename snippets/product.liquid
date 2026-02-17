@@ -1225,8 +1225,6 @@
                                 {{ 'products.product.preorder' | t }}
                               {%- elsif current_variant.available -%}
                                 {{ 'products.product.add_to_cart' | t }}
-                              {%- elsif !current_variant.available -%}
-                                {{ newsletter_text }}
                               {%- endif -%}
                             </span>
 
@@ -1234,25 +1232,23 @@
                           </button>
                         </div>
 
-                        {%- if sold_out -%}
-                          <div
-                            class="product__submit__item"
-                            {% if animations_enabled %}
-                              data-aos="hero"
-                              data-aos-anchor="{{ animation_anchor }}"
-                              data-aos-order="{{ animation_order }}"
-                              {%- assign animation_order = animation_order | plus: 1 -%}
-                            {% endif %}
+                        <div
+                          class="product__submit__item{% unless sold_out %} hidden{% endunless %}"
+                          {% if animations_enabled %}
+                            data-aos="hero"
+                            data-aos-anchor="{{ animation_anchor }}"
+                            data-aos-order="{{ animation_order }}"
+                            {%- assign animation_order = animation_order | plus: 1 -%}
+                          {% endif %}
+                        >
+                          <button
+                            type="button"
+                            class="btn {{ atc_button_color }} {{ atc_button_style }} btn--large btn--submit"
+                            data-notification-popup="{%- render 'notification-form', product_title: product.title, product_subtitle: current_variant.title, product_id: current_variant.id -%}"
                           >
-                            <button
-                              type="button"
-                              class="btn {{ atc_button_color }} {{ atc_button_style }} btn--large btn--submit"
-                              data-notification-popup="{%- render 'notification-form', product_title: product.title, product_subtitle: current_variant.title, product_id: current_variant.id -%}"
-                            >
-                              <span>{{ newsletter_text }}</span>
-                            </button>
-                          </div>
-                        {%- endif -%}
+                            <span>{{ newsletter_text }}</span>
+                          </button>
+                        </div>
 
                         {%- if show_payment_button -%}
                           <div
