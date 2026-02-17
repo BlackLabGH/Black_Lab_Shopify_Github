@@ -6872,20 +6872,45 @@
           return;
         }
 
-        // Unavailable variant
+        // Unavailable variant - toggle button containers instead of changing text
         if (!variant.available) {
-          element.innerHTML = theme.strings.sold_out;
+          const addToCartButton = element.closest('.product__submit__item');
+          const submitButtonsContainer = element.closest('.product__submit__buttons');
 
-          if (element.parentNode.hasAttribute(attributes$w.notificationPopup)) {
-            if (element.closest(selectors$L.quickViewItem)) return; // Disable 'notify me' text change for Quickview
+          if (addToCartButton && submitButtonsContainer) {
+            // Hide the Add to Cart button
+            addToCartButton.classList.add(classes$B.hidden);
 
-            element.innerHTML = `${theme.strings.sold_out} - ${theme.strings.newsletter_product_availability}`;
+            // Show the Notify Me button (next sibling if it exists)
+            const notifyMeButton = addToCartButton.nextElementSibling;
+            if (notifyMeButton && notifyMeButton.classList.contains('product__submit__item')) {
+              notifyMeButton.classList.remove(classes$B.hidden);
+            }
+          } else {
+            // Fallback for old structure (Quick View, etc.)
+            element.innerHTML = theme.strings.sold_out;
+
+            if (element.parentNode.hasAttribute(attributes$w.notificationPopup)) {
+              if (element.closest(selectors$L.quickViewItem)) return;
+              element.innerHTML = `${theme.strings.sold_out} - ${theme.strings.newsletter_product_availability}`;
+            }
           }
 
           return;
         }
 
-        // Available variant
+        // Available variant - show Add to Cart, hide Notify Me
+        const addToCartButton = element.closest('.product__submit__item');
+        if (addToCartButton) {
+          addToCartButton.classList.remove(classes$B.hidden);
+
+          // Hide the Notify Me button
+          const notifyMeButton = addToCartButton.nextElementSibling;
+          if (notifyMeButton && notifyMeButton.classList.contains('product__submit__item')) {
+            notifyMeButton.classList.add(classes$B.hidden);
+          }
+        }
+
         element.innerHTML = addText;
       });
 

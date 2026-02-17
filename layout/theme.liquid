@@ -1,6 +1,6 @@
 <!doctype html>
 <html class="no-js no-touch" lang="{{ request.locale.iso_code }}">
-<head> 
+<head>
   <script async="async" src="https://mm-uxrv.com/js/mm_cc0efd2f-8cc2-4eca-89f4-14e97ca88af3-62703033.js"></script>
   <script src="//d1liekpayvooaz.cloudfront.net/apps/customizery/customizery.js?shop={{shop.permanent_domain}}"></script>
   <meta charset="utf-8">
@@ -14,7 +14,7 @@
   {{ 'theme.css' | asset_url | preload_tag: as: 'style' }}
   {{ 'base.css' | asset_url | preload_tag: as: 'style' }}
   {{ 'vendor.js' | asset_url | preload_tag: as: 'script' }}
-  {{ 'theme.20240904.js' | asset_url | preload_tag: as: 'script' }}
+  {{ 'theme.dev.js' | asset_url | preload_tag: as: 'script' }}
 
   <link rel="preload" as="image" href="{{ 'loading.svg' | asset_url }}">{%- liquid
   assign loading_appearance = settings.loading_appearance
@@ -201,7 +201,7 @@
   {%- endif -%}
 
   <script src="{{ 'vendor.js' | asset_url }}" defer="defer"></script>
-  <script src="{{ 'theme.20240904.js' | asset_url }}" defer="defer"></script>
+  <script src="{{ 'theme.dev.js' | asset_url }}" defer="defer"></script>
   <script src="{{ 'app.js' | asset_url }}" defer="defer"></script>
 
   {%- comment -%}
@@ -277,7 +277,7 @@ template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}
   {%- endif -%}
 
   <script src="https://a.klaviyo.com/media/js/onsite/onsite.js"></script>
-  
+
   {%- if settings.footer_scripts != blank %}
     {{- settings.footer_scripts | strip_newlines | strip -}}
   {%- endif -%}
@@ -318,7 +318,7 @@ template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}
   }(window, window.fetch));
   var klAjax = true;
   var atcButtons = document.querySelectorAll("form[action*='/cart/add'] button[type='submit']");
-  for (var i = 0; i < atcButtons.length; i++) { 
+  for (var i = 0; i < atcButtons.length; i++) {
     atcButtons[i].addEventListener("click", function() {
       if (klAjax) {
         _learnq.push(['track', 'Added to Cart', item]);
@@ -335,7 +335,7 @@ template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}
       account: "TvkQn8",
       platform: "shopify"
     });
-    klaviyo.enable("backinstock",{ 
+    klaviyo.enable("backinstock",{
     trigger: {
       product_page_text: "Notify Me When Available",
       product_page_class: "button",
