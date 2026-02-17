@@ -364,6 +364,44 @@ template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}
      success_text_color: "#1B9500"
     }
   });
+
+  // Reposition Klaviyo button after it injects
+  (function repositionKlaviyoButton() {
+    var attempts = 0;
+    var maxAttempts = 20;
+
+    function moveButton() {
+      var klaviyoBtn = document.querySelector('.klaviyo-bis-trigger');
+      var targetContainer = document.querySelector('.product__submit__buttons');
+
+      if (klaviyoBtn && targetContainer) {
+        // Move Klaviyo button inside our button container, before payment terms
+        var paymentTerms = targetContainer.querySelector('.shop-pay-terms');
+        if (paymentTerms) {
+          targetContainer.insertBefore(klaviyoBtn, paymentTerms);
+        } else {
+          targetContainer.appendChild(klaviyoBtn);
+        }
+        return true;
+      }
+      return false;
+    }
+
+    function checkAndMove() {
+      if (moveButton() || attempts >= maxAttempts) {
+        return;
+      }
+      attempts++;
+      setTimeout(checkAndMove, 100);
+    }
+
+    // Start checking after DOM loads
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', checkAndMove);
+    } else {
+      checkAndMove();
+    }
+  })();
 </script>
 </body>
 </html>
