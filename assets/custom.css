@@ -4,3 +4,14 @@
 button[data-notification-popup] {
   display: none !important;
 }
+
+/* Position Klaviyo Back In Stock button correctly */
+.klaviyo-bis-trigger {
+  order: 0 !important; /* Move to top of flex container */
+  margin-bottom: 1rem !important;
+}
+
+/* Ensure payment terms appear below Klaviyo button */
+.shop-pay-terms {
+  order: 1 !important;
+}
