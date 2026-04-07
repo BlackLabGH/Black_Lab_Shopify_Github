@@ -139,8 +139,16 @@
         },
         "text_dLddDc": {
           "type": "text",
+          "disabled": true,
           "settings": {
-            "text": "<p>Our 120 Day Life-Proof Cover Warranty<strong>™</strong> provides a one-time <strong>full replacement </strong>of the the bed for these products only:</p><ul><li>Chew Proof Crate Pad</li><li>Chew Proof Elevated Dog Bed</li><li>Chew Proof Padded Elevated Dog Bed</li></ul><p>Our 120 Day Life-Proof Cover Warranty<strong>™</strong> provides a one-time <strong>cover replacement</strong> for these products only:</p><ul><li>Fused Core™ + cover only</li><li>Beast Ultratough Orthopedic bed</li></ul>",
+            "text": "<p>Our 120 Day Life-Proof Cover Warranty<strong>™</strong> provides a one-time <strong>full replacement </strong>of the the bed for these products only:</p><ul><li>Chew Proof Crate Pad</li><li>Chew Proof Elevated Dog Bed</li><li>Chew Proof Padded Elevated Dog Bed</li></ul>",
+            "size": 100
+          }
+        },
+        "text_LrbFdx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our 120 Day Life-Proof Cover Warranty<strong>™</strong> provides a one-time <strong>cover replacement</strong> for these products only:</p><ul><li>Fused Core™ Signature Dog Bed (outer cover only) </li><li>Fused Core™ Pillow Dog Bed (outer cover only) </li><li>Fused Core™ Bolster Dog Bed (outer cover only) </li></ul>",
             "size": 100
           }
         },
@@ -217,6 +225,7 @@
         "text_Gny9aV",
         "text_Vxyznp",
         "text_dLddDc",
+        "text_LrbFdx",
         "text_c7bq8k",
         "heading_Qahq39",
         "text_8mHpL4",
