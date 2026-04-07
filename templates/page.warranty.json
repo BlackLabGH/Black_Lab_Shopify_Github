@@ -125,6 +125,7 @@
         },
         "text_Gny9aV": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>If you've purchased a chew proof metal frame product, rest assured that our warranty covers the full replacement value of the item.</p>",
             "size": 100
