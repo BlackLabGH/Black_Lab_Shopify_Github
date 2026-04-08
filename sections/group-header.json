@@ -43,7 +43,7 @@
           "type": "custom",
           "disabled": true,
           "settings": {
-            "text": "<span style=\"font-size:130%\"><strong>20% OFF Bundles</strong></span>",
+            "text": "",
             "target_url_enabled": false,
             "target_url": "shopify://collections/bundles",
             "target_referrer_enabled": false,
