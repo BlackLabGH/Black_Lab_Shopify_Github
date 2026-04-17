@@ -30,7 +30,7 @@
         "custom_WUwp3P": {
           "type": "custom",
           "settings": {
-            "text": "<span style=\"font-size:130%\"><strong>Free shipping over $75</strong></span>",
+            "text": "<span style=\"font-size:130%\"><strong>Free shipping over $75 (Continental U.S. only)</strong></span>",
             "target_url_enabled": false,
             "target_url": "shopify://collections/bundles",
             "target_referrer_enabled": false,
