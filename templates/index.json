@@ -498,7 +498,7 @@
         "text_block_eTeRnj": {
           "type": "text_block",
           "settings": {
-            "image": "shopify://shop_images/doublecover.png",
+            "image": "shopify://shop_images/signiture_layers_exploded.png",
             "title": "Better Materials",
             "text": "<p>A true waterproof mattress and high-quality fabrics designed to hold up through daily use, digging, scratching and dogs that are rough on their beds.</p>",
             "button_text": "Shop All Beds",
@@ -528,7 +528,7 @@
         "text_block_88dXnh": {
           "type": "text_block",
           "settings": {
-            "image": "shopify://shop_images/cover_removal.png",
+            "image": "shopify://shop_images/doublecover.png",
             "title": "Made to Be Washed",
             "text": "<p>A truly waterproof mattress wipes clean or hoses off, while the outer cover handles daily messes and frequent washing without losing shape, protection, or seam integrity.</p>",
             "button_text": "Shop All Beds",
