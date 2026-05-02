@@ -442,7 +442,7 @@
       "type": "section-collection",
       "name": "Featured collection",
       "settings": {
-        "collection": "waterproof-fused-core-beds",
+        "collection": "core-dog-beds",
         "products_layout": "grid",
         "number_of_products": 4,
         "products_per_row_on_desktop": 4,
