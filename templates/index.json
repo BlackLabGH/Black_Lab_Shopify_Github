@@ -572,10 +572,10 @@
         "heading_RHaUM6": {
           "type": "heading",
           "settings": {
-            "text": "<p>Why Our Beds Last</p>",
+            "text": "<p>Why <em>Our</em> Beds Last</p>",
             "size": 100,
-            "heading_highlight_type": "italics",
-            "highlight_color": "#d43747",
+            "heading_highlight_type": "circle",
+            "highlight_color": "#caa876",
             "highlight_text_color": "#000000"
           }
         },
