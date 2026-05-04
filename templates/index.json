@@ -716,8 +716,8 @@
         "bg_color": "#ffffff",
         "gradient": "",
         "section_width": "wrapper",
-        "padding_top": 10,
-        "padding_bottom": 10
+        "padding_top": 30,
+        "padding_bottom": 30
       }
     },
     "section_text_bqRQ34": {
