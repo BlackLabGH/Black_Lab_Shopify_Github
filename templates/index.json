@@ -556,6 +556,65 @@
         "padding_bottom": 10
       }
     },
+    "section_text_bqRQ34": {
+      "type": "section-text",
+      "blocks": {
+        "subheading_7T73t3": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Subheading</p>",
+            "size": 100,
+            "margin_bottom": 16
+          }
+        },
+        "heading_MAtym4": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Why Our Beds Stay Cleaner</p>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "text_CVrAVi": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "size": 100
+          }
+        },
+        "button_QNVbQH": {
+          "type": "button",
+          "settings": {
+            "button_text": "SHOP ALL DOG BEDS",
+            "button_link": "shopify://collections/core-dog-beds",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_7T73t3",
+        "heading_MAtym4",
+        "text_CVrAVi",
+        "button_QNVbQH"
+      ],
+      "name": "Text",
+      "settings": {
+        "show_spacer_lines": true,
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
     "section_text_GFyXaq": {
       "type": "section-text",
       "blocks": {
@@ -718,65 +777,6 @@
         "section_width": "wrapper",
         "padding_top": 30,
         "padding_bottom": 30
-      }
-    },
-    "section_text_bqRQ34": {
-      "type": "section-text",
-      "blocks": {
-        "subheading_7T73t3": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Subheading</p>",
-            "size": 100,
-            "margin_bottom": 16
-          }
-        },
-        "heading_MAtym4": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Why Our Beds Stay Cleaner</p>",
-            "size": 100,
-            "heading_highlight_type": "italics",
-            "highlight_color": "#d43747",
-            "highlight_text_color": "#000000"
-          }
-        },
-        "text_CVrAVi": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
-            "size": 100
-          }
-        },
-        "button_QNVbQH": {
-          "type": "button",
-          "settings": {
-            "button_text": "SHOP ALL DOG BEDS",
-            "button_link": "shopify://collections/core-dog-beds",
-            "button_color": "btn--black",
-            "button_style": "btn--solid",
-            "button_size": "btn--small"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_7T73t3",
-        "heading_MAtym4",
-        "text_CVrAVi",
-        "button_QNVbQH"
-      ],
-      "name": "Text",
-      "settings": {
-        "show_spacer_lines": true,
-        "text_position": "center",
-        "bg_color_secondary": false,
-        "text_color": "text-dark",
-        "width": "wrapper--narrow",
-        "padding_top": 20,
-        "padding_bottom": 20
       }
     },
     "section_columns_JMa3Ce": {
@@ -1293,10 +1293,10 @@
     "section_collection_U4HQDb",
     "section_icons_row_bMHqbR",
     "section_image_with_text_4LCKmd",
+    "section_text_bqRQ34",
     "section_text_GFyXaq",
     "section_columns_hCRn8D",
     "section_image_with_text_z4NRbA",
-    "section_text_bqRQ34",
     "section_columns_JMa3Ce",
     "section_image_qULYJy",
     "section_image_with_text_pwRFpq",
