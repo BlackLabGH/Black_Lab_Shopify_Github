@@ -693,7 +693,7 @@
       "type": "section-image-with-text",
       "name": "Image with text",
       "settings": {
-        "section_height": "three-hundred-height",
+        "section_height": "three-fifty-height",
         "layout": "inline",
         "image_location": "left",
         "image_width": "standard",
