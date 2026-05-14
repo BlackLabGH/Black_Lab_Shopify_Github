@@ -19,7 +19,7 @@
           "settings": {
             "text": "<span style=\"font-size:130%\"><strong>MEMORIAL DAY SALE\nBOGO 30% Off On All Accessories - Automatic Discount at Checkout</strong> </span>",
             "target_url_enabled": false,
-            "target_url": "shopify://collections/dog-beds",
+            "target_url": "shopify://collections/memorial-day-sale",
             "target_referrer_enabled": false,
             "target_referrer": "",
             "target_device_enabled": false,
@@ -31,7 +31,7 @@
           "settings": {
             "text": "<span style=\"font-size:130%\"><strong>MEMORIAL DAY SALE\n25% Off TRAILBLAZER</strong> </span>",
             "target_url_enabled": false,
-            "target_url": "shopify://collections/dog-beds",
+            "target_url": "shopify://collections/memorial-day-sale",
             "target_referrer_enabled": false,
             "target_referrer": "",
             "target_device_enabled": false,
@@ -43,7 +43,7 @@
           "settings": {
             "text": "<span style=\"font-size:130%\"><strong>Free shipping over $75 (Continental U.S. only)</strong></span>",
             "target_url_enabled": false,
-            "target_url": "shopify://collections/bundles",
+            "target_url": "shopify://collections/waterproof-fused-core-beds",
             "target_referrer_enabled": false,
             "target_referrer": "",
             "target_device_enabled": false,
