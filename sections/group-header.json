@@ -16,9 +16,20 @@
       "blocks": {
         "custom_AEWYER": {
           "type": "custom",
-          "disabled": true,
           "settings": {
-            "text": "<span style=\"font-size:130%\"><strong>VALENTINE'S DAY SALE\n14% OFF SITE WIDE - Automatic Discount at Checkout</strong> </span>",
+            "text": "<span style=\"font-size:130%\"><strong>MEMORIAL DAY SALE\nBOGO 30% Off On All Accessories - Automatic Discount at Checkout</strong> </span>",
+            "target_url_enabled": false,
+            "target_url": "shopify://collections/dog-beds",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "custom_dnJUzN": {
+          "type": "custom",
+          "settings": {
+            "text": "<span style=\"font-size:130%\"><strong>MEMORIAL DAY SALE\n25% Off TRAILBLAZER</strong> </span>",
             "target_url_enabled": false,
             "target_url": "shopify://collections/dog-beds",
             "target_referrer_enabled": false,
@@ -31,19 +42,6 @@
           "type": "custom",
           "settings": {
             "text": "<span style=\"font-size:130%\"><strong>Free shipping over $75 (Continental U.S. only)</strong></span>",
-            "target_url_enabled": false,
-            "target_url": "shopify://collections/bundles",
-            "target_referrer_enabled": false,
-            "target_referrer": "",
-            "target_device_enabled": false,
-            "target_device": "mobile"
-          }
-        },
-        "custom_gJTJph": {
-          "type": "custom",
-          "disabled": true,
-          "settings": {
-            "text": "",
             "target_url_enabled": false,
             "target_url": "shopify://collections/bundles",
             "target_referrer_enabled": false,
@@ -68,8 +66,8 @@
       },
       "block_order": [
         "custom_AEWYER",
+        "custom_dnJUzN",
         "custom_WUwp3P",
-        "custom_gJTJph",
         "c8b619f6-e5eb-406a-95db-6df675da309e"
       ],
       "settings": {
