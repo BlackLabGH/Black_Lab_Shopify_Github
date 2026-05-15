@@ -299,8 +299,8 @@
       "settings": {
         "show_breadcrumbs": true,
         "enable_sorting": true,
-        "enable_filters": true,
-        "filters_layout": "open",
+        "enable_filters": false,
+        "filters_layout": "closed",
         "show_more": true,
         "filter_mode": "default",
         "heading_style": "body",
