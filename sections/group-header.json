@@ -83,9 +83,9 @@
         "text_size": 110,
         "letter_spacing": 0,
         "message_spacing": 100,
-        "bg_color": "#d43747",
+        "bg_color": "#373535",
         "gradient": "",
-        "color": "#ffffff",
+        "color": "#caa876",
         "border_color": "#caa876"
       }
     },
