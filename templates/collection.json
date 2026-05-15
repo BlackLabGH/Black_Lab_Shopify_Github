@@ -56,8 +56,8 @@
         "subheading_RENqHR": {
           "type": "subheading",
           "settings": {
-            "text": "<p>MAY 15-26</p>",
-            "size": 100,
+            "text": "<p><strong>MAY 15-26</strong></p>",
+            "size": 180,
             "margin_bottom": 16
           }
         },
@@ -71,18 +71,18 @@
             "highlight_text_color": "#d43747"
           }
         },
-        "text_jnCQa3": {
-          "type": "text",
+        "image_9HNLkH": {
+          "type": "image",
           "settings": {
-            "text": "<p>This Memorial Day, we pause to honor those who serve... including the four-legged partners who work beside them every day.</p><p>From K9 units to adventure dogs to everyday family companions, dogs deserve a place to rest that’s built to last.</p>",
-            "size": 100
+            "image_width": 100,
+            "image_link": ""
           }
         }
       },
       "block_order": [
         "subheading_RENqHR",
         "heading_DaTEQ9",
-        "text_jnCQa3"
+        "image_9HNLkH"
       ],
       "name": "Text",
       "settings": {
