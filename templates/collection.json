@@ -50,6 +50,37 @@
       ],
       "settings": {}
     },
+    "section_image_with_text_GYe3DG": {
+      "type": "section-image-with-text",
+      "name": "Image with text",
+      "settings": {
+        "section_height": "six-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "standard",
+        "image": "shopify://shop_images/7D4855A7-3C94-46F6-9377-A875A3DD2081.jpg",
+        "subheading": "",
+        "title": "<p><em>Memorial Day Sale</em></p>",
+        "heading_highlight_type": "highlight-color",
+        "highlight_color": "#D43747",
+        "highlight_text_color": "#d43747",
+        "heading_size": 130,
+        "content": "<h3>May 15-26</h3>",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
     "section_text_hGKYLf": {
       "type": "section-text",
       "blocks": {
@@ -749,6 +780,7 @@
   },
   "order": [
     "17661567624f34d174",
+    "section_image_with_text_GYe3DG",
     "section_text_hGKYLf",
     "17661537548787c60a",
     "section_image_with_text_Dey6Y8",
