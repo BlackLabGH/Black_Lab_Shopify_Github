@@ -78,44 +78,7 @@
         "gradient": "",
         "section_width": "wrapper",
         "padding_top": 60,
-        "padding_bottom": 60
-      }
-    },
-    "section_text_hGKYLf": {
-      "type": "section-text",
-      "blocks": {
-        "subheading_RENqHR": {
-          "type": "subheading",
-          "settings": {
-            "text": "<p><strong>MAY 15-26</strong></p>",
-            "size": 180,
-            "margin_bottom": 16
-          }
-        },
-        "heading_DaTEQ9": {
-          "type": "heading",
-          "settings": {
-            "text": "<h1><em>MEMORIAL DAY SALE </em></h1>",
-            "size": 100,
-            "heading_highlight_type": "highlight-color",
-            "highlight_color": "#D43747",
-            "highlight_text_color": "#d43747"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_RENqHR",
-        "heading_DaTEQ9"
-      ],
-      "name": "Text",
-      "settings": {
-        "show_spacer_lines": true,
-        "text_position": "center",
-        "bg_color_secondary": false,
-        "text_color": "text-dark",
-        "width": "wrapper--narrow",
-        "padding_top": 60,
-        "padding_bottom": 60
+        "padding_bottom": 0
       }
     },
     "17661537548787c60a": {
@@ -781,7 +744,6 @@
   "order": [
     "17661567624f34d174",
     "section_image_with_text_GYe3DG",
-    "section_text_hGKYLf",
     "17661537548787c60a",
     "section_image_with_text_Dey6Y8",
     "hero",
