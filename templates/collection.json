@@ -70,19 +70,11 @@
             "highlight_color": "#D43747",
             "highlight_text_color": "#d43747"
           }
-        },
-        "image_9HNLkH": {
-          "type": "image",
-          "settings": {
-            "image_width": 100,
-            "image_link": ""
-          }
         }
       },
       "block_order": [
         "subheading_RENqHR",
-        "heading_DaTEQ9",
-        "image_9HNLkH"
+        "heading_DaTEQ9"
       ],
       "name": "Text",
       "settings": {
