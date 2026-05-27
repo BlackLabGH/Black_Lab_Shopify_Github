@@ -16,6 +16,7 @@
       "blocks": {
         "custom_AEWYER": {
           "type": "custom",
+          "disabled": true,
           "settings": {
             "text": "<span style=\"font-size:130%\"><strong>MEMORIAL DAY SALE\nBOGO 30% Off On All Accessories - Automatic Discount at Checkout</strong> </span>",
             "target_url_enabled": false,
@@ -28,6 +29,7 @@
         },
         "custom_dnJUzN": {
           "type": "custom",
+          "disabled": true,
           "settings": {
             "text": "<span style=\"font-size:130%\"><strong>MEMORIAL DAY SALE\n25% Off TRAILBLAZER</strong> </span>",
             "target_url_enabled": false,
