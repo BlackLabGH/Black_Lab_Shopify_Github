@@ -574,7 +574,7 @@
       "type": "section-custom-html",
       "disabled": true,
       "settings": {
-        "custom_code": "{% render 'okendo-reviews-widget', product: product %}",
+        "custom_code": "<style>\n  /* Page-specific CSS for /products/signature-bed-builder */\n  body.template-product[data-handle=\"signature-bed-builder\"] .product-form__submit {\n    max-width: 350px !important;\n    width: 100% !important;\n    margin-left: auto !important;\n    margin-right: auto !important;\n    display: block !important;\n  }\n</style>",
         "width": "wrapper",
         "padding_top": 60,
         "padding_bottom": 60
