@@ -12,8 +12,17 @@
     "main": {
       "type": "product",
       "blocks": {
+        "text_erzGzg": {
+          "type": "text",
+          "settings": {
+            "title": "<h2><strong>Build the Perfect Bed</strong></h2>",
+            "text_alignment": "left",
+            "padding_bottom": 0
+          }
+        },
         "title": {
           "type": "title",
+          "disabled": true,
           "settings": {
             "subheading": "none",
             "show_rating": true,
@@ -255,6 +264,7 @@
         }
       },
       "block_order": [
+        "text_erzGzg",
         "title",
         "inventory_countdown",
         "text_bVpFJX",
