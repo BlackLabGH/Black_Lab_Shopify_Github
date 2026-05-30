@@ -42,7 +42,7 @@
         "text_bVpFJX": {
           "type": "text",
           "settings": {
-            "title": "<p>{{ product.metafields.custom.short_product_description.value }}</p>",
+            "title": "<p>Start with a 100% waterproof orthopedic mattress and add durable, dig-proof, odor-fighting options. All backed by our 180-day \"life proof\" warranty.</p>",
             "text_alignment": "left",
             "padding_bottom": 20
           }
