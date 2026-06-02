@@ -114,6 +114,15 @@
             "section_id": "rl_st_2433"
           }
         },
+        "text_NjY3H3": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "<p>Give more details about the product</p>",
+            "text_alignment": "left",
+            "padding_bottom": 20
+          }
+        },
         "text_WYgjzn": {
           "type": "text",
           "settings": {
@@ -275,6 +284,7 @@
         "36e9da1b-5922-4ee3-83f3-d867cd6f0ada",
         "icon_row_pV3bK4",
         "reelup_shoppable_videos_reels_reelup_stories_fXekcH",
+        "text_NjY3H3",
         "text_WYgjzn",
         "description",
         "divider_tng6Wx",
