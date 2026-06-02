@@ -227,12 +227,11 @@
         },
         "00ed2897-4063-4deb-a02a-e43f9c36f1f8": {
           "type": "feature",
-          "disabled": true,
           "settings": {
-            "icon_name": "support",
+            "icon_name": "none",
             "icon_width": 25,
-            "title": "Need help?",
-            "text": "<p>Have a question that isn't in our <span style=\"text-decoration:underline\">Help Center</span>? <br/><span style=\"text-decoration:underline\"><br/></span>Something more urgent? <strong>Give us a call</strong></p><p>We're open Monday-Friday 9am-4pm.</p>",
+            "title": "",
+            "text": "<h5>Need help?</h5><p>Have a question that isn't in our<a>Help Center?</a></p><h5>Something more urgent?</h5><p>Give us a call at1(888) 857-2305<br/>We're open Monday-Friday 9am-4pm.<span style=\"text-decoration:underline\"><br/></span>Something more urgent? <strong>Give us a call</strong></p>",
             "bg_color": "#f7f9fa",
             "text_color": "#000000",
             "padding_bottom": 20
