@@ -318,6 +318,15 @@ h5,
   }
 }
 
+@media (max-width: 900px) {
+  /* Mobile styles — apply at 900px and below */
+}
+
+@media (min-width: 901px) {
+  /* Desktop styles — apply at 901px and above */
+}
+
+
 h6,
 .h6 {
   --heading-size: calc(1rem * var(--adjust-heading));
@@ -29600,4 +29609,14 @@ search-form mark {
 }
 .selector-wrapper--qty .popup-quick-view__body {
   z-index: 110;
+}
+
+/* Keep desktop nav until viewport is genuinely narrow */
+@media (pointer: coarse) and (min-width: 577px) {
+  .site-header:not(.js__header__clone) .nav--default {
+    display: flex;
+  }
+  .mobile-menu {
+    display: none;
+  }
 }
