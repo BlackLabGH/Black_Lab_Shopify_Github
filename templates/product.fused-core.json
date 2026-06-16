@@ -33,7 +33,7 @@
         "text_dVDQXh": {
           "type": "text",
           "settings": {
-            "title": "<p>The first orthopedic dog bed with watertight boundaries. Absorb impact, repel mess. </p>",
+            "title": "<p>The first orthopedic foam dog bed with watertight boundaries. Absorb impact, repel mess. </p>",
             "text_alignment": "left",
             "padding_bottom": 20
           }
@@ -103,7 +103,7 @@
           }
         },
         "reelup_shoppable_videos_reels_reelup_stories_4xcQDV": {
-          "type": "shopify://apps/reelup-shoppable-videos-reels/blocks/reelup_stories/a8ec9e4d-d192-44f7-9c23-595f9ee7dd5b",
+          "type": "shopify://apps/reelup-shoppable-videos/blocks/reelup_stories/a8ec9e4d-d192-44f7-9c23-595f9ee7dd5b",
           "settings": {
             "section_id": "rl_st_2438"
           }
