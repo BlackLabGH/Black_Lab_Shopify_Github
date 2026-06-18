@@ -861,7 +861,7 @@
         "button_KPcPV6": {
           "type": "button",
           "settings": {
-            "button_text": "Chose Your Bed",
+            "button_text": "Choose Your Bed",
             "button_link": "shopify://collections/core-dog-beds",
             "button_color": "btn--black",
             "button_style": "btn--solid",
