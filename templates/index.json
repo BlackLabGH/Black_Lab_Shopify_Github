@@ -994,6 +994,71 @@
         "padding_bottom": 30
       }
     },
+    "section_banner_image_qMkpBY": {
+      "type": "section-banner-image",
+      "blocks": {
+        "subheading_xxrdzg": {
+          "type": "subheading",
+          "settings": {
+            "text": "<p>Cleaner by design.</p>",
+            "size": 100
+          }
+        },
+        "heading_haBxGT": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Stays cleaner longer.</p>",
+            "hide_spacer_lines": false,
+            "size": 130,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#D43747",
+            "highlight_text_color": "#000"
+          }
+        },
+        "text_LtFABq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A StayFresh™ outer cover actively fights odor-causing bacteria, while a hygienic Fused Core™ mattress helps prevent moisture, dirt, and messes from reaching the inside of the bed.</p>",
+            "size": 100
+          }
+        },
+        "button_7zFYeC": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_1_text": "Shop All",
+            "button_1_link": "shopify://collections/all",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_xxrdzg",
+        "heading_haBxGT",
+        "text_LtFABq",
+        "button_7zFYeC"
+      ],
+      "name": "Banner image",
+      "settings": {
+        "height": "four-fifty-height",
+        "enable_mobile_height": false,
+        "mobile_height": "four-fifty-height-mobile",
+        "image": "shopify://shop_images/ChatGPT_Image_Jun_18_2026_09_47_02_AM.png",
+        "overlay_opacity": 10,
+        "enable_zoom_animation": true,
+        "text_width": "normal",
+        "text_position": "left",
+        "mobile_layout": "layout-overlay",
+        "text_color": "text-light"
+      }
+    },
     "section_grid_D36TtF": {
       "type": "section-grid",
       "blocks": {
@@ -1070,71 +1135,6 @@
         "add_gutter": false,
         "padding_top": 0,
         "padding_bottom": 0
-      }
-    },
-    "section_banner_image_qMkpBY": {
-      "type": "section-banner-image",
-      "blocks": {
-        "subheading_xxrdzg": {
-          "type": "subheading",
-          "settings": {
-            "text": "<p>Cleaner by design.</p>",
-            "size": 100
-          }
-        },
-        "heading_haBxGT": {
-          "type": "heading",
-          "settings": {
-            "text": "<p>Stays cleaner longer.</p>",
-            "hide_spacer_lines": false,
-            "size": 130,
-            "heading_highlight_type": "italics",
-            "highlight_color": "#D43747",
-            "highlight_text_color": "#000"
-          }
-        },
-        "text_LtFABq": {
-          "type": "text",
-          "settings": {
-            "text": "<p>A StayFresh™ outer cover actively fights odor-causing bacteria, while a hygienic Fused Core™ mattress helps prevent moisture, dirt, and messes from reaching the inside of the bed.</p>",
-            "size": 100
-          }
-        },
-        "button_7zFYeC": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_1_text": "Shop All",
-            "button_1_link": "shopify://collections/all",
-            "button_1_color": "btn--white",
-            "button_1_style": "btn--solid-border",
-            "button_1_size": "btn--small",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_color": "btn--black",
-            "button_2_style": "btn--solid",
-            "button_2_size": "btn--small"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_xxrdzg",
-        "heading_haBxGT",
-        "text_LtFABq",
-        "button_7zFYeC"
-      ],
-      "name": "Banner image",
-      "settings": {
-        "height": "four-fifty-height",
-        "enable_mobile_height": false,
-        "mobile_height": "four-fifty-height-mobile",
-        "image": "shopify://shop_images/ChatGPT_Image_Jun_18_2026_09_47_02_AM.png",
-        "overlay_opacity": 10,
-        "enable_zoom_animation": true,
-        "text_width": "normal",
-        "text_position": "left",
-        "mobile_layout": "layout-overlay",
-        "text_color": "text-light"
       }
     },
     "section_image_e4NdAM": {
@@ -1498,8 +1498,8 @@
     "section_text_image_9pmGg9",
     "section_text_G4NcFX",
     "section_grid_wNkGdg",
-    "section_grid_D36TtF",
     "section_banner_image_qMkpBY",
+    "section_grid_D36TtF",
     "section_image_e4NdAM",
     "section_text_d6QknV",
     "section_grid_mUYiiC",
