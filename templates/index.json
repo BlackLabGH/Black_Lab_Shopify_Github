@@ -797,10 +797,20 @@
         "button_pxAjh6": {
           "type": "button",
           "settings": {
-            "button_text": "Shop Beds",
+            "button_text": "Choose Your Bed",
             "button_link": "shopify://collections/core-dog-beds",
             "button_color": "btn--black",
             "button_style": "btn--solid",
+            "button_size": "btn--small"
+          }
+        },
+        "button_87KWWA": {
+          "type": "button",
+          "settings": {
+            "button_text": "Build Your Bed",
+            "button_link": "shopify://products/signature-bed-builder",
+            "button_color": "btn--black",
+            "button_style": "btn--outline",
             "button_size": "btn--small"
           }
         }
@@ -808,7 +818,8 @@
       "block_order": [
         "title_8Ankcp",
         "content_xcC3qK",
-        "button_pxAjh6"
+        "button_pxAjh6",
+        "button_87KWWA"
       ],
       "name": "Text Image Split",
       "settings": {
