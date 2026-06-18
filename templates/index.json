@@ -798,7 +798,7 @@
           "type": "button",
           "settings": {
             "button_text": "Button text",
-            "button_link": "",
+            "button_link": "shopify://collections/core-dog-beds",
             "button_color": "btn--black",
             "button_style": "btn--solid",
             "button_size": "btn--small"
