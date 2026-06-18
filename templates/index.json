@@ -709,7 +709,7 @@
           "type": "button",
           "settings": {
             "button_1_text": "Shop Signature Beds",
-            "button_1_link": "shopify://collections/all",
+            "button_1_link": "shopify://collections/core-dog-beds",
             "button_1_color": "btn--black",
             "button_1_style": "btn--solid",
             "button_1_size": "btn--small",
