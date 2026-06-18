@@ -969,7 +969,7 @@
         "heading_QrL8ak": {
           "type": "heading",
           "settings": {
-            "text": "<p>The Problem With Traditional Dog Beds</p>",
+            "text": "<p>Protect What Matters Most.</p>",
             "size": 100,
             "heading_highlight_type": "italics",
             "highlight_color": "#D43747",
@@ -979,7 +979,7 @@
         "text_wdyYLk": {
           "type": "text",
           "settings": {
-            "text": "<p>Most dog beds absorb moisture, odors, and bacteria into the foam.</p>",
+            "text": "<p>Most dog beds leave the foam exposed to moisture, odors, and everyday wear. </p><p>Our Signature beds are designed to protect the part you can't replace.</p>",
             "size": 100
           }
         }
@@ -1011,7 +1011,7 @@
             "text_position": "top-left",
             "subheading": "",
             "title": "",
-            "text": "FOAM ABSORBS MOISTURE",
+            "text": "MATTRESS BLOCKS MOISTURE",
             "button_1_text": "",
             "button_1_link": "",
             "button_2_text": "",
@@ -1028,7 +1028,7 @@
             "text_position": "top-left",
             "subheading": "",
             "title": "",
-            "text": "ODORS BUILD UP INSIDE",
+            "text": "COVER FIGHTS ODOR",
             "button_1_text": "",
             "button_1_link": "",
             "button_2_text": "",
@@ -1045,7 +1045,7 @@
             "text_position": "top-left",
             "subheading": "",
             "title": "",
-            "text": "SUPPORT BREAKS DOWN",
+            "text": "FOAM WON'T FLATTEN",
             "button_1_text": "",
             "button_1_link": "",
             "button_2_text": "",
@@ -1062,7 +1062,7 @@
             "text_position": "top-left",
             "subheading": "",
             "title": "",
-            "text": "COVERS WEAR OUT",
+            "text": "COVERS WEAR IN",
             "button_1_text": "",
             "button_1_link": "",
             "button_2_text": "",
@@ -1170,6 +1170,7 @@
         "button_g7eyQa",
         "button_7nN9Kw"
       ],
+      "disabled": true,
       "name": "Text",
       "settings": {
         "show_spacer_lines": false,
@@ -1241,6 +1242,7 @@
         "image_nirPbN",
         "image_BNBrCG"
       ],
+      "disabled": true,
       "name": "Grid",
       "settings": {
         "height": "350",
