@@ -418,7 +418,7 @@
       "type": "section-image-with-text",
       "name": "Image with text",
       "settings": {
-        "section_height": "four-fifty-height",
+        "section_height": "two-fifty-height",
         "layout": "inline",
         "image_location": "left",
         "image_width": "standard",
@@ -429,7 +429,7 @@
         "highlight_color": "#D43747",
         "highlight_text_color": "#000",
         "heading_size": 130,
-        "content": "<p><strong>The foundation inside every Signature bed.</strong></p><p>A fully sealed waterproof shell protects solid orthopedic foam from moisture, helping your bed stay cleaner, more supportive, and comfortable for years.</p><h3></h3><h3>Waterproof Shell</h3><p>Heavy-duty welded vinyl keeps moisture out.</p><h3></h3><h3>Orthopedic Foam</h3><p>Solid support that won't collapse or shift.</p><h3></h3><h3>Easy To Maintain</h3><p>Wipe it. Hose it. Sanitize it.</p><p></p><h3>Built To Last</h3><p>Protected foam stays cleaner and performs longer.</p><p></p>",
+        "content": "<p><strong>The foundation inside every Signature bed. -A Black Lab Original</strong></p><p>A fully sealed waterproof shell protects solid orthopedic foam from moisture, helping your bed stay cleaner, more supportive, and comfortable for years.</p><h3></h3><h3>Waterproof Shell</h3><p>Heavy-duty welded vinyl keeps moisture out.</p><h3></h3><h3>Orthopedic Foam</h3><p>Solid support that won't collapse or shift.</p><h3></h3><h3>Easy To Maintain</h3><p>Wipe it. Hose it. Sanitize it.</p><p></p><h3>Built To Last</h3><p>Protected foam stays cleaner and performs longer.</p><p></p>",
         "text_alignment": "left",
         "button_text": "",
         "button_link": "",
