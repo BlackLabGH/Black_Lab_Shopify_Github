@@ -733,8 +733,8 @@
         "text_mEfJYj": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Waterproof at the core.<br/>Cleaner between washes.<br/>Built for years.</strong></p>",
-            "size": 170
+            "text": "<h4>Waterproof at the core.<br/>Cleaner between washes.<br/>Built for years.</h4>",
+            "size": 75
           }
         },
         "button_cwKNee": {
