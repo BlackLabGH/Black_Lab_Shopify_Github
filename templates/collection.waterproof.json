@@ -435,7 +435,7 @@
       "type": "apps",
       "blocks": {
         "reelup_shoppable_videos_reels_reelup_playlist_WRnBFH": {
-          "type": "shopify://apps/reelup-shoppable-videos-reels/blocks/reelup_playlist/a8ec9e4d-d192-44f7-9c23-595f9ee7dd5b",
+          "type": "shopify://apps/reelup-shoppable-videos/blocks/reelup_playlist/a8ec9e4d-d192-44f7-9c23-595f9ee7dd5b",
           "settings": {
             "playlist_id": "rl_pl_15810"
           }
@@ -651,8 +651,8 @@
         "text_RJVjU4": {
           "type": "text",
           "settings": {
-            "title": "What is the Fused Core™ Modular Bed System?",
-            "text": "<p>It is a buildable dog bed system that starts with a fully waterproof orthopedic mattress. You can add comfort covers, tough protective covers, bolsters and more whenever you want. Every component is designed to work together or on its own. Purchase as a set or upgrade later.</p>"
+            "title": "What makes Black Lab beds different?",
+            "text": "<p>Every Signature Black Lab bed is built around our proprietary Fused Core™ waterproof mattress. Unlike traditional dog beds that allow moisture to reach the foam, Fused Core™ helps protect the support layer at the heart of the bed.</p>"
           }
         },
         "text_YajKN6": {
@@ -665,29 +665,29 @@
         "text_xenMjg": {
           "type": "text",
           "settings": {
-            "title": "Can I use the Fused Core™ mattress on its own?",
-            "text": "<p>Yes. The Fused Core™ is fully waterproof, supportive, and tough enough to be used without any covers. Many customers use it solo for outdoor spaces, camping, garages, mudrooms, and crates.</p>"
+            "title": "What is Fused Core™?",
+            "text": "<p>Fused Core™ is our fully sealed waterproof orthopedic mattress. Heat-welded seams help keep moisture out while solid orthopedic foam provides lasting support. It's the foundation inside every Signature Black Lab bed.</p>"
           }
         },
         "text_TNpKFC": {
           "type": "text",
           "settings": {
-            "title": "Can I upgrade later if I do not buy the full set now?",
-            "text": "<p>Absolutely. Every part of the system is modular. You can start with the Fused Core™ and add upgrades like covers or bolsters at any time. Everything is designed to fit perfectly no matter when you purchase it.</p>"
+            "title": "Are Black Lab beds waterproof?",
+            "text": "<p>Yes. Every Signature bed is built around our Fused Core™ mattress is waterproof at its core. The removable outer covers are water-resistant and designed for everyday life, while the mattress itself helps protect against accidents, spills, and wet dogs.</p>"
           }
         },
         "text_qCAWyn": {
           "type": "text",
           "settings": {
-            "title": "What comes with the Fused Core™ + Covers set?",
-            "text": "<p>You receive the waterproof Fused Core™ mattress, the quilted comfort cover, and the eco tough outer cover with StayFresh™ technology. Together they provide comfort, durability, and odor control. You can purchase extra covers for laundry day or to change up your vibe.</p>"
+            "title": "How do I clean my bed?",
+            "text": "<p>The removable outer covers can be machine washed. The Fused Core™ mattress can be wiped clean, hosed off, or sanitized as needed.</p>"
           }
         },
         "text_bf4pp3": {
           "type": "text",
           "settings": {
-            "title": "What comes with the Fused Core™ + Covers & Bolster set?",
-            "text": "<p>You receive the waterproof Fused Core mattress, the quilted comfort cover, and the eco tough outer cover with StayFresh technology plus a full 360 degree bolster that adds headrest support and extra lounging comfort.</p>"
+            "title": "What is StayFresh™?",
+            "text": "<p>StayFresh™ is our odor-fighting technology built into the outer covers. It helps combat odor-causing bacteria and continues working wash after wash.</p>"
           }
         },
         "text_mJhcXp": {
@@ -700,8 +700,8 @@
         "text_gKErbA": {
           "type": "text",
           "settings": {
-            "title": "Are the Fused Core™ covers washable?",
-            "text": "<p>Yes. All covers are machine washable and our natural StayFresh™ technology helps keep them cleaner between washes. The Fused Core™ can be wiped clean, scrubbed, or hosed off.</p>"
+            "title": "Will the bed help with odors?",
+            "text": "<p>A cleaner cover and a protected mattress work together to help reduce the buildup of odors over time. Because moisture stays out of the mattress, odors have fewer places to hide.</p>"
           }
         },
         "template--18963859341627__388f3454-ced6-4059-9e18-75ca70067528-text-1": {
@@ -723,8 +723,8 @@
         "text_i7gmx6": {
           "type": "text",
           "settings": {
-            "title": "Will new accessories or upgrades be available in the future?",
-            "text": "<p>Yes. The modular system is designed to grow. New covers, fabrics, bolster styles, and accessories will fit the same Fused Core™  foundation.</p>"
+            "title": "What type of foam do you use?",
+            "text": "<p>We use solid orthopedic foam designed to provide consistent support and comfort. Unlike air-filled beds or loose-fill alternatives, orthopedic foam maintains its shape and support over time.</p>"
           }
         },
         "df788f7e-9fbe-404a-b7e1-b614c57066ae": {
@@ -738,8 +738,8 @@
         "template--18963859341627__388f3454-ced6-4059-9e18-75ca70067528-text-3": {
           "type": "text",
           "settings": {
-            "title": "Is an orthopedic bed only good for older dogs?",
-            "text": "<p>No, an orthopedic bed is suitable for dogs of all ages. For larger breeds and those predisposed to hip or joint concerns in their later years, offering comprehensive support from a young age can aid in preventing or postponing the onset of such issues.</p>"
+            "title": "Which bed is right for my dog?",
+            "text": "<h3>Utility</h3><p>Our waterproof foundation. Ideal for crates, travel, outdoor use, and everyday durability.</p><h3>Signature</h3><p>Our most popular bed. Combines Fused Core™, a quilted comfort layer, and a removable StayFresh™ cover.</p><h3>Signature Pillow</h3><p>Everything included in Signature, with added head support.</p><h3>Signature Bolster</h3><p>Surrounding bolsters create a cozy place for dogs who like to curl up or lean while resting.</p>"
           }
         },
         "303c4a03-a259-4a5e-b517-3efdadc7c8c9": {
@@ -753,24 +753,29 @@
         "text_37xjLA": {
           "type": "text",
           "settings": {
-            "title": "What is StayFresh™ technology?",
-            "text": "<p>StayFresh™ is a natural fabric treatment used on our outer covers and accessories. It is Bluesign® approved, meeting rigorous independent environmental and product life cycle standards. Polygiene® StayFresh™ uses a silver salt used for centuries to combat bacteria and odor, is applied in the final stages of production and stays effective for the life of the fabric.. It is only active on the textile itself and does not interfere with your natural skin flora.</p>"
+            "title": "Are the covers removable?",
+            "text": "<p>Yes. Signature, Signature Pillow, and Signature Bolster beds feature removable covers designed for easy cleaning.</p>"
           }
         },
         "0f9535c7-1b4d-40a2-8042-374047f741fe": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "title": "Are Anti-Bacterial & Anti-Odor treatments safe?",
-            "text": "<p>Absolutely. The treatments we use are Bluesign® approved, meeting rigorous independent environmental and product life cycle standards. Polygiene®, a silver salt used for centuries to combat bacteria and odor, is applied in the final stages of production. Polygiene® is only active on the textile itself and does not interfere with your natural skin flora.</p>"
+            "title": "How long should a Black Lab bed last?",
+            "text": "<p>Black Lab beds are designed for years of daily use. By protecting the foam from moisture and contamination, Fused Core™ helps preserve the part of the bed that matters most.</p>"
           }
         },
         "template--18963859341627__388f3454-ced6-4059-9e18-75ca70067528-text-4": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "title": "What does Eco-Clean mean?",
-            "text": "<p>Eco-Clean embodies our brand's unwavering commitment to cleanliness, hygiene, and environmental responsibility. We are committed to using highly effective hygienic, antibacterial, and eco-conscious materials and technologies that maintain the cleanliness and freshness of our products between washes.</p>"
+            "title": "Are Black Lab beds made for large dogs?",
+            "text": "<p>Yes. Our beds are available in sizes suitable for everything from small breeds to giant breeds, including Great Danes and Mastiffs.</p>"
+          }
+        },
+        "text_9M9T6H": {
+          "type": "text",
+          "settings": {
+            "title": "What if my dog is hard on beds?",
+            "text": "<p>Black Lab beds are designed for durability and everyday life. While no fabric bed is indestructible, our materials and construction are chosen to withstand years of use by active dogs. and repeated washing.</p>"
           }
         }
       },
@@ -791,7 +796,8 @@
         "303c4a03-a259-4a5e-b517-3efdadc7c8c9",
         "text_37xjLA",
         "0f9535c7-1b4d-40a2-8042-374047f741fe",
-        "template--18963859341627__388f3454-ced6-4059-9e18-75ca70067528-text-4"
+        "template--18963859341627__388f3454-ced6-4059-9e18-75ca70067528-text-4",
+        "text_9M9T6H"
       ],
       "settings": {
         "layout": "two-columns",
