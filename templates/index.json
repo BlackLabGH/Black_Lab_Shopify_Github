@@ -11,6 +11,7 @@
   "sections": {
     "section_video_g4Hp6X": {
       "type": "section-video",
+      "disabled": true,
       "settings": {
         "video_height": "five-fifty-height",
         "text_position": "bottom-left",
@@ -104,6 +105,7 @@
         "text_TjGQGw",
         "image_C9Nx77"
       ],
+      "disabled": true,
       "name": "Marquee",
       "settings": {
         "layout": "marquee",
@@ -234,6 +236,7 @@
         "text_NXbAgB",
         "button_nmxnRp"
       ],
+      "disabled": true,
       "name": "Text",
       "settings": {
         "show_spacer_lines": false,
@@ -299,6 +302,7 @@
         "text_block_AnCizX",
         "text_block_BpAXkA"
       ],
+      "disabled": true,
       "name": "Text columns with images",
       "settings": {
         "title": "",
@@ -321,6 +325,7 @@
     },
     "section_collection_U4HQDb": {
       "type": "section-collection",
+      "disabled": true,
       "name": "Featured collection",
       "settings": {
         "collection": "core-dog-beds",
@@ -395,6 +400,7 @@
         "text_CVrAVi",
         "button_QNVbQH"
       ],
+      "disabled": true,
       "name": "Text",
       "settings": {
         "show_spacer_lines": true,
@@ -454,6 +460,7 @@
         "text_WdHCNw",
         "button_QRQzHg"
       ],
+      "disabled": true,
       "name": "Text",
       "settings": {
         "show_spacer_lines": false,
@@ -519,6 +526,7 @@
         "text_block_c9Rwf9",
         "text_block_AAQ9Rn"
       ],
+      "disabled": true,
       "name": "Text columns with images",
       "settings": {
         "title": "",
@@ -541,6 +549,7 @@
     },
     "section_image_with_text_z4NRbA": {
       "type": "section-image-with-text",
+      "disabled": true,
       "name": "Image with text",
       "settings": {
         "section_height": "three-fifty-height",
@@ -572,6 +581,7 @@
     },
     "section_image_with_text_pwRFpq": {
       "type": "section-image-with-text",
+      "disabled": true,
       "name": "Image with text",
       "settings": {
         "section_height": "four-fifty-height",
@@ -603,6 +613,7 @@
     },
     "section_image_with_text_eQ7xYQ": {
       "type": "section-image-with-text",
+      "disabled": true,
       "name": "Image with text",
       "settings": {
         "section_height": "four-fifty-height",
@@ -676,6 +687,7 @@
         "text_wfqdgd",
         "text_MMQ3dd"
       ],
+      "disabled": true,
       "settings": {
         "alignment": "center",
         "columns": 4,
@@ -694,196 +706,6 @@
         "enable_slider_mobile": true,
         "padding_top": 40,
         "padding_bottom": 40
-      }
-    },
-    "section_text_4QJMgY": {
-      "type": "section-text",
-      "blocks": {
-        "subheading_MBxY9V": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Black Lab Exclusive:</p>",
-            "size": 150,
-            "margin_bottom": 16
-          }
-        },
-        "heading_iPq4kJ": {
-          "type": "heading",
-          "settings": {
-            "text": "<h2>Be Loyal.</h2>",
-            "size": 85,
-            "heading_highlight_type": "highlight-color",
-            "highlight_color": "#d43747",
-            "highlight_text_color": "#000000"
-          }
-        },
-        "subheading_DYWk4j": {
-          "type": "subheading",
-          "settings": {
-            "text": "<p>At the heart of everything we do, loyalty is at our core. Staying true to our values, families, and friends is how we show up for the people who matter most. Our dogs remind us of that daily...they’re the best teachers we have.</p>",
-            "size": 130,
-            "margin_bottom": 16
-          }
-        }
-      },
-      "block_order": [
-        "subheading_MBxY9V",
-        "heading_iPq4kJ",
-        "subheading_DYWk4j"
-      ],
-      "settings": {
-        "show_spacer_lines": true,
-        "text_position": "center",
-        "bg_color_secondary": false,
-        "text_color": "text-dark",
-        "width": "wrapper--narrow",
-        "padding_top": 20,
-        "padding_bottom": 10
-      }
-    },
-    "907ac558-c8aa-4fa4-b971-dbce2de8219b": {
-      "type": "section-custom-content",
-      "blocks": {
-        "template--18963859407163__907ac558-c8aa-4fa4-b971-dbce2de8219b-text-1": {
-          "type": "text",
-          "settings": {
-            "text_position": "left",
-            "top_image_width": 50,
-            "text_color": "text-dark",
-            "subheading": "Loyalty in Action",
-            "title": "Be Loyal.",
-            "heading_size": 100,
-            "text": "<p>Black Lab is a small business with a big commitment to doing good. Our Be Loyal™ Program supports pets, people, and the planet through dog bed donations, sustainability-focused materials, and partnerships with causes we believe in. It’s how we turn values into action.</p>",
-            "text_size": 100,
-            "button_text": "Read More",
-            "button_link": "https://blacklabbrands.com/blogs/blog/the-black-lab-be-loyal-program",
-            "button_color": "btn--black",
-            "button_style": "btn--text",
-            "button_size": "btn--small",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_color": "btn--white",
-            "button_2_style": "btn--solid-border",
-            "button_2_size": "btn--small",
-            "bg_color": ""
-          }
-        },
-        "image_8jwbQc": {
-          "type": "image",
-          "settings": {
-            "text_position": "middle-center",
-            "image": "shopify://shop_images/surf.png",
-            "disable_lazy_load": false,
-            "overlay_opacity": 10,
-            "text_color": "text-dark",
-            "title": "",
-            "heading_size": 100,
-            "image_text": "",
-            "button_text": "",
-            "button_link": "https://blacklabbrands.com/blogs/blog/the-black-lab-be-loyal-program",
-            "button_color": "btn--white",
-            "button_style": "btn--solid-border",
-            "button_size": "btn--small"
-          }
-        }
-      },
-      "block_order": [
-        "template--18963859407163__907ac558-c8aa-4fa4-b971-dbce2de8219b-text-1",
-        "image_8jwbQc"
-      ],
-      "settings": {
-        "height": "one-fifty-height",
-        "bg_color": "",
-        "reverse_blocks": false,
-        "width": "wrapper",
-        "add_gutter": false,
-        "padding_top": 10,
-        "padding_bottom": 0
-      }
-    },
-    "438134f4-207c-4040-aeee-388c681ebe81": {
-      "type": "section-accordions",
-      "blocks": {
-        "template--18963859407163__438134f4-207c-4040-aeee-388c681ebe81-text-2": {
-          "type": "text",
-          "settings": {
-            "title": "What does BETTER THAN BALLISTIC™ mean?",
-            "text": "<p>Other companies use materials labeled \"ballistic\" or \"rip-stop,\" which are often deemed proprietary. However, these materials tend to fall short on their claims. Oftentimes, these fabrics are non-recyclable, non-eco-friendly, and have been shown to degrade after the first wash.</p><p>Our fabrics are Better than Ballistic™ because:</p><ul><li>Made from tougher than nails recycled fabric</li><li>Eliminates odors</li><li>Eliminates 99.9% of bacteria</li><li>Triple layered for waterproof durability</li><li>Eco-friendly manufacturing process</li><li>Wash less, saves money & time</li><li>Comfort, style and sustainability for your pup</li></ul>"
-          }
-        },
-        "a0caa884-78b9-4c93-8dd0-bd128fdd0b5a": {
-          "type": "text",
-          "settings": {
-            "title": "What makes Black Lab's fabric so tough?",
-            "text": "<p>Black Lab's fabrics are the epitome toughness, featuring a distinctive triple-layered construction meticulously designed to endure the challenges of a dog's lifestyle. </p><p><strong>The Face Layer: </strong>Crafted from 100% recycled yarn, rigorously tested, and proven to be almost twice as strong as competitors’ fabrics in both abrasion and tear resistance.</p><p><strong>Middle Layer: </strong>Waterproof and eco-friendly to repel moisture while increasing durability.</p><p><strong>Base Layer</strong>: A game-changing layer providing extra strength and durability against degradation. </p>"
-          }
-        },
-        "d0119444-627f-4d85-9111-cd7d76003876": {
-          "type": "text",
-          "settings": {
-            "title": "Are your beds crate-friendly?",
-            "text": "<p>All of our crate beds, Trailblazer, and Beast dog beds are designed to fit into most standard size metal folding crates. Our 36” beds fit 36” crates, our 42” beds fit 42” crates, and our 48” beds fit 48” crates.</p>"
-          }
-        },
-        "ae1938a7-621f-4a2e-b911-8e3594f633be": {
-          "type": "text",
-          "settings": {
-            "title": "Are Anti-Bacterial & Anti-Odor treatments safe?",
-            "text": "<p>Absolutely. The treatments we use are Bluesign® approved, meeting rigorous independent environmental and product life cycle standards. Polygiene® StayFresh™, a silver salt used for centuries to combat bacteria and odor, is applied in the final stages of production. StayFresh™ is only active on the textile itself and does not interfere with your natural skin flora.</p>"
-          }
-        },
-        "e764f4dd-2796-45cf-8754-e858b36833fb": {
-          "type": "text",
-          "settings": {
-            "title": "What does Eco-Tough mean?",
-            "text": "<p>Eco-Tough embodies our commitment to crafting products that are environmentally friendly, exceptionally durable, and meet the highest standards of sustainability and quality. This term encapsulates our brand ethos, creating pet essentials that not only meet the highest standards of environmental responsibility but also withstand the demands of pets' active lifestyles for pet owners. Our recycled materials are tested to exceed performance of non-recycled versions. We've created a new fabric engineered for a dog's lifestyle. </p>"
-          }
-        },
-        "75851bb3-b3b7-4711-827d-3cffc85147b4": {
-          "type": "text",
-          "settings": {
-            "title": "What is an orthopedic bed?",
-            "text": "<p>An orthopedic bed provides comprehensive, uniform support, alleviating pressure on joints and aiding in pain relief for pets experiencing discomfort. Essential for older animals with arthritis or hip and spine issues, it's equally beneficial for younger dogs, offering crucial support to prevent potential future ailments.</p>"
-          }
-        },
-        "16364919-7349-4ec5-898c-cac0d9f3d303": {
-          "type": "text",
-          "settings": {
-            "title": "What does StayFresh™ mean?",
-            "text": "<p>StayFresh™ is a natural treatment that embodies our brand's unwavering commitment to cleanliness, hygiene, and environmental responsibility. We are committed to using highly effective hygienic, antibacterial, odor, and eco-conscious materials and technologies that maintain the cleanliness and freshness of our products between washes.</p>"
-          }
-        },
-        "template--18963859407163__438134f4-207c-4040-aeee-388c681ebe81-text-3": {
-          "type": "text",
-          "settings": {
-            "title": "How do StayFresh™  treatments work?",
-            "text": "<p>Black Lab fabrics are treated with StayFresh™, a Swedish-engineered antibacterial and anti-odor technology. This technology relies on a naturally occurring salt found in water and soil. By inhibiting bacteria growth, our textiles effectively eliminate odors, maintaining a cleaner and more hygienic state day after day. This sustainable design encourages less frequent washing of our products, ultimately saving time, water, and energy.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--18963859407163__438134f4-207c-4040-aeee-388c681ebe81-text-2",
-        "a0caa884-78b9-4c93-8dd0-bd128fdd0b5a",
-        "d0119444-627f-4d85-9111-cd7d76003876",
-        "ae1938a7-621f-4a2e-b911-8e3594f633be",
-        "e764f4dd-2796-45cf-8754-e858b36833fb",
-        "75851bb3-b3b7-4711-827d-3cffc85147b4",
-        "16364919-7349-4ec5-898c-cac0d9f3d303",
-        "template--18963859407163__438134f4-207c-4040-aeee-388c681ebe81-text-3"
-      ],
-      "settings": {
-        "layout": "two-columns",
-        "show_accordion_divider": false,
-        "title": "Frequently Asked Questions",
-        "subheading": "",
-        "text": "",
-        "tabs_bg_color": "#fafafa",
-        "bg_color_secondary": false,
-        "text_color": "text-dark",
-        "width": "wrapper",
-        "padding_top": 10,
-        "padding_bottom": 30
       }
     },
     "section_banner_image_TYHW4c": {
@@ -1317,6 +1139,7 @@
     },
     "section_image_e4NdAM": {
       "type": "section-image",
+      "disabled": true,
       "name": "Image",
       "settings": {
         "height": "original-height",
@@ -1465,6 +1288,196 @@
         "padding_top": 0,
         "padding_bottom": 30
       }
+    },
+    "section_text_4QJMgY": {
+      "type": "section-text",
+      "blocks": {
+        "subheading_MBxY9V": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Black Lab Exclusive:</p>",
+            "size": 150,
+            "margin_bottom": 16
+          }
+        },
+        "heading_iPq4kJ": {
+          "type": "heading",
+          "settings": {
+            "text": "<h2>Be Loyal.</h2>",
+            "size": 85,
+            "heading_highlight_type": "highlight-color",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "subheading_DYWk4j": {
+          "type": "subheading",
+          "settings": {
+            "text": "<p>At the heart of everything we do, loyalty is at our core. Staying true to our values, families, and friends is how we show up for the people who matter most. Our dogs remind us of that daily...they’re the best teachers we have.</p>",
+            "size": 130,
+            "margin_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_MBxY9V",
+        "heading_iPq4kJ",
+        "subheading_DYWk4j"
+      ],
+      "settings": {
+        "show_spacer_lines": true,
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 20,
+        "padding_bottom": 10
+      }
+    },
+    "907ac558-c8aa-4fa4-b971-dbce2de8219b": {
+      "type": "section-custom-content",
+      "blocks": {
+        "template--18963859407163__907ac558-c8aa-4fa4-b971-dbce2de8219b-text-1": {
+          "type": "text",
+          "settings": {
+            "text_position": "left",
+            "top_image_width": 50,
+            "text_color": "text-dark",
+            "subheading": "Loyalty in Action",
+            "title": "Be Loyal.",
+            "heading_size": 100,
+            "text": "<p>Black Lab is a small business with a big commitment to doing good. Our Be Loyal™ Program supports pets, people, and the planet through dog bed donations, sustainability-focused materials, and partnerships with causes we believe in. It’s how we turn values into action.</p>",
+            "text_size": 100,
+            "button_text": "Read More",
+            "button_link": "https://blacklabbrands.com/blogs/blog/the-black-lab-be-loyal-program",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--white",
+            "button_2_style": "btn--solid-border",
+            "button_2_size": "btn--small",
+            "bg_color": ""
+          }
+        },
+        "image_8jwbQc": {
+          "type": "image",
+          "settings": {
+            "text_position": "middle-center",
+            "image": "shopify://shop_images/surf.png",
+            "disable_lazy_load": false,
+            "overlay_opacity": 10,
+            "text_color": "text-dark",
+            "title": "",
+            "heading_size": 100,
+            "image_text": "",
+            "button_text": "",
+            "button_link": "https://blacklabbrands.com/blogs/blog/the-black-lab-be-loyal-program",
+            "button_color": "btn--white",
+            "button_style": "btn--solid-border",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "template--18963859407163__907ac558-c8aa-4fa4-b971-dbce2de8219b-text-1",
+        "image_8jwbQc"
+      ],
+      "settings": {
+        "height": "one-fifty-height",
+        "bg_color": "",
+        "reverse_blocks": false,
+        "width": "wrapper",
+        "add_gutter": false,
+        "padding_top": 10,
+        "padding_bottom": 0
+      }
+    },
+    "438134f4-207c-4040-aeee-388c681ebe81": {
+      "type": "section-accordions",
+      "blocks": {
+        "template--18963859407163__438134f4-207c-4040-aeee-388c681ebe81-text-2": {
+          "type": "text",
+          "settings": {
+            "title": "What does BETTER THAN BALLISTIC™ mean?",
+            "text": "<p>Other companies use materials labeled \"ballistic\" or \"rip-stop,\" which are often deemed proprietary. However, these materials tend to fall short on their claims. Oftentimes, these fabrics are non-recyclable, non-eco-friendly, and have been shown to degrade after the first wash.</p><p>Our fabrics are Better than Ballistic™ because:</p><ul><li>Made from tougher than nails recycled fabric</li><li>Eliminates odors</li><li>Eliminates 99.9% of bacteria</li><li>Triple layered for waterproof durability</li><li>Eco-friendly manufacturing process</li><li>Wash less, saves money & time</li><li>Comfort, style and sustainability for your pup</li></ul>"
+          }
+        },
+        "a0caa884-78b9-4c93-8dd0-bd128fdd0b5a": {
+          "type": "text",
+          "settings": {
+            "title": "What makes Black Lab's fabric so tough?",
+            "text": "<p>Black Lab's fabrics are the epitome toughness, featuring a distinctive triple-layered construction meticulously designed to endure the challenges of a dog's lifestyle. </p><p><strong>The Face Layer: </strong>Crafted from 100% recycled yarn, rigorously tested, and proven to be almost twice as strong as competitors’ fabrics in both abrasion and tear resistance.</p><p><strong>Middle Layer: </strong>Waterproof and eco-friendly to repel moisture while increasing durability.</p><p><strong>Base Layer</strong>: A game-changing layer providing extra strength and durability against degradation. </p>"
+          }
+        },
+        "d0119444-627f-4d85-9111-cd7d76003876": {
+          "type": "text",
+          "settings": {
+            "title": "Are your beds crate-friendly?",
+            "text": "<p>All of our crate beds, Trailblazer, and Beast dog beds are designed to fit into most standard size metal folding crates. Our 36” beds fit 36” crates, our 42” beds fit 42” crates, and our 48” beds fit 48” crates.</p>"
+          }
+        },
+        "ae1938a7-621f-4a2e-b911-8e3594f633be": {
+          "type": "text",
+          "settings": {
+            "title": "Are Anti-Bacterial & Anti-Odor treatments safe?",
+            "text": "<p>Absolutely. The treatments we use are Bluesign® approved, meeting rigorous independent environmental and product life cycle standards. Polygiene® StayFresh™, a silver salt used for centuries to combat bacteria and odor, is applied in the final stages of production. StayFresh™ is only active on the textile itself and does not interfere with your natural skin flora.</p>"
+          }
+        },
+        "e764f4dd-2796-45cf-8754-e858b36833fb": {
+          "type": "text",
+          "settings": {
+            "title": "What does Eco-Tough mean?",
+            "text": "<p>Eco-Tough embodies our commitment to crafting products that are environmentally friendly, exceptionally durable, and meet the highest standards of sustainability and quality. This term encapsulates our brand ethos, creating pet essentials that not only meet the highest standards of environmental responsibility but also withstand the demands of pets' active lifestyles for pet owners. Our recycled materials are tested to exceed performance of non-recycled versions. We've created a new fabric engineered for a dog's lifestyle. </p>"
+          }
+        },
+        "75851bb3-b3b7-4711-827d-3cffc85147b4": {
+          "type": "text",
+          "settings": {
+            "title": "What is an orthopedic bed?",
+            "text": "<p>An orthopedic bed provides comprehensive, uniform support, alleviating pressure on joints and aiding in pain relief for pets experiencing discomfort. Essential for older animals with arthritis or hip and spine issues, it's equally beneficial for younger dogs, offering crucial support to prevent potential future ailments.</p>"
+          }
+        },
+        "16364919-7349-4ec5-898c-cac0d9f3d303": {
+          "type": "text",
+          "settings": {
+            "title": "What does StayFresh™ mean?",
+            "text": "<p>StayFresh™ is a natural treatment that embodies our brand's unwavering commitment to cleanliness, hygiene, and environmental responsibility. We are committed to using highly effective hygienic, antibacterial, odor, and eco-conscious materials and technologies that maintain the cleanliness and freshness of our products between washes.</p>"
+          }
+        },
+        "template--18963859407163__438134f4-207c-4040-aeee-388c681ebe81-text-3": {
+          "type": "text",
+          "settings": {
+            "title": "How do StayFresh™  treatments work?",
+            "text": "<p>Black Lab fabrics are treated with StayFresh™, a Swedish-engineered antibacterial and anti-odor technology. This technology relies on a naturally occurring salt found in water and soil. By inhibiting bacteria growth, our textiles effectively eliminate odors, maintaining a cleaner and more hygienic state day after day. This sustainable design encourages less frequent washing of our products, ultimately saving time, water, and energy.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18963859407163__438134f4-207c-4040-aeee-388c681ebe81-text-2",
+        "a0caa884-78b9-4c93-8dd0-bd128fdd0b5a",
+        "d0119444-627f-4d85-9111-cd7d76003876",
+        "ae1938a7-621f-4a2e-b911-8e3594f633be",
+        "e764f4dd-2796-45cf-8754-e858b36833fb",
+        "75851bb3-b3b7-4711-827d-3cffc85147b4",
+        "16364919-7349-4ec5-898c-cac0d9f3d303",
+        "template--18963859407163__438134f4-207c-4040-aeee-388c681ebe81-text-3"
+      ],
+      "settings": {
+        "layout": "two-columns",
+        "show_accordion_divider": false,
+        "title": "Frequently Asked Questions",
+        "subheading": "",
+        "text": "",
+        "tabs_bg_color": "#fafafa",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 10,
+        "padding_bottom": 30
+      }
     }
   },
   "order": [
@@ -1481,9 +1494,6 @@
     "section_image_with_text_pwRFpq",
     "section_image_with_text_eQ7xYQ",
     "section_icons_row_X6ibNU",
-    "section_text_4QJMgY",
-    "907ac558-c8aa-4fa4-b971-dbce2de8219b",
-    "438134f4-207c-4040-aeee-388c681ebe81",
     "section_banner_image_TYHW4c",
     "section_text_image_9pmGg9",
     "section_text_G4NcFX",
@@ -1492,6 +1502,9 @@
     "section_banner_image_qMkpBY",
     "section_image_e4NdAM",
     "section_text_d6QknV",
-    "section_grid_mUYiiC"
+    "section_grid_mUYiiC",
+    "section_text_4QJMgY",
+    "907ac558-c8aa-4fa4-b971-dbce2de8219b",
+    "438134f4-207c-4040-aeee-388c681ebe81"
   ]
 }
