@@ -686,10 +686,10 @@
         "button_KPcPV6": {
           "type": "button",
           "settings": {
-            "button_text": "Shop All Beds",
+            "button_text": "Shop The Perfect Bed",
             "button_link": "shopify://collections/core-dog-beds",
             "button_color": "btn--black",
-            "button_style": "btn--solid",
+            "button_style": "btn--outline",
             "button_size": "btn--small"
           }
         },
