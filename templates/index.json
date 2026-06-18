@@ -1138,7 +1138,7 @@
         "text_LtFABq": {
           "type": "text",
           "settings": {
-            "text": "<p>A StayFresh™ outer cover actively fights odor-causing bacteria, while a hygienic Fused Core™ mattress helps prevent moisture, dirt, and messes from reaching the inside of the bed.</p>",
+            "text": "<p>A StayFresh™ outer cover actively fights odor-causing bacteria, while a hygienic Fused Core™ </p><p>mattress helps prevent moisture, dirt, and messes from reaching the inside of the bed.</p>",
             "size": 100
           }
         },
