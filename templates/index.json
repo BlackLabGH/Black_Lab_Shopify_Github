@@ -894,8 +894,8 @@
         "bg_color_secondary": false,
         "text_color": "text-dark",
         "width": "wrapper--narrow",
-        "padding_top": 60,
-        "padding_bottom": 0
+        "padding_top": 30,
+        "padding_bottom": 6
       }
     },
     "section_grid_wNkGdg": {
