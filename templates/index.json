@@ -962,6 +962,70 @@
         "padding_bottom": 0
       }
     },
+    "section_text_AzddhD": {
+      "type": "section-text",
+      "blocks": {
+        "heading_QrL8ak": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Why Other Dog Beds Fail</p>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#D43747",
+            "highlight_text_color": "#000"
+          }
+        },
+        "text_wdyYLk": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Most dog beds absorb moisture, odors, and bacteria into the foam.</p>",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "heading_QrL8ak",
+        "text_wdyYLk"
+      ],
+      "name": "Text",
+      "settings": {
+        "show_spacer_lines": false,
+        "text_position": "center",
+        "bg_color_secondary": true,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
+    "section_collection_U4HQDb": {
+      "type": "section-collection",
+      "name": "Featured collection",
+      "settings": {
+        "collection": "core-dog-beds",
+        "products_layout": "grid",
+        "number_of_products": 4,
+        "products_per_row_on_desktop": 4,
+        "columns_mobile": "1",
+        "text_alignment": "text-left",
+        "title": "<p><em>Best Sellers</em></p>",
+        "heading_highlight_type": "highlight-color",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#caa876",
+        "heading_size": 100,
+        "text": "<h3>These are the beds people switch to after everything else fails.</h3>",
+        "text_size": 100,
+        "button_text": "Shop Now",
+        "button_color": "btn--black",
+        "button_style": "btn--text",
+        "button_size": "btn--large",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": false,
+        "width": "wrapper--full-padded",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
     "section_text_d6QknV": {
       "type": "section-text",
       "blocks": {
@@ -1095,34 +1159,6 @@
         "width": "wrapper",
         "add_gutter": true,
         "padding_top": 0,
-        "padding_bottom": 30
-      }
-    },
-    "section_collection_U4HQDb": {
-      "type": "section-collection",
-      "name": "Featured collection",
-      "settings": {
-        "collection": "core-dog-beds",
-        "products_layout": "grid",
-        "number_of_products": 4,
-        "products_per_row_on_desktop": 4,
-        "columns_mobile": "1",
-        "text_alignment": "text-left",
-        "title": "<p><em>Best Sellers</em></p>",
-        "heading_highlight_type": "highlight-color",
-        "highlight_color": "#d43747",
-        "highlight_text_color": "#caa876",
-        "heading_size": 100,
-        "text": "<h3>These are the beds people switch to after everything else fails.</h3>",
-        "text_size": 100,
-        "button_text": "Shop Now",
-        "button_color": "btn--black",
-        "button_style": "btn--text",
-        "button_size": "btn--large",
-        "bg_color_secondary": false,
-        "enable_slider_mobile": false,
-        "width": "wrapper--full-padded",
-        "padding_top": 30,
         "padding_bottom": 30
       }
     },
@@ -1269,6 +1305,102 @@
         "padding_top": 10,
         "padding_bottom": 0
       }
+    },
+    "section_grid_xqcmTc": {
+      "type": "section-grid",
+      "blocks": {
+        "image_KAWQfz": {
+          "type": "image",
+          "settings": {
+            "width": "25",
+            "image": "shopify://shop_images/absorbs_moisture_2808ff3d-8b3c-4458-ab3f-d9ab07ef0bd7.png",
+            "overlay_opacity": 10,
+            "text_position": "top-left",
+            "subheading": "",
+            "title": "",
+            "text": "FOAM ABSORBS MOISTURE",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-dark"
+          }
+        },
+        "image_tBxetF": {
+          "type": "image",
+          "settings": {
+            "width": "25",
+            "image": "shopify://shop_images/ODORS_INSIDE.png",
+            "overlay_opacity": 0,
+            "text_position": "top-left",
+            "subheading": "",
+            "title": "",
+            "text": "ODORS BUILD UP INSIDE",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-dark"
+          }
+        },
+        "image_QjnaFn": {
+          "type": "image",
+          "settings": {
+            "width": "25",
+            "image": "shopify://shop_images/SUPPORT_BREAKS_DOWN.png",
+            "overlay_opacity": 0,
+            "text_position": "top-left",
+            "subheading": "",
+            "title": "",
+            "text": "SUPPORT BREAKS DOWN",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-dark"
+          }
+        },
+        "image_deGxD4": {
+          "type": "image",
+          "settings": {
+            "width": "25",
+            "image": "shopify://shop_images/COVERS_WEAR_OUT.png",
+            "overlay_opacity": 0,
+            "text_position": "top-left",
+            "subheading": "",
+            "title": "",
+            "text": "COVERS WEAR OUT",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-dark"
+          }
+        }
+      },
+      "block_order": [
+        "image_KAWQfz",
+        "image_tBxetF",
+        "image_QjnaFn",
+        "image_deGxD4"
+      ],
+      "name": "Grid",
+      "settings": {
+        "height": "auto",
+        "heading_size": 130,
+        "button_1_color": "btn--white",
+        "button_1_style": "btn--text",
+        "button_1_size": "btn--small",
+        "button_2_color": "btn--black",
+        "button_2_style": "btn--text",
+        "button_2_size": "btn--small",
+        "bg_color_secondary": true,
+        "enable_slider_mobile": true,
+        "width": "wrapper",
+        "add_gutter": true,
+        "padding_top": 0,
+        "padding_bottom": 60
+      }
     }
   },
   "order": [
@@ -1289,10 +1421,12 @@
     "section_grid_wNkGdg",
     "section_banner_image_qMkpBY",
     "section_grid_D36TtF",
+    "section_text_AzddhD",
+    "section_collection_U4HQDb",
     "section_text_d6QknV",
     "section_grid_mUYiiC",
-    "section_collection_U4HQDb",
     "438134f4-207c-4040-aeee-388c681ebe81",
-    "907ac558-c8aa-4fa4-b971-dbce2de8219b"
+    "907ac558-c8aa-4fa4-b971-dbce2de8219b",
+    "section_grid_xqcmTc"
   ]
 }
