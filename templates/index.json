@@ -751,7 +751,7 @@
             "heading": "The Difference Is Inside.",
             "mobile_font_size": 0,
             "desktop_font_size": 0,
-            "hide_spacer_lines": false
+            "hide_spacer_lines": true
           }
         },
         "content_xcC3qK": {
@@ -805,6 +805,80 @@
         "desktop_aspect_ratio": 0.5,
         "desktop_max_height": 0,
         "mobile_aspect_ratio": 0.5
+      }
+    },
+    "section_text_r8n36H": {
+      "type": "section-text",
+      "blocks": {
+        "subheading_dzgkJR": {
+          "type": "subheading",
+          "settings": {
+            "text": "<p><strong>MEET THE FUSED CORE</strong></p>",
+            "size": 155,
+            "margin_bottom": 16
+          }
+        },
+        "heading_PMVh6C": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Waterproof. At the Core.</p>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#D43747",
+            "highlight_text_color": "#000"
+          }
+        },
+        "text_MxiteE": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The foundation inside every Black Lab Signature bed.</p>",
+            "size": 100
+          }
+        },
+        "button_8kyrqG": {
+          "type": "button",
+          "settings": {
+            "button_text": "Read More",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_dzgkJR",
+        "heading_PMVh6C",
+        "text_MxiteE",
+        "button_8kyrqG"
+      ],
+      "disabled": true,
+      "name": "Text",
+      "settings": {
+        "show_spacer_lines": true,
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 30,
+        "padding_bottom": 0
+      }
+    },
+    "section_image_Ycift3": {
+      "type": "section-image",
+      "disabled": true,
+      "name": "Image",
+      "settings": {
+        "image": "shopify://shop_images/Waterproof_4183822d-3a7c-4802-914b-e56bd0039f83.png",
+        "height": "six-fifty-height",
+        "enable_mobile_height": true,
+        "mobile_height": "six-fifty-height-mobile",
+        "enable_stretch": false,
+        "image_position": "center",
+        "bg_color_secondary": false,
+        "width": "wrapper--full-padded",
+        "padding_top": 0,
+        "padding_bottom": 18
       }
     },
     "section_text_G4NcFX": {
@@ -1116,22 +1190,6 @@
         "padding_bottom": 0
       }
     },
-    "section_image_e4NdAM": {
-      "type": "section-image",
-      "disabled": true,
-      "name": "Image",
-      "settings": {
-        "height": "original-height",
-        "enable_mobile_height": false,
-        "mobile_height": "original-height-mobile",
-        "enable_stretch": true,
-        "image_position": "center",
-        "bg_color_secondary": false,
-        "width": "wrapper--full-padded",
-        "padding_top": 10,
-        "padding_bottom": 20
-      }
-    },
     "section_text_d6QknV": {
       "type": "section-text",
       "blocks": {
@@ -1268,113 +1326,6 @@
         "padding_bottom": 30
       }
     },
-    "section_text_4QJMgY": {
-      "type": "section-text",
-      "blocks": {
-        "subheading_MBxY9V": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Black Lab Exclusive:</p>",
-            "size": 150,
-            "margin_bottom": 16
-          }
-        },
-        "heading_iPq4kJ": {
-          "type": "heading",
-          "settings": {
-            "text": "<h2>Be Loyal.</h2>",
-            "size": 85,
-            "heading_highlight_type": "highlight-color",
-            "highlight_color": "#d43747",
-            "highlight_text_color": "#000000"
-          }
-        },
-        "subheading_DYWk4j": {
-          "type": "subheading",
-          "settings": {
-            "text": "<p>At the heart of everything we do, loyalty is at our core. Staying true to our values, families, and friends is how we show up for the people who matter most. Our dogs remind us of that daily...they’re the best teachers we have.</p>",
-            "size": 130,
-            "margin_bottom": 16
-          }
-        }
-      },
-      "block_order": [
-        "subheading_MBxY9V",
-        "heading_iPq4kJ",
-        "subheading_DYWk4j"
-      ],
-      "disabled": true,
-      "settings": {
-        "show_spacer_lines": true,
-        "text_position": "center",
-        "bg_color_secondary": false,
-        "text_color": "text-dark",
-        "width": "wrapper--narrow",
-        "padding_top": 20,
-        "padding_bottom": 10
-      }
-    },
-    "907ac558-c8aa-4fa4-b971-dbce2de8219b": {
-      "type": "section-custom-content",
-      "blocks": {
-        "template--18963859407163__907ac558-c8aa-4fa4-b971-dbce2de8219b-text-1": {
-          "type": "text",
-          "settings": {
-            "text_position": "left",
-            "top_image_width": 50,
-            "text_color": "text-dark",
-            "subheading": "",
-            "title": "Loyalty in Action",
-            "heading_size": 100,
-            "text": "<p>Black Lab is a small business with a big commitment to doing good. Our Be Loyal™ Program supports pets, people, and the planet through dog bed donations, sustainability-focused materials, and partnerships with causes we believe in. It’s how we turn values into action.</p>",
-            "text_size": 100,
-            "button_text": "Read More",
-            "button_link": "https://blacklabbrands.com/blogs/blog/the-black-lab-be-loyal-program",
-            "button_color": "btn--black",
-            "button_style": "btn--text",
-            "button_size": "btn--small",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_color": "btn--white",
-            "button_2_style": "btn--solid-border",
-            "button_2_size": "btn--small",
-            "bg_color": ""
-          }
-        },
-        "image_8jwbQc": {
-          "type": "image",
-          "settings": {
-            "text_position": "middle-center",
-            "image": "shopify://shop_images/surf.png",
-            "disable_lazy_load": false,
-            "overlay_opacity": 10,
-            "text_color": "text-dark",
-            "title": "",
-            "heading_size": 100,
-            "image_text": "",
-            "button_text": "",
-            "button_link": "https://blacklabbrands.com/blogs/blog/the-black-lab-be-loyal-program",
-            "button_color": "btn--white",
-            "button_style": "btn--solid-border",
-            "button_size": "btn--small"
-          }
-        }
-      },
-      "block_order": [
-        "template--18963859407163__907ac558-c8aa-4fa4-b971-dbce2de8219b-text-1",
-        "image_8jwbQc"
-      ],
-      "settings": {
-        "height": "one-fifty-height",
-        "bg_color": "",
-        "reverse_blocks": false,
-        "width": "wrapper",
-        "add_gutter": false,
-        "padding_top": 10,
-        "padding_bottom": 0
-      }
-    },
     "438134f4-207c-4040-aeee-388c681ebe81": {
       "type": "section-accordions",
       "blocks": {
@@ -1458,6 +1409,66 @@
         "padding_top": 10,
         "padding_bottom": 30
       }
+    },
+    "907ac558-c8aa-4fa4-b971-dbce2de8219b": {
+      "type": "section-custom-content",
+      "blocks": {
+        "template--18963859407163__907ac558-c8aa-4fa4-b971-dbce2de8219b-text-1": {
+          "type": "text",
+          "settings": {
+            "text_position": "left",
+            "top_image_width": 50,
+            "text_color": "text-dark",
+            "subheading": "",
+            "title": "Loyalty in Action",
+            "heading_size": 100,
+            "text": "<p>Black Lab is a small business with a big commitment to doing good. Our Be Loyal™ Program supports pets, people, and the planet through dog bed donations, sustainability-focused materials, and partnerships with causes we believe in. It’s how we turn values into action.</p>",
+            "text_size": 100,
+            "button_text": "Read More",
+            "button_link": "https://blacklabbrands.com/blogs/blog/the-black-lab-be-loyal-program",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--white",
+            "button_2_style": "btn--solid-border",
+            "button_2_size": "btn--small",
+            "bg_color": ""
+          }
+        },
+        "image_8jwbQc": {
+          "type": "image",
+          "settings": {
+            "text_position": "middle-center",
+            "image": "shopify://shop_images/surf.png",
+            "disable_lazy_load": false,
+            "overlay_opacity": 10,
+            "text_color": "text-dark",
+            "title": "",
+            "heading_size": 100,
+            "image_text": "",
+            "button_text": "",
+            "button_link": "https://blacklabbrands.com/blogs/blog/the-black-lab-be-loyal-program",
+            "button_color": "btn--white",
+            "button_style": "btn--solid-border",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "template--18963859407163__907ac558-c8aa-4fa4-b971-dbce2de8219b-text-1",
+        "image_8jwbQc"
+      ],
+      "settings": {
+        "height": "one-fifty-height",
+        "bg_color": "",
+        "reverse_blocks": false,
+        "width": "wrapper",
+        "add_gutter": false,
+        "padding_top": 10,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -1475,15 +1486,15 @@
     "section_icons_row_X6ibNU",
     "section_banner_image_TYHW4c",
     "section_text_image_9pmGg9",
+    "section_text_r8n36H",
+    "section_image_Ycift3",
     "section_text_G4NcFX",
     "section_grid_wNkGdg",
     "section_banner_image_qMkpBY",
     "section_grid_D36TtF",
-    "section_image_e4NdAM",
     "section_text_d6QknV",
     "section_grid_mUYiiC",
-    "section_text_4QJMgY",
-    "907ac558-c8aa-4fa4-b971-dbce2de8219b",
-    "438134f4-207c-4040-aeee-388c681ebe81"
+    "438134f4-207c-4040-aeee-388c681ebe81",
+    "907ac558-c8aa-4fa4-b971-dbce2de8219b"
   ]
 }
