@@ -824,6 +824,7 @@
       "blocks": {
         "subheading_xxrdzg": {
           "type": "subheading",
+          "disabled": true,
           "settings": {
             "text": "<p>Cleaner by design.</p>",
             "size": 100
