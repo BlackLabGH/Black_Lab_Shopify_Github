@@ -1293,7 +1293,7 @@
         "button_2_style": "btn--text",
         "button_2_size": "btn--small",
         "bg_color_secondary": true,
-        "enable_slider_mobile": true,
+        "enable_slider_mobile": false,
         "width": "wrapper",
         "add_gutter": true,
         "padding_top": 0,
