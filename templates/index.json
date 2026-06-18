@@ -188,365 +188,6 @@
         "padding_bottom": 0
       }
     },
-    "section_text_6w4pEy": {
-      "type": "section-text",
-      "blocks": {
-        "subheading_F7dBTC": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Subheading</p>",
-            "size": 100,
-            "margin_bottom": 16
-          }
-        },
-        "heading_4rWzbG": {
-          "type": "heading",
-          "settings": {
-            "text": "<p>Why <em>Other</em> Beds Fail</p>",
-            "size": 100,
-            "heading_highlight_type": "circle",
-            "highlight_color": "#d43747",
-            "highlight_text_color": "#000000"
-          }
-        },
-        "text_NXbAgB": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>It’s not your dog. It’s how they’re built.</p>",
-            "size": 100
-          }
-        },
-        "button_nmxnRp": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_text": "SHOP ALL DOG BEDS",
-            "button_link": "shopify://collections/dog-beds",
-            "button_color": "btn--black",
-            "button_style": "btn--solid",
-            "button_size": "btn--small"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_F7dBTC",
-        "heading_4rWzbG",
-        "text_NXbAgB",
-        "button_nmxnRp"
-      ],
-      "disabled": true,
-      "name": "Text",
-      "settings": {
-        "show_spacer_lines": false,
-        "text_position": "center",
-        "bg_color_secondary": false,
-        "text_color": "text-dark",
-        "width": "wrapper--narrow",
-        "padding_top": 40,
-        "padding_bottom": 20
-      }
-    },
-    "section_columns_yYTLc6": {
-      "type": "section-columns",
-      "blocks": {
-        "text_block_iwQg9t": {
-          "type": "text_block",
-          "settings": {
-            "image": "shopify://shop_images/waterproof_core.png",
-            "title": "",
-            "text": "<h4><strong>“Waterproof”… until it isn’t</strong></h4><h3>One accident, creates mold and bacteria that destroys the bed  forever.</h3>",
-            "button_text": "Shop The Fuse Core™ Solution",
-            "button_link": "shopify://collections/waterproof-fused-core-beds",
-            "button_color": "btn--secondary",
-            "button_style": "btn--text",
-            "button_size": "btn--small",
-            "video_link_popup": "",
-            "video_link_color": "text-dark"
-          }
-        },
-        "text_block_AnCizX": {
-          "type": "text_block",
-          "settings": {
-            "image": "shopify://shop_images/golden_bolster.png",
-            "title": "",
-            "text": "<h4><strong>Stubborn Odors</strong></h4><h3>Trapped pet smells that washing never fixes.</h3>",
-            "button_text": "Shop The StayFresh™  Solution",
-            "button_link": "shopify://collections/waterproof-fused-core-beds",
-            "button_color": "btn--secondary",
-            "button_style": "btn--text",
-            "button_size": "btn--small",
-            "video_link_popup": "",
-            "video_link_color": "text-dark"
-          }
-        },
-        "text_block_BpAXkA": {
-          "type": "text_block",
-          "settings": {
-            "image": "shopify://shop_images/cover_removal.png",
-            "title": "",
-            "text": "<h4><strong>Washed once. Falling apart.</strong><br/></h4><h3>Covers shrink. Backing peels. Seams split.</h3>",
-            "button_text": "Shop The Eco-Tough™  Solution",
-            "button_link": "shopify://collections/waterproof-fused-core-beds",
-            "button_color": "btn--secondary",
-            "button_style": "btn--text",
-            "button_size": "btn--small",
-            "video_link_popup": "",
-            "video_link_color": "text-dark"
-          }
-        }
-      },
-      "block_order": [
-        "text_block_iwQg9t",
-        "text_block_AnCizX",
-        "text_block_BpAXkA"
-      ],
-      "disabled": true,
-      "name": "Text columns with images",
-      "settings": {
-        "title": "",
-        "align_text": "text-center",
-        "columns": 3,
-        "show_images": true,
-        "show_borders": false,
-        "equalize_height": true,
-        "desktop_aspect_ratio": 0.5,
-        "mobile_aspect_ratio": 0.5,
-        "heading_size": 100,
-        "text_size": 100,
-        "bg_color_secondary": false,
-        "color_borders": "#000000",
-        "layout_mobile": "stacked",
-        "width": "wrapper",
-        "padding_top": 30,
-        "padding_bottom": 30
-      }
-    },
-    "section_collection_U4HQDb": {
-      "type": "section-collection",
-      "disabled": true,
-      "name": "Featured collection",
-      "settings": {
-        "collection": "core-dog-beds",
-        "products_layout": "grid",
-        "number_of_products": 4,
-        "products_per_row_on_desktop": 4,
-        "columns_mobile": "1",
-        "text_alignment": "text-left",
-        "title": "<p><em>Best Sellers</em></p>",
-        "heading_highlight_type": "highlight-color",
-        "highlight_color": "#d43747",
-        "highlight_text_color": "#caa876",
-        "heading_size": 100,
-        "text": "<h2>These are the beds people switch to after everything else fails.</h2>",
-        "text_size": 100,
-        "button_text": "Shop Now",
-        "button_color": "btn--black",
-        "button_style": "btn--text",
-        "button_size": "btn--large",
-        "bg_color_secondary": false,
-        "enable_slider_mobile": false,
-        "width": "wrapper--full-padded",
-        "padding_top": 30,
-        "padding_bottom": 30
-      }
-    },
-    "section_text_bqRQ34": {
-      "type": "section-text",
-      "blocks": {
-        "subheading_7T73t3": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Subheading</p>",
-            "size": 100,
-            "margin_bottom": 16
-          }
-        },
-        "heading_MAtym4": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Why Our Beds Stay Cleaner</p>",
-            "size": 100,
-            "heading_highlight_type": "italics",
-            "highlight_color": "#d43747",
-            "highlight_text_color": "#000000"
-          }
-        },
-        "text_CVrAVi": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
-            "size": 100
-          }
-        },
-        "button_QNVbQH": {
-          "type": "button",
-          "settings": {
-            "button_text": "SHOP ALL DOG BEDS",
-            "button_link": "shopify://collections/core-dog-beds",
-            "button_color": "btn--black",
-            "button_style": "btn--solid",
-            "button_size": "btn--small"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_7T73t3",
-        "heading_MAtym4",
-        "text_CVrAVi",
-        "button_QNVbQH"
-      ],
-      "disabled": true,
-      "name": "Text",
-      "settings": {
-        "show_spacer_lines": true,
-        "text_position": "center",
-        "bg_color_secondary": false,
-        "text_color": "text-dark",
-        "width": "wrapper--narrow",
-        "padding_top": 20,
-        "padding_bottom": 20
-      }
-    },
-    "section_text_GFyXaq": {
-      "type": "section-text",
-      "blocks": {
-        "subheading_hfri4A": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Subheading</p>",
-            "size": 100,
-            "margin_bottom": 16
-          }
-        },
-        "heading_RHaUM6": {
-          "type": "heading",
-          "settings": {
-            "text": "<p>Why <em>Our</em> Beds Last</p>",
-            "size": 100,
-            "heading_highlight_type": "circle",
-            "highlight_color": "#caa876",
-            "highlight_text_color": "#000000"
-          }
-        },
-        "text_WdHCNw": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>It’s not your dog. It’s how they’re built.</p>",
-            "size": 100
-          }
-        },
-        "button_QRQzHg": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_text": "SHOP ALL DOG BEDS",
-            "button_link": "shopify://collections/dog-beds",
-            "button_color": "btn--black",
-            "button_style": "btn--solid",
-            "button_size": "btn--small"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_hfri4A",
-        "heading_RHaUM6",
-        "text_WdHCNw",
-        "button_QRQzHg"
-      ],
-      "disabled": true,
-      "name": "Text",
-      "settings": {
-        "show_spacer_lines": false,
-        "text_position": "center",
-        "bg_color_secondary": false,
-        "text_color": "text-dark",
-        "width": "wrapper--narrow",
-        "padding_top": 40,
-        "padding_bottom": 20
-      }
-    },
-    "section_columns_hCRn8D": {
-      "type": "section-columns",
-      "blocks": {
-        "text_block_EP4Lkk": {
-          "type": "text_block",
-          "settings": {
-            "image": "shopify://shop_images/waterproof_1d3934f4-4091-4667-b376-1da546b445f7.png",
-            "title": "",
-            "text": "<h4><strong>No holes. No leaks. Ever.</strong></h4><h3>Heat-welded seams so water never reaches the foam.</h3>",
-            "button_text": "Shop Beds",
-            "button_link": "shopify://collections/waterproof-fused-core-beds",
-            "button_color": "btn--secondary",
-            "button_style": "btn--text",
-            "button_size": "btn--small",
-            "video_link_popup": "",
-            "video_link_color": "text-dark"
-          }
-        },
-        "text_block_c9Rwf9": {
-          "type": "text_block",
-          "settings": {
-            "image": "shopify://shop_images/ecru_bedroom_655f1142-b806-40e0-8191-d8994dc85aab.png",
-            "title": "",
-            "text": "<h4><strong>Wash Less. Lasts Longer.</strong></h4><h3>StayFresh™ fights odors for the life of the bed.</h3>",
-            "button_text": "Shop Beds",
-            "button_link": "shopify://collections/waterproof-fused-core-beds",
-            "button_color": "btn--secondary",
-            "button_style": "btn--text",
-            "button_size": "btn--small",
-            "video_link_popup": "",
-            "video_link_color": "text-dark"
-          }
-        },
-        "text_block_AAQ9Rn": {
-          "type": "text_block",
-          "settings": {
-            "image": "shopify://shop_images/signature_layers_no_text.png",
-            "title": "",
-            "text": "<h4><strong>Spot Clean. Machine Wash. Hose it Down.</strong></h4><h3>Easy to clean core and removable covers made to be washed. </h3>",
-            "button_text": "Shop Beds",
-            "button_link": "shopify://collections/waterproof-fused-core-beds",
-            "button_color": "btn--secondary",
-            "button_style": "btn--text",
-            "button_size": "btn--small",
-            "video_link_popup": "",
-            "video_link_color": "text-dark"
-          }
-        }
-      },
-      "block_order": [
-        "text_block_EP4Lkk",
-        "text_block_c9Rwf9",
-        "text_block_AAQ9Rn"
-      ],
-      "disabled": true,
-      "name": "Text columns with images",
-      "settings": {
-        "title": "",
-        "align_text": "text-center",
-        "columns": 3,
-        "show_images": true,
-        "show_borders": false,
-        "equalize_height": true,
-        "desktop_aspect_ratio": 0.5,
-        "mobile_aspect_ratio": 0.5,
-        "heading_size": 100,
-        "text_size": 100,
-        "bg_color_secondary": false,
-        "color_borders": "#000000",
-        "layout_mobile": "stacked",
-        "width": "wrapper",
-        "padding_top": 30,
-        "padding_bottom": 30
-      }
-    },
     "section_image_with_text_z4NRbA": {
       "type": "section-image-with-text",
       "disabled": true,
@@ -1393,6 +1034,34 @@
         "padding_bottom": 30
       }
     },
+    "section_collection_U4HQDb": {
+      "type": "section-collection",
+      "name": "Featured collection",
+      "settings": {
+        "collection": "core-dog-beds",
+        "products_layout": "grid",
+        "number_of_products": 4,
+        "products_per_row_on_desktop": 4,
+        "columns_mobile": "1",
+        "text_alignment": "text-left",
+        "title": "<p><em>Best Sellers</em></p>",
+        "heading_highlight_type": "highlight-color",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#caa876",
+        "heading_size": 100,
+        "text": "<h3>These are the beds people switch to after everything else fails.</h3>",
+        "text_size": 100,
+        "button_text": "Shop Now",
+        "button_color": "btn--black",
+        "button_style": "btn--text",
+        "button_size": "btn--large",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": false,
+        "width": "wrapper--full-padded",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
     "438134f4-207c-4040-aeee-388c681ebe81": {
       "type": "section-accordions",
       "blocks": {
@@ -1542,12 +1211,6 @@
     "section_video_g4Hp6X",
     "section_marquee_YkgdjP",
     "section_press_4zGcar",
-    "section_text_6w4pEy",
-    "section_columns_yYTLc6",
-    "section_collection_U4HQDb",
-    "section_text_bqRQ34",
-    "section_text_GFyXaq",
-    "section_columns_hCRn8D",
     "section_image_with_text_z4NRbA",
     "section_image_with_text_eQ7xYQ",
     "section_icons_row_X6ibNU",
@@ -1562,6 +1225,7 @@
     "section_grid_D36TtF",
     "section_text_d6QknV",
     "section_grid_mUYiiC",
+    "section_collection_U4HQDb",
     "438134f4-207c-4040-aeee-388c681ebe81",
     "907ac558-c8aa-4fa4-b971-dbce2de8219b"
   ]
