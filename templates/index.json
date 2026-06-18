@@ -349,7 +349,7 @@
         "button_cwKNee": {
           "type": "button",
           "settings": {
-            "button_1_text": "Shop Signature Beds",
+            "button_1_text": "Explore Signature Beds",
             "button_1_link": "shopify://collections/core-dog-beds",
             "button_1_color": "btn--black",
             "button_1_style": "btn--solid",
@@ -968,7 +968,7 @@
         "heading_QrL8ak": {
           "type": "heading",
           "settings": {
-            "text": "<p>Why Other Dog Beds Fail</p>",
+            "text": "<p>The Problem With Traditional Dog Beds</p>",
             "size": 100,
             "heading_highlight_type": "italics",
             "highlight_color": "#D43747",
