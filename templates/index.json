@@ -807,38 +807,6 @@
         "mobile_aspect_ratio": 0.5
       }
     },
-    "section_image_with_text_7Dpytg": {
-      "type": "section-image-with-text",
-      "disabled": true,
-      "name": "Image with text",
-      "settings": {
-        "section_height": "four-fifty-height",
-        "layout": "inline",
-        "image_location": "right",
-        "image_width": "standard",
-        "image": "shopify://shop_images/exploded_full_view.png",
-        "subheading": "",
-        "title": "<p>The Difference Is Inside.</p>",
-        "heading_highlight_type": "circle",
-        "highlight_color": "#D43747",
-        "highlight_text_color": "#000",
-        "heading_size": 130,
-        "content": "<p>Built around our Fused Core™  waterproof mattress designed to stay supportive, clean, and comfortable for years.</p>",
-        "text_alignment": "left",
-        "button_text": "Shop All Beds",
-        "button_link": "shopify://collections/core-dog-beds",
-        "button_color": "btn--black",
-        "button_style": "btn--solid",
-        "button_size": "btn--small",
-        "video_link": "",
-        "text_color": "text-dark",
-        "bg_color": "",
-        "gradient": "",
-        "section_width": "wrapper",
-        "padding_top": 0,
-        "padding_bottom": 20
-      }
-    },
     "section_text_G4NcFX": {
       "type": "section-text",
       "blocks": {
@@ -1336,6 +1304,7 @@
         "heading_iPq4kJ",
         "subheading_DYWk4j"
       ],
+      "disabled": true,
       "settings": {
         "show_spacer_lines": true,
         "text_position": "center",
@@ -1506,7 +1475,6 @@
     "section_icons_row_X6ibNU",
     "section_banner_image_TYHW4c",
     "section_text_image_9pmGg9",
-    "section_image_with_text_7Dpytg",
     "section_text_G4NcFX",
     "section_grid_wNkGdg",
     "section_banner_image_qMkpBY",
