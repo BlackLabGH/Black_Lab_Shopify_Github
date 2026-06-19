@@ -1006,7 +1006,7 @@
           "type": "image",
           "settings": {
             "width": "25",
-            "image": "shopify://shop_images/absorbs_moisture_2808ff3d-8b3c-4458-ab3f-d9ab07ef0bd7.png",
+            "image": "shopify://shop_images/wont_absorb.png",
             "overlay_opacity": 0,
             "text_position": "top-left",
             "subheading": "",
@@ -1023,7 +1023,7 @@
           "type": "image",
           "settings": {
             "width": "25",
-            "image": "shopify://shop_images/ODORS_INSIDE.png",
+            "image": "shopify://shop_images/wont_smell.png",
             "overlay_opacity": 0,
             "text_position": "top-left",
             "subheading": "",
@@ -1040,7 +1040,7 @@
           "type": "image",
           "settings": {
             "width": "25",
-            "image": "shopify://shop_images/SUPPORT_BREAKS_DOWN.png",
+            "image": "shopify://shop_images/wont_sag_bea9dcb2-d9ec-4d34-bf96-8a2bb6f81726.png",
             "overlay_opacity": 0,
             "text_position": "top-left",
             "subheading": "",
@@ -1057,7 +1057,7 @@
           "type": "image",
           "settings": {
             "width": "25",
-            "image": "shopify://shop_images/COVERS_WEAR_OUT.png",
+            "image": "shopify://shop_images/wont_wear.png",
             "overlay_opacity": 0,
             "text_position": "top-left",
             "subheading": "",
