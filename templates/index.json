@@ -1079,7 +1079,7 @@
       ],
       "name": "Grid",
       "settings": {
-        "height": "auto",
+        "height": "350",
         "heading_size": 130,
         "button_1_color": "btn--white",
         "button_1_style": "btn--text",
