@@ -716,7 +716,7 @@
       "settings": {
         "show_spacer_lines": true,
         "text_position": "center",
-        "bg_color_secondary": true,
+        "bg_color_secondary": false,
         "text_color": "text-dark",
         "width": "wrapper--narrow",
         "padding_top": 30,
