@@ -335,7 +335,7 @@
             "hide_spacer_lines": false,
             "size": 110,
             "heading_highlight_type": "italics",
-            "highlight_color": "#D43747",
+            "highlight_color": "#d43747",
             "highlight_text_color": "#000"
           }
         },
@@ -395,7 +395,7 @@
         "subheading": "",
         "title": "<p>Built Around What Matters.</p>",
         "heading_highlight_type": "circle",
-        "highlight_color": "#D43747",
+        "highlight_color": "#d43747",
         "highlight_text_color": "#000",
         "heading_size": 130,
         "content": "<p>Every layer has a purpose. Together, they create a bed that's cleaner, more comfortable, and lasts longer.</p>",
@@ -422,11 +422,11 @@
         "layout": "inline",
         "image_location": "left",
         "image_width": "standard",
-        "image": "shopify://shop_images/cross_section_5.png",
+        "image": "shopify://shop_images/cross_6.png",
         "subheading": "Meet the Fused Core™",
         "title": "<p>Waterproof. At The Core.</p>",
         "heading_highlight_type": "circle",
-        "highlight_color": "#D43747",
+        "highlight_color": "#d43747",
         "highlight_text_color": "#000",
         "heading_size": 130,
         "content": "<p><strong>The foundation inside every Signature bed. </strong></p><p>A fully sealed waterproof shell protects supportive orthopedic foam from moisture, helping your bed stay cleaner, more supportive, and comfortable for years. <strong>-A Black Lab Original</strong></p>",
@@ -596,7 +596,7 @@
             "text": "<p>Waterproof. At the Core.</p>",
             "size": 100,
             "heading_highlight_type": "italics",
-            "highlight_color": "#D43747",
+            "highlight_color": "#d43747",
             "highlight_text_color": "#000"
           }
         },
@@ -671,7 +671,7 @@
             "text": "<p>One Foundation. Different Ways to Rest.</p>",
             "size": 100,
             "heading_highlight_type": "italics",
-            "highlight_color": "#D43747",
+            "highlight_color": "#d43747",
             "highlight_text_color": "#000"
           }
         },
@@ -837,7 +837,7 @@
             "hide_spacer_lines": false,
             "size": 130,
             "heading_highlight_type": "italics",
-            "highlight_color": "#D43747",
+            "highlight_color": "#d43747",
             "highlight_text_color": "#000"
           }
         },
@@ -972,7 +972,7 @@
             "text": "<p>Protect What Matters Most.</p>",
             "size": 100,
             "heading_highlight_type": "italics",
-            "highlight_color": "#D43747",
+            "highlight_color": "#d43747",
             "highlight_text_color": "#000"
           }
         },
@@ -1132,7 +1132,7 @@
             "text": "<p>Better In Every </p><p>Way That Counts.</p>",
             "size": 100,
             "heading_highlight_type": "italics",
-            "highlight_color": "#D43747",
+            "highlight_color": "#d43747",
             "highlight_text_color": "#000"
           }
         },
