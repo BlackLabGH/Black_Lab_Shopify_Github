@@ -678,7 +678,7 @@
         "subheading_Mhimyg": {
           "type": "subheading",
           "settings": {
-            "text": "<p>Every Signature bed starts with our Utility All-Weather waterproof mattress, wrapped in a quilted comfort layer and removable, washable cover.</p>",
+            "text": "<p>Every Signature bed starts with our Utility all-weather waterproof mattress, wrapped in a quilted comfort layer and removable, washable cover.</p>",
             "size": 170,
             "margin_bottom": 16
           }
@@ -1007,7 +1007,7 @@
           "settings": {
             "width": "25",
             "image": "shopify://shop_images/absorbs_moisture_2808ff3d-8b3c-4458-ab3f-d9ab07ef0bd7.png",
-            "overlay_opacity": 10,
+            "overlay_opacity": 0,
             "text_position": "top-left",
             "subheading": "",
             "title": "",
