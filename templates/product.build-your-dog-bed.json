@@ -12,6 +12,19 @@
     "main": {
       "type": "product",
       "blocks": {
+        "feature_tiL9bU": {
+          "type": "feature",
+          "disabled": true,
+          "settings": {
+            "icon_name": "star",
+            "icon_width": 25,
+            "title": "4th Of July Sale - The More You Add, The More You Save",
+            "text": "<ul><li>Spend $250, Get 10% OFF</li><li>Spend $350, Get 15% OFF</li><li>Spend $450, Get 20% OFF</li></ul><p><strong>*Automatic discount at checkout</strong></p>",
+            "bg_color": "#f7f9fa",
+            "text_color": "#000000",
+            "padding_bottom": 20
+          }
+        },
         "text_erzGzg": {
           "type": "text",
           "settings": {
@@ -274,6 +287,7 @@
         }
       },
       "block_order": [
+        "feature_tiL9bU",
         "text_erzGzg",
         "title",
         "inventory_countdown",
