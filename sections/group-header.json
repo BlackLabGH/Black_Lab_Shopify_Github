@@ -31,9 +31,9 @@
           "type": "custom",
           "disabled": true,
           "settings": {
-            "text": "<span style=\"font-size:130%\"><strong>4th OF JULY SALE\nBUILD &amp; SAVE</strong> </span>",
+            "text": "<span style=\"font-size:130%\"><strong>4th OF JULY SALE - \nBUILD YOUR BED AND SAVE</strong> </span>",
             "target_url_enabled": false,
-            "target_url": "shopify://collections/memorial-day-sale",
+            "target_url": "shopify://products/signature-bed-builder",
             "target_referrer_enabled": false,
             "target_referrer": "",
             "target_device_enabled": false,
