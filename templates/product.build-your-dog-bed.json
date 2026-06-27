@@ -14,14 +14,13 @@
       "blocks": {
         "feature_tiL9bU": {
           "type": "feature",
-          "disabled": true,
           "settings": {
             "icon_name": "star",
             "icon_width": 25,
             "title": "4th Of July Sale - The More You Add, The More You Save",
             "text": "<p><strong>Spend $250 — Get 10% OFF</strong></p><p><strong> Spend $350 — Get 15% OFF</strong></p><p><strong> Spend $450 — Get 20% OFF</strong></p><p><em>*Automatic discount at checkout</em></p>",
             "bg_color": "#373535",
-            "text_color": "#CAA876",
+            "text_color": "#caa876",
             "padding_bottom": 20
           }
         },
