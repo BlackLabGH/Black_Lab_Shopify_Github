@@ -16,7 +16,6 @@
       "blocks": {
         "custom_AEWYER": {
           "type": "custom",
-          "disabled": true,
           "settings": {
             "text": "<span style=\"font-size:130%\"><strong> Automatic Discount at Checkout</strong> </span>",
             "target_url_enabled": false,
