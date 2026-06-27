@@ -29,7 +29,6 @@
         },
         "custom_dnJUzN": {
           "type": "custom",
-          "disabled": true,
           "settings": {
             "text": "<span style=\"font-size:130%\"><strong>4th OF JULY SALE - \nBUILD YOUR BED AND SAVE</strong> </span>",
             "target_url_enabled": false,
