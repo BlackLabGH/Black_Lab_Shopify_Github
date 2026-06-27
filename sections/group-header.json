@@ -19,7 +19,7 @@
           "settings": {
             "text": "<span style=\"font-size:130%\"><strong> Automatic Discount at Checkout</strong> </span>",
             "target_url_enabled": false,
-            "target_url": "shopify://collections/memorial-day-sale",
+            "target_url": "shopify://products/signature-bed-builder",
             "target_referrer_enabled": false,
             "target_referrer": "",
             "target_device_enabled": false,
