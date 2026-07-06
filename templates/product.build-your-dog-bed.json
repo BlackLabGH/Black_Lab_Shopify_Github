@@ -14,6 +14,7 @@
       "blocks": {
         "feature_tiL9bU": {
           "type": "feature",
+          "disabled": true,
           "settings": {
             "icon_name": "star",
             "icon_width": 25,
