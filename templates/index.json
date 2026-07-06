@@ -405,6 +405,7 @@
         "text_hq7wt9",
         "image_9f7zGL"
       ],
+      "disabled": true,
       "name": "Marquee",
       "settings": {
         "layout": "marquee",
