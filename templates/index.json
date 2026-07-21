@@ -428,6 +428,131 @@
         "padding_bottom": 0
       }
     },
+    "section_testimonials_NrzmqW": {
+      "type": "section-testimonials",
+      "blocks": {
+        "text_YtwVH7": {
+          "type": "text",
+          "settings": {
+            "heading": "We let our customers speak for themselves.",
+            "text_size": 125,
+            "subheading": "<p>4.98 average<br/>213 reviews</p>",
+            "block_color": "#000",
+            "text_color": "text-light",
+            "text_alignment": "text-left"
+          }
+        },
+        "testimonial_AfRAQL": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial_header": "",
+            "text": "<p>\"not only was it leak proof, it is so easy to wash.\"</p>",
+            "customer_name": "Chantee",
+            "subheading": "<p><strong>My Senior Large Lab LOVES this bed.</strong></p>"
+          }
+        },
+        "testimonial_fc8MqV": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial_header": "",
+            "text": "<p>\"held up through nonstop digging, spinning, and general K9 chaos\"</p>",
+            "customer_name": "Gina I.",
+            "subheading": "<p><strong>K9 Approved Beds!</strong></p>"
+          }
+        },
+        "testimonial_e8qtyJ": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial_header": "",
+            "text": "<p>\"you can easily hose down the cover or put it in the wash\"</p>",
+            "customer_name": "Perfect bed!",
+            "subheading": "<p><strong>Huntington Beach, CA.</strong></p>"
+          }
+        },
+        "testimonial_kBV7jT": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial_header": "",
+            "text": "<p>\"a tough bed thats supportive while actually being comfortable.\"</p>",
+            "customer_name": "Rachel B.",
+            "subheading": "<p><strong>Tough Yet Tender</strong></p>"
+          }
+        },
+        "testimonial_JQDGH3": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial_header": "",
+            "text": "<p>Excellent customer service. I love their products!</p>",
+            "customer_name": "Dmitri Kristov",
+            "subheading": "<p>Verified customer</p>"
+          }
+        },
+        "testimonial_jf4cQe": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial_header": "",
+            "text": "<p>Excellent customer service. I love their products!</p>",
+            "customer_name": "Amelia Ngoy",
+            "subheading": "<p>Verified customer</p>"
+          }
+        },
+        "testimonial_fkwNze": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial_header": "",
+            "text": "<p>Excellent customer service. I love their products!</p>",
+            "customer_name": "Amelia Ngoy",
+            "subheading": "<p>Verified customer</p>"
+          }
+        },
+        "testimonial_DLdPYa": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial_header": "",
+            "text": "<p>Excellent customer service. I love their products!</p>",
+            "customer_name": "Amelia Ngoy",
+            "subheading": "<p>Verified customer</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_YtwVH7",
+        "testimonial_AfRAQL",
+        "testimonial_fc8MqV",
+        "testimonial_e8qtyJ",
+        "testimonial_kBV7jT",
+        "testimonial_JQDGH3",
+        "testimonial_jf4cQe",
+        "testimonial_fkwNze",
+        "testimonial_DLdPYa"
+      ],
+      "disabled": true,
+      "name": "Testimonials",
+      "settings": {
+        "title": "",
+        "hide_spacer_lines": true,
+        "stars_placement": "below_title",
+        "block_star_rating": 0,
+        "subheader": "",
+        "section_text": "",
+        "text_size": 100,
+        "text_alignment": "text-left",
+        "bg_color": "",
+        "testimonial_block_color": "",
+        "testimonial_text_color": "text-dark",
+        "width": "wrapper--full-padded",
+        "padding_top": 0,
+        "padding_bottom": 30
+      }
+    },
     "section_image_with_text_dTkAeH": {
       "type": "section-image-with-text",
       "name": "Image with text",
@@ -1340,109 +1465,6 @@
         "padding_top": 10,
         "padding_bottom": 0
       }
-    },
-    "section_testimonials_NrzmqW": {
-      "type": "section-testimonials",
-      "blocks": {
-        "text_YtwVH7": {
-          "type": "text",
-          "settings": {
-            "heading": "We let our customers speak for themselves.",
-            "text_size": 125,
-            "subheading": "<p>4.98 average<br/>213 reviews</p>",
-            "block_color": "#000",
-            "text_color": "text-light",
-            "text_alignment": "text-left"
-          }
-        },
-        "testimonial_AfRAQL": {
-          "type": "testimonial",
-          "settings": {
-            "star_rating": 5,
-            "testimonial_header": "",
-            "text": "<p>\"not only was it leak proof, it is so easy to wash.\"</p>",
-            "customer_name": "Chantee",
-            "subheading": "<p><strong>My Senior Large Lab LOVES this bed.</strong></p>"
-          }
-        },
-        "testimonial_fc8MqV": {
-          "type": "testimonial",
-          "settings": {
-            "star_rating": 5,
-            "testimonial_header": "",
-            "text": "<p>\"held up through nonstop digging, spinning, and general K9 chaos\"</p>",
-            "customer_name": "Gina I.",
-            "subheading": "<p><strong>K9 Approved Beds!</strong></p>"
-          }
-        },
-        "testimonial_e8qtyJ": {
-          "type": "testimonial",
-          "settings": {
-            "star_rating": 5,
-            "testimonial_header": "",
-            "text": "<p>\"you can easily hose down the cover or put it in the wash\"</p>",
-            "customer_name": "Perfect bed!",
-            "subheading": "<p><strong>Huntington Beach, CA.</strong></p>"
-          }
-        },
-        "testimonial_kBV7jT": {
-          "type": "testimonial",
-          "settings": {
-            "star_rating": 5,
-            "testimonial_header": "",
-            "text": "<p>\"a tough bed thats supportive while actually being comfortable.\"</p>",
-            "customer_name": "Rachel B.",
-            "subheading": "<p><strong>Tough Yet Tender</strong></p>"
-          }
-        },
-        "testimonial_JQDGH3": {
-          "type": "testimonial",
-          "settings": {
-            "star_rating": 5,
-            "testimonial_header": "",
-            "text": "<p>Excellent customer service. I love their products!</p>",
-            "customer_name": "Dmitri Kristov",
-            "subheading": "<p>Verified customer</p>"
-          }
-        },
-        "testimonial_jf4cQe": {
-          "type": "testimonial",
-          "settings": {
-            "star_rating": 5,
-            "testimonial_header": "",
-            "text": "<p>Excellent customer service. I love their products!</p>",
-            "customer_name": "Amelia Ngoy",
-            "subheading": "<p>Verified customer</p>"
-          }
-        }
-      },
-      "block_order": [
-        "text_YtwVH7",
-        "testimonial_AfRAQL",
-        "testimonial_fc8MqV",
-        "testimonial_e8qtyJ",
-        "testimonial_kBV7jT",
-        "testimonial_JQDGH3",
-        "testimonial_jf4cQe"
-      ],
-      "disabled": true,
-      "name": "Testimonials",
-      "settings": {
-        "title": "",
-        "hide_spacer_lines": true,
-        "stars_placement": "below_title",
-        "block_star_rating": 0,
-        "subheader": "",
-        "section_text": "",
-        "text_size": 100,
-        "text_alignment": "text-left",
-        "bg_color": "",
-        "testimonial_block_color": "",
-        "testimonial_text_color": "text-dark",
-        "width": "wrapper--full-padded",
-        "padding_top": 0,
-        "padding_bottom": 30
-      }
     }
   },
   "order": [
@@ -1454,6 +1476,7 @@
     "section_icons_row_X6ibNU",
     "section_banner_image_TYHW4c",
     "section_marquee_KmGzit",
+    "section_testimonials_NrzmqW",
     "section_image_with_text_dTkAeH",
     "section_image_with_text_9bNRE4",
     "section_text_image_9pmGg9",
@@ -1467,7 +1490,6 @@
     "section_text_d6QknV",
     "section_grid_mUYiiC",
     "438134f4-207c-4040-aeee-388c681ebe81",
-    "907ac558-c8aa-4fa4-b971-dbce2de8219b",
-    "section_testimonials_NrzmqW"
+    "907ac558-c8aa-4fa4-b971-dbce2de8219b"
   ]
 }
