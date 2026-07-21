@@ -435,7 +435,7 @@
           "type": "text",
           "settings": {
             "heading": "Approved by uncompromising pet parents.",
-            "text_size": 125,
+            "text_size": 100,
             "subheading": "<p>4.98 average</p>",
             "block_color": "#000",
             "text_color": "text-light",
