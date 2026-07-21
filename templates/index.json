@@ -556,148 +556,6 @@
         "mobile_aspect_ratio": 0.5
       }
     },
-    "section_text_image_R3tcp6": {
-      "type": "section-text-image",
-      "blocks": {
-        "title_QKRQwf": {
-          "type": "title",
-          "settings": {
-            "heading": "Meet the Fused Core™",
-            "mobile_font_size": 0,
-            "desktop_font_size": 0,
-            "hide_spacer_lines": true
-          }
-        },
-        "content_FAf9VN": {
-          "type": "content",
-          "settings": {
-            "text": "<p>Every Signature bed is built around our Fused Core™  waterproof orthopedic mattress designed to stay supportive, clean, and comfortable for years.</p><p></p>",
-            "content_size": "md:text-body-md",
-            "content_width": ""
-          }
-        },
-        "button_7AHwmK": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_text": "Choose Your Bed",
-            "button_link": "shopify://collections/core-dog-beds",
-            "button_color": "btn--black",
-            "button_style": "btn--solid",
-            "button_size": "btn--small"
-          }
-        },
-        "button_8fQ6La": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_text": "Build Your Bed",
-            "button_link": "shopify://products/signature-bed-builder",
-            "button_color": "btn--black",
-            "button_style": "btn--outline",
-            "button_size": "btn--small"
-          }
-        }
-      },
-      "block_order": [
-        "title_QKRQwf",
-        "content_FAf9VN",
-        "button_7AHwmK",
-        "button_8fQ6La"
-      ],
-      "disabled": true,
-      "name": "Text Image Split",
-      "settings": {
-        "nav_id": "",
-        "block_star_rating": 0,
-        "text_color": "text-dark",
-        "bg_color": "",
-        "section_width": "wrapper",
-        "padding_top": 8,
-        "padding_bottom": 8,
-        "image": "shopify://shop_images/cross_foam_2.png",
-        "image_size": "normal",
-        "image_layout": "left",
-        "mobile_image_layout": "content_first",
-        "desktop_aspect_ratio": 0.8,
-        "desktop_max_height": 0,
-        "mobile_aspect_ratio": 0.8
-      }
-    },
-    "section_text_r8n36H": {
-      "type": "section-text",
-      "blocks": {
-        "subheading_dzgkJR": {
-          "type": "subheading",
-          "settings": {
-            "text": "<p><strong>MEET THE FUSED CORE</strong></p>",
-            "size": 155,
-            "margin_bottom": 16
-          }
-        },
-        "heading_PMVh6C": {
-          "type": "heading",
-          "settings": {
-            "text": "<p>Waterproof. At the Core.</p>",
-            "size": 100,
-            "heading_highlight_type": "italics",
-            "highlight_color": "#d43747",
-            "highlight_text_color": "#000"
-          }
-        },
-        "text_MxiteE": {
-          "type": "text",
-          "settings": {
-            "text": "<p>The foundation inside every Black Lab Signature bed.</p>",
-            "size": 100
-          }
-        },
-        "button_8kyrqG": {
-          "type": "button",
-          "settings": {
-            "button_text": "Read More",
-            "button_link": "",
-            "button_color": "btn--black",
-            "button_style": "btn--solid",
-            "button_size": "btn--small"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_dzgkJR",
-        "heading_PMVh6C",
-        "text_MxiteE",
-        "button_8kyrqG"
-      ],
-      "disabled": true,
-      "name": "Text",
-      "settings": {
-        "show_spacer_lines": true,
-        "text_position": "center",
-        "bg_color_secondary": false,
-        "text_color": "text-dark",
-        "width": "wrapper--narrow",
-        "padding_top": 30,
-        "padding_bottom": 0
-      }
-    },
-    "section_image_Ycift3": {
-      "type": "section-image",
-      "disabled": true,
-      "name": "Image",
-      "settings": {
-        "image": "shopify://shop_images/Waterproof_4183822d-3a7c-4802-914b-e56bd0039f83.png",
-        "height": "six-fifty-height",
-        "enable_mobile_height": true,
-        "mobile_height": "six-fifty-height-mobile",
-        "enable_stretch": false,
-        "image_position": "center",
-        "bg_color_secondary": false,
-        "width": "wrapper--full-padded",
-        "padding_top": 0,
-        "padding_bottom": 18
-      }
-    },
     "section_text_G4NcFX": {
       "type": "section-text",
       "blocks": {
@@ -1482,6 +1340,109 @@
         "padding_top": 10,
         "padding_bottom": 0
       }
+    },
+    "section_testimonials_NrzmqW": {
+      "type": "section-testimonials",
+      "blocks": {
+        "text_YtwVH7": {
+          "type": "text",
+          "settings": {
+            "heading": "We let our customers speak for themselves.",
+            "text_size": 125,
+            "subheading": "<p>4.98 average<br/>213 reviews</p>",
+            "block_color": "#000",
+            "text_color": "text-light",
+            "text_alignment": "text-left"
+          }
+        },
+        "testimonial_AfRAQL": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial_header": "",
+            "text": "<p>\"not only was it leak proof, it is so easy to wash.\"</p>",
+            "customer_name": "Chantee",
+            "subheading": "<p><strong>My Senior Large Lab LOVES this bed.</strong></p>"
+          }
+        },
+        "testimonial_fc8MqV": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial_header": "",
+            "text": "<p>\"held up through nonstop digging, spinning, and general K9 chaos\"</p>",
+            "customer_name": "Gina I.",
+            "subheading": "<p><strong>K9 Approved Beds!</strong></p>"
+          }
+        },
+        "testimonial_e8qtyJ": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial_header": "",
+            "text": "<p>\"you can easily hose down the cover or put it in the wash\"</p>",
+            "customer_name": "Perfect bed!",
+            "subheading": "<p><strong>Huntington Beach, CA.</strong></p>"
+          }
+        },
+        "testimonial_kBV7jT": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial_header": "",
+            "text": "<p>\"a tough bed thats supportive while actually being comfortable.\"</p>",
+            "customer_name": "Rachel B.",
+            "subheading": "<p><strong>Tough Yet Tender</strong></p>"
+          }
+        },
+        "testimonial_JQDGH3": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial_header": "",
+            "text": "<p>Excellent customer service. I love their products!</p>",
+            "customer_name": "Dmitri Kristov",
+            "subheading": "<p>Verified customer</p>"
+          }
+        },
+        "testimonial_jf4cQe": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial_header": "",
+            "text": "<p>Excellent customer service. I love their products!</p>",
+            "customer_name": "Amelia Ngoy",
+            "subheading": "<p>Verified customer</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_YtwVH7",
+        "testimonial_AfRAQL",
+        "testimonial_fc8MqV",
+        "testimonial_e8qtyJ",
+        "testimonial_kBV7jT",
+        "testimonial_JQDGH3",
+        "testimonial_jf4cQe"
+      ],
+      "disabled": true,
+      "name": "Testimonials",
+      "settings": {
+        "title": "",
+        "hide_spacer_lines": true,
+        "stars_placement": "below_title",
+        "block_star_rating": 0,
+        "subheader": "",
+        "section_text": "",
+        "text_size": 100,
+        "text_alignment": "text-left",
+        "bg_color": "",
+        "testimonial_block_color": "",
+        "testimonial_text_color": "text-dark",
+        "width": "wrapper--full-padded",
+        "padding_top": 0,
+        "padding_bottom": 30
+      }
     }
   },
   "order": [
@@ -1496,9 +1457,6 @@
     "section_image_with_text_dTkAeH",
     "section_image_with_text_9bNRE4",
     "section_text_image_9pmGg9",
-    "section_text_image_R3tcp6",
-    "section_text_r8n36H",
-    "section_image_Ycift3",
     "section_text_G4NcFX",
     "section_grid_wNkGdg",
     "section_banner_image_qMkpBY",
@@ -1509,6 +1467,7 @@
     "section_text_d6QknV",
     "section_grid_mUYiiC",
     "438134f4-207c-4040-aeee-388c681ebe81",
-    "907ac558-c8aa-4fa4-b971-dbce2de8219b"
+    "907ac558-c8aa-4fa4-b971-dbce2de8219b",
+    "section_testimonials_NrzmqW"
   ]
 }
