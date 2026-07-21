@@ -436,7 +436,7 @@
           "settings": {
             "heading": "We let our customers speak for themselves.",
             "text_size": 125,
-            "subheading": "<p>4.98 average<br/>213 reviews</p>",
+            "subheading": "<p>4.98 average</p>",
             "block_color": "#000",
             "text_color": "text-light",
             "text_alignment": "text-left"
@@ -550,7 +550,7 @@
         "testimonial_text_color": "text-dark",
         "width": "wrapper--full-padded",
         "padding_top": 0,
-        "padding_bottom": 30
+        "padding_bottom": 20
       }
     },
     "section_image_with_text_dTkAeH": {
