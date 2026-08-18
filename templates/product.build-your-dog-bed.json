@@ -542,6 +542,7 @@
         "layout": "inline",
         "image_location": "right",
         "image_width": "standard",
+        "image": "shopify://shop_images/dark_camo_living.png",
         "subheading": "Details Matter",
         "title": "<p><strong>Styled for your home. Built for the wild stuff.</strong></p>",
         "heading_highlight_type": "circle",
