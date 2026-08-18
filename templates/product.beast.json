@@ -103,7 +103,7 @@
           }
         },
         "reelup_shoppable_videos_reels_reelup_stories_fXekcH": {
-          "type": "shopify://apps/reelup-shoppable-videos/blocks/reelup_stories/a8ec9e4d-d192-44f7-9c23-595f9ee7dd5b",
+          "type": "shopify://apps/reelup-shoppable-videos-reels/blocks/reelup_stories/a8ec9e4d-d192-44f7-9c23-595f9ee7dd5b",
           "settings": {
             "section_id": "rl_st_2433"
           }
@@ -178,7 +178,7 @@
           }
         },
         "reelup_shoppable_videos_reels_reelup_product_slider_MXF48t": {
-          "type": "shopify://apps/reelup-shoppable-videos/blocks/reelup_product_slider/a8ec9e4d-d192-44f7-9c23-595f9ee7dd5b",
+          "type": "shopify://apps/reelup-shoppable-videos-reels/blocks/reelup_product_slider/a8ec9e4d-d192-44f7-9c23-595f9ee7dd5b",
           "disabled": true,
           "settings": {}
         },
@@ -512,7 +512,7 @@
         "layout": "inline",
         "image_location": "right",
         "image_width": "standard",
-        "image": "shopify://shop_images/toughbed1_aa645374-8426-441b-8710-c269c223b818_1.webp",
+        "image": "shopify://shop_images/darkcamoliving.png",
         "subheading": "Details Matter",
         "title": "<p>Built Around Everyday Life.</p>",
         "heading_highlight_type": "circle",
@@ -737,7 +737,6 @@
         "layout": "inline",
         "image_location": "left",
         "image_width": "standard",
-        "image": "shopify://shop_images/toughbed1_aa645374-8426-441b-8710-c269c223b818_1.webp",
         "subheading": "",
         "title": "<p>Diggably Durable™</p>",
         "heading_highlight_type": "circle",
