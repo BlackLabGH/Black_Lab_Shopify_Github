@@ -122,7 +122,7 @@
           }
         },
         "reelup_shoppable_videos_reels_reelup_stories_fXekcH": {
-          "type": "shopify://apps/reelup-shoppable-videos/blocks/reelup_stories/a8ec9e4d-d192-44f7-9c23-595f9ee7dd5b",
+          "type": "shopify://apps/reelup-shoppable-videos-reels/blocks/reelup_stories/a8ec9e4d-d192-44f7-9c23-595f9ee7dd5b",
           "settings": {
             "section_id": "rl_st_2433"
           }
@@ -206,7 +206,7 @@
           }
         },
         "reelup_shoppable_videos_reels_reelup_product_slider_MXF48t": {
-          "type": "shopify://apps/reelup-shoppable-videos/blocks/reelup_product_slider/a8ec9e4d-d192-44f7-9c23-595f9ee7dd5b",
+          "type": "shopify://apps/reelup-shoppable-videos-reels/blocks/reelup_product_slider/a8ec9e4d-d192-44f7-9c23-595f9ee7dd5b",
           "disabled": true,
           "settings": {}
         },
@@ -542,14 +542,13 @@
         "layout": "inline",
         "image_location": "right",
         "image_width": "standard",
-        "image": "shopify://shop_images/toughbed1_aa645374-8426-441b-8710-c269c223b818_1.webp",
         "subheading": "Details Matter",
         "title": "<p><strong>Styled for your home. Built for the wild stuff.</strong></p>",
         "heading_highlight_type": "circle",
         "highlight_color": "#d43747",
         "highlight_text_color": "#000000",
         "heading_size": 100,
-        "content": "<p>With our Fused Core™ water proof orthopedic mattress, non-skid base, ultra-durable materials, StayFresh™ odor-fighting tech, and easy-wash construction, the Beast is ready for wherever your dog crashes, at home, in a crate, or at the campsite. Made for life in motion. Tested for chaos.</p>",
+        "content": "<p>With our Fused Core™ water proof orthopedic mattress, non-skid base, ultra-durable materials, StayFresh™ odor-fighting tech, and easy-wash construction, our Signature bed + is ready for wherever your dog crashes, at home, in a crate, or at the campsite. Made for life in motion. Tested for chaos.</p>",
         "text_alignment": "left",
         "button_text": "",
         "button_link": "",
@@ -767,7 +766,6 @@
         "layout": "inline",
         "image_location": "left",
         "image_width": "standard",
-        "image": "shopify://shop_images/toughbed1_aa645374-8426-441b-8710-c269c223b818_1.webp",
         "subheading": "",
         "title": "<p>Diggably Durable™</p>",
         "heading_highlight_type": "circle",
