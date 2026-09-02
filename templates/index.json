@@ -359,12 +359,78 @@
         "text_mEfJYj",
         "button_cwKNee"
       ],
+      "disabled": true,
       "name": "Banner image",
       "settings": {
         "height": "six-fifty-height",
         "enable_mobile_height": false,
         "mobile_height": "four-fifty-height-mobile",
         "image": "shopify://shop_images/Untitled_design_3.png",
+        "image_mobile": "shopify://shop_images/Untitled_design_3_copy.png",
+        "overlay_opacity": 0,
+        "enable_zoom_animation": true,
+        "text_width": "normal",
+        "text_position": "bottom-left",
+        "mobile_layout": "layout-overlay",
+        "text_color": "text-light"
+      }
+    },
+    "section_banner_image_Nkw8P4": {
+      "type": "section-banner-image",
+      "blocks": {
+        "heading_nc44zC": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>The Dog Bed You Buy When You're Done Buying Dog Beds.</p>",
+            "hide_spacer_lines": false,
+            "size": 110,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000"
+          }
+        },
+        "subheading_MbVcwH": {
+          "type": "subheading",
+          "settings": {
+            "text": "<h4>LABOR DAY SALE</h4><h5>Spend More. Save More.</h5>",
+            "size": 100
+          }
+        },
+        "text_RnB7U6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Spend $250<strong>  SAVE 10% OFF</strong></p><p>Spend $350<strong>  SAVE 15% OFF</strong></p><p><strong> </strong>Spend $450<strong>  SAVE 20% OFF</strong></p><p><em>*Automatic discount at checkout</em></p>",
+            "size": 75
+          }
+        },
+        "button_98dYqm": {
+          "type": "button",
+          "settings": {
+            "button_1_text": "Build Your Bed",
+            "button_1_link": "shopify://products/signature-bed-builder",
+            "button_1_color": "btn--black",
+            "button_1_style": "btn--solid",
+            "button_1_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nc44zC",
+        "subheading_MbVcwH",
+        "text_RnB7U6",
+        "button_98dYqm"
+      ],
+      "name": "Banner image",
+      "settings": {
+        "height": "six-fifty-height",
+        "enable_mobile_height": false,
+        "mobile_height": "four-fifty-height-mobile",
+        "image": "shopify://shop_images/LaborDay.png",
         "image_mobile": "shopify://shop_images/Untitled_design_3_copy.png",
         "overlay_opacity": 0,
         "enable_zoom_animation": true,
@@ -1486,6 +1552,7 @@
     "section_image_with_text_eQ7xYQ",
     "section_icons_row_X6ibNU",
     "section_banner_image_TYHW4c",
+    "section_banner_image_Nkw8P4",
     "section_marquee_KmGzit",
     "section_testimonials_NrzmqW",
     "section_image_with_text_dTkAeH",
