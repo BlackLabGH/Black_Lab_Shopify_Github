@@ -379,13 +379,14 @@
       "blocks": {
         "text_hq7wt9": {
           "type": "text",
+          "disabled": true,
           "settings": {
-            "text": "<h4><em><strong>4th OF JULY SALE</strong></em> - <br/><a href=\"/products/signature-bed-builder\" title=\"Build Your Dog Bed\">BUILD YOUR BED AND SAVE</a></h4>",
+            "text": "<h4><em><strong>LABOR DAY SALE</strong></em> - <br/><a href=\"/products/signature-bed-builder\" title=\"Build Your Dog Bed\">BUILD YOUR BED AND SAVE</a></h4>",
             "text_color": "",
-            "heading_highlight_type": "underline",
-            "highlight_color": "#d43747",
-            "highlight_text_color": "#2809f0",
-            "icon_name": "star",
+            "heading_highlight_type": "italics",
+            "highlight_color": "#373535",
+            "highlight_text_color": "#CAA876",
+            "icon_name": "none",
             "icon_color": "",
             "icon_width": 24,
             "target_device_enabled": false,
@@ -405,7 +406,6 @@
         "text_hq7wt9",
         "image_9f7zGL"
       ],
-      "disabled": true,
       "name": "Marquee",
       "settings": {
         "layout": "marquee",
