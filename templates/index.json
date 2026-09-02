@@ -381,7 +381,7 @@
         "heading_nc44zC": {
           "type": "heading",
           "settings": {
-            "text": "<p>The Dog Bed You Buy When You're Done Buying Dog Beds.</p>",
+            "text": "<h1>LABOR DAY SALE</h1>",
             "hide_spacer_lines": false,
             "size": 110,
             "heading_highlight_type": "italics",
@@ -392,7 +392,7 @@
         "subheading_MbVcwH": {
           "type": "subheading",
           "settings": {
-            "text": "<h4>LABOR DAY SALE</h4><h5>Spend More. Save More.</h5>",
+            "text": "<h3>Spend More. Save More.</h3>",
             "size": 100
           }
         },
@@ -431,7 +431,7 @@
         "enable_mobile_height": false,
         "mobile_height": "four-fifty-height-mobile",
         "image": "shopify://shop_images/LaborDay.png",
-        "image_mobile": "shopify://shop_images/Untitled_design_3_copy.png",
+        "image_mobile": "shopify://shop_images/Labor_Day_Mobile.png",
         "overlay_opacity": 0,
         "enable_zoom_animation": true,
         "text_width": "normal",
