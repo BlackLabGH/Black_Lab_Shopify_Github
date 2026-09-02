@@ -12,6 +12,18 @@
     "main": {
       "type": "product",
       "blocks": {
+        "feature_UXBh7L": {
+          "type": "feature",
+          "settings": {
+            "icon_name": "star",
+            "icon_width": 25,
+            "title": "Labor Day Sale - The More You Add, The More You Save",
+            "text": "<p><strong>Spend $250 — Get 10% OFF</strong></p><p><strong> Spend $350 — Get 15% OFF</strong></p><p><strong> Spend $450 — Get 20% OFF</strong></p><p><em>*Automatic discount at checkout</em></p>",
+            "bg_color": "#373535",
+            "text_color": "#caa876",
+            "padding_bottom": 20
+          }
+        },
         "title": {
           "type": "title",
           "settings": {
@@ -254,6 +266,7 @@
         }
       },
       "block_order": [
+        "feature_UXBh7L",
         "title",
         "inventory_countdown",
         "text_bVpFJX",
