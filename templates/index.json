@@ -389,6 +389,17 @@
             "highlight_text_color": "#000"
           }
         },
+        "heading_nRnNfQ": {
+          "type": "heading",
+          "settings": {
+            "text": "<h5><em><strong>LAST CHANCE - ENDS TODAY</strong></em></h5>",
+            "hide_spacer_lines": true,
+            "size": 120,
+            "heading_highlight_type": "highlight",
+            "highlight_color": "#00000000",
+            "highlight_text_color": "#CAA876"
+          }
+        },
         "subheading_MbVcwH": {
           "type": "subheading",
           "settings": {
@@ -421,6 +432,7 @@
       },
       "block_order": [
         "heading_nc44zC",
+        "heading_nRnNfQ",
         "subheading_MbVcwH",
         "text_RnB7U6",
         "button_98dYqm"
@@ -451,7 +463,7 @@
             "text_color": "",
             "heading_highlight_type": "italics",
             "highlight_color": "#373535",
-            "highlight_text_color": "#CAA876",
+            "highlight_text_color": "#caa876",
             "icon_name": "none",
             "icon_color": "",
             "icon_width": 24,
