@@ -14,6 +14,7 @@
       "blocks": {
         "feature_p8kKYL": {
           "type": "feature",
+          "disabled": true,
           "settings": {
             "icon_name": "star",
             "icon_width": 25,
