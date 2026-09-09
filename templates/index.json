@@ -359,7 +359,6 @@
         "text_mEfJYj",
         "button_cwKNee"
       ],
-      "disabled": true,
       "name": "Banner image",
       "settings": {
         "height": "six-fifty-height",
@@ -396,8 +395,8 @@
             "hide_spacer_lines": true,
             "size": 120,
             "heading_highlight_type": "highlight",
-            "highlight_color": "#00000000",
-            "highlight_text_color": "#CAA876"
+            "highlight_color": "rgba(0,0,0,0)",
+            "highlight_text_color": "#caa876"
           }
         },
         "subheading_MbVcwH": {
@@ -437,6 +436,7 @@
         "text_RnB7U6",
         "button_98dYqm"
       ],
+      "disabled": true,
       "name": "Banner image",
       "settings": {
         "height": "six-fifty-height",
