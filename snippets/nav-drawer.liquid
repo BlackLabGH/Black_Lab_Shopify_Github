@@ -67,7 +67,7 @@
                 {%- assign link_title_lowercase = sub_link.title | downcase | strip_html | escape -%}
 
                 {%- capture link_image_markup -%}
-                  {%- render 'header-link-image' with enable: section.settings.show_images, link: sub_link, aspect_ratio: section.settings.image_aspect_ratio -%}
+                  {%- render 'header-link-image' with enable, enable: section.settings.show_images, link: sub_link, aspect_ratio: section.settings.image_aspect_ratio -%}
                 {%- endcapture -%}
 
                 <li class="mobile-menu__item mobile-menu__item--level-2{% if sub_link.levels == 1 %} mobile-menu__item--has-items{% endif %}{% if sub_link.active %} mobile-menu__item--active{% endif %}" {% if sub_link.levels == 1 %}aria-haspopup="true"{% endif %}>
@@ -137,3 +137,15 @@
     </ul>
   {%- endif -%}
 </div>
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{%- render 'header-link-image' with enable: section.settings.show_images,
+    link: sub_link, aspect_ratio: section.settings.image_aspect_ratio -%}"
+  to: "{%- render 'header-link-image' with enable, enable: section.settings.show_images,
+    link: sub_link, aspect_ratio: section.settings.image_aspect_ratio -%}"
+  position: 3650..3801
+{% endcomment %}
