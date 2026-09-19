@@ -9,6 +9,11 @@
  */
 {
   "sections": {
+    "blocks_EgcLnj": {
+      "type": "_blocks",
+      "name": "Collection hero banner",
+      "settings": {}
+    },
     "17661567624f34d174": {
       "type": "_blocks",
       "blocks": {
@@ -713,6 +718,7 @@
     }
   },
   "order": [
+    "blocks_EgcLnj",
     "17661567624f34d174",
     "section_image_with_text_GYe3DG",
     "17661537548787c60a",
