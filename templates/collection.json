@@ -11,45 +11,6 @@
   "sections": {
     "blocks_Tp6dpQ": {
       "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_6850aa0_WPJNP9": {
-          "type": "ai_gen_block_6850aa0",
-          "settings": {
-            "eyebrow": "Black Lab",
-            "heading": "BUILT TO OUTLAST THE DOGS WHO DESTROY EVERYTHING",
-            "body": "Waterproof covers. Ultra-tough cores. Digger-tested and built to keep your dog comfortable and secure.",
-            "button_label": "SHOP NOW",
-            "button_link": "",
-            "image": "shopify://shop_images/DogBasking.png",
-            "crop_to_hero_height": true,
-            "image_fit": "cover",
-            "image_position": "center center",
-            "frame_background": "#f4f1ea",
-            "image_padding": 30,
-            "bottom_frame_space": 30,
-            "image_radius": 0,
-            "text_column_width": 60,
-            "desktop_width_percent": 100,
-            "desktop_height": 40,
-            "desktop_max_height": 100,
-            "mobile_height": 60,
-            "mobile_max_height": 120,
-            "panel_radius": 0,
-            "heading_size": 58,
-            "panel_background": "#1c1b19",
-            "eyebrow_color": "#c45629",
-            "heading_color": "#faf8f3",
-            "body_color": "#e8e3d5",
-            "button_background": "#c45629",
-            "button_text_color": "#faf8f3",
-            "button_radius": 0
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_6850aa0_WPJNP9"
-      ],
       "name": "Two-column hero",
       "settings": {}
     },
