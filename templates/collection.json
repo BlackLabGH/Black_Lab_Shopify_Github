@@ -53,6 +53,56 @@
       "name": "Two-column hero",
       "settings": {}
     },
+    "17897837674f3239fb": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_7dd84dc_EPxFBf": {
+          "type": "ai_gen_block_7dd84dc",
+          "settings": {
+            "text_alignment": "left",
+            "eyebrow": "Black Lab",
+            "heading": "BUILT TO OUTLAST THE DOGS WHO DESTROY EVERYTHING",
+            "body_copy": "Waterproof covers. Ultra-tough cores. Digger-tested and built to keep your dog comfortable and secure.",
+            "button_label": "SHOP NOW",
+            "button_link": "",
+            "text_padding_top": 75,
+            "text_padding_right": 120,
+            "text_padding_bottom": 75,
+            "text_padding_left": 120,
+            "mobile_padding_top": 35,
+            "mobile_padding_right": 25,
+            "mobile_padding_bottom": 35,
+            "mobile_padding_left": 25,
+            "image": "shopify://shop_images/DogBasking.png",
+            "image_fit": "cover",
+            "image_position": "center center",
+            "frame_background": "#e8e3d5",
+            "frame_padding": 30,
+            "bottom_frame_space": 30,
+            "image_radius": 0,
+            "desktop_width_percent": 100,
+            "text_column_width": 60,
+            "desktop_min_height": 40,
+            "desktop_max_height": 100,
+            "mobile_min_height": 60,
+            "mobile_max_height": 120,
+            "panel_radius": 0,
+            "panel_background": "#1c1b19",
+            "eyebrow_color": "#c45629",
+            "heading_color": "#faf8f3",
+            "body_color": "#e8e3d5",
+            "button_background": "#c45629",
+            "button_text": "#faf8f3",
+            "button_radius": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_7dd84dc_EPxFBf"
+      ],
+      "settings": {}
+    },
     "hero": {
       "type": "collection-image-with-title",
       "disabled": true,
@@ -197,6 +247,7 @@
   },
   "order": [
     "blocks_Tp6dpQ",
+    "17897837674f3239fb",
     "hero",
     "subcollections",
     "main",
