@@ -58,6 +58,7 @@
       "blocks": {
         "ai_gen_block_7dd84dc_EPxFBf": {
           "type": "ai_gen_block_7dd84dc",
+          "name": "Two-column hero 2",
           "settings": {
             "text_alignment": "left",
             "eyebrow": "Black Lab",
