@@ -11,37 +11,57 @@
   "sections": {
     "17897761860f4ee5f6": {
       "type": "_blocks",
+      "settings": {}
+    },
+    "blocks_PhJWfA": {
+      "type": "_blocks",
       "blocks": {
-        "ai_gen_block_0dd940b_VEL37f": {
-          "type": "ai_gen_block_0dd940b",
+        "ai_gen_block_7dd84dc_JP6LbA": {
+          "type": "ai_gen_block_7dd84dc",
           "settings": {
-            "eyebrow": "BEST-SELLERS",
+            "text_alignment": "left",
+            "eyebrow": "Black Lab",
             "heading": "BUILT TO OUTLAST THE DOGS WHO DESTROY EVERYTHING",
-            "body": "Waterproof covers. Ultra-tough cores. Digger-tested and built to survive dogs who have destroyed everything else.",
-            "button_label": "Shop our best-sellers",
+            "body_copy": "Waterproof covers. Ultra-tough cores. Digger-tested and built to keep your dog comfortable and secure.",
+            "button_label": "SHOP NOW",
             "button_link": "",
-            "image": "shopify://shop_images/Briskventure_Black_Labs_Slater_German_Shepard-7.jpg",
-            "background_color": "#0b0b0b",
-            "accent_color": "#c45629",
-            "text_color": "#FAF8F3",
-            "muted_text_color": "#e8e3d5",
-            "button_text_color": "#0b0b0b",
-            "image_frame_color": "#e8e3d5",
-            "desktop_width_percent": 100,
-            "border_radius": 0,
-            "image_frame_padding": 24,
-            "polaroid_bottom_padding": 45,
-            "image_frame_radius": 0,
+            "text_padding_top": 75,
+            "text_padding_right": 75,
+            "text_padding_bottom": 75,
+            "text_padding_left": 75,
+            "mobile_padding_top": 35,
+            "mobile_padding_right": 25,
+            "mobile_padding_bottom": 35,
+            "mobile_padding_left": 25,
+            "image": "shopify://shop_images/DogBasking.png",
+            "image_fit": "cover",
+            "image_position": "center center",
+            "frame_background": "#e8e3d5",
+            "frame_padding": 30,
+            "bottom_frame_space": 30,
             "image_radius": 0,
-            "image_height": 500,
-            "button_radius": 2
+            "desktop_width_percent": 100,
+            "text_column_width": 60,
+            "desktop_min_height": 40,
+            "desktop_max_height": 100,
+            "mobile_min_height": 60,
+            "mobile_max_height": 120,
+            "panel_radius": 0,
+            "panel_background": "#07090E",
+            "eyebrow_color": "#c45629",
+            "heading_color": "#faf8f3",
+            "body_color": "#e8e3d5",
+            "button_background": "#c45629",
+            "button_text": "#faf8f3",
+            "button_radius": 0
           },
           "blocks": {}
         }
       },
       "block_order": [
-        "ai_gen_block_0dd940b_VEL37f"
+        "ai_gen_block_7dd84dc_JP6LbA"
       ],
+      "name": "Two-column hero",
       "settings": {}
     },
     "hero": {
@@ -213,6 +233,7 @@
   },
   "order": [
     "17897761860f4ee5f6",
+    "blocks_PhJWfA",
     "hero",
     "subcollections",
     "main",
