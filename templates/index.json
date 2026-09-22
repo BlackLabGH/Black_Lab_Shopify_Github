@@ -1495,34 +1495,6 @@
         "padding_top": 10,
         "padding_bottom": 0
       }
-    },
-    "1790109094cd7f2d57": {
-      "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_184b960_L49wkK": {
-          "type": "ai_gen_block_184b960",
-          "name": "Click Announcement bar",
-          "settings": {
-            "message": "Join our email list for updates",
-            "background_color": "#373535",
-            "text_color": "#ffffff",
-            "text_size": 14,
-            "vertical_padding": 10,
-            "desktop_width_percent": 100,
-            "enable_newsletter_scroll": true,
-            "limit_page": false,
-            "page_path": "/",
-            "limit_referrer": false,
-            "referrer_path": "/collections",
-            "device_target": "all"
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_184b960_L49wkK"
-      ],
-      "settings": {}
     }
   },
   "order": [
@@ -1548,7 +1520,6 @@
     "section_collection_U4HQDb",
     "section_grid_mUYiiC",
     "438134f4-207c-4040-aeee-388c681ebe81",
-    "907ac558-c8aa-4fa4-b971-dbce2de8219b",
-    "1790109094cd7f2d57"
+    "907ac558-c8aa-4fa4-b971-dbce2de8219b"
   ]
 }
