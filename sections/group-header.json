@@ -56,7 +56,7 @@
           "type": "custom",
           "disabled": true,
           "settings": {
-            "text": "<span style=\"font-size:130%\">Sign-Up and <strong>GET FREE SHIPPING (Continental U.S. only)</strong></span>",
+            "text": "<span style=\"font-size:130%\">Sign-Up to <strong>GET FREE SHIPPING (Continental U.S. only)</strong></span>",
             "target_url_enabled": false,
             "target_url": "shopify://collections/waterproof-fused-core-beds",
             "target_referrer_enabled": false,
