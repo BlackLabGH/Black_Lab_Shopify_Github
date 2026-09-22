@@ -52,6 +52,19 @@
             "target_device": "mobile"
           }
         },
+        "custom_kLJgkb": {
+          "type": "custom",
+          "disabled": true,
+          "settings": {
+            "text": "<span style=\"font-size:130%\">Sign-Up and <strong>GET FREE SHIPPING (Continental U.S. only)</strong></span>",
+            "target_url_enabled": false,
+            "target_url": "shopify://collections/waterproof-fused-core-beds",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
         "c8b619f6-e5eb-406a-95db-6df675da309e": {
           "type": "message",
           "disabled": true,
@@ -70,6 +83,7 @@
         "custom_AEWYER",
         "custom_dnJUzN",
         "custom_WUwp3P",
+        "custom_kLJgkb",
         "c8b619f6-e5eb-406a-95db-6df675da309e"
       ],
       "settings": {
