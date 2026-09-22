@@ -1,6 +1,205 @@
+{% doc %}
+  @prompt
+    Create a new announcement bar section that replicates all the current features of the existing announcement bar (message text, and settings to limit the message by specific page, referrer path, and desktop/mobile device), but adds one new capability: an option to make the announcement message clickable so that clicking it smoothly scrolls the page down to the email sign-up/newsletter form located in the footer section (the newsletter block, id footer-block-3, inside the footer section). Keep the existing announcement bar visual styling exactly the same; only add the click-to-scroll link behavior as an additional configurable feature.
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+{% assign current_path = request.path %}
+{% assign referrer_path = request.headers.referer | default: '' %}
+{% assign page_match = true %}
+{% assign referrer_match = true %}
+{% assign device_match = true %}
+{% if block.settings.limit_page and block.settings.page_path != blank %}
+  {% unless current_path == block.settings.page_path %}
+    {% assign page_match = false %}
+  {% endunless %}
+{% endif %}
+{% if block.settings.limit_referrer and block.settings.referrer_path != blank %}
+  {% unless referrer_path contains block.settings.referrer_path %}
+    {% assign referrer_match = false %}
+  {% endunless %}
+{% endif %}
+{% if block.settings.device_target == 'desktop' %}
+  {% assign device_match = false %}
+{% elsif block.settings.device_target == 'mobile' %}
+  {% assign device_match = false %}
+{% endif %}
+
+{% style %}
+  .ai-announcement-bar-{{ ai_gen_id }} {
+    display: block;
+    width: {{ block.settings.desktop_width_percent }}%;
+    max-width: 100%;
+    background: {{ block.settings.background_color }};
+    color: {{ block.settings.text_color }};
+    text-align: center;
+    font-family: {{ settings.type_base_font.family }}, sans-serif;
+    font-size: {{ block.settings.text_size }}px;
+    line-height: 1.35;
+  }
+
+  .ai-announcement-bar-{{ ai_gen_id }}__content {
+    display: block;
+    width: 100%;
+    padding: {{ block.settings.vertical_padding }}px 20px;
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .ai-announcement-bar-{{ ai_gen_id }}__content:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: -4px;
+  }
+
+  .ai-announcement-bar-{{ ai_gen_id }}__content--clickable {
+    cursor: pointer;
+  }
+{% endstyle %}
+
+{% if page_match and referrer_match %}
+  <announcement-bar-{{ ai_gen_id }} class="ai-announcement-bar-{{ ai_gen_id }}" data-device-target="{{ block.settings.device_target }}" {{ block.shopify_attributes }}>
+    {% if block.settings.enable_newsletter_scroll %}
+      <a href="#footer-block-3" class="ai-announcement-bar-{{ ai_gen_id }}__content ai-announcement-bar-{{ ai_gen_id }}__content--clickable" data-newsletter-scroll>
+        {{ block.settings.message | escape }}
+      </a>
+    {% else %}
+      <div class="ai-announcement-bar-{{ ai_gen_id }}__content">
+        {{ block.settings.message | escape }}
+      </div>
+    {% endif %}
+  </announcement-bar-{{ ai_gen_id }}>
+{% endif %}
+
+<script>
+  (function() {
+    class AnnouncementBar{{ ai_gen_id }} extends HTMLElement {
+      connectedCallback() {
+        var target = this.dataset.deviceTarget;
+        var isMobile = window.matchMedia('(max-width: 749px)').matches;
+        if ((target === 'mobile' && !isMobile) || (target === 'desktop' && isMobile)) {
+          this.hidden = true;
+          return;
+        }
+        var link = this.querySelector('[data-newsletter-scroll]');
+        if (link) {
+          link.addEventListener('click', function(event) {
+            var newsletter = document.getElementById('footer-block-3');
+            if (!newsletter) return;
+            event.preventDefault();
+            newsletter.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            newsletter.setAttribute('tabindex', '-1');
+            newsletter.focus({ preventScroll: true });
+          });
+        }
+      }
+    }
+    if (!customElements.get('announcement-bar-{{ ai_gen_id }}')) {
+      customElements.define('announcement-bar-{{ ai_gen_id }}', AnnouncementBar{{ ai_gen_id }});
+    }
+  })();
+</script>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Announcement bar",
+  "settings": [
+    {
+      "type": "text",
+      "id": "message",
+      "label": "Message",
+      "default": "Join our email list for updates"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background",
+      "default": "#373535"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text",
+      "default": "#ffffff"
+    },
+    {
+      "type": "range",
+      "id": "text_size",
+      "label": "Text size",
+      "min": 10,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "default": 14
+    },
+    {
+      "type": "range",
+      "id": "vertical_padding",
+      "label": "Vertical padding",
+      "min": 4,
+      "max": 30,
+      "step": 2,
+      "unit": "px",
+      "default": 10
+    },
+    {
+      "type": "range",
+      "id": "desktop_width_percent",
+      "label": "Desktop width",
+      "min": 50,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "default": 100
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_newsletter_scroll",
+      "label": "Link message to newsletter",
+      "default": false
+    },
+    {
+      "type": "header",
+      "content": "Visibility"
+    },
+    {
+      "type": "checkbox",
+      "id": "limit_page",
+      "label": "Limit to specific page",
+      "default": false
+    },
+    {
+      "type": "text",
+      "id": "page_path",
+      "label": "Page path",
+      "default": "/"
+    },
+    {
+      "type": "checkbox",
+      "id": "limit_referrer",
+      "label": "Limit by referrer path",
+      "default": false
+    },
+    {
+      "type": "text",
+      "id": "referrer_path",
+      "label": "Referrer path",
+      "default": "/collections"
+    },
+    {
+      "type": "select",
+      "id": "device_target",
+      "label": "Device",
+      "options": [
+        { "value": "all", "label": "All devices" },
+        { "value": "desktop", "label": "Desktop only" },
+        { "value": "mobile", "label": "Mobile only" }
+      ],
+      "default": "all"
+    }
+  ],
+  "presets": [
+    { "name": "Announcement bar" }
+  ],
+  "tag": null,
+  "class": "announcement-bar-block"
+}
 {% endschema %}
