@@ -1241,65 +1241,6 @@
         "padding_bottom": 30
       }
     },
-    "section_text_d6QknV": {
-      "type": "section-text",
-      "blocks": {
-        "heading_DwbdeE": {
-          "type": "heading",
-          "settings": {
-            "text": "<p>Better In Every </p><p>Way That Counts.</p>",
-            "size": 100,
-            "heading_highlight_type": "italics",
-            "highlight_color": "#d43747",
-            "highlight_text_color": "#000"
-          }
-        },
-        "text_VhhJdq": {
-          "type": "text",
-          "settings": {
-            "text": "<p>A cleaner, more thoughtful approach to dog bed design.</p>",
-            "size": 100
-          }
-        },
-        "button_g7eyQa": {
-          "type": "button",
-          "settings": {
-            "button_text": "Choose Your Bed",
-            "button_link": "shopify://collections/core-dog-beds",
-            "button_color": "btn--black",
-            "button_style": "btn--solid",
-            "button_size": "btn--small"
-          }
-        },
-        "button_7nN9Kw": {
-          "type": "button",
-          "settings": {
-            "button_text": "Build Your Bed",
-            "button_link": "shopify://products/signature-bed-builder",
-            "button_color": "btn--black",
-            "button_style": "btn--outline",
-            "button_size": "btn--small"
-          }
-        }
-      },
-      "block_order": [
-        "heading_DwbdeE",
-        "text_VhhJdq",
-        "button_g7eyQa",
-        "button_7nN9Kw"
-      ],
-      "disabled": true,
-      "name": "Text",
-      "settings": {
-        "show_spacer_lines": false,
-        "text_position": "center",
-        "bg_color_secondary": true,
-        "text_color": "text-dark",
-        "width": "wrapper--narrow",
-        "padding_top": 20,
-        "padding_bottom": 10
-      }
-    },
     "section_grid_mUYiiC": {
       "type": "section-grid",
       "blocks": {
@@ -1555,8 +1496,32 @@
         "padding_bottom": 0
       }
     },
-    "1789780846beb3c4ac": {
+    "1790109094cd7f2d57": {
       "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_184b960_L49wkK": {
+          "type": "ai_gen_block_184b960",
+          "name": "Click Announcement bar",
+          "settings": {
+            "message": "Join our email list for updates",
+            "background_color": "#373535",
+            "text_color": "#ffffff",
+            "text_size": 14,
+            "vertical_padding": 10,
+            "desktop_width_percent": 100,
+            "enable_newsletter_scroll": true,
+            "limit_page": false,
+            "page_path": "/",
+            "limit_referrer": false,
+            "referrer_path": "/collections",
+            "device_target": "all"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_184b960_L49wkK"
+      ],
       "settings": {}
     }
   },
@@ -1581,10 +1546,9 @@
     "section_text_AzddhD",
     "section_grid_xqcmTc",
     "section_collection_U4HQDb",
-    "section_text_d6QknV",
     "section_grid_mUYiiC",
     "438134f4-207c-4040-aeee-388c681ebe81",
     "907ac558-c8aa-4fa4-b971-dbce2de8219b",
-    "1789780846beb3c4ac"
+    "1790109094cd7f2d57"
   ]
 }
