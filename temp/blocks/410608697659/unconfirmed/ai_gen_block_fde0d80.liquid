@@ -1,6 +1,137 @@
+{% doc %}
+  @prompt
+    Make the free-shipping announcement bar message clickable so that clicking it smoothly scrolls the page down to the email sign-up/newsletter form located in the footer section. Keep the existing announcement bar styling, just add link/click-to-scroll behavior to the free shipping text block.
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-shipping-link-{{ ai_gen_id }} {
+    display: block;
+    width: {{ block.settings.desktop_width_percent }}%;
+    max-width: 100%;
+  }
+
+  .ai-shipping-link-{{ ai_gen_id }}__button {
+    display: inline;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    background: transparent;
+    color: inherit;
+    font: inherit;
+    text-align: inherit;
+    text-decoration: {{ block.settings.text_decoration }};
+    cursor: pointer;
+  }
+
+  .ai-shipping-link-{{ ai_gen_id }}__button:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+{% endstyle %}
+
+<smooth-scroll-shipping-{{ ai_gen_id }}
+  class="ai-shipping-link-{{ ai_gen_id }}"
+  data-scroll-target="{{ block.settings.target_id | escape }}"
+  {{ block.shopify_attributes }}
+>
+  <button
+    type="button"
+    class="ai-shipping-link-{{ ai_gen_id }}__button"
+    aria-label="{{ block.settings.accessibility_label | escape }}"
+  >
+    {{ block.settings.message | escape }}
+  </button>
+</smooth-scroll-shipping-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class SmoothScrollShipping{{ ai_gen_id }} extends HTMLElement {
+      connectedCallback() {
+        this.button = this.querySelector('button');
+        this.button.addEventListener('click', this.scrollToTarget.bind(this));
+      }
+
+      scrollToTarget(event) {
+        event.preventDefault();
+        var target = document.getElementById(this.dataset.scrollTarget);
+
+        if (!target) {
+          target = document.querySelector('[data-newsletter], .newsletter, [id*="newsletter"]');
+        }
+
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          window.setTimeout(function() {
+            target.setAttribute('tabindex', '-1');
+            target.focus({ preventScroll: true });
+          }, 500);
+        }
+      }
+    }
+
+    if (!customElements.get('smooth-scroll-shipping-{{ ai_gen_id }}')) {
+      customElements.define('smooth-scroll-shipping-{{ ai_gen_id }}', SmoothScrollShipping{{ ai_gen_id }});
+    }
+  })();
+</script>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Shipping message link",
+  "settings": [
+    {
+      "type": "textarea",
+      "id": "message",
+      "label": "Message",
+      "default": "You're getting free shipping"
+    },
+    {
+      "type": "text",
+      "id": "target_id",
+      "label": "Newsletter section ID",
+      "default": "footer-newsletter"
+    },
+    {
+      "type": "text",
+      "id": "accessibility_label",
+      "label": "Accessibility label",
+      "default": "Scroll to email sign-up"
+    },
+    {
+      "type": "select",
+      "id": "text_decoration",
+      "label": "Text decoration",
+      "options": [
+        {
+          "value": "none",
+          "label": "None"
+        },
+        {
+          "value": "underline",
+          "label": "Underline"
+        }
+      ],
+      "default": "none"
+    },
+    {
+      "type": "range",
+      "id": "desktop_width_percent",
+      "label": "Desktop width",
+      "min": 50,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "default": 100
+    }
+  ],
+  "presets": [
+    {
+      "name": "Shipping message link"
+    }
+  ],
+  "tag": null,
+  "class": "shipping-message-link"
+}
 {% endschema %}
