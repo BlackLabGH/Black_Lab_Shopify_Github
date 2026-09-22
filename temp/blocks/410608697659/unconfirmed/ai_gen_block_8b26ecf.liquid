@@ -1,6 +1,98 @@
+{% doc %}
+  @prompt
+    In the announcement bar section, there's a Custom HTML block (id custom_WUwp3P) containing the text "Free shipping over $75 (Continental U.S. only)". Add a new checkbox setting called "Link message to newsletter" to this Custom HTML block's schema. When enabled, make the block's text clickable so that clicking it smoothly scrolls the page down to the email sign-up/newsletter form in the footer section (the newsletter block, id footer-block-3, inside the footer section). Keep all existing HTML content and visual styling of the block exactly the same; only add this new optional click-to-scroll link behavior.
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-custom-html-{{ ai_gen_id }} {
+    display: block;
+    width: {{ block.settings.desktop_width_percent }}%;
+    max-width: 100%;
+  }
+
+  .ai-custom-html-{{ ai_gen_id }}__link {
+    color: inherit;
+    font: inherit;
+    text-decoration: inherit;
+  }
+{% endstyle %}
+
+<custom-html-link-{{ ai_gen_id }}
+  class="ai-custom-html-{{ ai_gen_id }}"
+  {{ block.shopify_attributes }}
+>
+  {% if block.settings.link_message_to_newsletter %}
+    <a
+      class="ai-custom-html-{{ ai_gen_id }}__link"
+      href="#footer-block-3"
+      aria-label="{{ block.settings.custom_html | strip_html | escape }}"
+    >{{ block.settings.custom_html }}</a>
+  {% else %}
+    {{ block.settings.custom_html }}
+  {% endif %}
+</custom-html-link-{{ ai_gen_id }}>
+
+{% if block.settings.link_message_to_newsletter %}
+  <script>
+    (function() {
+      class CustomHtmlLink{{ ai_gen_id }} extends HTMLElement {
+        connectedCallback() {
+          this.link = this.querySelector('.ai-custom-html-{{ ai_gen_id }}__link');
+          if (!this.link) return;
+
+          this.link.addEventListener('click', (event) => {
+            const target = document.getElementById('footer-block-3');
+            if (!target) return;
+
+            event.preventDefault();
+            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            target.setAttribute('tabindex', '-1');
+            target.focus({ preventScroll: true });
+          });
+        }
+      }
+
+      if (!customElements.get('custom-html-link-{{ ai_gen_id }}')) {
+        customElements.define('custom-html-link-{{ ai_gen_id }}', CustomHtmlLink{{ ai_gen_id }});
+      }
+    })();
+  </script>
+{% endif %}
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Custom HTML",
+  "settings": [
+    {
+      "type": "html",
+      "id": "custom_html",
+      "label": "HTML",
+      "default": "Free shipping over $75 (Continental U.S. only)"
+    },
+    {
+      "type": "checkbox",
+      "id": "link_message_to_newsletter",
+      "label": "Link message to newsletter",
+      "default": false
+    },
+    {
+      "type": "range",
+      "id": "desktop_width_percent",
+      "label": "Desktop width",
+      "min": 50,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "default": 100
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom HTML"
+    }
+  ],
+  "tag": null,
+  "class": "custom-html-block"
+}
 {% endschema %}
