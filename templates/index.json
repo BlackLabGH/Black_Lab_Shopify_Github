@@ -374,6 +374,28 @@
         "text_color": "text-light"
       }
     },
+    "17901110601805a27d": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_768b10f_CPgfC6": {
+          "type": "ai_gen_block_768b10f",
+          "disabled": true,
+          "settings": {
+            "message": "<p>Sign-up to get <strong>FREE SHIPPING</strong> on your first order.</p>",
+            "link_to_newsletter": true,
+            "background_color": "#373535",
+            "text_color": "#CAA876",
+            "desktop_width_percent": 100
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_768b10f_CPgfC6"
+      ],
+      "disabled": true,
+      "settings": {}
+    },
     "section_banner_image_Nkw8P4": {
       "type": "section-banner-image",
       "blocks": {
@@ -1505,6 +1527,7 @@
     "section_image_with_text_eQ7xYQ",
     "section_icons_row_X6ibNU",
     "section_banner_image_TYHW4c",
+    "17901110601805a27d",
     "section_banner_image_Nkw8P4",
     "section_marquee_KmGzit",
     "section_testimonials_NrzmqW",
