@@ -14,6 +14,25 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "text_4MUa6H": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"https://blacklabbrands.com/#footer-block-3\" title=\"https://blacklabbrands.com/#footer-block-3\">Sign-up and get <strong>Free Shipping on your first order! </strong>(Continental U.S. only)</a></p>",
+            "text_color": "",
+            "heading_highlight_type": "circle",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000",
+            "icon_name": "none",
+            "icon_color": "",
+            "icon_width": 20,
+            "target_url_enabled": false,
+            "target_url": "",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
         "custom_AEWYER": {
           "type": "custom",
           "disabled": true,
@@ -42,6 +61,7 @@
         },
         "custom_WUwp3P": {
           "type": "custom",
+          "disabled": true,
           "settings": {
             "text": "<span style=\"font-size:130%\"><strong>Free shipping over $75 (Continental U.S. only)</strong></span>",
             "target_url_enabled": false,
@@ -80,6 +100,7 @@
         }
       },
       "block_order": [
+        "text_4MUa6H",
         "custom_AEWYER",
         "custom_dnJUzN",
         "custom_WUwp3P",
