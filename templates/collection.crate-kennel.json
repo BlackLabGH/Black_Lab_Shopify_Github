@@ -95,8 +95,8 @@
         "layout": "inline",
         "image_location": "left",
         "image_width": "standard",
-        "image": "shopify://shop_images/beauty_braun_2fb8ff49-eceb-4de7-b5c9-57b9090233b6.png",
-        "subheading": "",
+        "image": "shopify://shop_images/signature_bed_layers.png",
+        "subheading": "Crate-Friendly Dog Beds",
         "title": "<p>Designed to fit standard wire frame crates</p>",
         "heading_highlight_type": "highlight-color",
         "highlight_color": "#373535",
@@ -111,7 +111,7 @@
         "button_size": "btn--small",
         "video_link": "",
         "text_color": "text-dark",
-        "bg_color": "#f7f7f7",
+        "bg_color": "#FFFFFF",
         "gradient": "",
         "section_width": "wrapper",
         "padding_top": 20,
@@ -356,39 +356,6 @@
     },
     "main": {
       "type": "collection",
-      "blocks": {
-        "25fdead2-cb7b-47cc-a6f1-58909d5b04ff": {
-          "type": "promo",
-          "disabled": true,
-          "source": "{{ collection.metafields.custom.collection_inline_blog.value }}",
-          "settings": {
-            "collection": "",
-            "image": "{{ collection.metafields.custom.collection_inline_blog.value.inline_collection_blog_image.value }}",
-            "position": 1,
-            "width": "auto",
-            "title": "<p>{{ collection.metafields.custom.collection_inline_blog.value.inline_collection_blog_body | metafield_tag }}</p>",
-            "heading_highlight_type": "circle",
-            "highlight_color": "#d43747",
-            "highlight_text_color": "#ffffff",
-            "heading_size": 100,
-            "content": "Advertise a promotion or a sale",
-            "text_size": 100,
-            "text_color": "text-light",
-            "text_position": "bottom-left",
-            "layout": "stacked",
-            "overlay_opacity": 10,
-            "bg_color": "#d3d3d3",
-            "button_text": "{{ collection.metafields.custom.collection_inline_blog.value.inline_collection_blog_header.value }}",
-            "button_link": "",
-            "button_color": "btn--white",
-            "button_style": "btn--solid-border",
-            "button_size": "btn--small"
-          }
-        }
-      },
-      "block_order": [
-        "25fdead2-cb7b-47cc-a6f1-58909d5b04ff"
-      ],
       "settings": {
         "show_breadcrumbs": true,
         "enable_sorting": true,
