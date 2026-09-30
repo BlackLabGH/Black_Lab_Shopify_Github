@@ -652,6 +652,7 @@
     },
     "section_image_with_text_Pwa73x": {
       "type": "section-image-with-text",
+      "disabled": true,
       "settings": {
         "section_height": "six-fifty-height",
         "layout": "inline",
@@ -767,6 +768,7 @@
     },
     "section_image_xgq36t": {
       "type": "section-image",
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/BEAST_INFO_bf5507c6-79ea-4a04-a822-340853e01026.png",
         "height": "original-height",
