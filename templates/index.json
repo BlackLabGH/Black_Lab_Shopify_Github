@@ -435,7 +435,7 @@
       ],
       "name": "Text",
       "settings": {
-        "show_spacer_lines": false,
+        "show_spacer_lines": true,
         "text_position": "center",
         "bg_color_secondary": false,
         "text_color": "text-dark",
