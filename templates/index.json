@@ -379,9 +379,8 @@
       "blocks": {
         "subheading_ihN9Mf": {
           "type": "subheading",
-          "disabled": true,
           "settings": {
-            "text": "<p><strong>FIND YOUR PERFECT SETUP</strong></p>",
+            "text": "<p>All beds start with a waterproof orthopedic foundation.</p>",
             "size": 100,
             "margin_bottom": 16
           }
@@ -399,7 +398,7 @@
         "subheading_byEDNV": {
           "type": "subheading",
           "settings": {
-            "text": "<p>Starts with a waterproof orthopedic foundation. Customize for their comfort.</p>",
+            "text": "<p>Customize for their comfort.</p>",
             "size": 170,
             "margin_bottom": 16
           }
@@ -538,7 +537,7 @@
         "width": "wrapper",
         "add_gutter": true,
         "padding_top": 10,
-        "padding_bottom": 30
+        "padding_bottom": 10
       }
     },
     "17901110601805a27d": {
