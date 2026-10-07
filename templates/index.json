@@ -1107,28 +1107,11 @@
     "section_grid_xqcmTc": {
       "type": "section-grid",
       "blocks": {
-        "image_KAWQfz": {
-          "type": "image",
-          "settings": {
-            "width": "25",
-            "image": "shopify://shop_images/wont_absorb.png",
-            "overlay_opacity": 0,
-            "text_position": "top-left",
-            "subheading": "",
-            "title": "",
-            "text": "MATTRESS: MOISTURE PROTECTION",
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_2_text": "",
-            "button_2_link": "",
-            "text_color": "text-dark"
-          }
-        },
         "image_tBxetF": {
           "type": "image",
           "settings": {
             "width": "25",
-            "image": "shopify://shop_images/wont_smell.png",
+            "image": "shopify://shop_images/stayfresh_copy.png",
             "overlay_opacity": 0,
             "text_position": "top-left",
             "subheading": "",
@@ -1141,11 +1124,28 @@
             "text_color": "text-dark"
           }
         },
+        "image_KAWQfz": {
+          "type": "image",
+          "settings": {
+            "width": "25",
+            "image": "shopify://shop_images/moisture_protection.png",
+            "overlay_opacity": 30,
+            "text_position": "top-left",
+            "subheading": "",
+            "title": "",
+            "text": "MATTRESS: MOISTURE PROTECTION",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-light"
+          }
+        },
         "image_QjnaFn": {
           "type": "image",
           "settings": {
             "width": "25",
-            "image": "shopify://shop_images/wont_sag_bea9dcb2-d9ec-4d34-bf96-8a2bb6f81726.png",
+            "image": "shopify://shop_images/foam_wont_flatten.png",
             "overlay_opacity": 0,
             "text_position": "top-left",
             "subheading": "",
@@ -1162,8 +1162,8 @@
           "type": "image",
           "settings": {
             "width": "25",
-            "image": "shopify://shop_images/wont_wear.png",
-            "overlay_opacity": 0,
+            "image": "shopify://shop_images/paws_on_bed_2.png",
+            "overlay_opacity": 30,
             "text_position": "top-left",
             "subheading": "",
             "title": "",
@@ -1172,13 +1172,13 @@
             "button_1_link": "",
             "button_2_text": "",
             "button_2_link": "",
-            "text_color": "text-dark"
+            "text_color": "text-light"
           }
         }
       },
       "block_order": [
-        "image_KAWQfz",
         "image_tBxetF",
+        "image_KAWQfz",
         "image_QjnaFn",
         "image_deGxD4"
       ],
