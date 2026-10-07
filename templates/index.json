@@ -736,10 +736,10 @@
         "image_width": "standard",
         "image": "shopify://shop_images/cross_6_438247c9-0e37-481e-9f18-907f1ff6060e.png",
         "subheading": "Meet Fused Core™",
-        "title": "<p>Waterproof. At The Core.</p>",
-        "heading_highlight_type": "circle",
-        "highlight_color": "#d43747",
-        "highlight_text_color": "#000",
+        "title": "<p><em>Waterproof.</em> At The Core.</p>",
+        "heading_highlight_type": "highlight-color",
+        "highlight_color": "#CAA876",
+        "highlight_text_color": "#CAA876",
         "heading_size": 130,
         "content": "<p><strong>The foundation inside every Signature bed.&nbsp;</strong></p><p>A fully sealed waterproof cover protects supportive orthopedic foam from moisture, helping your bed stay cleaner, more supportive, and comfortable for years. <strong>-A Black Lab Original</strong></p>",
         "text_alignment": "left",
@@ -753,7 +753,7 @@
         "bg_color": "#373535",
         "gradient": "",
         "section_width": "wrapper",
-        "padding_top": 10,
+        "padding_top": 20,
         "padding_bottom": 20
       }
     },
