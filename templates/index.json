@@ -1077,7 +1077,7 @@
           "settings": {
             "width": "25",
             "image": "shopify://shop_images/paws_on_bed_2.png",
-            "overlay_opacity": 10,
+            "overlay_opacity": 30,
             "text_position": "top-left",
             "subheading": "",
             "title": "Covers wear in, not out",
@@ -1094,7 +1094,7 @@
           "settings": {
             "width": "25",
             "image": "shopify://shop_images/moisture_protection.png",
-            "overlay_opacity": 10,
+            "overlay_opacity": 20,
             "text_position": "top-left",
             "subheading": "",
             "title": "Fused Core™ Mattress",
@@ -1128,7 +1128,7 @@
           "settings": {
             "width": "25",
             "image": "shopify://shop_images/swap_covers.png",
-            "overlay_opacity": 10,
+            "overlay_opacity": 30,
             "text_position": "top-left",
             "subheading": "",
             "title": "Removable Covers",
