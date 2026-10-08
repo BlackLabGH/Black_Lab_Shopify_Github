@@ -640,61 +640,6 @@
         "text_color": "text-light"
       }
     },
-    "section_marquee_KmGzit": {
-      "type": "section-marquee",
-      "blocks": {
-        "text_hq7wt9": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<h4><em><strong>LABOR DAY SALE</strong></em> - <br/><a href=\"/products/signature-bed-builder\" title=\"Build Your Dog Bed\">BUILD YOUR BED AND SAVE</a></h4>",
-            "text_color": "",
-            "heading_highlight_type": "italics",
-            "highlight_color": "#373535",
-            "highlight_text_color": "#caa876",
-            "icon_name": "none",
-            "icon_color": "",
-            "icon_width": 24,
-            "target_device_enabled": false,
-            "target_device": "mobile"
-          }
-        },
-        "image_9f7zGL": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/SLATEBOLSTERbed.png",
-            "link": "shopify://products/signature-bed-builder",
-            "image_width": 80
-          }
-        }
-      },
-      "block_order": [
-        "text_hq7wt9",
-        "image_9f7zGL"
-      ],
-      "disabled": true,
-      "name": "Marquee",
-      "settings": {
-        "layout": "marquee",
-        "show_top_border": false,
-        "show_bottom_border": false,
-        "padding": 5,
-        "marquee_speed": 50,
-        "direction": "ticker-ltr",
-        "slider_speed": 7,
-        "text_caps": false,
-        "type_style": "subheading-text",
-        "text_size": 120,
-        "letter_spacing": 0,
-        "message_spacing": 10,
-        "bg_color": "#ffffff",
-        "gradient": "",
-        "color": "#000000",
-        "border_color": "#000",
-        "padding_top": 4,
-        "padding_bottom": 0
-      }
-    },
     "section_image_with_text_dTkAeH": {
       "type": "section-image-with-text",
       "name": "Image with text",
@@ -738,8 +683,8 @@
         "subheading": "Meet Fused Core™",
         "title": "<p><em>Waterproof.</em> At The Core.</p>",
         "heading_highlight_type": "highlight-color",
-        "highlight_color": "#CAA876",
-        "highlight_text_color": "#CAA876",
+        "highlight_color": "#caa876",
+        "highlight_text_color": "#caa876",
         "heading_size": 130,
         "content": "<p><strong>The foundation inside every Signature bed.&nbsp;</strong></p><p>A fully sealed waterproof cover protects supportive orthopedic foam from moisture, helping your bed stay cleaner, more supportive, and comfortable for years. <strong>-A Black Lab Original</strong></p>",
         "text_alignment": "left",
@@ -1631,7 +1576,6 @@
     "section_grid_8xAd6m",
     "17901110601805a27d",
     "section_banner_image_Nkw8P4",
-    "section_marquee_KmGzit",
     "section_image_with_text_dTkAeH",
     "section_image_with_text_9bNRE4",
     "section_text_G4NcFX",
