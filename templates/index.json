@@ -999,7 +999,7 @@
       ],
       "name": "Grid",
       "settings": {
-        "height": "350",
+        "height": "250",
         "heading_size": 100,
         "button_1_color": "btn--black",
         "button_1_style": "btn--text",
@@ -1084,10 +1084,27 @@
     "section_grid_D36TtF": {
       "type": "section-grid",
       "blocks": {
+        "image_jLR3D8": {
+          "type": "image",
+          "settings": {
+            "width": "25",
+            "image": "shopify://shop_images/paws_on_bed_2.png",
+            "overlay_opacity": 10,
+            "text_position": "top-left",
+            "subheading": "",
+            "title": "Covers wear in, not out",
+            "text": "Durable. Washable",
+            "button_1_text": "Shop Now",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-light"
+          }
+        },
         "image_ANYPQh": {
           "type": "image",
           "settings": {
-            "width": "33.33",
+            "width": "25",
             "image": "shopify://shop_images/moisture_protection.png",
             "overlay_opacity": 10,
             "text_position": "top-left",
@@ -1104,7 +1121,7 @@
         "image_3cwbNg": {
           "type": "image",
           "settings": {
-            "width": "33.33",
+            "width": "25",
             "image": "shopify://shop_images/fabric_wave.png",
             "overlay_opacity": 10,
             "text_position": "top-left",
@@ -1121,7 +1138,7 @@
         "image_p7anDD": {
           "type": "image",
           "settings": {
-            "width": "33.33",
+            "width": "25",
             "image": "shopify://shop_images/swap_covers.png",
             "overlay_opacity": 10,
             "text_position": "top-left",
@@ -1137,6 +1154,7 @@
         }
       },
       "block_order": [
+        "image_jLR3D8",
         "image_ANYPQh",
         "image_3cwbNg",
         "image_p7anDD"
@@ -1184,6 +1202,7 @@
         "heading_QrL8ak",
         "text_wdyYLk"
       ],
+      "disabled": true,
       "name": "Text",
       "settings": {
         "show_spacer_lines": false,
@@ -1273,6 +1292,7 @@
         "image_QjnaFn",
         "image_deGxD4"
       ],
+      "disabled": true,
       "name": "Grid",
       "settings": {
         "height": "350",
