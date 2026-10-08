@@ -111,7 +111,7 @@
         "button_size": "btn--small",
         "video_link": "",
         "text_color": "text-dark",
-        "bg_color": "#FFFFFF",
+        "bg_color": "#ffffff",
         "gradient": "",
         "section_width": "wrapper",
         "padding_top": 20,
@@ -446,37 +446,10 @@
             "text_color": "#ffffff",
             "overlay_opacity": 10
           }
-        },
-        "column_bj3XML": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/sun-setting-over-ocean.jpg",
-            "subheading": "",
-            "subheading_size": 75,
-            "heading": "<p>GET 10% OFF</p>",
-            "heading_highlight_type": "highlight-color",
-            "highlight_color": "#d43747",
-            "highlight_text_color": "#ffffff",
-            "heading_size": 280,
-            "description": "when you subscribe to our email list",
-            "description_size": 120,
-            "disclaimer": "",
-            "disclaimer_size": 75,
-            "button_text": "",
-            "button_link": "",
-            "button_color": "btn--white",
-            "button_style": "btn--solid",
-            "button_size": "btn--small",
-            "bg_color": "",
-            "gradient_background": "linear-gradient(180deg, rgba(255, 228, 49, 0) 51%, rgba(0, 0, 0, 0.46) 100%)",
-            "text_color": "#ffffff",
-            "overlay_opacity": 100
-          }
         }
       },
       "block_order": [
-        "column_VVGz7G",
-        "column_bj3XML"
+        "column_VVGz7G"
       ],
       "settings": {
         "layout": "1",
