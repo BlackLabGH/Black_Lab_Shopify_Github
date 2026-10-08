@@ -1072,23 +1072,6 @@
     "section_grid_D36TtF": {
       "type": "section-grid",
       "blocks": {
-        "image_jLR3D8": {
-          "type": "image",
-          "settings": {
-            "width": "25",
-            "image": "shopify://shop_images/paws_on_bed_2.png",
-            "overlay_opacity": 30,
-            "text_position": "top-left",
-            "subheading": "",
-            "title": "Covers wear in, not out",
-            "text": "Durable. Removable. Washable.",
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_2_text": "",
-            "button_2_link": "",
-            "text_color": "text-light"
-          }
-        },
         "image_ANYPQh": {
           "type": "image",
           "settings": {
@@ -1099,6 +1082,23 @@
             "subheading": "",
             "title": "Fused Core™ Mattress",
             "text": "100% Waterproof at the core.",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "text-light"
+          }
+        },
+        "image_jLR3D8": {
+          "type": "image",
+          "settings": {
+            "width": "25",
+            "image": "shopify://shop_images/paws_on_bed_2.png",
+            "overlay_opacity": 30,
+            "text_position": "top-left",
+            "subheading": "",
+            "title": "Covers wear in, not out",
+            "text": "Durable. Removable. Washable.",
             "button_1_text": "",
             "button_1_link": "",
             "button_2_text": "",
@@ -1142,8 +1142,8 @@
         }
       },
       "block_order": [
-        "image_jLR3D8",
         "image_ANYPQh",
+        "image_jLR3D8",
         "image_3cwbNg",
         "image_p7anDD"
       ],
