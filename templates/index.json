@@ -888,25 +888,13 @@
             "button_style": "btn--outline",
             "button_size": "btn--small"
           }
-        },
-        "button_Wad84d": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_text": "Build Your Own",
-            "button_link": "shopify://products/signature-bed-builder",
-            "button_color": "btn--black",
-            "button_style": "btn--outline",
-            "button_size": "btn--small"
-          }
         }
       },
       "block_order": [
         "subheading_UXfnxy",
         "heading_Y6ihUF",
         "subheading_qDQQUf",
-        "button_68tYi4",
-        "button_Wad84d"
+        "button_68tYi4"
       ],
       "name": "Text",
       "settings": {
