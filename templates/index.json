@@ -540,28 +540,6 @@
         "padding_bottom": 10
       }
     },
-    "17901110601805a27d": {
-      "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_768b10f_CPgfC6": {
-          "type": "ai_gen_block_768b10f",
-          "disabled": true,
-          "settings": {
-            "message": "<p>Sign-up to get <strong>FREE SHIPPING</strong> on your first order.</p>",
-            "link_to_newsletter": true,
-            "background_color": "#373535",
-            "text_color": "#caa876",
-            "desktop_width_percent": 100
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_768b10f_CPgfC6"
-      ],
-      "disabled": true,
-      "settings": {}
-    },
     "section_banner_image_Nkw8P4": {
       "type": "section-banner-image",
       "blocks": {
@@ -762,6 +740,7 @@
         "button_KPcPV6",
         "button_mtyXiT"
       ],
+      "disabled": true,
       "name": "Text",
       "settings": {
         "show_spacer_lines": true,
@@ -851,6 +830,7 @@
         "image_NpAPgQ",
         "image_wpmEJD"
       ],
+      "disabled": true,
       "name": "Grid",
       "settings": {
         "height": "350",
@@ -863,6 +843,172 @@
         "button_2_size": "btn--small",
         "bg_color_secondary": false,
         "enable_slider_mobile": false,
+        "width": "wrapper",
+        "add_gutter": true,
+        "padding_top": 10,
+        "padding_bottom": 30
+      }
+    },
+    "section_text_LXQFR8": {
+      "type": "section-text",
+      "blocks": {
+        "subheading_UXfnxy": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "<p><strong>FIND YOUR PERFECT SETUP</strong></p>",
+            "size": 100,
+            "margin_bottom": 16
+          }
+        },
+        "heading_Y6ihUF": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Colors are Here!</p>",
+            "size": 130,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000"
+          }
+        },
+        "subheading_qDQQUf": {
+          "type": "subheading",
+          "settings": {
+            "text": "<p>Signature bed covers, now available in limited run colors and fabrics.</p>",
+            "size": 170,
+            "margin_bottom": 16
+          }
+        },
+        "button_68tYi4": {
+          "type": "button",
+          "settings": {
+            "button_text": "Shop All Colors",
+            "button_link": "shopify://products/the-beast-ultratough-orthopedic-dog-bed",
+            "button_color": "btn--black",
+            "button_style": "btn--outline",
+            "button_size": "btn--small"
+          }
+        },
+        "button_Wad84d": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_text": "Build Your Own",
+            "button_link": "shopify://products/signature-bed-builder",
+            "button_color": "btn--black",
+            "button_style": "btn--outline",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_UXfnxy",
+        "heading_Y6ihUF",
+        "subheading_qDQQUf",
+        "button_68tYi4",
+        "button_Wad84d"
+      ],
+      "name": "Text",
+      "settings": {
+        "show_spacer_lines": false,
+        "text_position": "center",
+        "bg_color_secondary": true,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 14,
+        "padding_bottom": 16
+      }
+    },
+    "section_grid_DYipLD": {
+      "type": "section-grid",
+      "blocks": {
+        "image_ariGMX": {
+          "type": "image",
+          "settings": {
+            "width": "25",
+            "image": "shopify://shop_images/Cowhide_Signature_Dog_Bed_1.png",
+            "overlay_opacity": 0,
+            "text_position": "bottom-left",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "button_1_text": "",
+            "button_1_link": "https://blacklabbrands.com/collections/core-dog-beds/products/the-beast-ultratough-orthopedic-dog-bed?variant=50904622268731",
+            "button_2_text": "COWHIDE",
+            "button_2_link": "",
+            "text_color": "text-dark"
+          }
+        },
+        "image_E6NBJ4": {
+          "type": "image",
+          "settings": {
+            "width": "25",
+            "image": "shopify://shop_images/Sage_Signature_Dog_Bed_1.png",
+            "overlay_opacity": 0,
+            "text_position": "bottom-left",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "SAGE",
+            "button_2_link": "",
+            "text_color": "text-dark"
+          }
+        },
+        "image_W3LBci": {
+          "type": "image",
+          "settings": {
+            "width": "25",
+            "image": "shopify://shop_images/Ecru_Signature_Dog_Bed_1.png",
+            "overlay_opacity": 0,
+            "text_position": "bottom-left",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "ECRU",
+            "button_2_link": "",
+            "text_color": "text-dark"
+          }
+        },
+        "image_nqGGPN": {
+          "type": "image",
+          "settings": {
+            "width": "25",
+            "image": "shopify://shop_images/Slate_Gray_Microsuede_Signature_Dog_Bed_1.png",
+            "overlay_opacity": 0,
+            "text_position": "bottom-left",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "button_1_text": "",
+            "button_1_link": "https://blacklabbrands.com/collections/core-dog-beds/products/the-beast-ultratough-orthopedic-dog-bed?variant=50469877809467",
+            "button_2_text": "SLATE MICROSUEDE",
+            "button_2_link": "",
+            "text_color": "text-dark"
+          }
+        }
+      },
+      "block_order": [
+        "image_ariGMX",
+        "image_E6NBJ4",
+        "image_W3LBci",
+        "image_nqGGPN"
+      ],
+      "name": "Grid",
+      "settings": {
+        "height": "350",
+        "heading_size": 100,
+        "button_1_color": "btn--black",
+        "button_1_style": "btn--text",
+        "button_1_size": "btn--large",
+        "button_2_color": "btn--black",
+        "button_2_style": "btn--text",
+        "button_2_size": "btn--small",
+        "bg_color_secondary": true,
+        "enable_slider_mobile": true,
         "width": "wrapper",
         "add_gutter": true,
         "padding_top": 10,
@@ -942,7 +1088,7 @@
           "type": "image",
           "settings": {
             "width": "33.33",
-            "image": "shopify://shop_images/water_on_fused_core.png",
+            "image": "shopify://shop_images/moisture_protection.png",
             "overlay_opacity": 10,
             "text_position": "top-left",
             "subheading": "",
@@ -952,7 +1098,7 @@
             "button_1_link": "",
             "button_2_text": "",
             "button_2_link": "",
-            "text_color": "text-dark"
+            "text_color": "text-light"
           }
         },
         "image_3cwbNg": {
@@ -976,7 +1122,7 @@
           "type": "image",
           "settings": {
             "width": "33.33",
-            "image": "shopify://shop_images/removable_covers.png",
+            "image": "shopify://shop_images/swap_covers.png",
             "overlay_opacity": 10,
             "text_position": "top-left",
             "subheading": "",
@@ -986,7 +1132,7 @@
             "button_1_link": "",
             "button_2_text": "",
             "button_2_link": "",
-            "text_color": "text-dark"
+            "text_color": "text-light"
           }
         }
       },
@@ -1042,7 +1188,7 @@
       "settings": {
         "show_spacer_lines": false,
         "text_position": "center",
-        "bg_color_secondary": true,
+        "bg_color_secondary": false,
         "text_color": "text-dark",
         "width": "wrapper--narrow",
         "padding_top": 30,
@@ -1073,8 +1219,8 @@
           "type": "image",
           "settings": {
             "width": "25",
-            "image": "shopify://shop_images/moisture_protection.png",
-            "overlay_opacity": 30,
+            "image": "shopify://shop_images/water_on_fused_core_cca23e31-6ef8-41f6-92ab-eeba526f8272.png",
+            "overlay_opacity": 0,
             "text_position": "top-left",
             "subheading": "",
             "title": "",
@@ -1083,7 +1229,7 @@
             "button_1_link": "",
             "button_2_text": "",
             "button_2_link": "",
-            "text_color": "text-light"
+            "text_color": "text-dark"
           }
         },
         "image_QjnaFn": {
@@ -1137,7 +1283,7 @@
         "button_2_color": "btn--black",
         "button_2_style": "btn--text",
         "button_2_size": "btn--small",
-        "bg_color_secondary": true,
+        "bg_color_secondary": false,
         "enable_slider_mobile": true,
         "width": "wrapper",
         "add_gutter": true,
@@ -1272,12 +1418,12 @@
         "section_text": "",
         "text_size": 100,
         "text_alignment": "text-left",
-        "bg_color": "",
+        "bg_color": "#F6F3ED",
         "testimonial_block_color": "",
         "testimonial_text_color": "text-dark",
         "width": "wrapper--full-padded",
         "padding_top": 0,
-        "padding_bottom": 20
+        "padding_bottom": 32
       }
     },
     "section_collection_U4HQDb": {
@@ -1574,12 +1720,13 @@
     "section_banner_image_TYHW4c",
     "section_text_APa7Ma",
     "section_grid_8xAd6m",
-    "17901110601805a27d",
     "section_banner_image_Nkw8P4",
     "section_image_with_text_dTkAeH",
     "section_image_with_text_9bNRE4",
     "section_text_G4NcFX",
     "section_grid_wNkGdg",
+    "section_text_LXQFR8",
+    "section_grid_DYipLD",
     "section_banner_image_qMkpBY",
     "section_grid_D36TtF",
     "section_text_AzddhD",
