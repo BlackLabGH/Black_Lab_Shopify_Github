@@ -16,6 +16,7 @@
       "blocks": {
         "custom_4rCVed": {
           "type": "custom",
+          "disabled": true,
           "settings": {
             "text": "<button type=\"button\" onclick=\"window._klOnsite = window._klOnsite || []; window._klOnsite.push(['openForm', 'VbWuVM']);\" style=\"background: none; border: 0; padding: 0; color: inherit; font: inherit; cursor: pointer;\">\n  Sign up for updates\n</button>",
             "target_url_enabled": false,
