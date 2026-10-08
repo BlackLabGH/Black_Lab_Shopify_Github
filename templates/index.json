@@ -1029,12 +1029,12 @@
         "heading_haBxGT": {
           "type": "heading",
           "settings": {
-            "text": "<p>Stays cleaner longer.</p>",
+            "text": "<p><em>Protect what matters most.</em> Our beds stay cleaner longer.</p>",
             "hide_spacer_lines": false,
             "size": 130,
-            "heading_highlight_type": "italics",
+            "heading_highlight_type": "highlight-color",
             "highlight_color": "#d43747",
-            "highlight_text_color": "#000"
+            "highlight_text_color": "#373535"
           }
         },
         "text_LtFABq": {
