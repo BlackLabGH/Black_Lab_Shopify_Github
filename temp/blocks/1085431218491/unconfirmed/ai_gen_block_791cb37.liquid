@@ -1,6 +1,116 @@
+{% doc %}
+  @prompt
+    Create a clickable announcement block intended for the Announcement Bar section that opens an existing Klaviyo signup pop-up when clicked, rather than navigating to a page or creating a new pop-up. Include editable announcement text, defaulting to 'Sign up for updates', and an editable Klaviyo form ID so I can connect my existing signup form. Use Klaviyo's supported click-to-open functionality. Match the surrounding announcement bar styling and support keyboard activation and mobile. If the Announcement Bar section does not accept theme blocks, clearly explain that limitation rather than creating an unrelated standalone section.
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-klaviyo-announcement-{{ ai_gen_id }} {
+    display: block;
+    width: {{ block.settings.desktop_width_percent }}%;
+    max-width: 100%;
+    text-align: center;
+    font: inherit;
+  }
+
+  .ai-klaviyo-announcement-{{ ai_gen_id }}__trigger {
+    display: inline-block;
+    color: inherit;
+    font: inherit;
+    text-decoration: underline;
+    text-underline-offset: 0.18em;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    padding: 0.25em 0.5em;
+    max-width: 100%;
+    overflow-wrap: anywhere;
+  }
+
+  .ai-klaviyo-announcement-{{ ai_gen_id }}__trigger:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-klaviyo-announcement-{{ ai_gen_id }} {
+      width: 100%;
+    }
+
+    .ai-klaviyo-announcement-{{ ai_gen_id }}__trigger {
+      min-height: 44px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+{% endstyle %}
+
+<klaviyo-announcement-{{ ai_gen_id }} class="ai-klaviyo-announcement-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  {% if block.settings.klaviyo_form_id != blank %}
+    <button
+      type="button"
+      class="ai-klaviyo-announcement-{{ ai_gen_id }}__trigger"
+      data-klaviyo-form="{{ block.settings.klaviyo_form_id | escape }}"
+    >{{ block.settings.announcement_text | escape }}</button>
+  {% else %}
+    <span class="ai-klaviyo-announcement-{{ ai_gen_id }}__trigger">{{ block.settings.announcement_text | escape }}</span>
+  {% endif %}
+</klaviyo-announcement-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    var elementName = 'klaviyo-announcement-{{ ai_gen_id }}';
+    if (customElements.get(elementName)) return;
+    class KlaviyoAnnouncement extends HTMLElement {
+      connectedCallback() {
+        var trigger = this.querySelector('[data-klaviyo-form]');
+        if (!trigger || trigger.dataset.listenerAttached === 'true') return;
+        trigger.dataset.listenerAttached = 'true';
+        trigger.addEventListener('click', function() {
+          window._klOnsite = window._klOnsite || [];
+          window._klOnsite.push(['openForm', trigger.getAttribute('data-klaviyo-form')]);
+        });
+      }
+    }
+    customElements.define(elementName, KlaviyoAnnouncement);
+  })();
+</script>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Klaviyo announcement",
+  "settings": [
+    {
+      "type": "text",
+      "id": "announcement_text",
+      "label": "Announcement text",
+      "default": "Sign up for updates"
+    },
+    {
+      "type": "text",
+      "id": "klaviyo_form_id",
+      "label": "Klaviyo form ID",
+      "info": "Enter the ID of your existing Klaviyo signup form. The Klaviyo onsite script must be installed and enabled."
+    },
+    {
+      "type": "range",
+      "id": "desktop_width_percent",
+      "label": "Desktop width",
+      "min": 50,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "default": 100
+    }
+  ],
+  "presets": [
+    {
+      "name": "Klaviyo announcement"
+    }
+  ],
+  "tag": null,
+  "class": "klaviyo-announcement-block"
+}
 {% endschema %}
