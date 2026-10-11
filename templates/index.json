@@ -341,7 +341,7 @@
         "button_cwKNee": {
           "type": "button",
           "settings": {
-            "button_1_text": "Explore Signature Beds",
+            "button_1_text": "Shop Signature Beds",
             "button_1_link": "shopify://collections/core-dog-beds",
             "button_1_color": "btn--black",
             "button_1_style": "btn--solid",
