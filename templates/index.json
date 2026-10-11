@@ -454,12 +454,12 @@
             "image": "shopify://shop_images/54_b8374452-9480-43a7-b9a0-49620e024df3.png",
             "overlay_opacity": 0,
             "text_position": "bottom-left",
-            "subheading": "",
+            "subheading": "Shop Signature",
             "title": "SIGNATURE",
             "text": "Comfortable. Built for everyday life.",
             "button_1_text": "",
             "button_1_link": "shopify://products/the-beast-ultratough-orthopedic-dog-bed",
-            "button_2_text": "Shop Signature",
+            "button_2_text": "",
             "button_2_link": "shopify://products/the-beast-ultratough-orthopedic-dog-bed",
             "text_color": "text-dark"
           }
