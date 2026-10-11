@@ -743,36 +743,6 @@
         "padding_bottom": 60
       }
     },
-    "section_image_with_text_4Q3zAm": {
-      "type": "section-image-with-text",
-      "disabled": true,
-      "settings": {
-        "section_height": "six-fifty-height",
-        "layout": "inline",
-        "image_location": "left",
-        "image_width": "standard",
-        "subheading": "",
-        "title": "<p>Diggably Durable™</p>",
-        "heading_highlight_type": "circle",
-        "highlight_color": "#d43747",
-        "highlight_text_color": "#000000",
-        "heading_size": 100,
-        "content": "<p>Our custom engineered fabric is designed for a pups life. Tough than nails, waterproof, soft to the touch, and it fights bacteria and odors with all-natural StayFresh™. Designed with a hidden water resistant zipper for easy maintenance and washing.</p>",
-        "text_alignment": "left",
-        "button_text": "",
-        "button_link": "",
-        "button_color": "btn--black",
-        "button_style": "btn--solid",
-        "button_size": "btn--small",
-        "video_link": "",
-        "text_color": "text-dark",
-        "bg_color": "",
-        "gradient": "",
-        "section_width": "wrapper",
-        "padding_top": 60,
-        "padding_bottom": 60
-      }
-    },
     "812de66c-1ea1-431c-a48a-d7b9a49247b9": {
       "type": "section-promotion-row",
       "blocks": {
@@ -1265,83 +1235,6 @@
         "mobile_layout": "layout-overlay",
         "text_color": "text-light"
       }
-    },
-    "comparison_table_TeX8yN": {
-      "type": "comparison-table",
-      "blocks": {
-        "comparison_table_row_a7M6hH": {
-          "type": "comparison-table-row",
-          "settings": {
-            "title": "Water Proof, Orthopedic, Fused Core Mattress",
-            "use_icons": true,
-            "brand_content": "",
-            "use_icons_other": true,
-            "other_content": ""
-          },
-          "blocks": {}
-        },
-        "comparison_table_row_zwwa8D": {
-          "type": "comparison-table-row",
-          "settings": {
-            "title": "All-Natural, StayFresh Odor-Fighting Tech",
-            "use_icons": true,
-            "brand_content": "",
-            "use_icons_other": true,
-            "other_content": ""
-          },
-          "blocks": {}
-        },
-        "comparison_table_row_RQwWLX": {
-          "type": "comparison-table-row",
-          "settings": {
-            "title": "Recycled, Triple-Layer Fabric",
-            "use_icons": true,
-            "brand_content": "",
-            "use_icons_other": true,
-            "other_content": ""
-          },
-          "blocks": {}
-        },
-        "title": {
-          "type": "title",
-          "static": true,
-          "settings": {
-            "title": "Title",
-            "level": "h2",
-            "mobile_font_size": 0,
-            "desktop_font_size": 0,
-            "text_align_mobile": "",
-            "text_align": ""
-          },
-          "blocks": {}
-        },
-        "richtext": {
-          "type": "richtext",
-          "static": true,
-          "settings": {
-            "text": "",
-            "text_color": "",
-            "style_mobile": "",
-            "style_desktop": "",
-            "text_align_mobile": "",
-            "text_align": ""
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "comparison_table_row_a7M6hH",
-        "comparison_table_row_zwwa8D",
-        "comparison_table_row_RQwWLX"
-      ],
-      "disabled": true,
-      "name": "Comparison Table",
-      "settings": {
-        "heading": "Other beds don't come close",
-        "subtitle": "Because how it is made matters. And this one’s worth every penny.",
-        "blb_heading": "The Beast",
-        "other_heading": "\"Ballistic\" Beds"
-      }
     }
   },
   "order": [
@@ -1362,13 +1255,11 @@
     "1683228471332ba1cf",
     "related",
     "section_image_with_text_yqJKiA",
-    "section_image_with_text_4Q3zAm",
     "812de66c-1ea1-431c-a48a-d7b9a49247b9",
     "testimonials",
     "fae30a91-d50a-4bcd-aff2-24e6353dd9be",
     "c0b4cec3-1b31-4f77-a6ff-8b13cd8d2bc2",
     "section_icons_row_Pw39Bb",
-    "29c8d759-a7c3-472e-8ff4-97aa69b9f4a1",
-    "comparison_table_TeX8yN"
+    "29c8d759-a7c3-472e-8ff4-97aa69b9f4a1"
   ]
 }
