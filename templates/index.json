@@ -447,23 +447,6 @@
     "section_grid_8xAd6m": {
       "type": "section-grid",
       "blocks": {
-        "image_TBhXpw": {
-          "type": "image",
-          "settings": {
-            "width": "25",
-            "image": "shopify://shop_images/52.png",
-            "overlay_opacity": 0,
-            "text_position": "bottom-left",
-            "subheading": "",
-            "title": "UTILITY",
-            "text": "Waterproof. The foundation of every Black Lab bed.",
-            "button_1_text": "Shop Utility",
-            "button_1_link": "shopify://products/orthopedic-mattress",
-            "button_2_text": "",
-            "button_2_link": "shopify://products/orthopedic-mattress",
-            "text_color": "text-dark"
-          }
-        },
         "image_EPqRLG": {
           "type": "image",
           "settings": {
@@ -514,13 +497,30 @@
             "button_2_link": "shopify://products/nomad-tough-bolster-bed-4-in-1",
             "text_color": "text-dark"
           }
+        },
+        "image_TBhXpw": {
+          "type": "image",
+          "settings": {
+            "width": "25",
+            "image": "shopify://shop_images/52.png",
+            "overlay_opacity": 0,
+            "text_position": "bottom-left",
+            "subheading": "",
+            "title": "UTILITY",
+            "text": "Waterproof. The foundation of every Black Lab bed.",
+            "button_1_text": "Shop Utility",
+            "button_1_link": "shopify://products/orthopedic-mattress",
+            "button_2_text": "",
+            "button_2_link": "shopify://products/orthopedic-mattress",
+            "text_color": "text-dark"
+          }
         }
       },
       "block_order": [
-        "image_TBhXpw",
         "image_EPqRLG",
         "image_GgeyVU",
-        "image_6CmTrt"
+        "image_6CmTrt",
+        "image_TBhXpw"
       ],
       "name": "Grid",
       "settings": {
