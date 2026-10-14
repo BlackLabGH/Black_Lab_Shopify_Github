@@ -323,7 +323,7 @@
         "heading_dCLcjk": {
           "type": "heading",
           "settings": {
-            "text": "<p>The Dog Bed You Buy When You're Done Buying Dog Beds.</p>",
+            "text": "<p>Traditional Dog Beds Stink.&nbsp;</p><p>Our Beds Stay Cleaner, Forever.</p>",
             "hide_spacer_lines": false,
             "size": 110,
             "heading_highlight_type": "italics",
@@ -334,15 +334,15 @@
         "text_mEfJYj": {
           "type": "text",
           "settings": {
-            "text": "<h4>Waterproof at the core.<br/>Cleaner between washes.<br/>Built for years.</h4>",
-            "size": 75
+            "text": "<p><strong>100% waterproof orthopedic dog beds engineered with a heat-welded Fused Core™ and Swedish-engineered StayFresh™ fabric actively destroys odor-causing bacteria.&nbsp;</strong></p><p></p>",
+            "size": 145
           }
         },
         "button_cwKNee": {
           "type": "button",
           "settings": {
-            "button_1_text": "Shop Signature Beds",
-            "button_1_link": "shopify://collections/core-dog-beds",
+            "button_1_text": "BUILD YOUR PERFECT BED",
+            "button_1_link": "shopify://products/signature-bed-builder",
             "button_1_color": "btn--black",
             "button_1_style": "btn--solid",
             "button_1_size": "btn--small",
@@ -374,6 +374,96 @@
         "text_color": "text-light"
       }
     },
+    "comparison_table_xrQgpb": {
+      "type": "comparison-table",
+      "blocks": {
+        "comparison_table_row_nyWHmT": {
+          "type": "comparison-table-row",
+          "settings": {
+            "title": "100% Waterproof Fused Core™ Mattress",
+            "use_icons": true,
+            "brand_content": "",
+            "use_icons_other": true,
+            "other_content": ""
+          },
+          "blocks": {}
+        },
+        "comparison_table_row_WTLH8G": {
+          "type": "comparison-table-row",
+          "settings": {
+            "title": "StayFresh™ Anti-Odor Technology",
+            "use_icons": true,
+            "brand_content": "",
+            "use_icons_other": true,
+            "other_content": ""
+          },
+          "blocks": {}
+        },
+        "comparison_table_row_DJKQcx": {
+          "type": "comparison-table-row",
+          "settings": {
+            "title": "Non-Clumping Solid Orthopedic Foam",
+            "use_icons": true,
+            "brand_content": "",
+            "use_icons_other": true,
+            "other_content": ""
+          },
+          "blocks": {}
+        },
+        "comparison_table_row_FgUBfU": {
+          "type": "comparison-table-row",
+          "settings": {
+            "title": "Heat-Welded Liquid Proof Seams",
+            "use_icons": true,
+            "brand_content": "",
+            "use_icons_other": true,
+            "other_content": ""
+          },
+          "blocks": {}
+        },
+        "title": {
+          "type": "title",
+          "disabled": true,
+          "static": true,
+          "settings": {
+            "title": "The New Gold Standard in Dog Beds",
+            "level": "h2",
+            "mobile_font_size": 0,
+            "desktop_font_size": 0,
+            "text_align_mobile": "",
+            "text_align": ""
+          },
+          "blocks": {}
+        },
+        "richtext": {
+          "type": "richtext",
+          "static": true,
+          "settings": {
+            "text": "",
+            "text_color": "",
+            "style_mobile": "",
+            "style_desktop": "",
+            "text_align_mobile": "",
+            "text_align": ""
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "comparison_table_row_nyWHmT",
+        "comparison_table_row_WTLH8G",
+        "comparison_table_row_DJKQcx",
+        "comparison_table_row_FgUBfU"
+      ],
+      "disabled": true,
+      "name": "Comparison Table",
+      "settings": {
+        "heading": "",
+        "subtitle": "",
+        "blb_heading": "Black Lab Beds",
+        "other_heading": "Other Beds"
+      }
+    },
     "section_text_APa7Ma": {
       "type": "section-text",
       "blocks": {
@@ -398,7 +488,7 @@
         "subheading_byEDNV": {
           "type": "subheading",
           "settings": {
-            "text": "<p>Customize for their comfort.</p>",
+            "text": "<p><em>Find the right layout for your dog's sleeping style.</em></p>",
             "size": 170,
             "margin_bottom": 16
           }
@@ -456,7 +546,7 @@
             "text_position": "bottom-left",
             "subheading": "Shop Signature",
             "title": "SIGNATURE",
-            "text": "Comfortable. Built for everyday life.",
+            "text": "Best for Sprawlers. Our flagship classic combining the waterproof Fused Core™ with an ultra-plush, washable outer cover.",
             "button_1_text": "",
             "button_1_link": "shopify://products/the-beast-ultratough-orthopedic-dog-bed",
             "button_2_text": "",
@@ -473,7 +563,7 @@
             "text_position": "bottom-left",
             "subheading": "Shop Signature Pillow",
             "title": "PILLOW",
-            "text": "Supportive. So they can rest their head.",
+            "text": "Best for Head-Resters. Built with a built-in bolster pillow cushion for dogs who love to lift their head up while sleeping.",
             "button_1_text": "",
             "button_1_link": "shopify://products/fused-core™-pillow-dog-bed",
             "button_2_text": "",
@@ -488,9 +578,9 @@
             "image": "shopify://shop_images/55_a20ac20a-bc50-49a6-875a-3d2a76f623b1.png",
             "overlay_opacity": 0,
             "text_position": "bottom-left",
-            "subheading": "Shop Signature Pillow",
+            "subheading": "Shop Signature Bolster",
             "title": "BOLSTER",
-            "text": "Secure. A place to curl up and relax.",
+            "text": "Best for Nesters & Anxious Pups. Raised enclosing walls provide a sense of security and a perfect place to lean or curl up tight.",
             "button_1_text": "",
             "button_1_link": "shopify://products/nomad-tough-bolster-bed-4-in-1",
             "button_2_text": "",
@@ -507,7 +597,7 @@
             "text_position": "bottom-left",
             "subheading": "Shop Utility",
             "title": "UTILITY",
-            "text": "Waterproof. The foundation of every Black Lab bed.",
+            "text": "Best for Crates & Travel. Our ultra-rugged, hose-down waterproof foundation built for crates, car travel, and messy outdoor rooms.",
             "button_1_text": "",
             "button_1_link": "shopify://products/orthopedic-mattress",
             "button_2_text": "",
@@ -1462,85 +1552,6 @@
         "padding_bottom": 30
       }
     },
-    "section_grid_mUYiiC": {
-      "type": "section-grid",
-      "blocks": {
-        "image_8iRc8w": {
-          "type": "image",
-          "settings": {
-            "width": "33.33",
-            "image": "shopify://shop_images/waterproof_67a3488b-62b5-46a6-a4d1-6ed2b2426dd6.png",
-            "overlay_opacity": 0,
-            "text_position": "bottom-left",
-            "subheading": "",
-            "title": "",
-            "text": "Most dog beds allow moisture to reach the foam. Fused Core™ keeps moisture out.",
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_2_text": "",
-            "button_2_link": "",
-            "text_color": "text-dark"
-          }
-        },
-        "image_nirPbN": {
-          "type": "image",
-          "settings": {
-            "width": "33.33",
-            "image": "shopify://shop_images/cleaner.png",
-            "overlay_opacity": 0,
-            "text_position": "bottom-left",
-            "subheading": "",
-            "title": "",
-            "text": "StayFresh™  actively fights odor-causing bacteria to help your bed stay cleaner between washes.",
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_2_text": "",
-            "button_2_link": "",
-            "text_color": "text-dark"
-          }
-        },
-        "image_BNBrCG": {
-          "type": "image",
-          "settings": {
-            "width": "33.33",
-            "image": "shopify://shop_images/built_3.png",
-            "overlay_opacity": 0,
-            "text_position": "bottom-left",
-            "subheading": "",
-            "title": "",
-            "text": "Protected orthopedic foam designed to stay supportive through years of daily use.",
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_2_text": "",
-            "button_2_link": "",
-            "text_color": "text-dark"
-          }
-        }
-      },
-      "block_order": [
-        "image_8iRc8w",
-        "image_nirPbN",
-        "image_BNBrCG"
-      ],
-      "disabled": true,
-      "name": "Grid",
-      "settings": {
-        "height": "350",
-        "heading_size": 130,
-        "button_1_color": "btn--white",
-        "button_1_style": "btn--text",
-        "button_1_size": "btn--small",
-        "button_2_color": "btn--black",
-        "button_2_style": "btn--text",
-        "button_2_size": "btn--small",
-        "bg_color_secondary": true,
-        "enable_slider_mobile": false,
-        "width": "wrapper",
-        "add_gutter": true,
-        "padding_top": 0,
-        "padding_bottom": 30
-      }
-    },
     "438134f4-207c-4040-aeee-388c681ebe81": {
       "type": "section-accordions",
       "blocks": {
@@ -1726,6 +1737,7 @@
     "section_image_with_text_eQ7xYQ",
     "section_icons_row_X6ibNU",
     "section_banner_image_TYHW4c",
+    "comparison_table_xrQgpb",
     "section_text_APa7Ma",
     "section_grid_8xAd6m",
     "section_banner_image_Nkw8P4",
@@ -1741,7 +1753,6 @@
     "section_grid_xqcmTc",
     "section_testimonials_NrzmqW",
     "section_collection_U4HQDb",
-    "section_grid_mUYiiC",
     "438134f4-207c-4040-aeee-388c681ebe81",
     "907ac558-c8aa-4fa4-b971-dbce2de8219b"
   ]
