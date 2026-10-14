@@ -488,7 +488,7 @@
         "subheading_byEDNV": {
           "type": "subheading",
           "settings": {
-            "text": "<p><em>Find the right layout for your dog's sleeping style.</em></p>",
+            "text": "<h4>Find the right layout for your dog's sleeping style.</h4>",
             "size": 170,
             "margin_bottom": 16
           }
