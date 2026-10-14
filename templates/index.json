@@ -470,7 +470,7 @@
         "subheading_ihN9Mf": {
           "type": "subheading",
           "settings": {
-            "text": "<p><strong>The dog beds you buy when your done buying dog beds.&nbsp;</strong></p>",
+            "text": "<p><em><strong>\"The dog beds you buy when your done buying dog beds.\"</strong></em></p>",
             "size": 180,
             "margin_bottom": 16
           }
