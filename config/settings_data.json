@@ -80,7 +80,7 @@
     "upsells_button_size": "btn--small",
     "show_spacer_lines": true,
     "line_thickness": "normal",
-    "arrow_style": "arrow",
+    "arrow_style": "chevron",
     "show_rounded_corners": true,
     "mobile_menu_behaviour": "link",
     "animations_enabled": true,
