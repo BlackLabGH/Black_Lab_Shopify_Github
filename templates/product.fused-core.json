@@ -33,7 +33,15 @@
         "text_dVDQXh": {
           "type": "text",
           "settings": {
-            "title": "<p><strong>A Fully Waterproof Orthopedic Dog Bed.</strong></p><p>Heat-welded seams keep moisture out of the foam, while the durable surface wipes clean in seconds.</p><p><strong>What's included:</strong> One fully waterproof, 4-inch orthopedic Fused Core™ mattress. Use it on its own indoors, outdoors, or in a crate. Add a washable Signature cover, pillow, or bolster whenever you want more comfort.</p>",
+            "title": "<h5><strong>A Fully Waterproof Orthopedic Dog Bed.</strong></h5><p>Heat-welded seams keep moisture out of the foam, while the durable surface wipes clean in seconds.</p>",
+            "text_alignment": "left",
+            "padding_bottom": 20
+          }
+        },
+        "text_gLxdq9": {
+          "type": "text",
+          "settings": {
+            "title": "<h5><strong>What's included:</strong>&nbsp;</h5><p>One fully waterproof, 4-inch orthopedic Fused Core™ mattress. Use it on its own indoors, outdoors, or in a crate. Add a washable Signature cover, pillow, or bolster whenever you want more comfort.</p>",
             "text_alignment": "left",
             "padding_bottom": 20
           }
@@ -260,6 +268,7 @@
         "title",
         "inventory_countdown",
         "text_dVDQXh",
+        "text_gLxdq9",
         "form",
         "36e9da1b-5922-4ee3-83f3-d867cd6f0ada",
         "kiwi_size_chart_recommender_kiwi_sizing_QYFPPa",
