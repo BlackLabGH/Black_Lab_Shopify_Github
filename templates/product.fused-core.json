@@ -21,15 +21,6 @@
             "padding_bottom": 4
           }
         },
-        "inventory_countdown": {
-          "type": "inventory_countdown",
-          "disabled": true,
-          "settings": {
-            "max_inventory": 10,
-            "hide_inventory_count": true,
-            "padding_bottom": 20
-          }
-        },
         "product_accordion_gAHa8n": {
           "type": "product_accordion",
           "disabled": true,
@@ -277,7 +268,6 @@
       },
       "block_order": [
         "title",
-        "inventory_countdown",
         "product_accordion_gAHa8n",
         "text_gLxdq9",
         "text_dVDQXh",
