@@ -323,7 +323,7 @@
         "heading_dCLcjk": {
           "type": "heading",
           "settings": {
-            "text": "<p>Traditional Dog Beds Stink.&nbsp;</p><p>Our Beds Stay Cleaner, Forever.</p>",
+            "text": "<p>The Last Dog Bed You'll Want to Buy.</p>",
             "hide_spacer_lines": false,
             "size": 110,
             "heading_highlight_type": "italics",
@@ -334,8 +334,8 @@
         "text_mEfJYj": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>100% waterproof orthopedic dog beds engineered with a heat-welded Fused Core™ and Swedish-engineered StayFresh™ fabric that actively destroys odor-causing bacteria.&nbsp;</strong></p><p></p>",
-            "size": 155
+            "text": "<p><strong>Waterproof at the core.&nbsp;</strong></p><p><strong>Cleaner between washes.&nbsp;</strong></p><p><strong>Built for years.</strong></p><p></p>",
+            "size": 275
           }
         },
         "button_cwKNee": {
@@ -488,7 +488,7 @@
         "subheading_byEDNV": {
           "type": "subheading",
           "settings": {
-            "text": "<h4>Find the right layout for your dog's sleeping style.</h4>",
+            "text": "<h3>One Waterproof Foundation. Your Choice of Comfort.</h3>",
             "size": 170,
             "margin_bottom": 16
           }
@@ -546,7 +546,7 @@
             "text_position": "bottom-left",
             "subheading": "Shop Signature",
             "title": "SIGNATURE",
-            "text": "Best for Sprawlers. Our flagship classic combining the waterproof Fused Core™ with an ultra-durable, washable outer cover.",
+            "text": "Everyday orthopedic comfort.",
             "button_1_text": "",
             "button_1_link": "shopify://products/the-beast-ultratough-orthopedic-dog-bed",
             "button_2_text": "",
@@ -563,7 +563,7 @@
             "text_position": "bottom-left",
             "subheading": "Shop Signature Pillow",
             "title": "PILLOW",
-            "text": "Best for Head-Resters. Designed with an adjustable headrest pillow for dogs who love a little head support while sleeping.",
+            "text": "Added support for head-resters.",
             "button_1_text": "",
             "button_1_link": "shopify://products/fused-core™-pillow-dog-bed",
             "button_2_text": "",
@@ -580,7 +580,7 @@
             "text_position": "bottom-left",
             "subheading": "Shop Signature Bolster",
             "title": "BOLSTER",
-            "text": "Best for Nesters & Anxious Pups. Raised enclosing walls provide a sense of security and a perfect place to lean or curl up tight.",
+            "text": "Surrounding comfort for curlers.",
             "button_1_text": "",
             "button_1_link": "shopify://products/nomad-tough-bolster-bed-4-in-1",
             "button_2_text": "",
@@ -597,7 +597,7 @@
             "text_position": "bottom-left",
             "subheading": "Shop Utility",
             "title": "UTILITY",
-            "text": "Best for Easy Cleaning. An ultra-rugged indoor outdoor bed built for active or messy dogs with a wipe clean cover for quick cleanup.",
+            "text": "Waterproof protection. Easy cleanup.",
             "button_1_text": "",
             "button_1_link": "shopify://products/orthopedic-mattress",
             "button_2_text": "",
