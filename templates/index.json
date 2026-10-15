@@ -334,7 +334,7 @@
         "text_mEfJYj": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Waterproof at the core.&nbsp;</strong></p><p><strong>Cleaner between washes.&nbsp;</strong></p><p><strong>Built for years.</strong></p><p></p>",
+            "text": "<h4>Waterproof at the core.&nbsp;</h4><h4>Cleaner between washes.&nbsp;</h4><h4>Built for years.</h4><p></p>",
             "size": 275
           }
         },
