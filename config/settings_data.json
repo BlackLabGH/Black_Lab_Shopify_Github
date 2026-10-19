@@ -657,6 +657,8 @@
     }
   },
   "platform_customizations": {
-    "custom_css": []
+    "custom_css": [
+      "@media only screen and (max-width: 767px) {.product-single__wrapper {display: flex; flex-direction: column; } .product-single__details, .product-single__details .form__wrapper {display: contents; } .product-single__wrapper .product__title-and-price, .product-single__wrapper .product__price-and-badge, .product-single__wrapper .product__price-and-badge + .product__block:has(> .product__subheading) {order: -1; }}"
+    ]
   }
 }
