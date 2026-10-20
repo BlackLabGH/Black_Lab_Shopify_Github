@@ -1249,7 +1249,7 @@
             "desktop_offset": 0,
             "mobile_offset": 0,
             "spacing": 15,
-            "background_color": "#ffffff",
+            "background_color": "#F7F7F7",
             "text_color": "#373535",
             "border_color": "#d3d3d3",
             "button_color": "#373535",
