@@ -250,7 +250,8 @@
           "type": "upsell",
           "settings": {
             "product_list": [
-              "fused-core™-headrest-pillow"
+              "fused-core™-headrest-pillow",
+              "fused-core™-extra-covers"
             ],
             "padding_bottom": 20
           }
