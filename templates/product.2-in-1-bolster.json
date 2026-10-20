@@ -248,12 +248,9 @@
         },
         "upsell": {
           "type": "upsell",
-          "disabled": true,
           "settings": {
             "product_list": [
-              "eco-clean-bedding",
-              "ultralight-dog-collar",
-              "honeycomb-towels"
+              "fused-core™-headrest-pillow"
             ],
             "padding_bottom": 20
           }
