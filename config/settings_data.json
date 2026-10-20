@@ -11,6 +11,7 @@
   "current": {
     "head_scripts": "<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-PBF6LM6H');</script>\n<!-- End Google Tag Manager -->",
     "body_scripts": "<!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PBF6LM6H\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->",
+    "footer_scripts": "<!-- PDP: move Kiwi Size Chart link next to the Size options -->\n<script>(function(){function m(){var c=document.querySelector('.product__form__wrapper > .ks-chart-container');if(!c)return false;var f=[].slice.call(document.querySelectorAll('.product__selectors .radio__fieldset')).filter(function(x){var l=x.querySelector('.radio__legend__label');return l&&/^size$/i.test(l.textContent.trim());})[0];if(!f)return false;f.appendChild(c);return true;}function i(){if(!document.querySelector('.product__form__wrapper'))return;if(m())return;var n=0,t=setInterval(function(){if(m()||++n>40)clearInterval(t);},250);}if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',i);}else{i();}})();</script>",
     "color_body_bg": "#ffffff",
     "color_body_bg_secondary": "#f7f7f7",
     "color_headings": "#373535",
@@ -659,9 +660,9 @@
   "platform_customizations": {
     "custom_css": [
       "@media only screen and (max-width: 767px) {.product-single__wrapper {display: flex; flex-direction: column; } .product-single__details, .product-single__details .form__wrapper {display: contents; } .product-single__wrapper .product__title-and-price, .product-single__wrapper .product__price-and-badge, .product-single__wrapper .product__price-and-badge + .product__block:has(> .product__subheading) {order: -1; }}",
-      "@media only screen and (max-width: 767px) {.product__form > span[id^=\"options_\"]:empty {display: none; } }",
-      " .radio__fieldset > .ks-chart-container {width: auto !important; flex: 0 0 auto; display: flex; align-items: center; margin: 0 0 8px auto; }",
-      " .radio__fieldset > .ks-chart-container .ks-chart-modal-link {margin: 0; }"
+      "@media only screen and (max-width: 767px) {.product__form > span[id^=\"options_\"]:empty {display: none; }}",
+      ".radio__fieldset > .ks-chart-container {width: auto !important; flex: 0 0 auto; display: flex; align-items: center; margin: 0 0 8px auto;}",
+      ".radio__fieldset > .ks-chart-container .ks-chart-modal-link {margin: 0;}"
     ]
   }
 }
