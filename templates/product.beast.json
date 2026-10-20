@@ -1235,6 +1235,34 @@
         "mobile_layout": "layout-overlay",
         "text_color": "text-light"
       }
+    },
+    "179252674741c9ed17": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_071e97d_FeqA8Q": {
+          "type": "ai_gen_block_071e97d",
+          "settings": {
+            "button_label": "Add to cart",
+            "sold_label": "Sold out",
+            "unavailable_label": "Unavailable",
+            "desktop_width_percent": 100,
+            "desktop_offset": 0,
+            "mobile_offset": 0,
+            "spacing": 15,
+            "background_color": "#ffffff",
+            "text_color": "#373535",
+            "border_color": "#d3d3d3",
+            "button_color": "#373535",
+            "button_text_color": "#ffffff",
+            "focus_color": "#004ac7"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_071e97d_FeqA8Q"
+      ],
+      "settings": {}
     }
   },
   "order": [
@@ -1260,6 +1288,7 @@
     "fae30a91-d50a-4bcd-aff2-24e6353dd9be",
     "c0b4cec3-1b31-4f77-a6ff-8b13cd8d2bc2",
     "section_icons_row_Pw39Bb",
-    "29c8d759-a7c3-472e-8ff4-97aa69b9f4a1"
+    "29c8d759-a7c3-472e-8ff4-97aa69b9f4a1",
+    "179252674741c9ed17"
   ]
 }
