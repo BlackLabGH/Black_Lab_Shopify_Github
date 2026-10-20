@@ -317,32 +317,6 @@
         "padding_bottom": 60
       }
     },
-    "17925245118921bcb4": {
-      "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_bac77d3_nQtaBV": {
-          "type": "ai_gen_block_bac77d3",
-          "settings": {
-            "desktop_width_percent": 100,
-            "background_color": "#ffffff",
-            "text_color": "#373535",
-            "border_color": "#d3d3d3",
-            "button_color": "#373535",
-            "button_text_color": "#ffffff",
-            "corner_radius": 8,
-            "button_label": "Add to cart",
-            "unavailable_label": "Unavailable",
-            "added_label": "Added to cart",
-            "error_label": "Please try again"
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_bac77d3_nQtaBV"
-      ],
-      "settings": {}
-    },
     "section_text_4gHUfN": {
       "type": "section-text",
       "blocks": {
@@ -1265,7 +1239,6 @@
   },
   "order": [
     "main",
-    "17925245118921bcb4",
     "section_text_4gHUfN",
     "section_icons_row_WU8nbw",
     "section_image_with_text_cyKWFM",
