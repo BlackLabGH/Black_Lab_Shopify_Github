@@ -1,6 +1,178 @@
+{% doc %}
+  @prompt
+    Create a sticky add-to-cart bar for product pages, matching my theme’s styling. Fix it to the bottom of the screen on desktop and mobile, and show it only after the main Add to cart button scrolls out of view. Display the product name, selected variant, price, and Add to cart button. Keep it synced with the product’s existing variant picker and add the currently selected variant to the cart. Disable purchasing for unavailable variants. Don’t cover other floating controls. Include editable appearance settings., the sticky add to cart needs variants size and color
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-sticky-atc-{{ ai_gen_id }} { display:block; position:fixed; z-index:40; left:0; right:0; bottom:0; width:100%; padding:12px 20px calc(12px + env(safe-area-inset-bottom)); background:{{ block.settings.background_color }}; color:{{ block.settings.text_color }}; border-top:1px solid {{ block.settings.border_color }}; box-shadow:0 -5px 20px rgba(0,0,0,.12); transform:translateY(110%); visibility:hidden; transition:transform 180ms ease,visibility 180ms ease; }
+  .ai-sticky-atc-{{ ai_gen_id }}.is-visible { transform:translateY(0); visibility:visible; }
+  .ai-sticky-atc-{{ ai_gen_id }} .ai-sticky-atc__inner-{{ ai_gen_id }} { width:{{ block.settings.desktop_width_percent }}%; max-width:1200px; margin:0 auto; display:flex; align-items:center; justify-content:space-between; gap:16px; }
+  .ai-sticky-atc-{{ ai_gen_id }} .ai-sticky-atc__info-{{ ai_gen_id }} { min-width:0; }
+  .ai-sticky-atc-{{ ai_gen_id }} .ai-sticky-atc__title-{{ ai_gen_id }} { margin:0; font-weight:600; font-size:15px; color:inherit; }
+  .ai-sticky-atc-{{ ai_gen_id }} .ai-sticky-atc__variant-{{ ai_gen_id }} { display:block; margin-top:3px; font-size:13px; opacity:.8; }
+  .ai-sticky-atc-{{ ai_gen_id }} .ai-sticky-atc__selectors-{{ ai_gen_id }} { display:flex; gap:8px; flex:1; justify-content:center; }
+  .ai-sticky-atc-{{ ai_gen_id }} .ai-sticky-atc__select-{{ ai_gen_id }} { max-width:160px; min-width:90px; padding:9px 28px 9px 10px; border:1px solid {{ block.settings.border_color }}; border-radius:{{ block.settings.corner_radius }}px; background:{{ block.settings.background_color }}; color:{{ block.settings.text_color }}; font:inherit; }
+  .ai-sticky-atc-{{ ai_gen_id }} .ai-sticky-atc__actions-{{ ai_gen_id }} { display:flex; align-items:center; gap:16px; flex-shrink:0; }
+  .ai-sticky-atc-{{ ai_gen_id }} .ai-sticky-atc__price-{{ ai_gen_id }} { font-weight:600; white-space:nowrap; }
+  .ai-sticky-atc-{{ ai_gen_id }} .ai-sticky-atc__button-{{ ai_gen_id }} { min-height:46px; padding:10px 24px; border:1px solid {{ block.settings.button_color }}; border-radius:{{ block.settings.corner_radius }}px; background:{{ block.settings.button_color }}; color:{{ block.settings.button_text_color }}; font:inherit; font-weight:600; cursor:pointer; }
+  .ai-sticky-atc-{{ ai_gen_id }} .ai-sticky-atc__button-{{ ai_gen_id }}:focus-visible,.ai-sticky-atc-{{ ai_gen_id }} .ai-sticky-atc__select-{{ ai_gen_id }}:focus-visible { outline:3px solid {{ block.settings.text_color }}; outline-offset:3px; }
+  .ai-sticky-atc-{{ ai_gen_id }} .ai-sticky-atc__button-{{ ai_gen_id }}:disabled { opacity:.55; cursor:not-allowed; }
+  @media screen and (max-width:749px) { .ai-sticky-atc-{{ ai_gen_id }} { padding:10px 12px calc(10px + env(safe-area-inset-bottom)); } .ai-sticky-atc-{{ ai_gen_id }} .ai-sticky-atc__inner-{{ ai_gen_id }} { width:100%; flex-wrap:wrap; gap:8px; } .ai-sticky-atc-{{ ai_gen_id }} .ai-sticky-atc__info-{{ ai_gen_id }} { flex:1 1 45%; } .ai-sticky-atc-{{ ai_gen_id }} .ai-sticky-atc__selectors-{{ ai_gen_id }} { order:3; width:100%; justify-content:flex-start; } .ai-sticky-atc-{{ ai_gen_id }} .ai-sticky-atc__select-{{ ai_gen_id }} { flex:1; max-width:none; min-width:0; font-size:13px; } .ai-sticky-atc-{{ ai_gen_id }} .ai-sticky-atc__actions-{{ ai_gen_id }} { gap:10px; } .ai-sticky-atc-{{ ai_gen_id }} .ai-sticky-atc__title-{{ ai_gen_id }} { font-size:13px; } .ai-sticky-atc-{{ ai_gen_id }} .ai-sticky-atc__variant-{{ ai_gen_id }} { font-size:11px; } .ai-sticky-atc-{{ ai_gen_id }} .ai-sticky-atc__price-{{ ai_gen_id }} { font-size:13px; } .ai-sticky-atc-{{ ai_gen_id }} .ai-sticky-atc__button-{{ ai_gen_id }} { min-height:44px; padding:9px 14px; font-size:13px; } }
+  @media (prefers-reduced-motion:reduce) { .ai-sticky-atc-{{ ai_gen_id }} { transition:none; } }
+{% endstyle %}
+
+<sticky-atc-{{ ai_gen_id }} class="ai-sticky-atc-{{ ai_gen_id }}" data-product-id="{{ product.id }}" aria-hidden="true" {{ block.shopify_attributes }}>
+  <div class="ai-sticky-atc__inner-{{ ai_gen_id }}">
+    <div class="ai-sticky-atc__info-{{ ai_gen_id }}"><p class="ai-sticky-atc__title-{{ ai_gen_id }}">{{ product.title | escape }}</p><span class="ai-sticky-atc__variant-{{ ai_gen_id }}"></span></div>
+    <div class="ai-sticky-atc__selectors-{{ ai_gen_id }}">
+      {% for option in product.options_with_values %}
+        <label class="visually-hidden" for="ai-sticky-option-{{ ai_gen_id }}-{{ forloop.index0 }}">{{ option.name | escape }}</label>
+        <select class="ai-sticky-atc__select-{{ ai_gen_id }}" id="ai-sticky-option-{{ ai_gen_id }}-{{ forloop.index0 }}" data-option-index="{{ forloop.index0 }}" aria-label="{{ option.name | escape }}">
+          {% for value in option.values %}<option value="{{ value | escape }}">{{ value | escape }}</option>{% endfor %}
+        </select>
+      {% endfor %}
+    </div>
+    <div class="ai-sticky-atc__actions-{{ ai_gen_id }}"><span class="ai-sticky-atc__price-{{ ai_gen_id }}"></span><button class="ai-sticky-atc__button-{{ ai_gen_id }}" type="button">{{ block.settings.button_label | escape }}</button></div>
+  </div>
+</sticky-atc-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    const tagName = 'sticky-atc-{{ ai_gen_id }}';
+    if (customElements.get(tagName)) return;
+    class StickyAtc extends HTMLElement {
+      connectedCallback() {
+        this.button = this.querySelector('.ai-sticky-atc__button-{{ ai_gen_id }}');
+        this.selects = Array.from(this.querySelectorAll('.ai-sticky-atc__select-{{ ai_gen_id }}'));
+        this.variantText = this.querySelector('.ai-sticky-atc__variant-{{ ai_gen_id }}');
+        this.priceText = this.querySelector('.ai-sticky-atc__price-{{ ai_gen_id }}');
+        this.productData = {{ product | json }};
+        this.productForm = this.findProductForm();
+        this.variantInput = this.productForm && this.productForm.querySelector('[name="id"]');
+        this.submitButton = this.productForm && this.productForm.querySelector('button[type="submit"],input[type="submit"]');
+        this.onChange = this.handleDocumentChange.bind(this);
+        this.onSelect = this.handleSelectChange.bind(this);
+        this.onSubmit = this.addToCart.bind(this);
+        document.addEventListener('change', this.onChange, true);
+        this.selects.forEach((select) => select.addEventListener('change', this.onSelect));
+        this.button.addEventListener('click', this.onSubmit);
+        this.observeMainButton();
+        this.syncFromForm();
+      }
+      disconnectedCallback() {
+        if (this.observer) this.observer.disconnect();
+        document.removeEventListener('change', this.onChange, true);
+        this.selects.forEach((select) => select.removeEventListener('change', this.onSelect));
+        if (this.button) this.button.removeEventListener('click', this.onSubmit);
+      }
+      findProductForm() {
+        const forms = Array.from(document.querySelectorAll('form[action*="/cart/add"]'));
+        return forms.find((form) => form.querySelector('[name="id"]') && (!form.querySelector('[name="product-id"]') || form.querySelector('[name="product-id"]').value === String(this.dataset.productId))) || forms.find((form) => form.querySelector('[name="id"]'));
+      }
+      observeMainButton() {
+        if (!this.submitButton || !('IntersectionObserver' in window)) return;
+        this.observer = new IntersectionObserver((entries) => this.setVisibility(!entries.some((entry) => entry.isIntersecting)), { threshold: 0 });
+        this.observer.observe(this.submitButton);
+      }
+      setVisibility(show) { this.classList.toggle('is-visible', show); this.setAttribute('aria-hidden', show ? 'false' : 'true'); }
+      handleDocumentChange(event) {
+        if (this.contains(event.target)) return;
+        if (this.productForm && this.productForm.contains(event.target)) this.syncFromForm();
+      }
+      selectedVariant() {
+        const values = this.selects.map((select) => select.value);
+        return this.productData.variants.find((variant) => variant.options.every((value, index) => value === values[index]));
+      }
+      handleSelectChange() {
+        const variant = this.selectedVariant();
+        if (!variant) { this.button.disabled = true; return; }
+        if (this.variantInput) {
+          this.variantInput.value = variant.id;
+          this.variantInput.dispatchEvent(new Event('change', { bubbles: true }));
+        }
+        this.updateVariant(variant);
+        this.syncProductPicker(variant);
+      }
+      syncProductPicker(variant) {
+        if (!this.productForm) return;
+        variant.options.forEach((value, index) => {
+          const selects = Array.from(this.productForm.querySelectorAll('select')).filter((select) => select.name && select.name.indexOf('options[') === 0);
+          if (selects[index]) {
+            selects[index].value = value;
+            selects[index].dispatchEvent(new Event('change', { bubbles: true }));
+            return;
+          }
+          const radios = Array.from(this.productForm.querySelectorAll('input[type="radio"]')).filter((input) => input.name && input.name.indexOf('options[') === 0);
+          const optionName = this.productData.options[index];
+          const target = radios.find((input) => input.name === 'options[' + optionName + ']' && input.value === value);
+          if (target && !target.checked) { target.checked = true; target.dispatchEvent(new Event('change', { bubbles: true })); }
+        });
+      }
+      syncFromForm() {
+        if (!this.productData) return;
+        let variant = null;
+        if (this.variantInput) variant = this.productData.variants.find((item) => item.id === Number(this.variantInput.value));
+        if (!variant) variant = this.productData.variants.find((item) => item.id === Number(new URLSearchParams(window.location.search).get('variant')));
+        if (!variant) variant = this.productData.variants.find((item) => item.id === {{ product.selected_or_first_available_variant.id | json }}) || this.productData.variants[0];
+        if (!variant) return;
+        variant.options.forEach((value, index) => { if (this.selects[index]) this.selects[index].value = value; });
+        this.updateVariant(variant);
+      }
+      updateVariant(variant) {
+        this.variantText.textContent = variant.title === 'Default Title' ? '' : variant.title;
+        this.priceText.textContent = this.formatMoney(variant.price);
+        this.button.disabled = !variant.available;
+        this.button.textContent = variant.available ? '{{ block.settings.button_label | escape }}' : '{{ block.settings.unavailable_label | escape }}';
+        this.button.dataset.variantId = variant.id;
+      }
+      formatMoney(cents) {
+        const currency = {{ cart.currency.iso_code | default: shop.currency | json }};
+        try { return new Intl.NumberFormat(undefined, { style: 'currency', currency: currency }).format(cents / 100); }
+        catch (error) { return (cents / 100).toFixed(2); }
+      }
+      async addToCart() {
+        if (this.button.disabled || !this.button.dataset.variantId) return;
+        this.button.disabled = true;
+        try {
+          const root = window.Shopify && Shopify.routes ? Shopify.routes.root : '/';
+          const response = await fetch(root + 'cart/add.js', { method: 'POST', headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' }, body: JSON.stringify({ id: Number(this.button.dataset.variantId), quantity: 1 }) });
+          if (!response.ok) throw new Error('Add failed');
+          await response.json();
+          document.dispatchEvent(new CustomEvent('cart:refresh'));
+          document.dispatchEvent(new CustomEvent('cart:updated'));
+          this.button.textContent = '{{ block.settings.added_label | escape }}';
+          window.setTimeout(() => this.syncFromForm(), 1800);
+        } catch (error) {
+          this.button.textContent = '{{ block.settings.error_label | escape }}';
+          window.setTimeout(() => this.syncFromForm(), 1800);
+        }
+      }
+    }
+    customElements.define(tagName, StickyAtc);
+  })();
+</script>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Sticky add to cart",
+  "settings": [
+    { "type": "header", "content": "Appearance" },
+    { "type": "range", "id": "desktop_width_percent", "label": "Content width", "min": 50, "max": 100, "step": 5, "unit": "%", "default": 100 },
+    { "type": "color", "id": "background_color", "label": "Background", "default": "#ffffff" },
+    { "type": "color", "id": "text_color", "label": "Text", "default": "#373535" },
+    { "type": "color", "id": "border_color", "label": "Border", "default": "#d3d3d3" },
+    { "type": "color", "id": "button_color", "label": "Button background", "default": "#373535" },
+    { "type": "color", "id": "button_text_color", "label": "Button text", "default": "#ffffff" },
+    { "type": "range", "id": "corner_radius", "label": "Corner radius", "min": 0, "max": 40, "step": 2, "unit": "px", "default": 8 },
+    { "type": "header", "content": "Button labels" },
+    { "type": "text", "id": "button_label", "label": "Add to cart", "default": "Add to cart" },
+    { "type": "text", "id": "unavailable_label", "label": "Unavailable", "default": "Unavailable" },
+    { "type": "text", "id": "added_label", "label": "Added confirmation", "default": "Added to cart" },
+    { "type": "text", "id": "error_label", "label": "Error message", "default": "Please try again" }
+  ],
+  "presets": [{ "name": "Sticky add to cart" }],
+  "tag": null,
+  "class": "sticky-atc-block"
+}
 {% endschema %}
