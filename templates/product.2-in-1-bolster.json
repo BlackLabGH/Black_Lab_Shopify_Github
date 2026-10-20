@@ -63,7 +63,7 @@
           }
         },
         "kiwi_size_chart_recommender_kiwi_sizing_Mx8TUL": {
-          "type": "shopify://apps/kiwi-size-chart-recommender/blocks/kiwiSizing/b7369922-bf15-44ce-a121-a22a8fcbc4b0",
+          "type": "shopify://apps/kiwi-size-chart/blocks/kiwiSizing/b7369922-bf15-44ce-a121-a22a8fcbc4b0",
           "settings": {
             "fallbackToBlockPosition": false,
             "waitForElementSelector": "",
@@ -1095,6 +1095,34 @@
         "mobile_layout": "layout-overlay",
         "text_color": "text-light"
       }
+    },
+    "blocks_XBtqTe": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_071e97d_q8R3pp": {
+          "type": "ai_gen_block_071e97d",
+          "settings": {
+            "button_label": "Add to cart",
+            "sold_label": "Sold out",
+            "unavailable_label": "Unavailable",
+            "desktop_width_percent": 100,
+            "desktop_offset": 0,
+            "mobile_offset": 0,
+            "spacing": 15,
+            "background_color": "#F7F7F7",
+            "text_color": "#373535",
+            "border_color": "#d3d3d3",
+            "button_color": "#373535",
+            "button_text_color": "#ffffff",
+            "focus_color": "#004ac7"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_071e97d_q8R3pp"
+      ],
+      "settings": {}
     }
   },
   "order": [
@@ -1120,6 +1148,7 @@
     "7920b484-04a8-4a03-b011-ae299931e593",
     "fae30a91-d50a-4bcd-aff2-24e6353dd9be",
     "c0b4cec3-1b31-4f77-a6ff-8b13cd8d2bc2",
-    "29c8d759-a7c3-472e-8ff4-97aa69b9f4a1"
+    "29c8d759-a7c3-472e-8ff4-97aa69b9f4a1",
+    "blocks_XBtqTe"
   ]
 }
