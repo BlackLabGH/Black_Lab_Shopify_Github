@@ -659,10 +659,17 @@
   },
   "platform_customizations": {
     "custom_css": [
-      "@media only screen and (max-width: 767px) {.product-single__wrapper {display: flex; flex-direction: column; } .product-single__details, .product-single__details .form__wrapper {display: contents; } .product-single__wrapper .product__title-and-price, .product-single__wrapper .product__price-and-badge, .product-single__wrapper .product__price-and-badge + .product__block:has(> .product__subheading) {order: -1; } }",
-      " @media only screen and (max-width: 767px) {.product__form > span[id^=\"options_\"]:empty {display: none; } }",
-      " .radio__fieldset > .ks-chart-container {width: auto !important; flex: 0 0 auto; display: flex; align-items: center; margin: 0 0 8px auto; }",
-      " .radio__fieldset > .ks-chart-container .ks-chart-modal-link {margin: 0; }"
+      "@media(max-width:767px){.product-single__wrapper{display:flex;flex-direction:column}.product-single__details,.product-single__details .form__wrapper{display:contents}.product__title-and-price,.product__price-and-badge,.product__price-and-badge+.product__block:has(>.product__subheading){order:-1}.product__form>span[id^=options_]:empty{display:none}}",
+      ".radio__fieldset>.ks-chart-container{width:auto!important;flex:none;display:flex;align-items:center;margin:0 0 8px auto}",
+      ".radio__fieldset .ks-chart-modal-link{margin:0}",
+      ".selector-wrapper--qty .select-popout>:not(.quantity-selector){display:none!important}",
+      ".selector-wrapper--qty .quantity-selector{display:block!important}",
+      ".selector-wrapper--qty .quantity-selector,.selector-wrapper--qty input{height:46px}",
+      "form:has(>.selector-wrapper--qty){grid-template-columns:auto minmax(0,1fr);column-gap:10px}",
+      "form:has(>.selector-wrapper--qty)>*,.selector-wrapper--qty~* .product__submit__buttons>*{grid-column:1/-1}",
+      ".selector-wrapper--qty~.product__submit__holder,.selector-wrapper--qty~* .product__submit__buttons{display:contents}",
+      "form>.selector-wrapper--qty{grid-column:1;align-self:end;width:130px}",
+      ".selector-wrapper--qty~* .product__submit__item:first-child{grid-column:2;align-self:end}"
     ]
   }
 }
