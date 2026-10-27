@@ -11,7 +11,7 @@
   "current": {
     "head_scripts": "<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-PBF6LM6H');</script>\n<!-- End Google Tag Manager -->",
     "body_scripts": "<!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PBF6LM6H\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->",
-    "footer_scripts": "<!-- PDP: move Kiwi Size Chart link next to the Size options -->\n<script>(function(){function m(){var c=document.querySelector('.product__form__wrapper > .ks-chart-container');if(!c)return false;var f=[].slice.call(document.querySelectorAll('.product__selectors .radio__fieldset')).filter(function(x){var l=x.querySelector('.radio__legend__label');return l&&/^size$/i.test(l.textContent.trim());})[0];if(!f)return false;f.appendChild(c);return true;}function i(){if(!document.querySelector('.product__form__wrapper'))return;if(m())return;var n=0,t=setInterval(function(){if(m()||++n>40)clearInterval(t);},250);}if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',i);}else{i();}})();</script>",
+    "footer_scripts": "",
     "color_body_bg": "#ffffff",
     "color_body_bg_secondary": "#f7f7f7",
     "color_headings": "#373535",
@@ -658,18 +658,6 @@
     }
   },
   "platform_customizations": {
-    "custom_css": [
-      "@media(max-width:767px){.product-single__wrapper{display:flex;flex-direction:column}.product-single__details,.product-single__details .form__wrapper{display:contents}.product__title-and-price,.product__price-and-badge,.product__price-and-badge+.product__block:has(>.product__subheading){order:-1}.product__form>span[id^=options_]:empty{display:none}}",
-      ".radio__fieldset>.ks-chart-container{width:auto!important;flex:none;display:flex;align-items:center;margin:0 0 8px auto}",
-      ".radio__fieldset .ks-chart-modal-link{margin:0}",
-      ".selector-wrapper--qty .select-popout>:not(.quantity-selector){display:none!important}",
-      ".selector-wrapper--qty .quantity-selector{display:block!important}",
-      ".selector-wrapper--qty .quantity-selector,.selector-wrapper--qty input{height:46px}",
-      "form:has(>.selector-wrapper--qty){grid-template-columns:auto minmax(0,1fr);column-gap:10px}",
-      "form:has(>.selector-wrapper--qty)>*,.selector-wrapper--qty~* .product__submit__buttons>*{grid-column:1/-1}",
-      ".selector-wrapper--qty~.product__submit__holder,.selector-wrapper--qty~* .product__submit__buttons{display:contents}",
-      "form>.selector-wrapper--qty{grid-column:1;align-self:end;width:130px}",
-      ".selector-wrapper--qty~* .product__submit__item:first-child{grid-column:2;align-self:end}"
-    ]
+    "custom_css": []
   }
 }
