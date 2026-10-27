@@ -9,3 +9,80 @@ button[data-notification-popup] {
 .klaviyo-bis-trigger {
   width: 97% !important;
 }
+
+/* ==========================================================================
+   Black Lab custom PDP styles
+   Moved here from Theme settings > Custom CSS so theme-editor saves
+   can't wipe it. Pairs with assets/black-lab-custom.js.
+   ========================================================================== */
+
+/* --- Mobile: title, price and subheading above the gallery ---------------- */
+@media only screen and (max-width: 767px) {
+  .product-single__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .product-single__details,
+  .product-single__details .form__wrapper {
+    display: contents;
+  }
+  .product-single__wrapper .product__title-and-price,
+  .product-single__wrapper .product__price-and-badge,
+  .product-single__wrapper .product__price-and-badge + .product__block:has(> .product__subheading) {
+    order: -1;
+  }
+
+  /* Infinite Options adds an empty <span id="options_..."> to the form on
+     every variant change; each one adds grid gap. Hide the empty ones. */
+  .product__form > span[id^="options_"]:empty {
+    display: none;
+  }
+}
+
+/* --- Kiwi "Size Chart" link, moved next to the Size buttons by
+       black-lab-custom.js ------------------------------------------------- */
+.radio__fieldset > .ks-chart-container {
+  width: auto !important;
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  margin: 0 0 8px auto;
+}
+.radio__fieldset > .ks-chart-container .ks-chart-modal-link {
+  margin: 0;
+}
+
+/* --- Quantity: theme's built-in +/- stepper, inline with Add to Cart ------- */
+.selector-wrapper--qty .select-popout > :not(.quantity-selector) {
+  display: none !important;
+}
+.selector-wrapper--qty .select-popout > .quantity-selector {
+  display: block !important;
+}
+.selector-wrapper--qty .quantity-selector,
+.selector-wrapper--qty .quantity__input {
+  height: 46px;
+}
+
+/* Only on forms that have a quantity block */
+.product__form:has(> .selector-wrapper--qty) {
+  grid-template-columns: auto minmax(0, 1fr);
+  column-gap: 10px;
+}
+.product__form:has(> .selector-wrapper--qty) > *,
+.product__form:has(> .selector-wrapper--qty) .product__submit__buttons > * {
+  grid-column: 1 / -1;
+}
+.product__form:has(> .selector-wrapper--qty) .product__submit__holder,
+.product__form:has(> .selector-wrapper--qty) .product__submit__buttons {
+  display: contents;
+}
+.product__form > .selector-wrapper--qty {
+  grid-column: 1;
+  align-self: end;
+  width: 130px;
+}
+.product__form:has(> .selector-wrapper--qty) .product__submit__buttons > .product__submit__item:first-child {
+  grid-column: 2;
+  align-self: end;
+}
