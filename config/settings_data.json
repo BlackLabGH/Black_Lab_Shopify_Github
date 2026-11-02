@@ -69,6 +69,7 @@
     "show_empty_cart_buttons": false,
     "show_continue_shopping": true,
     "continue_shopping_link": "shopify://collections/waterproof-fused-core-beds",
+    "show_free_shipping_message": false,
     "message": "You're ||amount|| from getting free shipping",
     "free_shipping_limit": "75",
     "cart_custom_message_text": "",
