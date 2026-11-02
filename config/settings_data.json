@@ -73,7 +73,7 @@
     "show_free_shipping_message": false,
     "message": "You're ||amount|| from getting free shipping",
     "free_shipping_limit": "75",
-    "cart_custom_message_text": "<p>Sign up for free shipping!</p>",
+    "cart_custom_message_text": "<p><strong>FREE SHIPPING FOR BLACK LIST MEMBERS | JOIN FREE</strong></p>",
     "cart_custom_message_color": "text-dark",
     "enable_accept_terms": false,
     "accept_terms_text": "<p>By placing this order, you agree to our <a href=\"https://blacklabbrands.com/pages/return-exchange-policy\" target=\"_blank\" title=\"https://blacklabbrands.com/pages/return-exchange-policy\"><span style=\"text-decoration:underline\">Shipping, Returns & Exchanges </span></a>and understand our Privacy policy.</p>",
