@@ -17,7 +17,6 @@
         "custom_4rCVed": {
           "type": "custom",
           "name": "Custom Free Shipping",
-          "disabled": true,
           "settings": {
             "text": "<button type=\"button\" onclick=\"window._klOnsite = window._klOnsite || []; window._klOnsite.push(['openForm', 'VbWuVM']);\" style=\"background: none; border: 0; padding: 0; color: inherit; font: inherit; cursor: pointer; font-size: 14px; font-weight: 700;\">\n  FREE SHIPPING FOR BLACK LIST MEMBERS | JOIN FREE\n</button>",
             "target_url_enabled": false,
@@ -76,6 +75,7 @@
         },
         "custom_WUwp3P": {
           "type": "custom",
+          "disabled": true,
           "settings": {
             "text": "<span style=\"font-size:130%\"><strong>Free shipping over $75 (Continental U.S. only)</strong></span>",
             "target_url_enabled": false,
