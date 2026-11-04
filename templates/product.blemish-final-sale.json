@@ -43,7 +43,7 @@
         "text_dVDQXh": {
           "type": "text",
           "settings": {
-            "title": "<h6>Includes one 4-inch Fused Core™ mattress. Use it alone or customize with covers, pillows, and bolsters.</h6>",
+            "title": "<h6>Includes one 4-inch Fused Core™ mattress. Use it alone or customize with covers, pillows and bolsters.</h6>",
             "text_alignment": "left",
             "padding_bottom": 20
           }
@@ -53,7 +53,7 @@
           "settings": {
             "title": "<h3><strong>FINAL SALE:&nbsp;</strong></h3><h5><strong>May have a mark or blemish. Does not effect functionality.</strong></h5>",
             "text_alignment": "left",
-            "padding_bottom": 20
+            "padding_bottom": 4
           }
         },
         "form": {

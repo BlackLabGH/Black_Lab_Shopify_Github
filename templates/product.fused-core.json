@@ -43,7 +43,7 @@
         "text_dVDQXh": {
           "type": "text",
           "settings": {
-            "title": "<h6>Includes one 4-inch Fused Core™ mattress. Use it alone or customize with covers, pillows, and bolsters.</h6>",
+            "title": "<h6>Includes one 4-inch Fused Core™ mattress. Use it alone or customize with covers, pillows and bolsters.</h6>",
             "text_alignment": "left",
             "padding_bottom": 20
           }
@@ -68,7 +68,7 @@
           }
         },
         "kiwi_size_chart_recommender_kiwi_sizing_QYFPPa": {
-          "type": "shopify://apps/kiwi-size-chart-recommender/blocks/kiwiSizing/b7369922-bf15-44ce-a121-a22a8fcbc4b0",
+          "type": "shopify://apps/kiwi-size-chart/blocks/kiwiSizing/b7369922-bf15-44ce-a121-a22a8fcbc4b0",
           "settings": {
             "fallbackToBlockPosition": false,
             "waitForElementSelector": "",
