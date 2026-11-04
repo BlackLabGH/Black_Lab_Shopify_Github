@@ -48,6 +48,14 @@
             "padding_bottom": 20
           }
         },
+        "text_ffz3yp": {
+          "type": "text",
+          "settings": {
+            "title": "<h3><strong>FINAL SALE:&nbsp;</strong></h3><h5><strong>May have a mark or blemish. Does not effect functionality.</strong></h5>",
+            "text_alignment": "left",
+            "padding_bottom": 20
+          }
+        },
         "form": {
           "type": "form",
           "settings": {
@@ -271,6 +279,7 @@
         "product_accordion_gAHa8n",
         "text_gLxdq9",
         "text_dVDQXh",
+        "text_ffz3yp",
         "form",
         "36e9da1b-5922-4ee3-83f3-d867cd6f0ada",
         "kiwi_size_chart_recommender_kiwi_sizing_QYFPPa",
