@@ -46,7 +46,7 @@
         "text_bVpFJX": {
           "type": "text",
           "settings": {
-            "title": "<p>{{ product.metafields.custom.short_product_description.value }}</p>",
+            "title": "<p>A Fully Waterproof Orthopedic Dog Bed.</p><p>Heat-welded construction protects the foam from moisture. Durable, supportive, and easy to wipe clean.</p><p>Includes one 4-inch Fused Core™ mattress. Use it alone or customize with covers, pillows, and bolsters.</p><h6><strong>FINAL SALE: May have a mark or blemish. Does not effect functionality.</strong></h6>",
             "text_alignment": "left",
             "padding_bottom": 20
           }
@@ -1249,7 +1249,7 @@
             "desktop_offset": 0,
             "mobile_offset": 0,
             "spacing": 15,
-            "background_color": "#F7F7F7",
+            "background_color": "#f7f7f7",
             "text_color": "#373535",
             "border_color": "#d3d3d3",
             "button_color": "#373535",
