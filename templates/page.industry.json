@@ -505,7 +505,7 @@
         "content_BPPPbW": {
           "type": "content",
           "settings": {
-            "text": "<ul><li><strong>The Beast™ Dog Bed: </strong>Heavy-duty comfort for working dogs and high-traffic spaces.</li><li><strong>Waterproof Cover with Reinforced Fabric:</strong> Withstands constant use indoors and outdoors.</li><li><strong>Zippered, Removable Cover: </strong>Easy to clean, wipeable, or machine washable when needed.</li><li><strong>Fused Core™ Mattress Inside: </strong>100% water proof, seam-sealed orthopedic insert for superior protection and hygiene.</li><li><strong>StayFresh™ Antibacterial Tech: </strong>Naturally fights odors, bacteria, and mildew.</li><li><strong>Fits in Patrol Vehicles: </strong>Medium size fits Ford Police Interceptor back seats.</li></ul>",
+            "text": "<ul><li><strong>The Signature™ Dog Bed: </strong>Heavy-duty comfort for working dogs and high-traffic spaces.</li><li><strong>Waterproof Cover with Reinforced Fabric:</strong> Withstands constant use indoors and outdoors.</li><li><strong>Zippered, Removable Cover: </strong>Easy to clean, wipeable, or machine washable when needed.</li><li><strong>Fused Core™ Mattress Inside: </strong>100% water proof, seam-sealed orthopedic insert for superior protection and hygiene.</li><li><strong>StayFresh™ Antibacterial Tech: </strong>Naturally fights odors, bacteria, and mildew.</li><li><strong>Fits in Patrol Vehicles: </strong>Medium size fits Ford Police Interceptor back seats.</li></ul>",
             "content_size": "md:text-body-md",
             "content_width": ""
           }
@@ -676,7 +676,7 @@
           "settings": {
             "image": "shopify://shop_images/12.png",
             "title": "Fused Core™ Orthopedic Support",
-            "text": "<p> Seam-sealed orthopedic mattress stays dry, breathable, and fits perfectly in Ford Police Interceptor SUVs (Medium size).</p>",
+            "text": "<p>&nbsp;Seam-sealed orthopedic mattress stays dry, breathable, and fits perfectly in Ford Police Interceptor SUVs (Large size).</p>",
             "button_text": "",
             "button_link": "",
             "button_color": "btn--black",
@@ -718,7 +718,7 @@
         "subheading_AaqTdb": {
           "type": "subheading",
           "settings": {
-            "text": "<p>Water Proof. All-Day Comfort.</p>",
+            "text": "<p>Waterproof. All-Day Comfort.</p>",
             "size": 195,
             "margin_bottom": 16
           }
