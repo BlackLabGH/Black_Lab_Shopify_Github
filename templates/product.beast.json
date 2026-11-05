@@ -1064,7 +1064,7 @@
           "type": "text",
           "settings": {
             "title": "What does \"BETTER THAN BALLISTIC™\" mean?",
-            "text": "<p>Other companies use materials labeled \"ballistic\" or \"rip-stop,\" which are often deemed proprietary. However, these materials tend to fall short on their claims. Oftentimes, these fabrics are non-recyclable, non-eco-friendly, and have been shown to degrade after the first wash.</p><p>Our fabrics are Better than Ballistic™ because:</p><ul><li>Made from Tougher than Nails Recycled Repreve™ Fabric</li><li>Eliminates odors</li><li>Eliminates 99.9% of bacteria</li><li>Triple layered for waterproof durability</li><li>Eco-friendly manufacturing process</li><li>Wash Less, saves money & time</li><li>Comfort, Style and sustainability for your pup</li></ul>"
+            "text": "<p>Other companies use materials labeled \"ballistic\" or \"rip-stop,\" which are often deemed proprietary. However, these materials tend to fall short on their claims. Oftentimes, these fabrics are non-recyclable, non-eco-friendly, and have been shown to degrade after the first wash.</p><p>Our fabrics are Better than Ballistic™ because:</p><ul><li>Made from Tougher than Nails Recycled Repreve™ Fabric</li><li>Fights odors</li><li>Eliminates 99.9% of bacteria</li><li>Triple layered for waterproof durability</li><li>Eco-friendly manufacturing process</li><li>Wash less, saves money & time</li><li>Comfort, style and sustainability for your pup</li></ul>"
           }
         },
         "7dd82d30-a8f4-491b-bbb6-d89d0cf89b36": {
@@ -1249,7 +1249,7 @@
             "desktop_offset": 0,
             "mobile_offset": 0,
             "spacing": 15,
-            "background_color": "#F7F7F7",
+            "background_color": "#f7f7f7",
             "text_color": "#373535",
             "border_color": "#d3d3d3",
             "button_color": "#373535",
