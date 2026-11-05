@@ -531,7 +531,7 @@
         "heading_hpaKUm": {
           "type": "heading",
           "settings": {
-            "text": "<p>Shop The Beast</p>",
+            "text": "<p>Shop The Signature Bed</p>",
             "size": 145,
             "heading_highlight_type": "italics",
             "highlight_color": "#d43747",
@@ -567,7 +567,7 @@
         "text_Yani4q": {
           "type": "text",
           "settings": {
-            "title": "<p>Durability means nothing without comfort. The Beast delivers both—lasting support, cleaner sleep, and a surface dogs actually want to curl up on.</p>",
+            "title": "<p>Durability means nothing without comfort. The Signature Bed delivers both—lasting support, cleaner sleep, and a surface dogs actually want to curl up on.</p>",
             "padding_bottom": 20
           }
         },
