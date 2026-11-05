@@ -546,7 +546,6 @@
         "content_4JreNj",
         "button_QAg94r"
       ],
-      "disabled": true,
       "settings": {
         "nav_id": "",
         "block_star_rating": 0,
@@ -555,7 +554,7 @@
         "section_width": "wrapper",
         "padding_top": 30,
         "padding_bottom": 30,
-        "image": "shopify://shop_images/Comparison_Matrix_324fc76d-a8b8-41b4-9478-a8b911cf2fb1.png",
+        "image": "shopify://shop_images/thedifference.png",
         "image_size": "normal",
         "image_layout": "left",
         "mobile_image_layout": "image_first",
