@@ -321,7 +321,7 @@
         "image_RPpyM7": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Den_Bed.png",
+            "image": "shopify://shop_images/Den_Bed_c7848d28-aa06-4f3c-835c-de759675374c.png",
             "image_width": 500,
             "image_link": ""
           }
@@ -365,7 +365,7 @@
         "image_tBwYT3": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Venture_Dims.png",
+            "image": "shopify://shop_images/venture.png",
             "image_width": 500,
             "image_link": ""
           }
@@ -409,7 +409,7 @@
         "image_9nQDBK": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Trailblazer_7502fe3b-b9ef-4905-a54b-ca7a38c7323f.png",
+            "image": "shopify://shop_images/Trailblazer_bc823847-ca5f-4abc-afc2-861ee3f548fe.png",
             "image_width": 500,
             "image_link": ""
           }
