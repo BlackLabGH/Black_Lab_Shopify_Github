@@ -260,7 +260,7 @@
         "heading_wcxBzj": {
           "type": "heading",
           "settings": {
-            "text": "<p>VERSA Dog Crate Pad</p>",
+            "text": "<p>VERSA Crate Pad</p>",
             "size": 75,
             "heading_highlight_type": "italics",
             "highlight_color": "#d43747",
@@ -277,7 +277,7 @@
         "image_M6emKL": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Versa_Crate_Pad.png",
+            "image": "shopify://shop_images/Versa_0be8478d-c98b-4d16-b443-9eb10a8df2da.png",
             "image_width": 500,
             "image_link": ""
           }
