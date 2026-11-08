@@ -216,7 +216,7 @@
         "heading_7zn4BN": {
           "type": "heading",
           "settings": {
-            "text": "<p>SIGNATURE BOLSTER Dog Bed&nbsp;</p>",
+            "text": "<p>SIGNATURE PILLOW Dog Bed&nbsp;</p>",
             "size": 75,
             "heading_highlight_type": "italics",
             "highlight_color": "#d43747",
@@ -226,14 +226,14 @@
         "text_bLFWi4": {
           "type": "text",
           "settings": {
-            "text": "<p>Our Bolster is designed to work with our Signature dog beds. The bed in the middle can easily be removed and used in most standard sized crates or anywhere else your pup may sleep. Includes the bolster <em>and </em>bed.&nbsp;</p><p>You can find bed assembly Instructions <a href=\"/pages/bed-assembly-instructions\" title=\"Bed Assembly Instructions\">HERE</a></p>",
+            "text": "",
             "size": 100
           }
         },
         "image_778Qn9": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Signature_Bolster.png",
+            "image": "shopify://shop_images/Signature_Pillow.png",
             "image_width": 500,
             "image_link": ""
           }
@@ -243,6 +243,50 @@
         "heading_7zn4BN",
         "text_bLFWi4",
         "image_778Qn9"
+      ],
+      "settings": {
+        "show_spacer_lines": true,
+        "text_position": "left",
+        "bg_color_secondary": true,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_text_rYhdwn": {
+      "type": "section-text",
+      "blocks": {
+        "heading_PjfqwN": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>SIGNATURE BOLSTER Dog Bed&nbsp;</p>",
+            "size": 75,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "text_rY4hQQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our Bolster is designed to work with our Signature dog beds. The bed in the middle can easily be removed and used in most standard sized crates or anywhere else your pup may sleep. Includes the bolster <em>and </em>bed.&nbsp;</p><p>You can find bed assembly Instructions <a href=\"/pages/bed-assembly-instructions\" title=\"Bed Assembly Instructions\">HERE</a></p>",
+            "size": 100
+          }
+        },
+        "image_VNDr9m": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Signature_Bolster.png",
+            "image_width": 500,
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_PjfqwN",
+        "text_rY4hQQ",
+        "image_VNDr9m"
       ],
       "settings": {
         "show_spacer_lines": true,
@@ -611,6 +655,7 @@
     "section_columns_XXMkQn",
     "section_text_jU3fyz",
     "section_text_7MtniM",
+    "section_text_rYhdwn",
     "section_text_GUKaAn",
     "section_text_f64hWz",
     "section_text_rLa7CJ",
