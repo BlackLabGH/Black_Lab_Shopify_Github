@@ -341,8 +341,8 @@
         "button_cwKNee": {
           "type": "button",
           "settings": {
-            "button_1_text": "BUILD YOUR PERFECT BED",
-            "button_1_link": "shopify://products/signature-bed-builder",
+            "button_1_text": "CHOOSE YOUR PERFECT BED",
+            "button_1_link": "shopify://collections/core-dog-beds",
             "button_1_color": "btn--black",
             "button_1_style": "btn--solid",
             "button_1_size": "btn--small",
