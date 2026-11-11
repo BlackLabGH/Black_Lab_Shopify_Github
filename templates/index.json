@@ -478,7 +478,7 @@
         "heading_dGQmTy": {
           "type": "heading",
           "settings": {
-            "text": "<p>Shop Your Bed</p>",
+            "text": "<p>Our Complete Beds</p>",
             "size": 100,
             "heading_highlight_type": "italics",
             "highlight_color": "#d43747",
@@ -488,7 +488,7 @@
         "subheading_byEDNV": {
           "type": "subheading",
           "settings": {
-            "text": "<h3>One Waterproof Foundation. Your Choice of Comfort.</h3>",
+            "text": "<h4>One waterproof foundation. Your choice of comfort.</h4>",
             "size": 170,
             "margin_bottom": 16
           }
