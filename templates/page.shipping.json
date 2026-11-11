@@ -104,19 +104,20 @@
         "text_Gny9aV": {
           "type": "text",
           "settings": {
-            "text": "<p>During the holiday season, please allow 5-7 business days for your order to be processed. We offer free shipping on orders over $75. Most orders are shipped via FedEx or UPS Home Delivery, while smaller items like covers and accessories may be shipped via USPS.</p><p>Once your order is ready to leave our warehouse, you will receive a shipping confirmation email with a tracking number. All orders ship from Minneapolis, MN, and delivery times vary depending on your location. Please allow roughly 4-5 business days of transit time for locations along the West Coast, 2-3 days for the central US, and 3-4 business days if you are located on the East Coast. Please note that these shipping times are estimates and are not guaranteed.</p>",
+            "text": "<h3>BLACK LIST Member Shipping Benefits</h3><p>Join the <strong>BLACK LIST</strong> and enjoy exclusive shipping benefits:</p><ul><li><strong>Your first order ships free.</strong> No minimum purchase required.</li><li><strong>Every order of $75 or more ships free.</strong> An exclusive benefit for BLACK LIST members.</li></ul><p>No fees. No points. Just member benefits.</p><p>Free shipping benefits apply to eligible orders shipped within the 48 contiguous United States. Standard shipping rates apply to orders that do not qualify for free shipping.</p><h3></h3><h3>Processing & Delivery</h3><p>Orders are typically processed within 1–2 business days. During the holiday season, please allow 5–7 business days for processing.</p><p>Most orders ship via FedEx or UPS Home Delivery. Smaller items, such as replacement covers and accessories, may ship via USPS.</p><p>Once your order leaves our warehouse, you'll receive a shipping confirmation email with tracking information.</p><p>All orders ship from Minneapolis, Minnesota. Estimated transit times vary by destination:</p><ul><li><strong>West Coast:</strong> 4–5 business days</li><li><strong>Central U.S.:</strong> 2–3 business days</li><li><strong>East Coast:</strong> 3–4 business days</li></ul><p>These are estimated transit times after processing and are not guaranteed.</p>",
             "size": 100
           }
         },
         "text_Vxyznp": {
           "type": "text",
           "settings": {
-            "text": "<p>If your package is marked as delivered but you have not received it, please check around your property first and confirm with your neighbors that they haven't received it in error. Sometimes, FedEx and UPS mark a package as delivered prematurely, so allow 24 hours for the item to be delivered past the initial delivery date. If you still haven't received the package 24 hours after it was marked as delivered, please contact us so that we can start a trace with the carrier.</p>",
+            "text": "<h3>Missing or Lost Packages</h3><p>If your tracking information shows that your package was delivered but you haven't received it, please check around your property and with your neighbors.</p><p>Occasionally, carriers mark packages as delivered before they arrive. We recommend allowing 24 hours after the reported delivery time before contacting us.</p><p>If your package still hasn't arrived, please contact us so we can initiate a trace with the carrier.</p><ul><li>Carrier traces typically take approximately 2 business days and must be completed before we can proceed with lost-package procedures.</li><li>You must contact us within 5 days of the reported delivery date to initiate a trace.</li><li>If a missing package is not reported within 5 days, we may be unable to initiate a carrier trace, and a replacement will count toward your warranty replacement.</li><li>Packages reported missing more than 2 weeks after the reported delivery date are not eligible for replacement.</li></ul><h3>Shipping Restrictions</h3><p>We currently ship only within the 48 contiguous United States.</p><p>For Alaska, Hawaii, U.S. territories, APO/FPO addresses, and international destinations, you may consider using a package-forwarding service such as reship.com.</p><p></p><p><strong>We do not ship to P.O. boxes.</strong></p>",
             "size": 100
           }
         },
         "text_8mHpL4": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>Traces take an average of 2 business days to complete and must be completed before we can proceed with lost package procedures. You must contact us within 5 days of the order being marked as delivered in order for us to start a trace. If you do not contact us within that timeframe, we will not be able to do a trace and the replacement will count as your warranty replacement. Packages reported as lost two weeks past the delivery date are not eligible for replacement.</p><p>Please note that we currently do not ship outside the 48 contiguous continental United States. For Alaska, Hawaii, US territories, FPO/APO and international addresses, please consider a forwarding service like reship.com to have the order delivered to you.</p><p>- We DO NOT ship to PO Box's</p>",
             "size": 100
@@ -152,12 +153,13 @@
         "text_H8jGEn": {
           "type": "text",
           "settings": {
-            "text": "<p>Due to the speed at which we package orders for shipment, we cannot guarantee a successful update of the address of an order in our system. It is the customer's responsibility to double-check the address information entered prior to submitting the order. If you use a third-party payment option like PayPal, G Pay, or ShopPay, please make sure your account on those sites is using your correct shipping address. If there is a problem we will do our best to update order information as needed, and for the best chance of success please reach out immediately to us for assistance.</p>",
+            "text": "<p>Please double-check your shipping address before completing your purchase. If you use PayPal, Google Pay, Shop Pay, or another accelerated checkout service, make sure your saved shipping information is accurate.</p><p>Because orders move quickly through our fulfillment process, we cannot guarantee address changes after an order is placed.</p><p><strong>Before shipment:</strong> We may be able to update your address before your order is packed and a shipping label is generated.</p><p><strong>After shipment:</strong> If your package ships via UPS or FedEx, we may be able to request an address correction through the carrier.</p><p>UPS and FedEx charge a <strong>$17 address correction fee</strong> for changes such as correcting a street address, adding an apartment number, or redirecting a package. This fee is the customer's responsibility when a correction is requested after the shipping label has been created.</p><p>Alternatively, you may contact the carrier to request that your package be held for pickup:</p><ul><li><strong>FedEx:</strong> 800-463-3339</li><li><strong>UPS:</strong> 800-742-5877</li></ul><p>UPS pickup requests may also be available through your tracking page.</p><p>Please note that address changes cannot be made once a package is out for delivery. USPS shipping addresses cannot be modified once a package is in transit.</p>",
             "size": 100
           }
         },
         "text_fP8XYM": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>We can make changes to the shipping address on an order up until the item is packed and a shipping label generated. After that, the handling of the package is no longer under our control. If the package shipped via UPS or FedEx, we can contact the carrier to update the shipping address of a package that is in transit. Both carriers charge us a $17 flat fee for any address corrections, including fixing misspellings, adding apartment numbers, or changing the address completely. Due to this, any shipping address changes made after the shipping label is created will require a $17 payment from the customer to cover the carrier’s fees.</p><p>If you have misspelled the street address or forgot to add an apartment number, you can contact FedEx at 800-463-3339 or UPS at 800-742-5877 and request to have the package held for pickup instead of updating the address (for UPS, you can also do this online from the tracking information page).</p><p>Please note that once an item is out for delivery, no changes can be made to the address. The addresses for items shipped via USPS cannot be modified at all once in transit.</p>",
             "size": 100
@@ -165,6 +167,7 @@
         },
         "text_tAX4db": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p><strong>Digital warranties cannot be used for gift card purchases</strong>, and warranties are applicable only to items purchased directly from Black Lab.</p>",
             "size": 100
@@ -173,7 +176,7 @@
         "heading_hg37kB": {
           "type": "heading",
           "settings": {
-            "text": "<p><strong>Order Cancellation: </strong></p>",
+            "text": "<p><strong>Order Cancellation:&nbsp;</strong></p>",
             "size": 60,
             "heading_highlight_type": "italics",
             "highlight_color": "#d43747",
@@ -183,7 +186,7 @@
         "text_jpeHyG": {
           "type": "text",
           "settings": {
-            "text": "<p>Due to the speed at which we package orders for shipment, we cannot guarantee successful cancellation of an order in our system. We will do our best to fulfill cancellation requests, and the sooner you contact us the more likely it is that we will be able to catch the order in time. However, if you have already received a tracking number via email, we will not be able to cancel the order. Please call us during business hours to request a cancellation, or submit a cancellation request through our support form.</p>",
+            "text": "<p>We process and ship orders quickly, so we cannot guarantee cancellation once an order has been placed.</p><p>If you need to cancel an order, please contact us as soon as possible by phone during business hours or through our support form.</p><p>Once a tracking number has been issued, the order can no longer be canceled.</p><p>Orders containing customizations cannot be canceled or refunded once customization work has begun.</p>",
             "size": 100
           }
         },
@@ -191,6 +194,23 @@
           "type": "text",
           "settings": {
             "text": "<p>If your order contains items with embroidery or other customizations, we cannot cancel or refund the order if the customization has already been started or completed.</p><p>At Black Lab Brands, we take pride in offering the highest-quality, eco-friendly products for your pup. If you have any questions or concerns, please don't hesitate to contact us. We're always here<br/>to help!</p>",
+            "size": 100
+          }
+        },
+        "heading_KKKBnB": {
+          "type": "heading",
+          "settings": {
+            "text": "<p><strong>Warranty & Gift Cards:&nbsp;</strong></p>",
+            "size": 60,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "text_nePVmq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Digital warranties cannot be applied toward gift card purchases. Warranties are valid only for eligible products purchased directly from Black Lab Brands.</p><h4></h4><h4>Questions?</h4><p>We're committed to making your experience with Black Lab Brands as straightforward as possible. If you have questions about your order, shipping, or delivery, please contact our customer support team. We're happy to help.</p>",
             "size": 100
           }
         }
@@ -208,7 +228,9 @@
         "text_tAX4db",
         "heading_hg37kB",
         "text_jpeHyG",
-        "text_4pQUJ9"
+        "text_4pQUJ9",
+        "heading_KKKBnB",
+        "text_nePVmq"
       ],
       "settings": {
         "show_spacer_lines": true,
