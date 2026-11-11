@@ -842,103 +842,6 @@
         "padding_bottom": 14
       }
     },
-    "section_grid_wNkGdg": {
-      "type": "section-grid",
-      "blocks": {
-        "image_xVr38w": {
-          "type": "image",
-          "settings": {
-            "width": "25",
-            "image": "shopify://shop_images/UTILITY_1.png",
-            "overlay_opacity": 0,
-            "text_position": "bottom-left",
-            "subheading": "",
-            "title": "UTILITY",
-            "text": "Waterproof. The foundation of every Black Lab bed.",
-            "button_1_text": "",
-            "button_1_link": "shopify://products/orthopedic-mattress",
-            "button_2_text": "Explore Utility",
-            "button_2_link": "shopify://products/orthopedic-mattress",
-            "text_color": "text-dark"
-          }
-        },
-        "image_rfwTdG": {
-          "type": "image",
-          "settings": {
-            "width": "25",
-            "image": "shopify://shop_images/SIGNATURE_1.png",
-            "overlay_opacity": 0,
-            "text_position": "bottom-left",
-            "subheading": "",
-            "title": "SIGNATURE",
-            "text": "Comfortable. Built for everyday life.",
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_2_text": "Explore Signature",
-            "button_2_link": "shopify://products/the-beast-ultratough-orthopedic-dog-bed",
-            "text_color": "text-dark"
-          }
-        },
-        "image_NpAPgQ": {
-          "type": "image",
-          "settings": {
-            "width": "25",
-            "image": "shopify://shop_images/SIGNATURE_PILLOW_1.png",
-            "overlay_opacity": 0,
-            "text_position": "bottom-left",
-            "subheading": "",
-            "title": "PILLOW",
-            "text": "Supportive. So they can rest their head.",
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_2_text": "Explore Signature Pillow",
-            "button_2_link": "shopify://products/fused-core™-pillow-dog-bed",
-            "text_color": "text-dark"
-          }
-        },
-        "image_wpmEJD": {
-          "type": "image",
-          "settings": {
-            "width": "25",
-            "image": "shopify://shop_images/SIGNATURE_BOLSTER_1.png",
-            "overlay_opacity": 0,
-            "text_position": "bottom-left",
-            "subheading": "",
-            "title": "BOLSTER",
-            "text": "Secure. A place to curl up and relax.",
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_2_text": "Explore Signature Bolster",
-            "button_2_link": "shopify://products/nomad-tough-bolster-bed-4-in-1",
-            "text_color": "text-dark"
-          }
-        }
-      },
-      "block_order": [
-        "image_xVr38w",
-        "image_rfwTdG",
-        "image_NpAPgQ",
-        "image_wpmEJD"
-      ],
-      "disabled": true,
-      "name": "Grid",
-      "settings": {
-        "height": "350",
-        "heading_size": 100,
-        "button_1_color": "btn--black",
-        "button_1_style": "btn--text",
-        "button_1_size": "btn--medium",
-        "button_2_color": "btn--black",
-        "button_2_style": "btn--text",
-        "button_2_size": "btn--small",
-        "bg_color_secondary": false,
-        "enable_slider_mobile": false,
-        "width": "wrapper",
-        "add_gutter": true,
-        "padding_top": 10,
-        "padding_bottom": 30
-      }
-    },
     "section_text_LXQFR8": {
       "type": "section-text",
       "blocks": {
@@ -1075,6 +978,122 @@
         "image_W3LBci",
         "image_nqGGPN"
       ],
+      "name": "Grid",
+      "settings": {
+        "height": "250",
+        "heading_size": 100,
+        "button_1_color": "btn--black",
+        "button_1_style": "btn--text",
+        "button_1_size": "btn--large",
+        "button_2_color": "btn--black",
+        "button_2_style": "btn--text",
+        "button_2_size": "btn--small",
+        "bg_color_secondary": true,
+        "enable_slider_mobile": true,
+        "width": "wrapper",
+        "add_gutter": true,
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "section_grid_8U7YFL": {
+      "type": "section-grid",
+      "blocks": {
+        "image_rhYzXD": {
+          "type": "image",
+          "settings": {
+            "width": "25",
+            "image": "shopify://shop_images/slate_bolster_dog_bed_modular_add-on.png",
+            "overlay_opacity": 0,
+            "text_position": "bottom-left",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "button_1_text": "",
+            "button_1_link": "https://blacklabbrands.com/collections/core-dog-beds/products/the-beast-ultratough-orthopedic-dog-bed?variant=50904622268731",
+            "button_2_text": "Bolster add-on",
+            "button_2_link": "https://blacklabbrands.com/collections/core-dog-beds/products/the-beast-ultratough-orthopedic-dog-bed?variant=50904622268731",
+            "text_color": "text-dark"
+          }
+        },
+        "image_CJ8Dmy": {
+          "type": "image",
+          "settings": {
+            "width": "25",
+            "image": "shopify://shop_images/Add-on_Headrest_Pillow.png",
+            "overlay_opacity": 0,
+            "text_position": "bottom-left",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "button_1_text": "",
+            "button_1_link": "https://blacklabbrands.com/products/the-beast-ultratough-orthopedic-dog-bed?variant=50682405126459",
+            "button_2_text": "Pillow add-on",
+            "button_2_link": "https://blacklabbrands.com/products/the-beast-ultratough-orthopedic-dog-bed?variant=50682405126459",
+            "text_color": "text-dark"
+          }
+        },
+        "image_TkLCy3": {
+          "type": "image",
+          "settings": {
+            "width": "25",
+            "image": "shopify://shop_images/covers.png",
+            "overlay_opacity": 0,
+            "text_position": "bottom-left",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "button_1_text": "",
+            "button_1_link": "https://blacklabbrands.com/products/the-beast-ultratough-orthopedic-dog-bed?variant=50469877776699",
+            "button_2_text": "Extra covers",
+            "button_2_link": "https://blacklabbrands.com/products/the-beast-ultratough-orthopedic-dog-bed?variant=50469877776699",
+            "text_color": "text-dark"
+          }
+        },
+        "image_ft3RdL": {
+          "type": "image",
+          "settings": {
+            "width": "25",
+            "image": "shopify://shop_images/MattressLiner.png",
+            "overlay_opacity": 0,
+            "text_position": "bottom-left",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "button_1_text": "",
+            "button_1_link": "https://blacklabbrands.com/collections/core-dog-beds/products/the-beast-ultratough-orthopedic-dog-bed?variant=50469877809467",
+            "button_2_text": "Quilted mattress topper",
+            "button_2_link": "https://blacklabbrands.com/products/the-beast-ultratough-orthopedic-dog-bed?variant=50469877809467",
+            "text_color": "text-dark"
+          }
+        },
+        "image_gjXqXC": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "width": "25",
+            "image": "shopify://shop_images/Slate_Gray_Microsuede_Signature_Dog_Bed_1.png",
+            "overlay_opacity": 0,
+            "text_position": "bottom-left",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "button_1_text": "",
+            "button_1_link": "https://blacklabbrands.com/collections/core-dog-beds/products/the-beast-ultratough-orthopedic-dog-bed?variant=50469877809467",
+            "button_2_text": "Faux Fur",
+            "button_2_link": "https://blacklabbrands.com/products/the-beast-ultratough-orthopedic-dog-bed?variant=50469877809467",
+            "text_color": "text-dark"
+          }
+        }
+      },
+      "block_order": [
+        "image_rhYzXD",
+        "image_CJ8Dmy",
+        "image_TkLCy3",
+        "image_ft3RdL",
+        "image_gjXqXC"
+      ],
+      "disabled": true,
       "name": "Grid",
       "settings": {
         "height": "250",
@@ -1290,103 +1309,6 @@
         "width": "wrapper--narrow",
         "padding_top": 30,
         "padding_bottom": 0
-      }
-    },
-    "section_grid_xqcmTc": {
-      "type": "section-grid",
-      "blocks": {
-        "image_tBxetF": {
-          "type": "image",
-          "settings": {
-            "width": "25",
-            "image": "shopify://shop_images/stayfresh_copy.png",
-            "overlay_opacity": 0,
-            "text_position": "top-left",
-            "subheading": "",
-            "title": "",
-            "text": "COVER: FIGHTS ODORS",
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_2_text": "",
-            "button_2_link": "",
-            "text_color": "text-dark"
-          }
-        },
-        "image_KAWQfz": {
-          "type": "image",
-          "settings": {
-            "width": "25",
-            "image": "shopify://shop_images/water_on_fused_core_cca23e31-6ef8-41f6-92ab-eeba526f8272.png",
-            "overlay_opacity": 0,
-            "text_position": "top-left",
-            "subheading": "",
-            "title": "",
-            "text": "MATTRESS: MOISTURE PROTECTION",
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_2_text": "",
-            "button_2_link": "",
-            "text_color": "text-dark"
-          }
-        },
-        "image_QjnaFn": {
-          "type": "image",
-          "settings": {
-            "width": "25",
-            "image": "shopify://shop_images/foam_wont_flatten.png",
-            "overlay_opacity": 0,
-            "text_position": "top-left",
-            "subheading": "",
-            "title": "",
-            "text": "FOAM: WON'T FLATTEN",
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_2_text": "",
-            "button_2_link": "",
-            "text_color": "text-dark"
-          }
-        },
-        "image_deGxD4": {
-          "type": "image",
-          "settings": {
-            "width": "25",
-            "image": "shopify://shop_images/paws_on_bed_2.png",
-            "overlay_opacity": 30,
-            "text_position": "top-left",
-            "subheading": "",
-            "title": "",
-            "text": "BED: WEARS IN, NOT OUT",
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_2_text": "",
-            "button_2_link": "",
-            "text_color": "text-light"
-          }
-        }
-      },
-      "block_order": [
-        "image_tBxetF",
-        "image_KAWQfz",
-        "image_QjnaFn",
-        "image_deGxD4"
-      ],
-      "disabled": true,
-      "name": "Grid",
-      "settings": {
-        "height": "350",
-        "heading_size": 130,
-        "button_1_color": "btn--white",
-        "button_1_style": "btn--text",
-        "button_1_size": "btn--small",
-        "button_2_color": "btn--black",
-        "button_2_style": "btn--text",
-        "button_2_size": "btn--small",
-        "bg_color_secondary": false,
-        "enable_slider_mobile": true,
-        "width": "wrapper",
-        "add_gutter": true,
-        "padding_top": 0,
-        "padding_bottom": 30
       }
     },
     "section_testimonials_NrzmqW": {
@@ -1744,13 +1666,12 @@
     "section_image_with_text_dTkAeH",
     "section_image_with_text_9bNRE4",
     "section_text_G4NcFX",
-    "section_grid_wNkGdg",
     "section_text_LXQFR8",
     "section_grid_DYipLD",
+    "section_grid_8U7YFL",
     "section_banner_image_qMkpBY",
     "section_grid_D36TtF",
     "section_text_AzddhD",
-    "section_grid_xqcmTc",
     "section_testimonials_NrzmqW",
     "section_collection_U4HQDb",
     "438134f4-207c-4040-aeee-388c681ebe81",
