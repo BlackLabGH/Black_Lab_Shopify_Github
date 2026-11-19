@@ -1,0 +1,218 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "blocks_Tp6dpQ": {
+      "type": "_blocks",
+      "name": "Two-column hero",
+      "settings": {}
+    },
+    "17897837674f3239fb": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_7dd84dc_EPxFBf": {
+          "type": "ai_gen_block_7dd84dc",
+          "name": "Two-Column Hero",
+          "settings": {
+            "text_alignment": "left",
+            "eyebrow": "Black Lab",
+            "heading": "BUILT TO OUTLAST THE DOGS WHO DESTROY EVERYTHING",
+            "body_copy": "Waterproof covers. Ultra-tough cores. Digger-tested and built to keep your dog comfortable and secure.",
+            "button_label": "SHOP NOW",
+            "button_link": "",
+            "text_padding_top": 75,
+            "text_padding_right": 120,
+            "text_padding_bottom": 75,
+            "text_padding_left": 120,
+            "mobile_padding_top": 35,
+            "mobile_padding_right": 25,
+            "mobile_padding_bottom": 35,
+            "mobile_padding_left": 25,
+            "image": "shopify://shop_images/DogBasking.png",
+            "image_fit": "cover",
+            "image_position": "center center",
+            "frame_background": "#e8e3d5",
+            "frame_padding": 30,
+            "bottom_frame_space": 30,
+            "image_radius": 0,
+            "desktop_width_percent": 100,
+            "text_column_width": 60,
+            "desktop_min_height": 40,
+            "desktop_max_height": 100,
+            "mobile_min_height": 60,
+            "mobile_max_height": 120,
+            "panel_radius": 0,
+            "panel_background": "#1c1b19",
+            "eyebrow_color": "#c45629",
+            "heading_color": "#faf8f3",
+            "body_color": "#e8e3d5",
+            "button_background": "#c45629",
+            "button_text": "#faf8f3",
+            "button_radius": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_7dd84dc_EPxFBf"
+      ],
+      "settings": {}
+    },
+    "hero": {
+      "type": "collection-image-with-title",
+      "disabled": true,
+      "settings": {
+        "banner_height": "one-fifty-height",
+        "text_position": "middle-center",
+        "show_image": false,
+        "text_color": "text-dark",
+        "overlay_opacity": 5,
+        "bg_color_secondary": true,
+        "banner_image": "shopify://shop_images/BlackLab_leash1.png",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "subcollections": {
+      "type": "subcollections",
+      "settings": {
+        "subcollections": [],
+        "limit": 8,
+        "layout": "grid",
+        "image_source": "collection",
+        "image_aspect_ratio": 0.6,
+        "image_overlay_opacity": 10,
+        "bg_color": "",
+        "text_color": "text-light",
+        "padding_top": 60,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "collection",
+      "blocks": {
+        "068cfcc2-4259-4171-ace4-55f4b18a7a90": {
+          "type": "promo",
+          "disabled": true,
+          "source": "{{ collection.metafields.custom.collection_inline_features.value }}",
+          "settings": {
+            "collection": "home",
+            "position": 6,
+            "width": "auto",
+            "title": "{{ collection.metafields.custom.collection_inline_features.value.features_rich | metafield_tag }}<p></p>",
+            "heading_highlight_type": "italics",
+            "highlight_color": "#000000",
+            "highlight_text_color": "#ffffff",
+            "heading_size": 100,
+            "content": "",
+            "text_size": 100,
+            "text_color": "text-dark",
+            "text_position": "top-left",
+            "layout": "stacked",
+            "overlay_opacity": 10,
+            "bg_color": "#f7f7f7",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--solid-border",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "068cfcc2-4259-4171-ace4-55f4b18a7a90"
+      ],
+      "settings": {
+        "show_breadcrumbs": true,
+        "enable_sorting": true,
+        "enable_filters": false,
+        "filters_layout": "closed",
+        "show_more": true,
+        "filter_mode": "default",
+        "heading_style": "body",
+        "bg_color": "",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "a3d82e8d-4988-4d69-a586-fe52ca625a91": {
+      "type": "section-banner-image",
+      "blocks": {
+        "template--18963859341627__a3d82e8d-4988-4d69-a586-fe52ca625a91-1683754066a22ffe97-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "<p>Black Lab Brands</p>",
+            "size": 100
+          }
+        },
+        "template--18963859341627__a3d82e8d-4988-4d69-a586-fe52ca625a91-1683754066a22ffe97-1": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Dog. Years Ahead.™</p>",
+            "hide_spacer_lines": false,
+            "size": 90,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "template--18963859341627__a3d82e8d-4988-4d69-a586-fe52ca625a91-1683754066a22ffe97-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We create sustainable essentials for you and your pup that are built to perform. Simple timeless design built around premium materials.</p>",
+            "size": 100
+          }
+        },
+        "template--18963859341627__a3d82e8d-4988-4d69-a586-fe52ca625a91-1683754066a22ffe97-3": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_1_text": "Shop All",
+            "button_1_link": "shopify://collections/all",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "template--18963859341627__a3d82e8d-4988-4d69-a586-fe52ca625a91-1683754066a22ffe97-0",
+        "template--18963859341627__a3d82e8d-4988-4d69-a586-fe52ca625a91-1683754066a22ffe97-1",
+        "template--18963859341627__a3d82e8d-4988-4d69-a586-fe52ca625a91-1683754066a22ffe97-2",
+        "template--18963859341627__a3d82e8d-4988-4d69-a586-fe52ca625a91-1683754066a22ffe97-3"
+      ],
+      "settings": {
+        "height": "four-fifty-height",
+        "enable_mobile_height": true,
+        "mobile_height": "four-fifty-height-mobile",
+        "image": "shopify://shop_images/001_5670_1.jpg",
+        "overlay_opacity": 55,
+        "enable_zoom_animation": true,
+        "text_width": "normal",
+        "text_position": "left",
+        "mobile_layout": "layout-overlay",
+        "text_color": "text-light"
+      }
+    }
+  },
+  "order": [
+    "blocks_Tp6dpQ",
+    "17897837674f3239fb",
+    "hero",
+    "subcollections",
+    "main",
+    "a3d82e8d-4988-4d69-a586-fe52ca625a91"
+  ]
+}
