@@ -78,6 +78,34 @@
         "padding_bottom": 0
       }
     },
+    "section_collection_7WkmKz": {
+      "type": "section-collection",
+      "name": "Featured collection",
+      "settings": {
+        "collection": "clearance-final-sale",
+        "products_layout": "grid",
+        "number_of_products": 8,
+        "products_per_row_on_desktop": 4,
+        "columns_mobile": "2",
+        "text_alignment": "text-left",
+        "title": "<p>Final Sale</p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#D43747",
+        "highlight_text_color": "#000",
+        "heading_size": 100,
+        "text": "<p>These items are final sale. They cannot be returned or exchanged.</p>",
+        "text_size": 100,
+        "button_text": "Shop Now",
+        "button_color": "btn--black",
+        "button_style": "btn--text",
+        "button_size": "btn--large",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
     "section_icons_row_xJQcPH": {
       "type": "section-icons-row",
       "blocks": {
@@ -314,43 +342,15 @@
         "mobile_layout": "layout-overlay",
         "text_color": "text-light"
       }
-    },
-    "section_collection_7WkmKz": {
-      "type": "section-collection",
-      "name": "Featured collection",
-      "settings": {
-        "collection": "clearance-final-sale",
-        "products_layout": "grid",
-        "number_of_products": 8,
-        "products_per_row_on_desktop": 4,
-        "columns_mobile": "2",
-        "text_alignment": "text-left",
-        "title": "<p>Final Sale</p>",
-        "heading_highlight_type": "circle",
-        "highlight_color": "#D43747",
-        "highlight_text_color": "#000",
-        "heading_size": 100,
-        "text": "<p>These items are final sale. They cannot be returned or exchanged.</p>",
-        "text_size": 100,
-        "button_text": "Shop Now",
-        "button_color": "btn--black",
-        "button_style": "btn--text",
-        "button_size": "btn--large",
-        "bg_color_secondary": false,
-        "enable_slider_mobile": true,
-        "width": "wrapper--full-padded",
-        "padding_top": 60,
-        "padding_bottom": 60
-      }
     }
   },
   "order": [
     "section_text_hG4Lyd",
     "main",
+    "section_collection_7WkmKz",
     "section_icons_row_xJQcPH",
     "section_columns_grid_NjdbQz",
     "section_testimonials_CY8agL",
-    "section_banner_image_MAMy4D",
-    "section_collection_7WkmKz"
+    "section_banner_image_MAMy4D"
   ]
 }
