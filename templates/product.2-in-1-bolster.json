@@ -411,6 +411,131 @@
         "padding_bottom": 60
       }
     },
+    "section_promotion_row_FB9FQY": {
+      "type": "section-promotion-row",
+      "blocks": {
+        "column_rBbNUz": {
+          "type": "column",
+          "settings": {
+            "subheading": "",
+            "subheading_size": 80,
+            "heading": "<p>Waterproof At The Core</p>",
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#ffffff",
+            "heading_size": 140,
+            "description": "Heat-welded seams help keep moisture away from the foam.",
+            "description_size": 85,
+            "disclaimer": "",
+            "disclaimer_size": 75,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small",
+            "bg_color": "",
+            "gradient_background": "",
+            "text_color": "",
+            "overlay_opacity": 10
+          }
+        },
+        "column_hKhTaK": {
+          "type": "column",
+          "settings": {
+            "subheading": "",
+            "subheading_size": 80,
+            "heading": "<p>Fresh Between Washes</p>",
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#ffffff",
+            "heading_size": 140,
+            "description": "StayFresh™ technology helps fight odor-causing bacteria.",
+            "description_size": 85,
+            "disclaimer": "",
+            "disclaimer_size": 75,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small",
+            "bg_color": "",
+            "gradient_background": "",
+            "text_color": "",
+            "overlay_opacity": 10
+          }
+        },
+        "column_7zhCwa": {
+          "type": "column",
+          "settings": {
+            "subheading": "",
+            "subheading_size": 80,
+            "heading": "<p>Built To Last</p>",
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#ffffff",
+            "heading_size": 140,
+            "description": "A foundation designed for years. Covers made to be washed, swapped, and refreshed.",
+            "description_size": 85,
+            "disclaimer": "",
+            "disclaimer_size": 75,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small",
+            "bg_color": "",
+            "gradient_background": "",
+            "text_color": "",
+            "overlay_opacity": 10
+          }
+        },
+        "column_rigzTC": {
+          "type": "column",
+          "settings": {
+            "subheading": "",
+            "subheading_size": 80,
+            "heading": "<p>Evolve Over Time</p>",
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#ffffff",
+            "heading_size": 140,
+            "description": "Keep your Fused Core™. Refresh your look with new covers and accessories.",
+            "description_size": 85,
+            "disclaimer": "",
+            "disclaimer_size": 75,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small",
+            "bg_color": "",
+            "gradient_background": "",
+            "text_color": "",
+            "overlay_opacity": 10
+          }
+        }
+      },
+      "block_order": [
+        "column_rBbNUz",
+        "column_hKhTaK",
+        "column_7zhCwa",
+        "column_rigzTC"
+      ],
+      "custom_css": [
+        "p {text-align: left;}",
+        "svg {display: none;}"
+      ],
+      "settings": {
+        "layout": "none",
+        "height": "200",
+        "bg_color": "",
+        "block_style": "default",
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
+        "padding_top": 14,
+        "padding_bottom": 16
+      }
+    },
     "812de66c-1ea1-431c-a48a-d7b9a49247b9": {
       "type": "section-promotion-row",
       "blocks": {
@@ -521,6 +646,7 @@
         "845e046a-98c6-4171-8884-ee332a591041",
         "template--18963859636539__812de66c-1ea1-431c-a48a-d7b9a49247b9-column-2"
       ],
+      "disabled": true,
       "custom_css": [
         "p {text-align: left;}",
         "svg {display: none;}"
@@ -1107,7 +1233,7 @@
             "desktop_offset": 0,
             "mobile_offset": 0,
             "spacing": 15,
-            "background_color": "#F7F7F7",
+            "background_color": "#f7f7f7",
             "text_color": "#373535",
             "border_color": "#d3d3d3",
             "button_color": "#373535",
@@ -1130,6 +1256,7 @@
     "1717599109039da9b7",
     "934a25a2-b3fc-4116-bf0d-6c292a2561de",
     "17186286294c4f0ab8",
+    "section_promotion_row_FB9FQY",
     "812de66c-1ea1-431c-a48a-d7b9a49247b9",
     "section_video_Jc3cYT",
     "section_custom_html_DDGbpe",
