@@ -150,7 +150,7 @@
             "size": 120,
             "heading_highlight_type": "highlight",
             "highlight_color": "rgba(0,0,0,0)",
-            "highlight_text_color": "#caa876"
+            "highlight_text_color": "#F20505"
           }
         },
         "subheading_MbVcwH": {
@@ -195,8 +195,8 @@
         "height": "six-fifty-height",
         "enable_mobile_height": false,
         "mobile_height": "four-fifty-height-mobile",
-        "image": "shopify://shop_images/Labor_Day_Dog_Bed_Sale.png",
-        "image_mobile": "shopify://shop_images/Labor_Day_Mobile.png",
+        "image": "shopify://shop_images/Black_Dog_Bed_Living_Room.png",
+        "image_mobile": "shopify://shop_images/Untitled_design_3_copy.png",
         "overlay_opacity": 0,
         "enable_zoom_animation": true,
         "text_width": "normal",
