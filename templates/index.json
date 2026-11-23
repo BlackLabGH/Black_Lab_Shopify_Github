@@ -128,6 +128,83 @@
         "padding_bottom": 0
       }
     },
+    "section_banner_image_Nkw8P4": {
+      "type": "section-banner-image",
+      "blocks": {
+        "heading_nc44zC": {
+          "type": "heading",
+          "settings": {
+            "text": "<h1>MORE IS MORE SALE</h1>",
+            "hide_spacer_lines": false,
+            "size": 110,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000"
+          }
+        },
+        "heading_nRnNfQ": {
+          "type": "heading",
+          "settings": {
+            "text": "<h5><em><strong>ENDS &nbsp;11/29</strong></em></h5>",
+            "hide_spacer_lines": true,
+            "size": 120,
+            "heading_highlight_type": "highlight",
+            "highlight_color": "rgba(0,0,0,0)",
+            "highlight_text_color": "#caa876"
+          }
+        },
+        "subheading_MbVcwH": {
+          "type": "subheading",
+          "settings": {
+            "text": "<h3>Spend More. Save More.</h3>",
+            "size": 100
+          }
+        },
+        "text_RnB7U6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Spend $250<strong>  SAVE 10% OFF</strong></p><p>Spend $350<strong>  SAVE 15% OFF</strong></p><p><strong> </strong>Spend $450<strong>  SAVE 20% OFF</strong></p><p><em>*Automatic discount at checkout</em></p>",
+            "size": 75
+          }
+        },
+        "button_98dYqm": {
+          "type": "button",
+          "settings": {
+            "button_1_text": "Choose Your Bed",
+            "button_1_link": "shopify://collections/waterproof-fused-core-beds",
+            "button_1_color": "btn--black",
+            "button_1_style": "btn--solid",
+            "button_1_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nc44zC",
+        "heading_nRnNfQ",
+        "subheading_MbVcwH",
+        "text_RnB7U6",
+        "button_98dYqm"
+      ],
+      "name": "Banner image",
+      "settings": {
+        "height": "six-fifty-height",
+        "enable_mobile_height": false,
+        "mobile_height": "four-fifty-height-mobile",
+        "image": "shopify://shop_images/Labor_Day_Dog_Bed_Sale.png",
+        "image_mobile": "shopify://shop_images/Labor_Day_Mobile.png",
+        "overlay_opacity": 0,
+        "enable_zoom_animation": true,
+        "text_width": "normal",
+        "text_position": "bottom-left",
+        "mobile_layout": "layout-overlay",
+        "text_color": "text-light"
+      }
+    },
     "section_press_4zGcar": {
       "type": "section-press",
       "blocks": {
@@ -359,6 +436,7 @@
         "text_mEfJYj",
         "button_cwKNee"
       ],
+      "disabled": true,
       "name": "Banner image",
       "settings": {
         "height": "six-fifty-height",
@@ -628,84 +706,6 @@
         "add_gutter": true,
         "padding_top": 10,
         "padding_bottom": 10
-      }
-    },
-    "section_banner_image_Nkw8P4": {
-      "type": "section-banner-image",
-      "blocks": {
-        "heading_nc44zC": {
-          "type": "heading",
-          "settings": {
-            "text": "<h1>MORE IS MORE SALE</h1>",
-            "hide_spacer_lines": false,
-            "size": 110,
-            "heading_highlight_type": "italics",
-            "highlight_color": "#d43747",
-            "highlight_text_color": "#000"
-          }
-        },
-        "heading_nRnNfQ": {
-          "type": "heading",
-          "settings": {
-            "text": "<h5><em><strong>ENDS &nbsp;11/29</strong></em></h5>",
-            "hide_spacer_lines": true,
-            "size": 120,
-            "heading_highlight_type": "highlight",
-            "highlight_color": "rgba(0,0,0,0)",
-            "highlight_text_color": "#caa876"
-          }
-        },
-        "subheading_MbVcwH": {
-          "type": "subheading",
-          "settings": {
-            "text": "<h3>Spend More. Save More.</h3>",
-            "size": 100
-          }
-        },
-        "text_RnB7U6": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Spend $250<strong>  SAVE 10% OFF</strong></p><p>Spend $350<strong>  SAVE 15% OFF</strong></p><p><strong> </strong>Spend $450<strong>  SAVE 20% OFF</strong></p><p><em>*Automatic discount at checkout</em></p>",
-            "size": 75
-          }
-        },
-        "button_98dYqm": {
-          "type": "button",
-          "settings": {
-            "button_1_text": "Build Your Bed",
-            "button_1_link": "shopify://products/signature-bed-builder",
-            "button_1_color": "btn--black",
-            "button_1_style": "btn--solid",
-            "button_1_size": "btn--small",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_color": "btn--black",
-            "button_2_style": "btn--solid",
-            "button_2_size": "btn--small"
-          }
-        }
-      },
-      "block_order": [
-        "heading_nc44zC",
-        "heading_nRnNfQ",
-        "subheading_MbVcwH",
-        "text_RnB7U6",
-        "button_98dYqm"
-      ],
-      "disabled": true,
-      "name": "Banner image",
-      "settings": {
-        "height": "six-fifty-height",
-        "enable_mobile_height": false,
-        "mobile_height": "four-fifty-height-mobile",
-        "image": "shopify://shop_images/Labor_Day_Dog_Bed_Sale.png",
-        "image_mobile": "shopify://shop_images/Labor_Day_Mobile.png",
-        "overlay_opacity": 0,
-        "enable_zoom_animation": true,
-        "text_width": "normal",
-        "text_position": "bottom-left",
-        "mobile_layout": "layout-overlay",
-        "text_color": "text-light"
       }
     },
     "section_image_with_text_dTkAeH": {
@@ -1654,6 +1654,7 @@
   "order": [
     "section_video_g4Hp6X",
     "section_marquee_YkgdjP",
+    "section_banner_image_Nkw8P4",
     "section_press_4zGcar",
     "section_image_with_text_z4NRbA",
     "section_image_with_text_eQ7xYQ",
@@ -1662,7 +1663,6 @@
     "comparison_table_xrQgpb",
     "section_text_APa7Ma",
     "section_grid_8xAd6m",
-    "section_banner_image_Nkw8P4",
     "section_image_with_text_dTkAeH",
     "section_image_with_text_9bNRE4",
     "section_text_G4NcFX",
