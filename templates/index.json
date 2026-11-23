@@ -163,8 +163,8 @@
         "text_RnB7U6": {
           "type": "text",
           "settings": {
-            "text": "<p>Spend $250<strong>  SAVE 10% OFF</strong></p><p>Spend $350<strong>  SAVE 15% OFF</strong></p><p><strong> </strong>Spend $450<strong>  SAVE 20% OFF</strong></p><p><em>*Automatic discount at checkout</em></p>",
-            "size": 75
+            "text": "<p>Spend $250<strong> &nbsp;SAVE 10% OFF</strong></p><p>Spend $350<strong> &nbsp;SAVE 15% OFF</strong></p><p><strong>&nbsp;</strong>Spend $450<strong> &nbsp;SAVE 20% OFF</strong></p><p><em>*Automatic discount at checkout</em></p>",
+            "size": 115
           }
         },
         "button_98dYqm": {
