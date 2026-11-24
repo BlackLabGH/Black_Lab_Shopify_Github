@@ -735,7 +735,7 @@
         "bg_color": "",
         "gradient": "",
         "section_width": "wrapper",
-        "padding_top": 10,
+        "padding_top": 0,
         "padding_bottom": 20
       }
     },
@@ -1131,7 +1131,7 @@
             "size": 130,
             "heading_highlight_type": "highlight-color",
             "highlight_color": "#d43747",
-            "highlight_text_color": "#373535"
+            "highlight_text_color": "#F7F7F7"
           }
         },
         "text_LtFABq": {
@@ -1170,6 +1170,7 @@
         "enable_mobile_height": false,
         "mobile_height": "four-fifty-height-mobile",
         "image": "shopify://shop_images/ChatGPT_Image_Jun_18_2026_09_47_02_AM.png",
+        "image_mobile": "shopify://shop_images/darkcamoliving.png",
         "overlay_opacity": 10,
         "enable_zoom_animation": true,
         "text_width": "normal",
