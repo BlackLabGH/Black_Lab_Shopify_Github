@@ -1126,9 +1126,9 @@
         "heading_haBxGT": {
           "type": "heading",
           "settings": {
-            "text": "<p><em>Protect what matters most.</em> Our beds stay cleaner longer.</p>",
+            "text": "<p>A fresher bed.&nbsp;</p><p>Fewer replacements.</p>",
             "hide_spacer_lines": false,
-            "size": 130,
+            "size": 110,
             "heading_highlight_type": "highlight-color",
             "highlight_color": "#d43747",
             "highlight_text_color": "#F7F7F7"
@@ -1137,7 +1137,7 @@
         "text_LtFABq": {
           "type": "text",
           "settings": {
-            "text": "<p>A StayFresh™ outer cover actively fights odor-causing bacteria, while a hygienic Fused Core™ </p><p>mattress helps prevent moisture, dirt, and messes from reaching the inside of the bed.</p>",
+            "text": "<p>Wet paws, digging, and the occasional accident come with life with a dog. Black Lab beds keep the foam dry, stay fresher between washes, and hold up to repeated cleaning.&nbsp;</p><p>So your dog can keep their favorite spot, and you can stop shopping for a new one.</p>",
             "size": 100
           }
         },
